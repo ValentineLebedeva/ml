@@ -1,0 +1,1725 @@
+Короче,
+а
+когда,
+короче,
+ты
+рассказываешь,
+короче,
+длинную
+историю,
+короче,
+сколько
+раз,
+короче,
+ты
+произносишь
+"короче"?
+var
+skin_close_img
+=
+'/skin/all/close.gif';
+	var
+skin_vote_star
+=
+'/skin/all/vote/vote.gif';
+	var
+skin_vote_star_
+=
+'/skin/all/vote/vote_.gif';
+	var
+skin_vote_star_half
+=
+'/skin/all/vote/vote_half.gif';
+	var
+allow_custom_smiles
+=
+('1'
+==
+1)
+?
+1
+:
+0;
+var
+png_cnt
+=
+0;
+		var
+png_arr
+=
+new
+Array();
+
+		$(document).ready(function(){
+			pngdo();
+			detect_browser();
+		});
+
+		window.name
+=
+'boomtime';
+		lang
+=
+'ru';
+
+		var
+isIE7
+=
+false;
+		if
+(document.all){
+			if
+(navigator.appVersion.indexOf('MSIE
+7')
+>
+-1){
+				isIE7
+=
+true;
+			}
+		}
+
+		function
+pngdo(n){
+
+			for(i=0;
+i
+<
+png_cnt;
+i++){
+				png_arr[i].runtimeStyle.filter
+=
+"progid:DXImageTransform.Microsoft.AlphaImageLoader(src="+png_arr[i].style.backgroundImage.substr(4,png_arr[i].style.backgroundImage.length-5)+",
+image)";
+			}
+
+			return
+true;
+		}
+
+		function
+pngfix(obj){
+
+			obj.runtimeStyle.behavior
+=
+"none";
+
+			if
+(isIE7)return
+false;
+
+			for(i
+=
+0;
+i
+<
+png_cnt;
+i++){
+				if
+(png_arr[i]
+==
+obj)return
+false;
+			}
+
+			obj.runtimeStyle.backgroundImage
+=
+"none";
+
+			png_arr[png_cnt]
+=
+obj;
+			png_cnt++;
+
+			return
+true;
+		}
+img.png
+{
+			behavior:
+expression(
+				pngfix(this)
+			);
+		}
+
+		.left_menu-td1{
+			width:20px;
+			height:23px;
+		}
+
+		.left_menu-td2{
+			height:23px;
+			padding-left:3px
+		}
+
+		.left_menu-td3{
+			padding-right:3px;
+			text-align:right;
+		}
+
+		.context_menu
+td{
+			cursor:pointer
+		}
+
+		h1{
+			font-size:11px;
+			font-weight:bold;
+			padding:0;
+			margin:0
+		}
+Menu
+layer
+Menu
+layer
+Суббота,
+17.12.2016
+ 
+01:12
+wap.boomtime.lv
+latviski
+Друзья
+Знакомства
+Герои
+Достижения
+Кланы
+Вопросы
+Новости
+Mafia
+$(document).ready(function(){
+	skip_clr
+=
+true;
+	$('#prf_pass').attr('autocomplete',
+'off');
+});
+.focusField{
+		background:#f7fcff;
+}
+.idleField{
+	background:#f7fcff;
+}
+Логин:
+Пароль:
+Регистрация
+Забыли
+пароль?
+Войти
+$(document).ready(function(){
+	$("#prf_login").focus();
+});
+
+function
+login_focus(){
+	$("#prf_login").focus();
+}
+
+function
+password_focus(){
+	$("#prf_pass").focus();
+}
+
+
+function
+authorize(){
+
+	var
+postvars
+=
+{
+			
+prf_login
+:
+$("#prf_login").val(),
+			
+prf_pass
+
+:
+$("#prf_pass").val()
+			}
+
+	$("#auth_button").html('Авторизация');
+	$("#auth_button_s").attr('disabled',
+true);
+
+	$.post('/ajax/authorize_ajax.html',
+postvars,
+function(input){
+			input
+
+=
+eval("("
++
+input
++
+")");
+			if
+(input.data[0].result){
+			switch(input.data[0].result){
+				case
+'pending':
+					$("#auth_result").hide();
+					document.location.href
+=
+'/authorize/confirm.html';
+					break;
+
+				case
+'enabled':
+					$("#auth_result").hide();
+																		document.location.href
+=
+'http://friends.boomtime.lv/friend/2192975.html';
+																break;
+
+				case
+'disabled':
+					$("#auth_button").html('Войти');
+					$("#auth_button_s").removeAttr("disabled");
+					$("#auth_result").html('Пользователь
+заблокирован<br
+/>причина:
+'+input.data[0].reason);
+					$("#auth_result").show();
+
+			}
+		}else{
+			$("#auth_button").html('Войти');
+			$("#auth_button_s").removeAttr("disabled");
+			$("#auth_result").html('Ошибка
+авторизации');
+			$("#auth_result").show();
+		}
+	});
+}
+function
+question_stats(nick,
+questions,
+answers,
+best){
+	menu
+=
+'<div
+class="java_menu"
+id="popup_width_p">'+
+			'<div
+class="head">'+nick+'<\/div>'+
+			'<div
+class="j_menu"
+style="line-height:130%;padding:10px;">'+
+				'Вопросов:
+'+questions+'<br
+\/>'+
+				'Ответов
+(всего):&nbsp;&nbsp;'+answers+'<br
+\/>'+
+				'Лучших
+ответов:&nbsp;&nbsp;'+best+'<br
+\/>'+
+			'<\/div>'+
+		'<\/div>';
+
+	object_position(0,
+0,
+menu,
+'popup_width_p');
+}
+Вопросы
+$(document).ready(function(){
+
+		$('#editor').editor({
+				post_url:
+'/question/2192975/answer.html',
+				onresult:
+check_reply,
+				height:
+110,
+				unbind_btn:
+true,
+				editor_msg:
+''
+
+				});
+
+		function
+check_reply(msg){
+			$('#error_msg').html('');
+			switch(msg){
+				case
+'too_many_msg':
+					$('#error_msg').html('Запрещено
+отправлять
+три
+сообщения
+подряд.
+Сделайте
+паузу!');
+					$('#send_btn').show();
+					break;
+
+				case
+'empty_msg':
+					$('#error_msg').html('Введите
+текст');
+					$('#send_btn').show();
+					break;
+
+				case
+'not_expert':
+					$('#error_msg').html('Вы
+не
+знаток!');
+					$('#send_btn').show();
+					break;
+
+				default:
+					document.location.href
+=
+msg;
+					document.location.reload();
+
+			}
+		}
+	});
+function
+question_vote(url){
+		$.get(url,
+function(input){
+			input
+
+=
+eval("("
++
+input
++
+")");
+			if
+(input.data[0].result
+==
+1){
+				data
+=
+input.data[0];
+				$("#mark"
++
+data.id).html('<span
+class="color1">'+
+data.text
++':
+'+
+data.points
++'</span>');
+			}
+		});
+	}
+
+	function
+questions_vote(url){
+		$.get(url,
+function(input){
+			input
+
+=
+eval("("
++
+input
++
+")");
+			if
+(input.data[0].result
+==
+1){
+				$("#qmark").html('<span
+class="color1">'+
+input.data[0].text
++':
+'+
+input.data[0].points
++'</span>');
+			}
+		});
+	}
+
+	function
+subscribe_handler(input){
+
+		input
+
+=
+eval("("
++
+input
++
+")");
+		if
+(input.data[0].result
+==
+3){
+			$("#subscribe_a").html('<table
+cellspacing="0"
+cellpadding="0"
+class="button"
+onclick="javascript:subscribe(4);
+return
+false;"><tr><td
+class="button-td1"></td><td
+class="button-td2"><img
+src="/skin/all/btn_ico/fav.gif"
+alt=""
+/>
+Отписаться
+от
+автора</td><td
+class="button-td3"></td></tr></table>');
+		}
+		if
+(input.data[0].result
+==
+4){
+			$("#subscribe_a").html('<table
+cellspacing="0"
+cellpadding="0"
+class="button"
+onclick="javascript:subscribe(3);
+return
+false;"><tr><td
+class="button-td1"></td><td
+class="button-td2"><img
+src="/skin/all/btn_ico/fav.gif"
+alt=""
+/>
+Подписаться
+на
+автора</td><td
+class="button-td3"></td></tr></table>');
+		}
+	}
+
+	var
+subscribe_q="none";
+
+	function
+subscribe_c(){
+		var
+params
+=
+new
+Array();
+
+		switch(subscribe_q){
+			case
+'none':
+				url
+=
+'/question/2192975/subscribe/question/all.html';
+				subscribe_q
+=
+'checked';
+				break;
+			case
+'checked':
+				url
+=
+'/question/2192975/subscribe/question/none.html';
+				subscribe_q
+=
+'none';
+				break;
+		}
+
+		$.get(url,
+function(input){
+			subscribe_handler(input);
+		});
+	}
+
+	function
+subscribe(type){
+		var
+params
+=
+new
+Array();
+
+		switch(type){
+			case
+3:
+url
+=
+'/question/2192975/subscribe/author/137799/all.html';
+				break;
+			case
+4:
+url
+=
+'/question/2192975/subscribe/author/137799/none.html';
+				break;
+		}
+
+		$.get(url,
+function(input){
+			subscribe_handler(input);
+		});
+	}
+
+
+	$(document).ready(function(){
+		$('.msg_body').bb2html();
+	});
+Короче,
+а
+когда,
+короче,
+ты
+рассказываешь,
+короче,
+длинную
+историю,
+короче,
+сколько
+раз,
+короче,
+ты
+произносишь
+"короче"?
+09
+Сентября
+2016
+20:45
+(вопрос
+закрыт)
+Все
+вопросы
+»
+◄
+1
+2
+►
+из 2
+var
+phs_id_enc_fgihbrrubf='';
+­
+09
+Сентября
+2016
+20:45
+Сегодня,
+короче,
+очередной
+раз,
+короче,
+прослушал,
+короче,
+занимательную
+историю...
+из
+всего,
+короче,
+что
+рассказывалось
+больше
+часа,
+короче,
+заполнил
+только
+"короче".)
+var
+phs_id_enc_clinwbquzbn='';
+Роман
+09
+Сентября
+2016
+20:47
+tipo
+ja
+gogda
+tipo
+razkazivaju
+tipo
+zanimateljnuju
+istoriju
+ja
+tipo
+ne
+govorju
+tipo
+koro4e
+[e05]
+var
+phs_id_enc_cldazb7cubn='';
+Hollivuda..
+09
+Сентября
+2016
+20:48
+Быстреее,быстрее!...,мы
+бежим..,а
+время
+,короче
+,да
+
+короче
+стоновитса...
+var
+phs_id_enc_cl65aazpcbn='';
+Ромашка
+(ړײ)
+09
+Сентября
+2016
+20:48
+Как,правило,когда
+волнуюсь.....Ибо...я
+женщина....А
+волнуюсь
+я
+всегда.
+[e17]
+var
+phs_id_enc_fgihbrrubf='';
+­
+09
+Сентября
+2016
+20:50
+Роман:
+tipo
+ja
+gogda
+tipo
+razkazivaju
+tipo
+zanimateljnuju
+istoriju
+ja
+tipo
+ne
+govorju
+tipo
+koro4e
+[e05]
+С
+тобой-то
+давно
+всё
+понятно...
+Вопросы-ответы
+сами
+за
+себя
+говорятЪ...
+без
+всяких
+типА
+даже.
+var
+phs_id_enc_cr4bba2mlbn='';
+BelajA
+09
+Сентября
+2016
+20:50
+не
+употребляю.
+var
+phs_id_enc_clinwbquzbn='';
+Роман
+09
+Сентября
+2016
+20:51
+Ромашка
+(ړײ):
+Как,правило,когда
+волнуюсь.....Ибо...я
+женщина....А
+волнуюсь
+я
+всегда.
+[e17]
+da
+4t
+osegodnja
+s
+toboj
+daze
+ja
+neobshajasj
+s
+toboj
+zam4aju
+4to
+segodnja
+4toto
+ne
+to
+daze
+otveti
+kakieto
+streannie
+___))))
+var
+phs_id_enc_fgihbrrubf='';
+­
+09
+Сентября
+2016
+20:51
+Ромашка
+(ړײ):
+Как,правило,когда
+волнуюсь.....Ибо...я
+женщина....А
+волнуюсь
+я
+всегда.
+[e17]
+А
+когда
+не
+волнуешься,
+а
+просто
+с
+друзьями/знакомыми
+общаешься?)
+Не
+в
+первой
+девок
+таких
+встречаю,
+прям
+болезнь
+какая-то
+у
+них
+с
+этим
+"короче".))
+var
+phs_id_enc_clinwbquzbn='';
+Роман
+09
+Сентября
+2016
+20:51
+­:
+С
+тобой-то
+давно
+всё
+понятно...
+Вопросы-ответы
+сами
+за
+себя
+говорятЪ...
+без
+всяких
+типА
+даже.
+sposibo
+ti
+menja
+prjam
+zatknul
+i
+pisatj
+perehotelosj
+var
+phs_id_enc_cl65aazpcbn='';
+Ромашка
+(ړײ)
+09
+Сентября
+2016
+20:54
+Роман:
+da
+4t
+osegodnja
+s
+toboj
+daze
+ja
+neobshajasj
+s
+toboj
+zam4aju
+4to
+segodnja
+4toto
+ne
+to
+daze
+otveti
+kakieto
+streannie
+___))))
+Так
+не
+общайся
+со
+мной.
+var
+phs_id_enc_cpqwbqkkbf='';
+sever3455
+09
+Сентября
+2016
+20:55
+Po
+raznomu
+v
+zavisimosti
+ot
+ostojateljstv.
+[e02]
+[e05]
+var
+phs_id_enc_c0oxmau14bn='';
+Деффачка)
+09
+Сентября
+2016
+20:59
+не
+считала,
+но
+до
+тебя
+мне
+еще
+далеко
+
+[e253]
+var
+phs_id_enc_fgihbrrubf='';
+­
+09
+Сентября
+2016
+21:02
+BelajA:
+не
+употребляю.
+Это
+ж
+просто
+замечательно.)
+var
+phs_id_enc_fgihbrrubf='';
+­
+09
+Сентября
+2016
+21:02
+Деффачка):
+не
+считала,
+но
+до
+тебя
+мне
+еще
+далеко
+
+[e253]
+Короче,
+тебе
+есть
+куда
+стремиться,
+короче.)
+var
+images_arr_clqm7ayijbn=[{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa8576qb5iwbg.jpg?sf","enc_phs_id":"a8576qa4d1bg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa889wzb0xzbg.jpg?sf","enc_phs_id":"a889wzamlfbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa83l17ax0dbg.jpg?sf","enc_phs_id":"a83l17ap9dbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa83l14auxdbg.jpg?sf","enc_phs_id":"a83l14a7bdbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa8i1mlba45bg.jpg?sf","enc_phs_id":"a8i1mlboy2bg"},{"path":"http:\/\/b1.boomtime.lv\/d\/5317\/clqm7ayijbn\/cxa84w12aumqbg.jpg?sf","enc_phs_id":"a84w12aapwbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa889wnag3zbg.jpg?sf","enc_phs_id":"a889wnallhbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa85g9qbowgbg.jpg?sf","enc_phs_id":"a85g9qa4j5bg"},{"path":"http:\/\/a1.boomtime.lv\/a\/5317\/clqm7ayijbn\/cxa876yubgfibg.jpg?sf","enc_phs_id":"a876yua8wkbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa87n2zb7afbg.jpg?sf","enc_phs_id":"a87n2zbq9zbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa8qgl7bluybg.jpg?sf","enc_phs_id":"a8qgl7bdi4bg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa88i8bbugobg.jpg?sf","enc_phs_id":"a88i8bal4cbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa87n26bjzbbg.jpg?sf","enc_phs_id":"a87n26by9hbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa83l15bnwcbg.jpg?sf","enc_phs_id":"a83l15bnjcbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa863i1acpobg.jpg?sf","enc_phs_id":"a863i1bizabg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa876ywa8jxbg.jpg?sf","enc_phs_id":"a876ywbjnlbg"},{"path":"http:\/\/a1.boomtime.lv\/a\/5317\/clqm7ayijbn\/cxa82zrfax43bg.jpg?sf","enc_phs_id":"a82zrfb2jlbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa82bnjab3wbg.jpg?sf","enc_phs_id":"a82bnjahkjbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa85qqcbi52bg.jpg?sf","enc_phs_id":"a85qqcab5jbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa88p0ibj87bg.jpg?sf","enc_phs_id":"a88p0ibgmfbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa84xppai2bbg.jpg?sf","enc_phs_id":"a84xppa5qnbg"}];
+	var
+phs_id_enc_clqm7ayijbn='';
+	
+	$(document).ready(function()
+{
+		init_thumbs_clqm7ayijbn();
+	});
+	
+	function
+init_thumbs_clqm7ayijbn(){
+		var
+local_counter
+=
+0;
+		if
+(images_arr_clqm7ayijbn.length
+>
+1){
+			setInterval(function(){
+				local_counter++;
+
+				if
+(local_counter
+==
+images_arr_clqm7ayijbn.length){
+					local_counter
+=
+0;
+				}
+	
+				phs_id_enc_clqm7ayijbn
+=
+images_arr_clqm7ayijbn[local_counter]["enc_phs_id"];
+				$(".thumb_clqm7ayijbn").attr("src",images_arr_clqm7ayijbn[local_counter]["path"])
+			},
+4000);
+		}		
+	}
+Diana
+09
+Сентября
+2016
+21:05
+У
+меня
+другие
+слова-паразиты
+превалируют
+-
+в
+общем,
+на
+самом
+деле,
+типа,
+по
+ходу...
+ох,
+короче
+-
+много
+раз[e84]
+var
+phs_id_enc_fgihbrrubf='';
+­
+09
+Сентября
+2016
+21:07
+Diana:
+У
+меня
+другие
+слова-паразиты
+превалируют
+-
+в
+общем,
+на
+самом
+деле,
+типа,
+по
+ходу...
+ох,
+короче
+-
+много
+раз[e84]
+Хоть
+какое-то
+разнообразие
+и
+не
+так
+режет
+слух.)
+var
+images_arr_clqm7ayijbn=[{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa8576qb5iwbg.jpg?sf","enc_phs_id":"a8576qa4d1bg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa889wzb0xzbg.jpg?sf","enc_phs_id":"a889wzamlfbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa83l17ax0dbg.jpg?sf","enc_phs_id":"a83l17ap9dbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa83l14auxdbg.jpg?sf","enc_phs_id":"a83l14a7bdbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa8i1mlba45bg.jpg?sf","enc_phs_id":"a8i1mlboy2bg"},{"path":"http:\/\/b1.boomtime.lv\/d\/5317\/clqm7ayijbn\/cxa84w12aumqbg.jpg?sf","enc_phs_id":"a84w12aapwbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa889wnag3zbg.jpg?sf","enc_phs_id":"a889wnallhbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa85g9qbowgbg.jpg?sf","enc_phs_id":"a85g9qa4j5bg"},{"path":"http:\/\/a1.boomtime.lv\/a\/5317\/clqm7ayijbn\/cxa876yubgfibg.jpg?sf","enc_phs_id":"a876yua8wkbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa87n2zb7afbg.jpg?sf","enc_phs_id":"a87n2zbq9zbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa8qgl7bluybg.jpg?sf","enc_phs_id":"a8qgl7bdi4bg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa88i8bbugobg.jpg?sf","enc_phs_id":"a88i8bal4cbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa87n26bjzbbg.jpg?sf","enc_phs_id":"a87n26by9hbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa83l15bnwcbg.jpg?sf","enc_phs_id":"a83l15bnjcbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa863i1acpobg.jpg?sf","enc_phs_id":"a863i1bizabg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa876ywa8jxbg.jpg?sf","enc_phs_id":"a876ywbjnlbg"},{"path":"http:\/\/a1.boomtime.lv\/a\/5317\/clqm7ayijbn\/cxa82zrfax43bg.jpg?sf","enc_phs_id":"a82zrfb2jlbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa82bnjab3wbg.jpg?sf","enc_phs_id":"a82bnjahkjbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa85qqcbi52bg.jpg?sf","enc_phs_id":"a85qqcab5jbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa88p0ibj87bg.jpg?sf","enc_phs_id":"a88p0ibgmfbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa84xppai2bbg.jpg?sf","enc_phs_id":"a84xppa5qnbg"}];
+	var
+phs_id_enc_clqm7ayijbn='';
+	
+	$(document).ready(function()
+{
+		init_thumbs_clqm7ayijbn();
+	});
+	
+	function
+init_thumbs_clqm7ayijbn(){
+		var
+local_counter
+=
+0;
+		if
+(images_arr_clqm7ayijbn.length
+>
+1){
+			setInterval(function(){
+				local_counter++;
+
+				if
+(local_counter
+==
+images_arr_clqm7ayijbn.length){
+					local_counter
+=
+0;
+				}
+	
+				phs_id_enc_clqm7ayijbn
+=
+images_arr_clqm7ayijbn[local_counter]["enc_phs_id"];
+				$(".thumb_clqm7ayijbn").attr("src",images_arr_clqm7ayijbn[local_counter]["path"])
+			},
+4000);
+		}		
+	}
+Diana
+09
+Сентября
+2016
+21:10
+­:
+Хоть
+какое-то
+разнообразие
+и
+не
+так
+режет
+слух.)
+Не
+режет
+слух?
+Да
+я
+ультразвуком
+разговариваю...
+своим
+курлыканьем
+и
+так
+-
+доконаю...
+собеседнику
+там
+уже
+будет
+не
+до
+фильтрации
+[e686]
+var
+phs_id_enc_fgihbrrubf='';
+­
+09
+Сентября
+2016
+21:15
+Diana:
+Не
+режет
+слух?
+Да
+я
+ультразвуком
+разговариваю...
+своим
+курлыканьем
+и
+так
+-
+доконаю...
+собеседнику
+там
+уже
+будет
+не
+до
+фильтрации
+[e686]
+Любят
+тут
+на
+себя
+люди
+наговаривать
+-
+фишка
+это
+такая
+бумовская.))
+var
+phs_id_enc_cl65aazpcbn='';
+Ромашка
+(ړײ)
+09
+Сентября
+2016
+21:16
+Значит,возможно,но
+не
+уверена,,,,,хочу
+донести
+инфо.
+[e01]
+[e01]
+[e01]Если
+что.я
+...я
+потеряна
+для
+общества....Только
+общение.
+[e01]
+var
+images_arr_clqm7ayijbn=[{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa8576qb5iwbg.jpg?sf","enc_phs_id":"a8576qa4d1bg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa889wzb0xzbg.jpg?sf","enc_phs_id":"a889wzamlfbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa83l17ax0dbg.jpg?sf","enc_phs_id":"a83l17ap9dbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa83l14auxdbg.jpg?sf","enc_phs_id":"a83l14a7bdbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa8i1mlba45bg.jpg?sf","enc_phs_id":"a8i1mlboy2bg"},{"path":"http:\/\/b1.boomtime.lv\/d\/5317\/clqm7ayijbn\/cxa84w12aumqbg.jpg?sf","enc_phs_id":"a84w12aapwbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa889wnag3zbg.jpg?sf","enc_phs_id":"a889wnallhbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa85g9qbowgbg.jpg?sf","enc_phs_id":"a85g9qa4j5bg"},{"path":"http:\/\/a1.boomtime.lv\/a\/5317\/clqm7ayijbn\/cxa876yubgfibg.jpg?sf","enc_phs_id":"a876yua8wkbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa87n2zb7afbg.jpg?sf","enc_phs_id":"a87n2zbq9zbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa8qgl7bluybg.jpg?sf","enc_phs_id":"a8qgl7bdi4bg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa88i8bbugobg.jpg?sf","enc_phs_id":"a88i8bal4cbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa87n26bjzbbg.jpg?sf","enc_phs_id":"a87n26by9hbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa83l15bnwcbg.jpg?sf","enc_phs_id":"a83l15bnjcbg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa863i1acpobg.jpg?sf","enc_phs_id":"a863i1bizabg"},{"path":"http:\/\/a1.boomtime.lv\/c\/5317\/clqm7ayijbn\/cxa876ywa8jxbg.jpg?sf","enc_phs_id":"a876ywbjnlbg"},{"path":"http:\/\/a1.boomtime.lv\/a\/5317\/clqm7ayijbn\/cxa82zrfax43bg.jpg?sf","enc_phs_id":"a82zrfb2jlbg"},{"path":"http:\/\/a1.boomtime.lv\/b\/5317\/clqm7ayijbn\/cxa82bnjab3wbg.jpg?sf","enc_phs_id":"a82bnjahkjbg"},{"path":"http:\/\/b1.boomtime.lv\/e\/5317\/clqm7ayijbn\/cxa85qqcbi52bg.jpg?sf","enc_phs_id":"a85qqcab5jbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa88p0ibj87bg.jpg?sf","enc_phs_id":"a88p0ibgmfbg"},{"path":"http:\/\/b1.boomtime.lv\/f\/5317\/clqm7ayijbn\/cxa84xppai2bbg.jpg?sf","enc_phs_id":"a84xppa5qnbg"}];
+	var
+phs_id_enc_clqm7ayijbn='';
+	
+	$(document).ready(function()
+{
+		init_thumbs_clqm7ayijbn();
+	});
+	
+	function
+init_thumbs_clqm7ayijbn(){
+		var
+local_counter
+=
+0;
+		if
+(images_arr_clqm7ayijbn.length
+>
+1){
+			setInterval(function(){
+				local_counter++;
+
+				if
+(local_counter
+==
+images_arr_clqm7ayijbn.length){
+					local_counter
+=
+0;
+				}
+	
+				phs_id_enc_clqm7ayijbn
+=
+images_arr_clqm7ayijbn[local_counter]["enc_phs_id"];
+				$(".thumb_clqm7ayijbn").attr("src",images_arr_clqm7ayijbn[local_counter]["path"])
+			},
+4000);
+		}		
+	}
+Diana
+09
+Сентября
+2016
+21:19
+­:
+Любят
+тут
+на
+себя
+люди
+наговаривать
+-
+фишка
+это
+такая
+бумовская.))
+Не
+заметила.
+Короче,
+если
+будешь
+со
+мной
+общаться
+-
+обречённо
+зажмурь
+ушки,
+на
+всякий
+случай.
+А
+ну
+как
+вдруг
+-
+правда
+))
+◄
+1
+2
+►
+из 2
+Вам
+необходимо
+войти
+или
+зарегистрироваться
+на
+сайте
+что
+бы
+дать
+ответ
+на
+данный
+вопрос
+Со
+скольки
+лет
+вы
+не
+празднуете
+свой
+день
+рождения
+?
+(25)
+Она
+ушла.
+Навсегда.
+И
+её
+больше
+никогда
+не
+вернёшь.
+Осталась
+лишь
+боль,
+не
+понимание,
+меланхолия.
+Короче,
+на
+сколько
+градусов
+стирать
+трусы
+в
+машинке?
+(16)
+Почему
+когда
+люди
+говорят
+"короче"
+я
+слышу
+самый
+длинный
+рассказ
+за
+всю
+свою
+жизнь?
+(10)
+Почему
+когда
+люди
+говорят
+"короче"
+я
+слышу
+самый
+длинный
+рассказ
+за
+всю
+свою
+жизнь?
+(11)
+осень
+уже
+на
+носу
+,
+а
+я
+к
+ней
+совершенно
+не
+готова
+,
+ни
+вискаря,
+ни
+пледа,
+ни
+кота.
+ужас
+короче
+.
+А
+вы
+готовы
+к
+осени?
+(12)
+Как
+у
+вас
+на
+работе
+празднуют:
+день
+имени,
+дни
+рождения
+и
+прочие
+персональные
+праздники?
+Короче,
+что
+несёте
+с
+собой
+для
+стола?
+(38)
+Короче
+что
+там
+на
+Лиго?мутим
+или
+как?))
+(39)
+Если
+у
+тебя
+маленький
+рост
+трудно
+найти
+девушку
+,
+короче
+вообще
+не
+реально????
+(55)
+Вопросы
+и
+комментарии:
+support@boomtime.lv
+Реклама
+на
+портале:
+ads.boomtime.lv
+У
+Вас
+есть
+новые
+идеи
+или
+комментарии
+по
+поводу
+сайта?
+Правила
+Пользования
+/
+Реклама
+на
+портале
+/
+Отказаться
+от
+услуг
+©
+
+2006
+-
+2016
+BOOMTIME.
+Все
+права
+защищены
+//
+DSNR
+		var
+_conf
+=
+_conf
+||
+{};
+		_conf.width
+=
+300;
+		_conf.height
+=
+250;
+		_conf.position
+=
+"fixed-left";
+		_conf.borderOffset
+=
+10;
+		_conf.animate
+=
+true;
+		_conf.src="https://wrapper.z5x.net/wrapper.html?ad_type=iframe&ad_size=300x250§ion=4760849&pub_url=";
+		_conf.type=
+"iframe";
+		(function()
+{
+			var
+ss
+=
+document.createElement('script');
+			ss.async
+=
+true;
+			ss.src
+=
+"https://wrapper.z5x.net/test.js";
+			var
+s
+=
+document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ss,
+s);
+		})();
+var
+_gaq
+=
+_gaq
+||
+[];
+	
+
+_gaq.push(['_setAccount',
+'UA-1358420-1']);
+	
+
+_gaq.push(['_setDomainName',
+'.boomtime.lv']);
+	
+
+_gaq.push(['_setAllowHash',
+false]);
+	
+
+_gaq.push(['_trackPageview']);
+
+	
+
+(function()
+{
+	
+
+
+
+var
+ga
+=
+document.createElement('script');
+ga.type
+=
+'text/javascript';
+ga.async
+=
+true;
+	
+
+
+
+ga.src
+=
+('https:'
+==
+document.location.protocol
+?
+'https://ssl'
+:
+'http://www')
++
+'.google-analytics.com/ga.js';
+	
+
+
+
+var
+s
+=
+document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga,
+s);
+	
+
+})();
+/*
+<![CDATA[
+*/
+		var
+bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new
+Date()).getTimezoneOffset()+'&uti='+(new
+Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;
+		if(typeof(bburlparam)=='string')
+{
+bbh+='&'+bburlparam;
+}
+		if(typeof(bbkeywords)=='string')
+{
+bbh+='&keywords='+escape(bbkeywords);
+}
+		document.write("<scr"+"ipt
+type='text/javascript'
+charset='windows-1250'
+src='http://go.adlv.bbelements.com/please/showit/15422/1/11/21/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");
+		/*
+]]>
+*/
+<!--//<![CDATA[
+			var
+_smartad
+=
+_smartad
+||
+{};
+_smartad.page_id=Math.floor(Math.random()*10000001);
+			if(!_smartad.prop)
+_smartad.prop='screen_width='+(window.innerWidth
+||
+document.documentElement.clientWidth
+||
+document.getElementsByTagName('body')[0].clientWidth)+unescape('%26screen_height=')+(window.innerHeight
+||
+document.documentElement.clientHeight
+||
+document.getElementsByTagName('body')[0].clientHeight)+unescape('%26os=')+navigator.platform+unescape('%26refurl=')+(document.referrer?encodeURIComponent(document.referrer.slice(0,document.referrer.indexOf('?')+50)):'')+unescape('%26pageurl=')+(document.URL?encodeURIComponent(document.URL.slice(0,document.URL.indexOf('?')+50)):'')+unescape('%26rnd=')+
+new
+Date().getTime();
+			(function()
+{
+				if
+(_smartad.space){
+					_smartad.space
++=
+',362f4dbf-8fac-45fe-abe0-c488feb865ae';
+				}else{
+					_smartad.space
+=
+'362f4dbf-8fac-45fe-abe0-c488feb865ae';
+					_smartad.type='onload';
+					var
+f=function(){
+						var
+d
+=
+document,
+b
+=
+d.body
+||
+d.documentElement
+||
+d.getElementsByTagName('BODY')[0],n
+=
+b.firstChild,
+s
+=
+d.createElement('SCRIPT');
+						s.type
+=
+'text/javascript',s.language
+=
+'javascript',s.async
+=
+true,s.charset='UTF-8';
+						s.src=location.protocol+'//serving.bepolite.eu/script?space='+_smartad.space+unescape('%26type=')+_smartad.type+unescape('%26page_id=')+_smartad.page_id+unescape('%26')+_smartad.prop;
+						n?b.insertBefore(s,
+n):b.appendChild(s);
+					}
+					if(window.addEventListener)window.addEventListener('load',f,false);
+					else
+if(window.attachEvent)window.attachEvent('onload',f);
+				}
+			})();
+		//]]>-->
+/*
+(c)AdOcean
+2003-2012
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(typeof
+ado!=="object"){ado={};ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){};}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ado.config({mode:
+"old",
+xml:
+false,
+characterEncoding:
+true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ado.preview({enabled:
+true,
+emiter:
+"lv.adocean.pl",
+id:
+"72jnLkkYd6i4PkZFaJY_hT3JXewBVcbt4K9VmPy0kYP.87"});
+/*
+(c)AdOcean
+2003-2012,
+OMG_lv.Boomtime.lv.Toplayer_main
+*/
+
+ado.placement({id:
+'ado-cFrnaVx4d1ZJSbwld1OQo5YhXczF.sbzPRA1XDPRIET.l7',
+server:
+'lv.adocean.pl'
+});

@@ -1,0 +1,967 @@
+Прикольные
+статусы
+для
+контакта
+Главная
+Популярные
+Про
+Любовь
+Смешные
+Классные
+Про
+счастье
+Настроение
+Кавказские
+Для
+девушек
+Оды
+Одноклассники
+О
+Жизни
+Добавить
+С
+юмором
+Угарные
+Ржачные
+Офигенные
+Гламурные
+Пафосные
+Прикольные
+Клевые
+Для
+стервы
+Крутые
+Главная
+»
+Прикольные
+Прикольные
+статусы
+для
+контакта
+Как
+известно,
+грань
+между
+хорошим
+приколом
+и
+обидной
+шуткой
+довольно
+тонка,
+нужно
+быть
+настоящим
+мастером,
+чтобы
+не
+обидеть
+человека
+и
+заставить
+смеяться
+его
+вместе
+с
+окружающими.
+Ведь
+именно
+на
+юмор
+на
+грани
+фола
+будет
+самым
+смешным,
+а
+шутки
+на
+грани
+-
+самыми
+запоминающимися
+и
+любимыми.
+Если
+вы
+можете
+так
+шутить,
+то
+для
+вас
+не
+проблема
+придумать
+прикольные
+статусы
+для
+контакта,
+при
+помощи
+которых
+вы
+сможете
+заставить
+улыбнуться
+не
+только
+себя,
+но
+и
+окружающих.
+Если
+же
+с
+юмором
+проблема
+и
+вместо
+хороших
+добротных
+шуток
+получаются
+корявые
+обидные
+подколки,
+то
+лучше
+всего
+поискать
+прикольные
+статусы
+в
+контакте
+в
+сети
+Интернет.
+Нелишним
+будет
+заглянуть
+на
+наш
+сайт,
+который
+вольготно
+расположился
+по
+адресу
+statusi.com.ru,
+где
+с
+нетерпением
+ждет
+посетителей.
+Здесь
+среди
+прочих
+полезных
+вещей
+вы
+обязательно
+найдете
+в
+большом
+ассортименте
+смешные
+статусы
+в
+контакте,
+которые
+вам
+обязательно
+понравятся.
+Наши
+статусы
+способны
+поднять
+настроение
+даже
+в
+том
+случае,
+если
+вы
+считаете
+это
+абсолютно
+безнадежным
+делом.
+1
+2
+3
+4
+5
+6
+7
+8
+далее
+»
+Едут
+в
+машине
+и
+ругаются
+муж
+с
+женой.
+Проезжают
+просёлочной
+дорогой
+мимо
+пары
+свиней.
+Жена:
+-
+Родственники
+небось
+твои?
+Муж:
+-
+Ага,
+тёща
+с
+тестем
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+269)
+16
+декабря
+2011
+А
+вы
+тоже
+когда
+начинаете
+засыпать
+дергаетесь,
+типа
+споткнулся
+или
+упал
+куда-то?
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+503)
+25
+марта
+2009
+Вчера
+полчаса
+удалял
+левых
+друзей
+из
+списка
+в
+контакте,
+пока
+не
+понял,
+что
+сижу
+с
+аккаунта
+сестры...
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+229)
+18
+марта
+2009
+НЕТ
+ПОВЕСТИ
+ПЕЧАЛЬНЕЕ
+НА
+СВЕТЕ..
+чем
+повесть
+о
+пропавшем
+интернете..
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+95)
+9
+мая
+2011
+Я
+очень
+верная
+девушка,
+Димочке
+моему
+не
+изменяю...
+А
+Сашке
+тем
+более...
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+64)
+15
+августа
+2009
+Звонок
+в
+дверь.
+-
+Здравствуйте,
+я
+ваш
+новый
+сосед.
+–
+Снизу
+или
+сверху?
+-
+Что,
+прямо
+так
+и
+сразу?
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+130)
+26
+августа
+2011
+Солнышко,я
+тебя
+люблю!!!-самый
+лучший
+статус!и
+солнышки
+довольны
+и
+не
+палишься
+XD
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+37)
+20
+марта
+2009
+Когда
+уже
+выпустят
+мобильные
+телефоны
+с
+функцией
+блокировки
+звонков
+по
+пьяни
+своим
+бывшим
+???!
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+107)
+9
+июня
+2011
+Королева
+говорит:-Я
+ль
+на
+свете
+всех
+милее
+,
+всех
+румяней
+и
+белее...
+А
+ей
+зеркальце
+в
+ответ:
+ей
+ты
+дура
+-
+я
+планшет!!!!
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+24)
+13
+апреля
+2014
+При
+правильном
+подборе
+литературы
+в
+туалете
+можно
+получить
+неплохое
+образование.
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+5
+1
+2
+3
+4
+5
+(Голосов:
+94)
+25
+ноября
+2010
+как
+же
+я
+завидую
+тем
+людям,
+которые
+онлайн
+появляются
+1
+раз
+в
+неделю..живут
+в
+реале
+а
+не
+в
+сети..(
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+4
+1
+2
+3
+4
+5
+(Голосов:
+126)
+3
+июня
+2011
+[[[Вы
+тоже
+иногда
+ночью
+вздрагиваете
+потому
+что
+вам
+снится
+что
+вы
+падаете????]]]
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+4
+1
+2
+3
+4
+5
+(Голосов:
+73)
+14
+декабря
+2009
+По-немецки
+«нах»
+(nасh)
+означает
+направление
+движения.
+По-русски
+тоже,
+но
+конкретнее.
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+4
+1
+2
+3
+4
+5
+(Голосов:
+88)
+20
+июля
+2011
+Ничто
+так
+не
+бодрит
+с
+утра,
+как
+незамеченнный
+дверной
+косяк.
+xD
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+4
+1
+2
+3
+4
+5
+(Голосов:
+158)
+11
+октября
+2009
+Самая
+лучшая
+фраза
+девушки
+в
+оправдание:
+Ну
+и
+что?...
+var
+ajax
+=
+new
+sack();
+function
+rating(rating,
+post_id){
+	ajax.onShow("");
+	ajax.setVar("rating",
+rating);
+	ajax.setVar("post_id",
+post_id);
+	ajax.requestFile
+=
+"/item/rating/";
+	ajax.method
+=
+'POST';
+	ajax.element
+=
+'ratingdiv_'+post_id;
+	ajax.runAJAX();
+}
+4
+1
+2
+3
+4
+5
+(Голосов:
+73)
+11
+июня
+2010
+1
+2
+3
+4
+5
+6
+7
+8
+далее
+»
+<!--
+document.write("<a
+href='http://www.liveinternet.ru/click'
+"+
+"target=_blank><img
+src='//counter.yadro.ru/hit?t44.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"'
+alt=''
+title='LiveInternet'
+"+
+"border='0'
+width='31'
+height='31'><\/a>")
+//-->

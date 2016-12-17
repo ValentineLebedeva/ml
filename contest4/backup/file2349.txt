@@ -1,0 +1,9631 @@
+3Д
+игры
+Тачки
+var
+globalSettings
+=
+{};
+		
+
+		globalSettings.comments
+=
+{
+
+block
+:
+'comments-block',
+last
+:
+'last_comment',
+save
+:
+0};
+		globalSettings.authent
+=
+{
+
+user
+:
+0};
+		globalSettings.LSN
+=
+{
+
+project
+:
+'onlineguru',
+from
+:
+'http://onlineguru.ru/3d_cars/',
+ip
+:
+'93.175.9.78'};
+		globalSettings.common
+=
+{
+
+entity
+:
+'og_genre',
+eid
+:
+0,
+extra
+:
+0};
+function
+adriver(a,b){this.onLoadComplete
+=
+function()
+{};
+this.pseudo
+=
+true;}
+var
+fullscreen_showed
+=
+false;
+		function
+open_fullscreen(){
+			if(fullscreen_showed)
+{
+				window.open(a_link);
+			}
+else
+{
+				new
+adriver("adriver_fullscreen",
+{sid:
+91709,
+bt:
+52,
+pz:
+3,
+sz:
+a_sz,
+bn:
+5,
+custom:
+custom});
+				fullscreen_showed
+=
+true;
+			}
+		}
+
+		var
+custom
+=
+[];
+		custom.getStd
+=
+function(){for(var
+i=0,j,s=[];i<this.length;i++){if(this[i])s.push((!j?(j=1,i+'='):'')+escape(this[i]));else
+j=0}return
+s.length?'&custom='+s.join(';'):''};
+		custom[77]
+=
+'28654,28953';
+		var
+width
+=
+screen.width,
+height
+=
+screen.height;
+		var
+std
+=
+{gender:100,
+age:101,
+width:110,
+height:111},
+i;
+		for(i
+in
+std){
+			try{custom[std[i]]=eval(i)}catch(e){}
+		}
+var
+img
+=
+new
+Image();
+			img.src
+=
+'http://www.tns-counter.ru/V13a***R>'
++
+document.referrer.replace(/\*/g,'%2a')
++
+'*onlineguru_ru/ru/UTF-8/tmsec=onlineguru_total/'
++
+Math.round(Math.random()
+*
+1000000000);
+<!--
+			var
+a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+			try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+			try{if(typeof((new
+Array).push('t'))==="number")js=13;}catch(e){}
+			try{(new
+Image()).src='http://d2.c4.b5.a0.top.list.ru/counter?id=344609;js='+js+a+';rand='+Math.random();}catch(e){}//-->
+(function
+(d,
+w,
+c)
+{
+
+
+
+
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+
+
+
+
+
+
+
+
+try
+{
+
+
+
+
+
+
+
+
+
+
+
+
+w.yaCounter5427766
+=
+new
+Ya.Metrika({id:5427766,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+webvisor:true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clickmap:true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trackLinks:true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+accurateTrackBounce:true});
+
+
+
+
+
+
+
+
+}
+catch(e)
+{
+}
+
+
+
+
+});
+
+
+
+
+
+var
+n
+=
+d.getElementsByTagName("script")[0],
+
+
+
+
+
+
+
+
+s
+=
+d.createElement("script"),
+
+
+
+
+
+
+
+
+f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+
+
+
+
+s.type
+=
+"text/javascript";
+
+
+
+
+s.async
+=
+true;
+
+
+
+
+s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+
+
+
+
+if
+(w.opera
+==
+"[object
+Opera]")
+{
+
+
+
+
+
+
+
+
+d.addEventListener("DOMContentLoaded",
+f,
+false);
+
+
+
+
+}
+else
+{
+f();
+}
+})(document,
+window,
+"yandex_metrika_callbacks");
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new
+Date().getTime(),event:'gtm.js'});var
+f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-K3XSP7');
+(function($)
+{
+				$(window).load(function()
+{
+										ga('set',
+'contentGroup2',
+'OnlineGuru
+2016');
+									});
+			})(jQuery);
+try{(function(){var
+a=["google.ru","google.com","yandex.ru","go.mail.ru","nova.rambler.ru"];var
+b="counter.uguru.ru?url="+document.location.href.split('?')[0];for(var
+i
+in
+a){if(document.referrer.indexOf(a[i])>=0){b+="&s=1";break}}document.write("<img
+src='http://"+b+"'
+width='1'
+height='1'
+alt=''
+/>")})()}catch(e){};
+Лучшие
+игры
+Новые
+игры
+ММО-игры
+Сыгранные
+(function($)
+{
+
+		$(function()
+{
+
+			var
+searchindex
+=
+window.searchindex
+=
+{
+name
+:
+[],
+url
+:
+[]
+};
+			var
+search
+=
+$('#field-search');
+
+						searchindex.name.push('100');
+			searchindex.url.push('/100/?from=from_search');
+						searchindex.name.push('1001
+ночь');
+			searchindex.url.push('/1001-noch/?from=from_search');
+						searchindex.name.push('101
+далматинец');
+			searchindex.url.push('/101-dalmatians/?from=from_search');
+						searchindex.name.push('1234567890');
+			searchindex.url.push('/1234567890/?from=from_search');
+						searchindex.name.push('2048');
+			searchindex.url.push('/2048/?from=from_search');
+						searchindex.name.push('2D');
+			searchindex.url.push('/2d/?from=from_search');
+						searchindex.name.push('3
+панды');
+			searchindex.url.push('/three-pandas/?from=from_search');
+						searchindex.name.push('3D
+игры');
+			searchindex.url.push('/3d/?from=from_search');
+						searchindex.name.push('4
+элемента');
+			searchindex.url.push('/four-elements/?from=from_search');
+						searchindex.name.push('4x4');
+			searchindex.url.push('/4x4/?from=from_search');
+						searchindex.name.push('5
+ночей
+с
+Фредди');
+			searchindex.url.push('/five-nights-at-freddys/?from=from_search');
+						searchindex.name.push('60
+секунд');
+			searchindex.url.push('/60-seconds/?from=from_search');
+						searchindex.name.push('7
+гномов');
+			searchindex.url.push('/7-gnomov/?from=from_search');
+						searchindex.name.push('a10');
+			searchindex.url.push('/a10/?from=from_search');
+						searchindex.name.push('Agar
+io');
+			searchindex.url.push('/agar-io/?from=from_search');
+						searchindex.name.push('Angry
+Birds');
+			searchindex.url.push('/angry-birds/?from=from_search');
+						searchindex.name.push('Besiege');
+			searchindex.url.push('/besiege/?from=from_search');
+						searchindex.name.push('Blur');
+			searchindex.url.push('/blur/?from=from_search');
+						searchindex.name.push('Bmx');
+			searchindex.url.push('/bmx/?from=from_search');
+						searchindex.name.push('Cтрасть');
+			searchindex.url.push('/strast/?from=from_search');
+						searchindex.name.push('Fish.io');
+			searchindex.url.push('/fish-io/?from=from_search');
+						searchindex.name.push('Flappy
+Bird');
+			searchindex.url.push('/flappy-bird/?from=from_search');
+						searchindex.name.push('Fuel');
+			searchindex.url.push('/fuel/?from=from_search');
+						searchindex.name.push('GROW');
+			searchindex.url.push('/grow/?from=from_search');
+						searchindex.name.push('HTML5');
+			searchindex.url.push('/html5/?from=from_search');
+						searchindex.name.push('Kingdom
+Rush');
+			searchindex.url.push('/kingdom-rush/?from=from_search');
+						searchindex.name.push('Lines');
+			searchindex.url.push('/lines/?from=from_search');
+						searchindex.name.push('Mad
+Max');
+			searchindex.url.push('/mad-max/?from=from_search');
+						searchindex.name.push('Need
+for
+speed');
+			searchindex.url.push('/nfs/?from=from_search');
+						searchindex.name.push('Pack
+War');
+			searchindex.url.push('/pack-war/?from=from_search');
+						searchindex.name.push('Paragon');
+			searchindex.url.push('/paragon/?from=from_search');
+						searchindex.name.push('Prototype');
+			searchindex.url.push('/prototype/?from=from_search');
+						searchindex.name.push('Rage');
+			searchindex.url.push('/rage/?from=from_search');
+						searchindex.name.push('Rust');
+			searchindex.url.push('/rust/?from=from_search');
+						searchindex.name.push('Sims');
+			searchindex.url.push('/sims/?from=from_search');
+						searchindex.name.push('Slither.io');
+			searchindex.url.push('/slither-io/?from=from_search');
+						searchindex.name.push('Subway
+surfers');
+			searchindex.url.push('/subway-surfers/?from=from_search');
+						searchindex.name.push('Tower
+Defense');
+			searchindex.url.push('/tower-defense/?from=from_search');
+						searchindex.name.push('Unity');
+			searchindex.url.push('/unity/?from=from_search');
+						searchindex.name.push('Uphill
+Rush');
+			searchindex.url.push('/uphill-rush/?from=from_search');
+						searchindex.name.push('Windows
+10');
+			searchindex.url.push('/dlya-windows-10/?from=from_search');
+						searchindex.name.push('Zuma
+подобные
+игры');
+			searchindex.url.push('/zuma/?from=from_search');
+						searchindex.name.push('Авария');
+			searchindex.url.push('/avariya/?from=from_search');
+						searchindex.name.push('Аватар');
+			searchindex.url.push('/avatar/?from=from_search');
+						searchindex.name.push('Аватария');
+			searchindex.url.push('/avataria/?from=from_search');
+						searchindex.name.push('Авто');
+			searchindex.url.push('/avto/?from=from_search');
+						searchindex.name.push('Автоботы');
+			searchindex.url.push('/autobots/?from=from_search');
+						searchindex.name.push('Автобусы');
+			searchindex.url.push('/bus/?from=from_search');
+						searchindex.name.push('Автоматы');
+			searchindex.url.push('/avtomaty/?from=from_search');
+						searchindex.name.push('Адам
+и
+Ева');
+			searchindex.url.push('/adam-i-eva/?from=from_search');
+						searchindex.name.push('Азартные');
+			searchindex.url.push('/ardour/?from=from_search');
+						searchindex.name.push('Азбука');
+			searchindex.url.push('/azbuka/?from=from_search');
+						searchindex.name.push('Ай
+Карли');
+			searchindex.url.push('/i-karli/?from=from_search');
+						searchindex.name.push('Аквапарк');
+			searchindex.url.push('/akvapark/?from=from_search');
+						searchindex.name.push('Акинатор');
+			searchindex.url.push('/akinator/?from=from_search');
+						searchindex.name.push('Активити');
+			searchindex.url.push('/activity/?from=from_search');
+						searchindex.name.push('Акулы');
+			searchindex.url.push('/shark/?from=from_search');
+						searchindex.name.push('Алавар');
+			searchindex.url.push('/alawar/?from=from_search');
+						searchindex.name.push('Алиса
+в
+стране
+чудес');
+			searchindex.url.push('/alice-in-the-wonderland/?from=from_search');
+						searchindex.name.push('Алладин');
+			searchindex.url.push('/alladin/?from=from_search');
+						searchindex.name.push('Алфавит');
+			searchindex.url.push('/alfavit/?from=from_search');
+						searchindex.name.push('Алхимика');
+			searchindex.url.push('/alhimika/?from=from_search');
+						searchindex.name.push('Алхимия');
+			searchindex.url.push('/alchemy/?from=from_search');
+						searchindex.name.push('Альфа
+и
+Омега');
+			searchindex.url.push('/alpha-i-omega/?from=from_search');
+						searchindex.name.push('Ам
+Ням');
+			searchindex.url.push('/om-nom/?from=from_search');
+						searchindex.name.push('Американские
+горки');
+			searchindex.url.push('/amerikanskie-gorki/?from=from_search');
+						searchindex.name.push('Американский
+папа');
+			searchindex.url.push('/american-dad/?from=from_search');
+						searchindex.name.push('Американский
+футбол');
+			searchindex.url.push('/amerikanskiy-futbol/?from=from_search');
+						searchindex.name.push('Амнезия');
+			searchindex.url.push('/amnesia/?from=from_search');
+						searchindex.name.push('Ангел');
+			searchindex.url.push('/angel/?from=from_search');
+						searchindex.name.push('Английский
+язык');
+			searchindex.url.push('/english-yazik/?from=from_search');
+						searchindex.name.push('Андроид');
+			searchindex.url.push('/android/?from=from_search');
+						searchindex.name.push('Анжела');
+			searchindex.url.push('/angela/?from=from_search');
+						searchindex.name.push('Анжела
+и
+Том');
+			searchindex.url.push('/angela-and-tom/?from=from_search');
+						searchindex.name.push('Аниме');
+			searchindex.url.push('/anime/?from=from_search');
+						searchindex.name.push('Апокалипсис');
+			searchindex.url.push('/apocalypse/?from=from_search');
+						searchindex.name.push('Аркады');
+			searchindex.url.push('/arcade/?from=from_search');
+						searchindex.name.push('Арканоид');
+			searchindex.url.push('/arkanoid/?from=from_search');
+						searchindex.name.push('Армада');
+			searchindex.url.push('/armada/?from=from_search');
+						searchindex.name.push('Ассасин');
+			searchindex.url.push('/assassin/?from=from_search');
+						searchindex.name.push('Ассоциация');
+			searchindex.url.push('/assotsiatsiya/?from=from_search');
+						searchindex.name.push('Астерикс
+и
+Обеликс');
+			searchindex.url.push('/asterix-and-obelix/?from=from_search');
+						searchindex.name.push('Атака');
+			searchindex.url.push('/attack/?from=from_search');
+						searchindex.name.push('Атака
+титанов');
+			searchindex.url.push('/attack-on-titan/?from=from_search');
+						searchindex.name.push('Аэропорт');
+			searchindex.url.push('/airport/?from=from_search');
+						searchindex.name.push('Баба-Яга');
+			searchindex.url.push('/baba-yaga/?from=from_search');
+						searchindex.name.push('Бабочки');
+			searchindex.url.push('/babochki/?from=from_search');
+						searchindex.name.push('Бабы
+яги');
+			searchindex.url.push('/babbi-yaga/?from=from_search');
+						searchindex.name.push('Бадминтон');
+			searchindex.url.push('/badminton/?from=from_search');
+						searchindex.name.push('База
+защита');
+			searchindex.url.push('/base-defense/?from=from_search');
+						searchindex.name.push('Бактерии');
+			searchindex.url.push('/bakterii/?from=from_search');
+						searchindex.name.push('Бакуган');
+			searchindex.url.push('/bakugan/?from=from_search');
+						searchindex.name.push('Балда');
+			searchindex.url.push('/balda/?from=from_search');
+						searchindex.name.push('Бандит');
+			searchindex.url.push('/bandit/?from=from_search');
+						searchindex.name.push('Барабаны');
+			searchindex.url.push('/drums/?from=from_search');
+						searchindex.name.push('Барашек
+Шон');
+			searchindex.url.push('/shaun-the-sheep/?from=from_search');
+						searchindex.name.push('Барашки');
+			searchindex.url.push('/sheep/?from=from_search');
+						searchindex.name.push('Барби');
+			searchindex.url.push('/barbi/?from=from_search');
+						searchindex.name.push('Бармен');
+			searchindex.url.push('/bartender/?from=from_search');
+						searchindex.name.push('Баскетбол');
+			searchindex.url.push('/basketball/?from=from_search');
+						searchindex.name.push('Баскетбол
+головами');
+			searchindex.url.push('/basketbol-golovami/?from=from_search');
+						searchindex.name.push('Батла');
+			searchindex.url.push('/batla/?from=from_search');
+						searchindex.name.push('Башенки');
+			searchindex.url.push('/bashenki/?from=from_search');
+						searchindex.name.push('Башня');
+			searchindex.url.push('/bashnya/?from=from_search');
+						searchindex.name.push('Бегалки');
+			searchindex.url.push('/runner/?from=from_search');
+						searchindex.name.push('Беги,
+Фред');
+			searchindex.url.push('/begi-fred/?from=from_search');
+						searchindex.name.push('Бегун');
+			searchindex.url.push('/begun/?from=from_search');
+						searchindex.name.push('Без
+звука');
+			searchindex.url.push('/no-sound/?from=from_search');
+						searchindex.name.push('Безделье');
+			searchindex.url.push('/bezdelje/?from=from_search');
+						searchindex.name.push('Безумный
+Макс');
+			searchindex.url.push('/max-mad/?from=from_search');
+						searchindex.name.push('Безумный
+Макс
+дорога
+ярости');
+			searchindex.url.push('/mad-max-fury-road/?from=from_search');
+						searchindex.name.push('Бейблэйд');
+			searchindex.url.push('/beyblade/?from=from_search');
+						searchindex.name.push('Бейсбол');
+			searchindex.url.push('/baseball/?from=from_search');
+						searchindex.name.push('Белка
+и
+Стрелка');
+			searchindex.url.push('/belka-i-strelka/?from=from_search');
+						searchindex.name.push('Белоснежка');
+			searchindex.url.push('/snow-white/?from=from_search');
+						searchindex.name.push('Бен
+10');
+			searchindex.url.push('/ben-10/?from=from_search');
+						searchindex.name.push('Беременна');
+			searchindex.url.push('/beremenna/?from=from_search');
+						searchindex.name.push('Бернард');
+			searchindex.url.push('/bernard/?from=from_search');
+						searchindex.name.push('Бешеная
+бабка');
+			searchindex.url.push('/mad-babka/?from=from_search');
+						searchindex.name.push('Бешеные
+кролики');
+			searchindex.url.push('/raving-rabbids/?from=from_search');
+						searchindex.name.push('Биатлон');
+			searchindex.url.push('/biatlon/?from=from_search');
+						searchindex.name.push('Биг
+фарм');
+			searchindex.url.push('/big-farm/?from=from_search');
+						searchindex.name.push('Бизнес');
+			searchindex.url.push('/business/?from=from_search');
+						searchindex.name.push('Бильярд');
+			searchindex.url.push('/pool/?from=from_search');
+						searchindex.name.push('Бионикл');
+			searchindex.url.push('/bionicle/?from=from_search');
+						searchindex.name.push('Битва');
+			searchindex.url.push('/bitva/?from=from_search');
+						searchindex.name.push('Битвы
+титанов');
+			searchindex.url.push('/bitvi-titani/?from=from_search');
+						searchindex.name.push('Бить
+битой');
+			searchindex.url.push('/bat-hit/?from=from_search');
+						searchindex.name.push('Блич');
+			searchindex.url.push('/bleach/?from=from_search');
+						searchindex.name.push('Блокада');
+			searchindex.url.push('/blockade/?from=from_search');
+						searchindex.name.push('Блоки');
+			searchindex.url.push('/blocks/?from=from_search');
+						searchindex.name.push('Блум');
+			searchindex.url.push('/bloom/?from=from_search');
+						searchindex.name.push('Блумикс');
+			searchindex.url.push('/bloomix/?from=from_search');
+						searchindex.name.push('Боб-строитель');
+			searchindex.url.push('/bob-the-builder/?from=from_search');
+						searchindex.name.push('Бой
+с
+тенью');
+			searchindex.url.push('/shadow-fight/?from=from_search');
+						searchindex.name.push('Бойцовский
+клуб');
+			searchindex.url.push('/fight-club/?from=from_search');
+						searchindex.name.push('Бокс');
+			searchindex.url.push('/boxing/?from=from_search');
+						searchindex.name.push('Больница');
+			searchindex.url.push('/hospital/?from=from_search');
+						searchindex.name.push('Бомба');
+			searchindex.url.push('/bomba/?from=from_search');
+						searchindex.name.push('Бомберы');
+			searchindex.url.push('/bomber/?from=from_search');
+						searchindex.name.push('Бомж');
+			searchindex.url.push('/bomj/?from=from_search');
+						searchindex.name.push('Бот');
+			searchindex.url.push('/bot/?from=from_search');
+						searchindex.name.push('Боулинг');
+			searchindex.url.push('/bowling/?from=from_search');
+						searchindex.name.push('БПАН');
+			searchindex.url.push('/taziki/?from=from_search');
+						searchindex.name.push('Братц');
+			searchindex.url.push('/brats/?from=from_search');
+						searchindex.name.push('Братья
+Пук');
+			searchindex.url.push('/bratya-puk/?from=from_search');
+						searchindex.name.push('Бродилки');
+			searchindex.url.push('/brodilki/?from=from_search');
+						searchindex.name.push('Бродяга');
+			searchindex.url.push('/brodyaga/?from=from_search');
+						searchindex.name.push('Буквы
+учим');
+			searchindex.url.push('/bukvy-uchim/?from=from_search');
+						searchindex.name.push('Бумажки');
+			searchindex.url.push('/bumajki/?from=from_search');
+						searchindex.name.push('Бургер');
+			searchindex.url.push('/burger/?from=from_search');
+						searchindex.name.push('Бурундуки');
+			searchindex.url.push('/burunduki/?from=from_search');
+						searchindex.name.push('Бутылочка');
+			searchindex.url.push('/bottle/?from=from_search');
+						searchindex.name.push('Бэтмен');
+			searchindex.url.push('/batman/?from=from_search');
+						searchindex.name.push('В
+правду');
+			searchindex.url.push('/v-pravdu/?from=from_search');
+						searchindex.name.push('В
+темноте');
+			searchindex.url.push('/in-the-dark/?from=from_search');
+						searchindex.name.push('В
+школе');
+			searchindex.url.push('/v-shkole/?from=from_search');
+						searchindex.name.push('В
+школу');
+			searchindex.url.push('/v-shkolu/?from=from_search');
+						searchindex.name.push('Валли');
+			searchindex.url.push('/wall-e/?from=from_search');
+						searchindex.name.push('Вампиры');
+			searchindex.url.push('/vampires/?from=from_search');
+						searchindex.name.push('Ван-Пис');
+			searchindex.url.push('/one-piece/?from=from_search');
+						searchindex.name.push('Варкрафт');
+			searchindex.url.push('/warcraft/?from=from_search');
+						searchindex.name.push('Ведьмак');
+			searchindex.url.push('/vedmak/?from=from_search');
+						searchindex.name.push('Вектор');
+			searchindex.url.push('/vektor/?from=from_search');
+						searchindex.name.push('Велосипед');
+			searchindex.url.push('/velosiped/?from=from_search');
+						searchindex.name.push('Верность');
+			searchindex.url.push('/vernost/?from=from_search');
+						searchindex.name.push('Вертолеты');
+			searchindex.url.push('/helicopter/?from=from_search');
+						searchindex.name.push('Веселая
+ферма');
+			searchindex.url.push('/farm-frenzy/?from=from_search');
+						searchindex.name.push('Весёлые
+игры');
+			searchindex.url.push('/funny-games/?from=from_search');
+						searchindex.name.push('Ветеринар');
+			searchindex.url.push('/veterinar/?from=from_search');
+						searchindex.name.push('Взлом');
+			searchindex.url.push('/vzlom/?from=from_search');
+						searchindex.name.push('Взорви
+это');
+			searchindex.url.push('/blow-it/?from=from_search');
+						searchindex.name.push('Взрыв');
+			searchindex.url.push('/vzryv/?from=from_search');
+						searchindex.name.push('Взрывы:
+Плазмы');
+			searchindex.url.push('/vzryvy-plazmy/?from=from_search');
+						searchindex.name.push('Викинги');
+			searchindex.url.push('/vikings/?from=from_search');
+						searchindex.name.push('Вилли');
+			searchindex.url.push('/villi/?from=from_search');
+						searchindex.name.push('Винкс');
+			searchindex.url.push('/winx/?from=from_search');
+						searchindex.name.push('Винкс
+Клуб');
+			searchindex.url.push('/winx-club/?from=from_search');
+						searchindex.name.push('Винкс
+Сиреникс');
+			searchindex.url.push('/winx-sirenix/?from=from_search');
+						searchindex.name.push('Винкс
+энчантикс');
+			searchindex.url.push('/winks-encantiks/?from=from_search');
+						searchindex.name.push('Винни
+Пух');
+			searchindex.url.push('/winnie-the-pooh/?from=from_search');
+						searchindex.name.push('Виолетта');
+			searchindex.url.push('/violetta/?from=from_search');
+						searchindex.name.push('Виселица');
+			searchindex.url.push('/viselitsa/?from=from_search');
+						searchindex.name.push('Властелин
+колец');
+			searchindex.url.push('/lord-of-the-rings/?from=from_search');
+						searchindex.name.push('Вов');
+			searchindex.url.push('/vov/?from=from_search');
+						searchindex.name.push('Водные
+горки');
+			searchindex.url.push('/vodnye-gorki/?from=from_search');
+						searchindex.name.push('Военные-самолеты');
+			searchindex.url.push('/voennye-samolyoty/?from=from_search');
+						searchindex.name.push('Война
+1941-1945');
+			searchindex.url.push('/voyna-1941-1945/?from=from_search');
+						searchindex.name.push('Война
+и
+мир');
+			searchindex.url.push('/voyna-i-mir/?from=from_search');
+						searchindex.name.push('Война
+миров');
+			searchindex.url.push('/voyna-mirov/?from=from_search');
+						searchindex.name.push('Войнушки');
+			searchindex.url.push('/war/?from=from_search');
+						searchindex.name.push('Вокруг
+Света');
+			searchindex.url.push('/around-the-world/?from=from_search');
+						searchindex.name.push('Волейбол');
+			searchindex.url.push('/voleybol/?from=from_search');
+						searchindex.name.push('Волк');
+			searchindex.url.push('/volk/?from=from_search');
+						searchindex.name.push('Волшебство');
+			searchindex.url.push('/volshebstvo/?from=from_search');
+						searchindex.name.push('Вольт');
+			searchindex.url.push('/bolt/?from=from_search');
+						searchindex.name.push('Воришка');
+			searchindex.url.push('/vorishka/?from=from_search');
+						searchindex.name.push('Вормикс');
+			searchindex.url.push('/wormix/?from=from_search');
+						searchindex.name.push('Воронина');
+			searchindex.url.push('/voronina/?from=from_search');
+						searchindex.name.push('Воры');
+			searchindex.url.push('/vory/?from=from_search');
+						searchindex.name.push('Время
+приключений');
+			searchindex.url.push('/adventure-time/?from=from_search');
+						searchindex.name.push('Вселенная
+стивена');
+			searchindex.url.push('/vselennaya-stivena/?from=from_search');
+						searchindex.name.push('Вспыш');
+			searchindex.url.push('/vspysh/?from=from_search');
+						searchindex.name.push('Вторая
+мировая');
+			searchindex.url.push('/world-war-two/?from=from_search');
+						searchindex.name.push('Вулкан');
+			searchindex.url.push('/vulkan/?from=from_search');
+						searchindex.name.push('Выход
+из
+комнаты');
+			searchindex.url.push('/vyhod-iz-komnaty/?from=from_search');
+						searchindex.name.push('Гадалка');
+			searchindex.url.push('/gadalka/?from=from_search');
+						searchindex.name.push('Гадание
+на
+любовь');
+			searchindex.url.push('/gadanie-na-lubov/?from=from_search');
+						searchindex.name.push('Гадкий
+я');
+			searchindex.url.push('/despicable-me/?from=from_search');
+						searchindex.name.push('Гангстер');
+			searchindex.url.push('/gangster/?from=from_search');
+						searchindex.name.push('Гарри
+Поттер');
+			searchindex.url.push('/harry-potter/?from=from_search');
+						searchindex.name.push('Гаррис
+мод');
+			searchindex.url.push('/garris-mod/?from=from_search');
+						searchindex.name.push('Гарфилд');
+			searchindex.url.push('/garfield/?from=from_search');
+						searchindex.name.push('Генералы');
+			searchindex.url.push('/generaly/?from=from_search');
+						searchindex.name.push('Генератор
+Рекс');
+			searchindex.url.push('/generator-rex/?from=from_search');
+						searchindex.name.push('Геркулес');
+			searchindex.url.push('/hercules/?from=from_search');
+						searchindex.name.push('Герои
+ударного
+отряда');
+			searchindex.url.push('/strike-force-heroes/?from=from_search');
+						searchindex.name.push('Гладиаторы');
+			searchindex.url.push('/gladiators/?from=from_search');
+						searchindex.name.push('Глаз');
+			searchindex.url.push('/glaz/?from=from_search');
+						searchindex.name.push('Глаз:
+Ужас');
+			searchindex.url.push('/glaz-ujas/?from=from_search');
+						searchindex.name.push('Гном');
+			searchindex.url.push('/gnom/?from=from_search');
+						searchindex.name.push('Гоблины');
+			searchindex.url.push('/goblins/?from=from_search');
+						searchindex.name.push('Годзилла');
+			searchindex.url.push('/godzilla/?from=from_search');
+						searchindex.name.push('Голкипер');
+			searchindex.url.push('/golkiper/?from=from_search');
+						searchindex.name.push('Головоломки');
+			searchindex.url.push('/brain-twisters/?from=from_search');
+						searchindex.name.push('Гольф');
+			searchindex.url.push('/golf/?from=from_search');
+						searchindex.name.push('Гонки');
+			searchindex.url.push('/racing/?from=from_search');
+						searchindex.name.push('Гонки
+на
+квадроциклах');
+			searchindex.url.push('/atv-racing/?from=from_search');
+						searchindex.name.push('Гонки
+на
+крутых
+машинах');
+			searchindex.url.push('/super-racing/?from=from_search');
+						searchindex.name.push('Город');
+			searchindex.url.push('/city/?from=from_search');
+						searchindex.name.push('Город
+героев');
+			searchindex.url.push('/big-hero-6/?from=from_search');
+						searchindex.name.push('Готика');
+			searchindex.url.push('/gothic/?from=from_search');
+						searchindex.name.push('Готовим
+еду');
+			searchindex.url.push('/gotovim-edu/?from=from_search');
+						searchindex.name.push('Готовка');
+			searchindex.url.push('/gotovka/?from=from_search');
+						searchindex.name.push('Грабители');
+			searchindex.url.push('/robbers/?from=from_search');
+						searchindex.name.push('Грабитель
+Боб');
+			searchindex.url.push('/thief-bob/?from=from_search');
+						searchindex.name.push('Гравити
+Фолс');
+			searchindex.url.push('/gravity-falls/?from=from_search');
+						searchindex.name.push('Граффити
+Фолс');
+			searchindex.url.push('/graffiti-fols/?from=from_search');
+						searchindex.name.push('Гриффины');
+			searchindex.url.push('/family-guy/?from=from_search');
+						searchindex.name.push('Груз');
+			searchindex.url.push('/gruz/?from=from_search');
+						searchindex.name.push('Грузовики');
+			searchindex.url.push('/truck/?from=from_search');
+						searchindex.name.push('ГТА
+игры');
+			searchindex.url.push('/gta/?from=from_search');
+						searchindex.name.push('Гугл');
+			searchindex.url.push('/google/?from=from_search');
+						searchindex.name.push('Гугл
+плей');
+			searchindex.url.push('/google-play/?from=from_search');
+						searchindex.name.push('Гуппи
+и
+пузырьки');
+			searchindex.url.push('/bubble-guppies/?from=from_search');
+						searchindex.name.push('Давить
+зомби');
+			searchindex.url.push('/zombie-squash/?from=from_search');
+						searchindex.name.push('Дальнобойщики');
+			searchindex.url.push('/truck-driver/?from=from_search');
+						searchindex.name.push('Дартс');
+			searchindex.url.push('/darts/?from=from_search');
+						searchindex.name.push('Даша');
+			searchindex.url.push('/dasha/?from=from_search');
+						searchindex.name.push('Даша
+и
+Башмачок');
+			searchindex.url.push('/dasha-i-bashmachok/?from=from_search');
+						searchindex.name.push('Два
+крыла');
+			searchindex.url.push('/pair-of-wings/?from=from_search');
+						searchindex.name.push('Двери');
+			searchindex.url.push('/door/?from=from_search');
+						searchindex.name.push('Девушки
+Супергерои');
+			searchindex.url.push('/superwomen/?from=from_search');
+						searchindex.name.push('Девушки
+Эквестрии');
+			searchindex.url.push('/equestria-girls/?from=from_search');
+						searchindex.name.push('Девчачие');
+			searchindex.url.push('/devchachie/?from=from_search');
+						searchindex.name.push('Дед
+деда');
+			searchindex.url.push('/ded-deda/?from=from_search');
+						searchindex.name.push('Дед
+Мороз');
+			searchindex.url.push('/ded-moroz/?from=from_search');
+						searchindex.name.push('Дедпул');
+			searchindex.url.push('/deadpool/?from=from_search');
+						searchindex.name.push('Дельфины');
+			searchindex.url.push('/dolphin/?from=from_search');
+						searchindex.name.push('Демоны
+и
+ангелы');
+			searchindex.url.push('/demons-and-angels/?from=from_search');
+						searchindex.name.push('Денди');
+			searchindex.url.push('/dendy/?from=from_search');
+						searchindex.name.push('Детектив');
+			searchindex.url.push('/detektiv/?from=from_search');
+						searchindex.name.push('Детский
+сад');
+			searchindex.url.push('/detskiy-sad/?from=from_search');
+						searchindex.name.push('Джанго');
+			searchindex.url.push('/django/?from=from_search');
+						searchindex.name.push('Джедаи');
+			searchindex.url.push('/dzhedai/?from=from_search');
+						searchindex.name.push('Джейк
+и
+пираты
+Нетландии');
+			searchindex.url.push('/jake-and-the-neverland-pirates/?from=from_search');
+						searchindex.name.push('Джейк
+Лонг');
+			searchindex.url.push('/jake-long/?from=from_search');
+						searchindex.name.push('Джек
+и
+Эльза');
+			searchindex.url.push('/jack-and-elsa/?from=from_search');
+						searchindex.name.push('Джеки
+Чан');
+			searchindex.url.push('/jackie-chan/?from=from_search');
+						searchindex.name.push('Джексмиф');
+			searchindex.url.push('/jacksmith/?from=from_search');
+						searchindex.name.push('Дженга');
+			searchindex.url.push('/dzhenga/?from=from_search');
+						searchindex.name.push('Джентльмен');
+			searchindex.url.push('/dzentlmen/?from=from_search');
+						searchindex.name.push('Джеффа
+убийцы');
+			searchindex.url.push('/jeffa-killer/?from=from_search');
+						searchindex.name.push('Джимми
+Нейтрон');
+			searchindex.url.push('/jimmy-neutron/?from=from_search');
+						searchindex.name.push('Джин');
+			searchindex.url.push('/genie/?from=from_search');
+						searchindex.name.push('Джипы');
+			searchindex.url.push('/jeep/?from=from_search');
+						searchindex.name.push('Джони
+Тест');
+			searchindex.url.push('/johnny-test/?from=from_search');
+						searchindex.name.push('Дивизион');
+			searchindex.url.push('/division/?from=from_search');
+						searchindex.name.push('Дивный
+сад');
+			searchindex.url.push('/divniy-sad/?from=from_search');
+						searchindex.name.push('Диего');
+			searchindex.url.push('/diego/?from=from_search');
+						searchindex.name.push('Дикий
+Запад');
+			searchindex.url.push('/wild-west/?from=from_search');
+						searchindex.name.push('Дино
+Заряд');
+			searchindex.url.push('/dino-zaryad/?from=from_search');
+						searchindex.name.push('Динозавр
+робот');
+			searchindex.url.push('/dino-robot/?from=from_search');
+						searchindex.name.push('Динозавры');
+			searchindex.url.push('/dino/?from=from_search');
+						searchindex.name.push('Дисней');
+			searchindex.url.push('/disney/?from=from_search');
+						searchindex.name.push('Дисней:
+Наследники');
+			searchindex.url.push('/disney-nasledniki/?from=from_search');
+						searchindex.name.push('Для
+1
+класса');
+			searchindex.url.push('/dlya-pervogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+10
+класса');
+			searchindex.url.push('/dlya-desyatogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+11
+класса');
+			searchindex.url.push('/dlya-odinnadtsatogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+2
+класса');
+			searchindex.url.push('/dlya-vtorogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+3
+класса');
+			searchindex.url.push('/dlya-tretyego-klassa/?from=from_search');
+						searchindex.name.push('Для
+4
+класса');
+			searchindex.url.push('/dlya-chetvyortogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+5
+класса');
+			searchindex.url.push('/dlya-pyatogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+6
+класса');
+			searchindex.url.push('/dlya-shestogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+7
+класса');
+			searchindex.url.push('/dlya-sedmogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+8
+класса');
+			searchindex.url.push('/dlya-vosmogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+9
+класса');
+			searchindex.url.push('/dlya-devyatogo-klassa/?from=from_search');
+						searchindex.name.push('Для
+влюбленных');
+			searchindex.url.push('/dlya-vlublennyh/?from=from_search');
+						searchindex.name.push('Для
+всей
+семьи');
+			searchindex.url.push('/dlya-vsey-semyi/?from=from_search');
+						searchindex.name.push('Для
+всех');
+			searchindex.url.push('/dlya-vseh/?from=from_search');
+						searchindex.name.push('Для
+дебилов');
+			searchindex.url.push('/debil/?from=from_search');
+						searchindex.name.push('Для
+девушек');
+			searchindex.url.push('/for-ladies/?from=from_search');
+						searchindex.name.push('Для
+нетбука');
+			searchindex.url.push('/for-netbooks/?from=from_search');
+						searchindex.name.push('Для
+ноутбуков');
+			searchindex.url.push('/for-laptops/?from=from_search');
+						searchindex.name.push('Для
+подростков');
+			searchindex.url.push('/for-teenagers/?from=from_search');
+						searchindex.name.push('Для
+развития
+мозга');
+			searchindex.url.push('/dlya-razvitiya-mozga/?from=from_search');
+						searchindex.name.push('Для
+слабого
+ноутбука');
+			searchindex.url.push('/dlya-slabogo-noutbuka/?from=from_search');
+						searchindex.name.push('Для
+слабого
+ПК');
+			searchindex.url.push('/dlya-slabogo-pc/?from=from_search');
+						searchindex.name.push('Для
+смартфона');
+			searchindex.url.push('/dlya-smartfona/?from=from_search');
+						searchindex.name.push('Для
+ума');
+			searchindex.url.push('/dlya-uma/?from=from_search');
+						searchindex.name.push('Доббль');
+			searchindex.url.push('/dobble/?from=from_search');
+						searchindex.name.push('Доктор
+Панда');
+			searchindex.url.push('/doctor-panda/?from=from_search');
+						searchindex.name.push('Доктор
+Плюшева');
+			searchindex.url.push('/doctor-plusheva/?from=from_search');
+						searchindex.name.push('Долина
+сладостей');
+			searchindex.url.push('/dolina-sladostey/?from=from_search');
+						searchindex.name.push('Дом');
+			searchindex.url.push('/dom/?from=from_search');
+						searchindex.name.push('Домино');
+			searchindex.url.push('/domino/?from=from_search');
+						searchindex.name.push('Дора');
+			searchindex.url.push('/dora/?from=from_search');
+						searchindex.name.push('Дота');
+			searchindex.url.push('/dota/?from=from_search');
+						searchindex.name.push('ДПС');
+			searchindex.url.push('/dps/?from=from_search');
+						searchindex.name.push('Драки');
+			searchindex.url.push('/fight/?from=from_search');
+						searchindex.name.push('Драконы');
+			searchindex.url.push('/dragon/?from=from_search');
+						searchindex.name.push('Драконы:
+Всадники
+Олуха');
+			searchindex.url.push('/drakony-vsadniki-oluha/?from=from_search');
+						searchindex.name.push('Дрифт');
+			searchindex.url.push('/drift/?from=from_search');
+						searchindex.name.push('Дружба
+—
+это
+чудо');
+			searchindex.url.push('/my-little-pony/?from=from_search');
+						searchindex.name.push('Друзья
+ангелов');
+			searchindex.url.push('/angels-friends/?from=from_search');
+						searchindex.name.push('Дудл
+Джамп');
+			searchindex.url.push('/dudl-djamp/?from=from_search');
+						searchindex.name.push('Дума');
+			searchindex.url.push('/duma/?from=from_search');
+						searchindex.name.push('Дурак');
+			searchindex.url.push('/durak/?from=from_search');
+						searchindex.name.push('Дурак
+подкидной');
+			searchindex.url.push('/durak-podkidnoy/?from=from_search');
+						searchindex.name.push('Дэнни
+призрак');
+			searchindex.url.push('/denny-prizrak/?from=from_search');
+						searchindex.name.push('Дюна');
+			searchindex.url.push('/duna/?from=from_search');
+						searchindex.name.push('Дядя
+Деда');
+			searchindex.url.push('/uncle-grandpa/?from=from_search');
+						searchindex.name.push('Египет');
+			searchindex.url.push('/egipet/?from=from_search');
+						searchindex.name.push('Египтус');
+			searchindex.url.push('/egiptus/?from=from_search');
+						searchindex.name.push('Еда');
+			searchindex.url.push('/eda/?from=from_search');
+						searchindex.name.push('Единороги');
+			searchindex.url.push('/unicorn/?from=from_search');
+						searchindex.name.push('Епи');
+			searchindex.url.push('/epi/?from=from_search');
+						searchindex.name.push('Ерш');
+			searchindex.url.push('/ersh/?from=from_search');
+						searchindex.name.push('Железная
+дорога');
+			searchindex.url.push('/railroad/?from=from_search');
+						searchindex.name.push('Железный
+человек');
+			searchindex.url.push('/iron-man/?from=from_search');
+						searchindex.name.push('Живая
+сталь');
+			searchindex.url.push('/real-steel/?from=from_search');
+						searchindex.name.push('Животные');
+			searchindex.url.push('/animal/?from=from_search');
+						searchindex.name.push('Жизнь');
+			searchindex.url.push('/life/?from=from_search');
+						searchindex.name.push('Жизнь
+утки');
+			searchindex.url.push('/duck-kife/?from=from_search');
+						searchindex.name.push('Жук');
+			searchindex.url.push('/zhuk/?from=from_search');
+						searchindex.name.push('За
+покупками');
+			searchindex.url.push('/za-pokupkami/?from=from_search');
+						searchindex.name.push('За
+рулем');
+			searchindex.url.push('/za-rulyom/?from=from_search');
+						searchindex.name.push('Загадки');
+			searchindex.url.push('/zagadki/?from=from_search');
+						searchindex.name.push('Замок');
+			searchindex.url.push('/zamok/?from=from_search');
+						searchindex.name.push('Запорожье');
+			searchindex.url.push('/zaporozhie/?from=from_search');
+						searchindex.name.push('Защита');
+			searchindex.url.push('/defense/?from=from_search');
+						searchindex.name.push('Защита
+замка');
+			searchindex.url.push('/zashita-zamka/?from=from_search');
+						searchindex.name.push('Звезда');
+			searchindex.url.push('/zvezda/?from=from_search');
+						searchindex.name.push('Звездные
+войны');
+			searchindex.url.push('/star-wars/?from=from_search');
+						searchindex.name.push('Звездные
+войны:
+Повстанцы');
+			searchindex.url.push('/star-wars-rebels/?from=from_search');
+						searchindex.name.push('Зверополис');
+			searchindex.url.push('/zveropolis/?from=from_search');
+						searchindex.name.push('Зеленый
+Фонарь');
+			searchindex.url.push('/green-lantern/?from=from_search');
+						searchindex.name.push('Зельда');
+			searchindex.url.push('/zelda/?from=from_search');
+						searchindex.name.push('Зелье');
+			searchindex.url.push('/zelje/?from=from_search');
+						searchindex.name.push('Зелья');
+			searchindex.url.push('/potions/?from=from_search');
+						searchindex.name.push('Зиг
+и
+Шарко');
+			searchindex.url.push('/zig-i-sharko/?from=from_search');
+						searchindex.name.push('Зима');
+			searchindex.url.push('/zima/?from=from_search');
+						searchindex.name.push('Зимние
+игры');
+			searchindex.url.push('/winter-games/?from=from_search');
+						searchindex.name.push('Зимние
+Олимпийские
+игры');
+			searchindex.url.push('/zimnie-olimpijskie-igry/?from=from_search');
+						searchindex.name.push('Зимние
+рыбалка');
+			searchindex.url.push('/zimnie-rybalka/?from=from_search');
+						searchindex.name.push('Злая
+бабушка');
+			searchindex.url.push('/angry-grandma/?from=from_search');
+						searchindex.name.push('Змейка');
+			searchindex.url.push('/zmeika/?from=from_search');
+						searchindex.name.push('Змейка
+io');
+			searchindex.url.push('/zmeyka-io/?from=from_search');
+						searchindex.name.push('Знаменитости');
+			searchindex.url.push('/znamenitosti/?from=from_search');
+						searchindex.name.push('Золотоискатель');
+			searchindex.url.push('/zolotoiskatel/?from=from_search');
+						searchindex.name.push('Золушка');
+			searchindex.url.push('/cinderella/?from=from_search');
+						searchindex.name.push('Зомби');
+			searchindex.url.push('/zombie/?from=from_search');
+						searchindex.name.push('Зомби
+против
+людей');
+			searchindex.url.push('/zombies-vs-humans/?from=from_search');
+						searchindex.name.push('Зомби
+против
+людей');
+			searchindex.url.push('/zombies-vs-aliens/?from=from_search');
+						searchindex.name.push('Зомботрон');
+			searchindex.url.push('/zombotron/?from=from_search');
+						searchindex.name.push('Зона');
+			searchindex.url.push('/zona/?from=from_search');
+						searchindex.name.push('Зоопарк');
+			searchindex.url.push('/zoopark/?from=from_search');
+						searchindex.name.push('Иван
+Царевич
+и
+Серый
+Волк');
+			searchindex.url.push('/ivan-tsarevich-i-seriy-volk/?from=from_search');
+						searchindex.name.push('Ивангай');
+			searchindex.url.push('/ivangai/?from=from_search');
+						searchindex.name.push('Игровые
+автоматы');
+			searchindex.url.push('/igrovye-avtomaty/?from=from_search');
+						searchindex.name.push('Игры
+2010
+года');
+			searchindex.url.push('/2010/?from=from_search');
+						searchindex.name.push('Игры
+2011
+года');
+			searchindex.url.push('/2011/?from=from_search');
+						searchindex.name.push('Игры
+2012
+года');
+			searchindex.url.push('/2012/?from=from_search');
+						searchindex.name.push('Игры
+2013
+года');
+			searchindex.url.push('/2013/?from=from_search');
+						searchindex.name.push('Игры
+2014
+года');
+			searchindex.url.push('/2014/?from=from_search');
+						searchindex.name.push('Игры
+2015
+года');
+			searchindex.url.push('/2015/?from=from_search');
+						searchindex.name.push('Игры
+2016
+года');
+			searchindex.url.push('/2016/?from=from_search');
+						searchindex.name.push('Игры
+для
+айфона');
+			searchindex.url.push('/iphone/?from=from_search');
+						searchindex.name.push('Игры
+для
+девочек');
+			searchindex.url.push('/girls/?from=from_search');
+						searchindex.name.push('Игры
+для
+детей');
+			searchindex.url.push('/baby/?from=from_search');
+						searchindex.name.push('Игры
+для
+маленьких
+детей');
+			searchindex.url.push('/smallbaby/?from=from_search');
+						searchindex.name.push('Игры
+для
+мальчиков');
+			searchindex.url.push('/boys/?from=from_search');
+						searchindex.name.push('Игры
+для
+планшета');
+			searchindex.url.push('/tablet/?from=from_search');
+						searchindex.name.push('Игры
+для
+телефона');
+			searchindex.url.push('/mobile-phone/?from=from_search');
+						searchindex.name.push('Игры
+на
+двоих');
+			searchindex.url.push('/2igroka/?from=from_search');
+						searchindex.name.push('Игры
+на
+одного');
+			searchindex.url.push('/1igrok/?from=from_search');
+						searchindex.name.push('Игры
+на
+русском');
+			searchindex.url.push('/russian/?from=from_search');
+						searchindex.name.push('Игры
+на
+троих');
+			searchindex.url.push('/3igroka/?from=from_search');
+						searchindex.name.push('Игры
+от
+PlayToMax');
+			searchindex.url.push('/playtomax/?from=from_search');
+						searchindex.name.push('Игры
+от
+Softgames');
+			searchindex.url.push('/softgames/?from=from_search');
+						searchindex.name.push('Игры
+по
+мультфильмам');
+			searchindex.url.push('/cartoon/?from=from_search');
+						searchindex.name.push('Игры
+про
+выживание');
+			searchindex.url.push('/survival/?from=from_search');
+						searchindex.name.push('Игры
+с
+компьютером');
+			searchindex.url.push('/igry-s-komputerom/?from=from_search');
+						searchindex.name.push('Игры
+с
+кровью');
+			searchindex.url.push('/blood/?from=from_search');
+						searchindex.name.push('Игры
+со
+спичками');
+			searchindex.url.push('/igry-so-spichkami/?from=from_search');
+						searchindex.name.push('Издевательства');
+			searchindex.url.push('/mockery/?from=from_search');
+						searchindex.name.push('Имаджинариум');
+			searchindex.url.push('/imajynarium/?from=from_search');
+						searchindex.name.push('Империя');
+			searchindex.url.push('/empire/?from=from_search');
+						searchindex.name.push('Инди');
+			searchindex.url.push('/indie/?from=from_search');
+						searchindex.name.push('Индиана
+Джонс');
+			searchindex.url.push('/indiana-jones/?from=from_search');
+						searchindex.name.push('Инопланетяне');
+			searchindex.url.push('/inoplanetyane/?from=from_search');
+						searchindex.name.push('Интеллектуальные');
+			searchindex.url.push('/intellectual/?from=from_search');
+						searchindex.name.push('Интерны');
+			searchindex.url.push('/interny/?from=from_search');
+						searchindex.name.push('Ио');
+			searchindex.url.push('/io/?from=from_search');
+						searchindex.name.push('Искорка');
+			searchindex.url.push('/iskorka/?from=from_search');
+						searchindex.name.push('История
+игрушек');
+			searchindex.url.push('/toy-story/?from=from_search');
+						searchindex.name.push('Йепи');
+			searchindex.url.push('/yepi/?from=from_search');
+						searchindex.name.push('Йети');
+			searchindex.url.push('/yeti/?from=from_search');
+						searchindex.name.push('Казак');
+			searchindex.url.push('/kazak/?from=from_search');
+						searchindex.name.push('Казино');
+			searchindex.url.push('/kazino/?from=from_search');
+						searchindex.name.push('Казуальные
+игры');
+			searchindex.url.push('/kazualnye-igry/?from=from_search');
+						searchindex.name.push('Как
+достать
+соседа');
+			searchindex.url.push('/neighbours-from-hell/?from=from_search');
+						searchindex.name.push('Как
+приручить
+дракона');
+			searchindex.url.push('/how-to-train-your-dragon/?from=from_search');
+						searchindex.name.push('Кактус
+Маккой');
+			searchindex.url.push('/cactus-mccoy/?from=from_search');
+						searchindex.name.push('Камаз');
+			searchindex.url.push('/kamaz/?from=from_search');
+						searchindex.name.push('Канал');
+			searchindex.url.push('/kanal/?from=from_search');
+						searchindex.name.push('Капитан
+Америка');
+			searchindex.url.push('/captain-america/?from=from_search');
+						searchindex.name.push('Каратэ');
+			searchindex.url.push('/karate/?from=from_search');
+						searchindex.name.push('Картинка');
+			searchindex.url.push('/kartinka/?from=from_search');
+						searchindex.name.push('Карточные
+игры');
+			searchindex.url.push('/card/?from=from_search');
+						searchindex.name.push('Картун
+Нетворк');
+			searchindex.url.push('/cartoon-network/?from=from_search');
+						searchindex.name.push('Карусель');
+			searchindex.url.push('/carousel/?from=from_search');
+						searchindex.name.push('Каскадер');
+			searchindex.url.push('/stuntman/?from=from_search');
+						searchindex.name.push('Катапульта');
+			searchindex.url.push('/catapult/?from=from_search');
+						searchindex.name.push('Катя');
+			searchindex.url.push('/katya/?from=from_search');
+						searchindex.name.push('Кафе');
+			searchindex.url.push('/cafe/?from=from_search');
+						searchindex.name.push('Качалка');
+			searchindex.url.push('/kachalka/?from=from_search');
+						searchindex.name.push('Качок');
+			searchindex.url.push('/beefy/?from=from_search');
+						searchindex.name.push('Квесты');
+			searchindex.url.push('/quest/?from=from_search');
+						searchindex.name.push('Кекс
+шоп');
+			searchindex.url.push('/keks-shop/?from=from_search');
+						searchindex.name.push('Кизи');
+			searchindex.url.push('/kizi/?from=from_search');
+						searchindex.name.push('Кик
+Бутовски');
+			searchindex.url.push('/kick-buttowski/?from=from_search');
+						searchindex.name.push('Кико');
+			searchindex.url.push('/kiko/?from=from_search');
+						searchindex.name.push('Киллеры');
+			searchindex.url.push('/killery/?from=from_search');
+						searchindex.name.push('Ким
+Пять-с-Плюсом');
+			searchindex.url.push('/kim-possible/?from=from_search');
+						searchindex.name.push('Кит');
+			searchindex.url.push('/kit/?from=from_search');
+						searchindex.name.push('Кит
+виси
+Кэт');
+			searchindex.url.push('/kid-vs-kat/?from=from_search');
+						searchindex.name.push('Китолет');
+			searchindex.url.push('/kitolyot/?from=from_search');
+						searchindex.name.push('Кларенс');
+			searchindex.url.push('/clarence/?from=from_search');
+						searchindex.name.push('Классические');
+			searchindex.url.push('/klassicheskie/?from=from_search');
+						searchindex.name.push('Классный
+ниндзя');
+			searchindex.url.push('/randy-cunningham-9th-grade-ninja/?from=from_search');
+						searchindex.name.push('Кликеры');
+			searchindex.url.push('/clicker/?from=from_search');
+						searchindex.name.push('Клондайк');
+			searchindex.url.push('/klondayk/?from=from_search');
+						searchindex.name.push('Клуб
+пингвинов');
+			searchindex.url.push('/penguin-club/?from=from_search');
+						searchindex.name.push('Клубника');
+			searchindex.url.push('/klubnika/?from=from_search');
+						searchindex.name.push('Книги');
+			searchindex.url.push('/knigi/?from=from_search');
+						searchindex.name.push('Ковбой');
+			searchindex.url.push('/kovboi/?from=from_search');
+						searchindex.name.push('Когама');
+			searchindex.url.push('/kogama/?from=from_search');
+						searchindex.name.push('Козел');
+			searchindex.url.push('/kozel/?from=from_search');
+						searchindex.name.push('Коктейль');
+			searchindex.url.push('/kokteil/?from=from_search');
+						searchindex.name.push('Колобок');
+			searchindex.url.push('/kolobok/?from=from_search');
+						searchindex.name.push('Коммандос');
+			searchindex.url.push('/kommandos/?from=from_search');
+						searchindex.name.push('Комнаты');
+			searchindex.url.push('/room/?from=from_search');
+						searchindex.name.push('Конкурсы');
+			searchindex.url.push('/konkursi/?from=from_search');
+						searchindex.name.push('Конструктор');
+			searchindex.url.push('/constructor/?from=from_search');
+						searchindex.name.push('Конструктор
+игр');
+			searchindex.url.push('/konstruktor-igr/?from=from_search');
+						searchindex.name.push('Контр
+страйк');
+			searchindex.url.push('/kontr-strayk/?from=from_search');
+						searchindex.name.push('Контра');
+			searchindex.url.push('/kontra/?from=from_search');
+						searchindex.name.push('Контра
+сити');
+			searchindex.url.push('/kontra-city/?from=from_search');
+						searchindex.name.push('Конфликт');
+			searchindex.url.push('/konflikt/?from=from_search');
+						searchindex.name.push('Копатель');
+			searchindex.url.push('/digger/?from=from_search');
+						searchindex.name.push('Корабли');
+			searchindex.url.push('/ship/?from=from_search');
+						searchindex.name.push('Королева');
+			searchindex.url.push('/queen/?from=from_search');
+						searchindex.name.push('Королевство');
+			searchindex.url.push('/kingdom/?from=from_search');
+						searchindex.name.push('Король');
+			searchindex.url.push('/korol/?from=from_search');
+						searchindex.name.push('Король
+Лев');
+			searchindex.url.push('/lion-king/?from=from_search');
+						searchindex.name.push('Корпорация
+монстров');
+			searchindex.url.push('/monsters-inc/?from=from_search');
+						searchindex.name.push('Космос');
+			searchindex.url.push('/space/?from=from_search');
+						searchindex.name.push('Кость');
+			searchindex.url.push('/kost/?from=from_search');
+						searchindex.name.push('Косынка');
+			searchindex.url.push('/kosynka/?from=from_search');
+						searchindex.name.push('Кот
+в
+сапогах');
+			searchindex.url.push('/puss-in-boots/?from=from_search');
+						searchindex.name.push('Кот
+Леопольд');
+			searchindex.url.push('/leopold-cat/?from=from_search');
+						searchindex.name.push('Кот
+Том');
+			searchindex.url.push('/tom-cat/?from=from_search');
+						searchindex.name.push('Котики');
+			searchindex.url.push('/kotiki/?from=from_search');
+						searchindex.name.push('Коты-Воители');
+			searchindex.url.push('/warriors/?from=from_search');
+						searchindex.name.push('Котята
+против
+лисят');
+			searchindex.url.push('/kotyata-vs-lisyat/?from=from_search');
+						searchindex.name.push('Кофейня');
+			searchindex.url.push('/kofeinya/?from=from_search');
+						searchindex.name.push('Кошки');
+			searchindex.url.push('/cat/?from=from_search');
+						searchindex.name.push('Краски');
+			searchindex.url.push('/kraski/?from=from_search');
+						searchindex.name.push('Красная
+Шапочка');
+			searchindex.url.push('/red-riding-hood/?from=from_search');
+						searchindex.name.push('Красный
+шар');
+			searchindex.url.push('/red-ball/?from=from_search');
+						searchindex.name.push('Крестики-нолики');
+			searchindex.url.push('/krestiki-noliki/?from=from_search');
+						searchindex.name.push('Крестный
+отец');
+			searchindex.url.push('/godfather/?from=from_search');
+						searchindex.name.push('Кризис');
+			searchindex.url.push('/crisis/?from=from_search');
+						searchindex.name.push('кристаллы');
+			searchindex.url.push('/crystals/?from=from_search');
+						searchindex.name.push('Крокодил');
+			searchindex.url.push('/crocodile/?from=from_search');
+						searchindex.name.push('Крокодильчик
+Свомпи');
+			searchindex.url.push('/swamp/?from=from_search');
+						searchindex.name.push('Кроссворды');
+			searchindex.url.push('/krossvord/?from=from_search');
+						searchindex.name.push('Крыса');
+			searchindex.url.push('/krysa/?from=from_search');
+						searchindex.name.push('Крысы');
+			searchindex.url.push('/rats/?from=from_search');
+						searchindex.name.push('Кубики');
+			searchindex.url.push('/kubiki/?from=from_search');
+						searchindex.name.push('Кузнец
+Джек');
+			searchindex.url.push('/jack/?from=from_search');
+						searchindex.name.push('Кузя');
+			searchindex.url.push('/hugo/?from=from_search');
+						searchindex.name.push('Куклы');
+			searchindex.url.push('/kukli/?from=from_search');
+						searchindex.name.push('Кукольный
+домик');
+			searchindex.url.push('/doll-house/?from=from_search');
+						searchindex.name.push('Кулинария');
+			searchindex.url.push('/cooking/?from=from_search');
+						searchindex.name.push('Кунг-фу');
+			searchindex.url.push('/kung-fu/?from=from_search');
+						searchindex.name.push('Куско');
+			searchindex.url.push('/kusko/?from=from_search');
+						searchindex.name.push('Кухня');
+			searchindex.url.push('/kuhnya/?from=from_search');
+						searchindex.name.push('Кухня
+Сары');
+			searchindex.url.push('/saras-cooking/?from=from_search');
+						searchindex.name.push('Лабиринт
+страха');
+			searchindex.url.push('/labirint-straha/?from=from_search');
+						searchindex.name.push('Лабиринты');
+			searchindex.url.push('/maze/?from=from_search');
+						searchindex.name.push('Лалалупси');
+			searchindex.url.push('/lalaloopsy/?from=from_search');
+						searchindex.name.push('Лара
+Крофт');
+			searchindex.url.push('/lara-croft/?from=from_search');
+						searchindex.name.push('Лего');
+			searchindex.url.push('/lego/?from=from_search');
+						searchindex.name.push('Лего
+Дупло');
+			searchindex.url.push('/lego-duplo/?from=from_search');
+						searchindex.name.push('Лего
+Минифигурки');
+			searchindex.url.push('/lego-minifigurki/?from=from_search');
+						searchindex.name.push('Лего
+Сити');
+			searchindex.url.push('/lego-city/?from=from_search');
+						searchindex.name.push('Лего
+Френдс');
+			searchindex.url.push('/lego-friends/?from=from_search');
+						searchindex.name.push('Лего
+Хоббит');
+			searchindex.url.push('/lego-the-hobbit/?from=from_search');
+						searchindex.name.push('Леди
+баг');
+			searchindex.url.push('/lady-bug/?from=from_search');
+						searchindex.name.push('Леди
+Баг
+и
+Супер
+Кот');
+			searchindex.url.push('/lady-bug-and-super-cat/?from=from_search');
+						searchindex.name.push('Ледниковый
+период');
+			searchindex.url.push('/ice-age/?from=from_search');
+						searchindex.name.push('Лентяево');
+			searchindex.url.push('/lentyaevo/?from=from_search');
+						searchindex.name.push('Леталки');
+			searchindex.url.push('/flight/?from=from_search');
+						searchindex.name.push('Лечить
+животных');
+			searchindex.url.push('/lechit-jivotnyh/?from=from_search');
+						searchindex.name.push('Лечить
+зубы');
+			searchindex.url.push('/lechit-zubi/?from=from_search');
+						searchindex.name.push('Лечить
+людей');
+			searchindex.url.push('/lechit-lyudey/?from=from_search');
+						searchindex.name.push('Лига
+Справедливости');
+			searchindex.url.push('/justice-league/?from=from_search');
+						searchindex.name.push('Лили');
+			searchindex.url.push('/lili/?from=from_search');
+						searchindex.name.push('Лило
+и
+Стич');
+			searchindex.url.push('/lilo-and-stitch/?from=from_search');
+						searchindex.name.push('Лимбо');
+			searchindex.url.push('/limbo/?from=from_search');
+						searchindex.name.push('Линии');
+			searchindex.url.push('/linii/?from=from_search');
+						searchindex.name.push('Логические
+игры');
+			searchindex.url.push('/logic/?from=from_search');
+						searchindex.name.push('Ложь');
+			searchindex.url.push('/lie/?from=from_search');
+						searchindex.name.push('Лол');
+			searchindex.url.push('/lol/?from=from_search');
+						searchindex.name.push('Лола');
+			searchindex.url.push('/lola/?from=from_search');
+						searchindex.name.push('Лотерея');
+			searchindex.url.push('/lotereya/?from=from_search');
+						searchindex.name.push('Лото');
+			searchindex.url.push('/loto/?from=from_search');
+						searchindex.name.push('Лошади');
+			searchindex.url.push('/horses/?from=from_search');
+						searchindex.name.push('Луни
+Тюнз');
+			searchindex.url.push('/looney-tunes/?from=from_search');
+						searchindex.name.push('Лучник');
+			searchindex.url.push('/archer/?from=from_search');
+						searchindex.name.push('Любовные');
+			searchindex.url.push('/lyubovnye/?from=from_search');
+						searchindex.name.push('Любовь');
+			searchindex.url.push('/love/?from=from_search');
+						searchindex.name.push('Люди
+Икс');
+			searchindex.url.push('/x-men/?from=from_search');
+						searchindex.name.push('Люди
+против
+пришельцев');
+			searchindex.url.push('/humans-vs-aliens/?from=from_search');
+						searchindex.name.push('Лягушки');
+			searchindex.url.push('/frogs/?from=from_search');
+						searchindex.name.push('Ляля');
+			searchindex.url.push('/lyalya/?from=from_search');
+						searchindex.name.push('Магазин');
+			searchindex.url.push('/shop/?from=from_search');
+						searchindex.name.push('Магазин
+одежды');
+			searchindex.url.push('/magazin-odejdy/?from=from_search');
+						searchindex.name.push('Магия');
+			searchindex.url.push('/magiya/?from=from_search');
+						searchindex.name.push('Мадагаскар');
+			searchindex.url.push('/madagascar/?from=from_search');
+						searchindex.name.push('Маджонг');
+			searchindex.url.push('/madzhong/?from=from_search');
+						searchindex.name.push('Маджонг
+Бабочки');
+			searchindex.url.push('/mahjong-butterflies/?from=from_search');
+						searchindex.name.push('Май');
+			searchindex.url.push('/my/?from=from_search');
+						searchindex.name.push('Майл
+ру');
+			searchindex.url.push('/mail-ru/?from=from_search');
+						searchindex.name.push('Майлз
+с
+другой
+планеты');
+			searchindex.url.push('/mailz-s-drugoi-planety/?from=from_search');
+						searchindex.name.push('Майнкрафт');
+			searchindex.url.push('/minecraft/?from=from_search');
+						searchindex.name.push('Майнкрафт:
+Голодные
+игры');
+			searchindex.url.push('/maynkraft-golodnye-igry/?from=from_search');
+						searchindex.name.push('Макдональдс
+симулятор');
+			searchindex.url.push('/mcdonalds-simulator/?from=from_search');
+						searchindex.name.push('Макияж');
+			searchindex.url.push('/makeup/?from=from_search');
+						searchindex.name.push('Макс
+Стил');
+			searchindex.url.push('/max-steel/?from=from_search');
+						searchindex.name.push('Маленький
+зоомагазин');
+			searchindex.url.push('/littlest-pet-shop/?from=from_search');
+						searchindex.name.push('Маленькое
+королевство');
+			searchindex.url.push('/malenkoe-korolevstvo/?from=from_search');
+						searchindex.name.push('Маленькое
+королевство
+бена
+и
+холли');
+			searchindex.url.push('/malenkoe-korolevstvo-bena-i-holli/?from=from_search');
+						searchindex.name.push('Малышарики');
+			searchindex.url.push('/malyshariki/?from=from_search');
+						searchindex.name.push('Малыши');
+			searchindex.url.push('/malushy/?from=from_search');
+						searchindex.name.push('Малышка
+барби
+');
+			searchindex.url.push('/baby-barbi/?from=from_search');
+						searchindex.name.push('Мама');
+			searchindex.url.push('/mom/?from=from_search');
+						searchindex.name.push('Манга');
+			searchindex.url.push('/manga/?from=from_search');
+						searchindex.name.push('Маникюр');
+			searchindex.url.push('/manikur/?from=from_search');
+						searchindex.name.push('Марвел');
+			searchindex.url.push('/marvel/?from=from_search');
+						searchindex.name.push('Марвел
+Лего');
+			searchindex.url.push('/marvel-lego/?from=from_search');
+						searchindex.name.push('Марио');
+			searchindex.url.push('/mario/?from=from_search');
+						searchindex.name.push('Маска');
+			searchindex.url.push('/maska/?from=from_search');
+						searchindex.name.push('Маска');
+			searchindex.url.push('/maska/?from=from_search');
+						searchindex.name.push('Массовый
+погром');
+			searchindex.url.push('/mass-mayhem/?from=from_search');
+						searchindex.name.push('Масяня');
+			searchindex.url.push('/masyanya/?from=from_search');
+						searchindex.name.push('Математика');
+			searchindex.url.push('/math/?from=from_search');
+						searchindex.name.push('Матрешка');
+			searchindex.url.push('/matreshka/?from=from_search');
+						searchindex.name.push('Матрица');
+			searchindex.url.push('/matritsa/?from=from_search');
+						searchindex.name.push('Матч');
+			searchindex.url.push('/match/?from=from_search');
+						searchindex.name.push('Мафия');
+			searchindex.url.push('/mafia/?from=from_search');
+						searchindex.name.push('Машина
+ест
+машину');
+			searchindex.url.push('/car-eats-car/?from=from_search');
+						searchindex.name.push('Машинариум');
+			searchindex.url.push('/machinarium/?from=from_search');
+						searchindex.name.push('Машинки');
+			searchindex.url.push('/mashinki/?from=from_search');
+						searchindex.name.push('Мегамозг');
+			searchindex.url.push('/megamind/?from=from_search');
+						searchindex.name.push('Медаль
+за
+отвагу');
+			searchindex.url.push('/medal-of-honor/?from=from_search');
+						searchindex.name.push('Медведи');
+			searchindex.url.push('/medvedi/?from=from_search');
+						searchindex.name.push('Медведи
+соседи');
+			searchindex.url.push('/medvedi-sosedi/?from=from_search');
+						searchindex.name.push('Мейкер');
+			searchindex.url.push('/meiker/?from=from_search');
+						searchindex.name.push('Метро');
+			searchindex.url.push('/subway/?from=from_search');
+						searchindex.name.push('Метро
+2033');
+			searchindex.url.push('/metro-2033/?from=from_search');
+						searchindex.name.push('Механика');
+			searchindex.url.push('/mehanika/?from=from_search');
+						searchindex.name.push('Мечи
+и
+души');
+			searchindex.url.push('/swords-and-souls/?from=from_search');
+						searchindex.name.push('Мечи
+и
+Сандали');
+			searchindex.url.push('/swords-and-sandals/?from=from_search');
+						searchindex.name.push('Микки
+Маус');
+			searchindex.url.push('/mickey-mouse/?from=from_search');
+						searchindex.name.push('Миксели');
+			searchindex.url.push('/mixeli/?from=from_search');
+						searchindex.name.push('Миллионеры');
+			searchindex.url.push('/millionery/?from=from_search');
+						searchindex.name.push('Мини-игры');
+			searchindex.url.push('/mini-igry/?from=from_search');
+						searchindex.name.push('Миньоны');
+			searchindex.url.push('/minions/?from=from_search');
+						searchindex.name.push('Мир
+Юрского
+периода');
+			searchindex.url.push('/mir-yurskogo-perioda/?from=from_search');
+						searchindex.name.push('Мистер
+Бин');
+			searchindex.url.push('/mr-bean/?from=from_search');
+						searchindex.name.push('Мишка');
+			searchindex.url.push('/mishka/?from=from_search');
+						searchindex.name.push('Мишка
+Фредди');
+			searchindex.url.push('/freddy-bear/?from=from_search');
+						searchindex.name.push('ММА');
+			searchindex.url.push('/mma/?from=from_search');
+						searchindex.name.push('Мода');
+			searchindex.url.push('/moda/?from=from_search');
+						searchindex.name.push('Модный
+бутик');
+			searchindex.url.push('/modniy-butik/?from=from_search');
+						searchindex.name.push('Мозаики');
+			searchindex.url.push('/mozaiki/?from=from_search');
+						searchindex.name.push('Молодежка');
+			searchindex.url.push('/molodejka/?from=from_search');
+						searchindex.name.push('Молчание');
+			searchindex.url.push('/molchanie/?from=from_search');
+						searchindex.name.push('Монополия');
+			searchindex.url.push('/monopoly/?from=from_search');
+						searchindex.name.push('Монстр
+трак');
+			searchindex.url.push('/monster-truck/?from=from_search');
+						searchindex.name.push('Монстр
+Трак');
+			searchindex.url.push('/monstr-track/?from=from_search');
+						searchindex.name.push('Монстр
+Хай');
+			searchindex.url.push('/monsterhai/?from=from_search');
+						searchindex.name.push('Монстры');
+			searchindex.url.push('/monsters/?from=from_search');
+						searchindex.name.push('Монстры
+на
+каникулах');
+			searchindex.url.push('/monstry-na-kanikulah/?from=from_search');
+						searchindex.name.push('Монстры
+против
+монстров');
+			searchindex.url.push('/monsters-vs-monsters/?from=from_search');
+						searchindex.name.push('Монстры
+против
+пришельцев');
+			searchindex.url.push('/monsters-vs-aliens/?from=from_search');
+						searchindex.name.push('Мороженое');
+			searchindex.url.push('/icecream/?from=from_search');
+						searchindex.name.push('Мороженое
+готовить');
+			searchindex.url.push('/make-icecream/?from=from_search');
+						searchindex.name.push('Морской
+бой');
+			searchindex.url.push('/sea-fight/?from=from_search');
+						searchindex.name.push('Мортал
+Комбат');
+			searchindex.url.push('/mortal-kombat/?from=from_search');
+						searchindex.name.push('Морхухн');
+			searchindex.url.push('/moorhuh/?from=from_search');
+						searchindex.name.push('Мост');
+			searchindex.url.push('/most/?from=from_search');
+						searchindex.name.push('Мотокросс');
+			searchindex.url.push('/motokross/?from=from_search');
+						searchindex.name.push('Мотоциклы');
+			searchindex.url.push('/moto/?from=from_search');
+						searchindex.name.push('Моя
+новая
+комната');
+			searchindex.url.push('/my-new-room/?from=from_search');
+						searchindex.name.push('Мстители');
+			searchindex.url.push('/avengers/?from=from_search');
+						searchindex.name.push('Музыка');
+			searchindex.url.push('/music/?from=from_search');
+						searchindex.name.push('Мулан');
+			searchindex.url.push('/mulan/?from=from_search');
+						searchindex.name.push('Мультяшные');
+			searchindex.url.push('/multyashnie/?from=from_search');
+						searchindex.name.push('Мыть
+машину');
+			searchindex.url.push('/clean-car/?from=from_search');
+						searchindex.name.push('Мышка');
+			searchindex.url.push('/myshka/?from=from_search');
+						searchindex.name.push('Мышки
+кошки');
+			searchindex.url.push('/mouses-cats/?from=from_search');
+						searchindex.name.push('На
+внимательность');
+			searchindex.url.push('/na-vnimatelnost/?from=from_search');
+						searchindex.name.push('На
+время');
+			searchindex.url.push('/na-vremya/?from=from_search');
+						searchindex.name.push('На
+гитаре');
+			searchindex.url.push('/na-gitare/?from=from_search');
+						searchindex.name.push('На
+деньги');
+			searchindex.url.push('/na-dengi/?from=from_search');
+						searchindex.name.push('На
+знакомство');
+			searchindex.url.push('/na-zmakomstvo/?from=from_search');
+						searchindex.name.push('На
+ловкость');
+			searchindex.url.push('/lovkost/?from=from_search');
+						searchindex.name.push('на
+масленицу');
+			searchindex.url.push('/na-maslenicu/?from=from_search');
+						searchindex.name.push('На
+память');
+			searchindex.url.push('/na-pamyat/?from=from_search');
+						searchindex.name.push('На
+сервис');
+			searchindex.url.push('/na-servis/?from=from_search');
+						searchindex.name.push('На
+улучшения');
+			searchindex.url.push('/upgrade/?from=from_search');
+						searchindex.name.push('На
+четверых');
+			searchindex.url.push('/na-chetveryh/?from=from_search');
+						searchindex.name.push('Назад
+в
+будущее');
+			searchindex.url.push('/back-to-the-future/?from=from_search');
+						searchindex.name.push('Найди
+кота');
+			searchindex.url.push('/find-a-cat/?from=from_search');
+						searchindex.name.push('Найди
+отличия');
+			searchindex.url.push('/difference/?from=from_search');
+						searchindex.name.push('Наперстки');
+			searchindex.url.push('/napyorstki/?from=from_search');
+						searchindex.name.push('Нарды');
+			searchindex.url.push('/backgammon/?from=from_search');
+						searchindex.name.push('Нарды
+длинные');
+			searchindex.url.push('/nardy-dlinnye/?from=from_search');
+						searchindex.name.push('Нарды
+короткие');
+			searchindex.url.push('/nardy-korotkie/?from=from_search');
+						searchindex.name.push('Наруто');
+			searchindex.url.push('/naruto/?from=from_search');
+						searchindex.name.push('Наруто
+против
+блич');
+			searchindex.url.push('/naruto-vs-bleach/?from=from_search');
+						searchindex.name.push('Насекомые');
+			searchindex.url.push('/nasekomie/?from=from_search');
+						searchindex.name.push('Наследники');
+			searchindex.url.push('/nasledniki/?from=from_search');
+						searchindex.name.push('Настольные
+игры');
+			searchindex.url.push('/desk/?from=from_search');
+						searchindex.name.push('Настольный
+теннис');
+			searchindex.url.push('/nastolniy-tennis/?from=from_search');
+						searchindex.name.push('Находить
+котов');
+			searchindex.url.push('/nahodit-kotov/?from=from_search');
+						searchindex.name.push('Небеса');
+			searchindex.url.push('/skies/?from=from_search');
+						searchindex.name.push('Небо');
+			searchindex.url.push('/nebo/?from=from_search');
+						searchindex.name.push('Небоскребы');
+			searchindex.url.push('/neboskryoby/?from=from_search');
+						searchindex.name.push('Невософт');
+			searchindex.url.push('/nevosoft/?from=from_search');
+						searchindex.name.push('Нексо
+найтс');
+			searchindex.url.push('/nekso-nayts/?from=from_search');
+						searchindex.name.push('Немо');
+			searchindex.url.push('/nemo/?from=from_search');
+						searchindex.name.push('Несквик');
+			searchindex.url.push('/nesquik/?from=from_search');
+						searchindex.name.push('Нёрф');
+			searchindex.url.push('/nerf/?from=from_search');
+						searchindex.name.push('Никелодеон');
+			searchindex.url.push('/nickelodeon/?from=from_search');
+						searchindex.name.push('Ниндзя');
+			searchindex.url.push('/ninja/?from=from_search');
+						searchindex.name.push('Новый
+год');
+			searchindex.url.push('/new-year/?from=from_search');
+						searchindex.name.push('Ночные
+перестрелки');
+			searchindex.url.push('/night-gunfight/?from=from_search');
+						searchindex.name.push('Ну,
+погоди!');
+			searchindex.url.push('/nu-pogodi/?from=from_search');
+						searchindex.name.push('Нэнси
+дрю');
+			searchindex.url.push('/nensi-dryu/?from=from_search');
+						searchindex.name.push('Нян
+кэт');
+			searchindex.url.push('/nyan-cat/?from=from_search');
+						searchindex.name.push('Няня');
+			searchindex.url.push('/nyanya/?from=from_search');
+						searchindex.name.push('О
+счастливчик');
+			searchindex.url.push('/o-chastlivchik/?from=from_search');
+						searchindex.name.push('Обитель
+Анубиса');
+			searchindex.url.push('/house-of-anubis/?from=from_search');
+						searchindex.name.push('Оборона');
+			searchindex.url.push('/oborona/?from=from_search');
+						searchindex.name.push('Обслуживание');
+			searchindex.url.push('/obslujivanie/?from=from_search');
+						searchindex.name.push('Обучающие');
+			searchindex.url.push('/obuchayushie/?from=from_search');
+						searchindex.name.push('Овечки
+идут
+домой');
+			searchindex.url.push('/ovechki-idut-domoy/?from=from_search');
+						searchindex.name.push('Огонь
+и
+вода
+');
+			searchindex.url.push('/firewater/?from=from_search');
+						searchindex.name.push('Одевалки');
+			searchindex.url.push('/odevalki/?from=from_search');
+						searchindex.name.push('Одевалки
+на
+оценку');
+			searchindex.url.push('/dress-score/?from=from_search');
+						searchindex.name.push('Одноклассник');
+			searchindex.url.push('/odnoklassnik/?from=from_search');
+						searchindex.name.push('Олимпийские
+игры');
+			searchindex.url.push('/olympic-games/?from=from_search');
+						searchindex.name.push('Операции');
+			searchindex.url.push('/doctor/?from=from_search');
+						searchindex.name.push('Операция
+на
+сердце');
+			searchindex.url.push('/heart-surgery/?from=from_search');
+						searchindex.name.push('Оптимус
+Прайм');
+			searchindex.url.push('/optimus-praim/?from=from_search');
+						searchindex.name.push('Оружие');
+			searchindex.url.push('/gun/?from=from_search');
+						searchindex.name.push('Осада
+города');
+			searchindex.url.push('/osada-goroda/?from=from_search');
+						searchindex.name.push('Отель');
+			searchindex.url.push('/hotel/?from=from_search');
+						searchindex.name.push('Отряд
+котят');
+			searchindex.url.push('/otryad-kotyat/?from=from_search');
+						searchindex.name.push('Отчаянные
+герои');
+			searchindex.url.push('/total-drama/?from=from_search');
+						searchindex.name.push('Офисные');
+			searchindex.url.push('/ofisnye/?from=from_search');
+						searchindex.name.push('Охота');
+			searchindex.url.push('/hunting/?from=from_search');
+						searchindex.name.push('Охота
+и
+рыбалка');
+			searchindex.url.push('/ohota-i-rybalka/?from=from_search');
+						searchindex.name.push('Пазлы');
+			searchindex.url.push('/puzzle/?from=from_search');
+						searchindex.name.push('Пакман');
+			searchindex.url.push('/pacman/?from=from_search');
+						searchindex.name.push('Панда');
+			searchindex.url.push('/panda/?from=from_search');
+						searchindex.name.push('Панда
+Кунг-фу');
+			searchindex.url.push('/panda-kung-fu/?from=from_search');
+						searchindex.name.push('Папа
+Луи');
+			searchindex.url.push('/papa-louie/?from=from_search');
+						searchindex.name.push('Папины
+дочки');
+			searchindex.url.push('/papiny-dochki/?from=from_search');
+						searchindex.name.push('Парикмахерская');
+			searchindex.url.push('/barber/?from=from_search');
+						searchindex.name.push('Парковка');
+			searchindex.url.push('/parking/?from=from_search');
+						searchindex.name.push('Паркур');
+			searchindex.url.push('/parkour/?from=from_search');
+						searchindex.name.push('Паровоз');
+			searchindex.url.push('/parovoz/?from=from_search');
+						searchindex.name.push('Пасхальные
+игры');
+			searchindex.url.push('/easter-games/?from=from_search');
+						searchindex.name.push('Пасьянс');
+			searchindex.url.push('/pasians/?from=from_search');
+						searchindex.name.push('Пасьянс
+коврик');
+			searchindex.url.push('/pasiyans-kovrik/?from=from_search');
+						searchindex.name.push('Пасьянс:
+Гадание');
+			searchindex.url.push('/pasians-gadanie/?from=from_search');
+						searchindex.name.push('Паук');
+			searchindex.url.push('/spider/?from=from_search');
+						searchindex.name.push('ПДД');
+			searchindex.url.push('/pdd/?from=from_search');
+						searchindex.name.push('Пегасы');
+			searchindex.url.push('/pegas/?from=from_search');
+						searchindex.name.push('Пейнтбол');
+			searchindex.url.push('/paintball/?from=from_search');
+						searchindex.name.push('Пенальти');
+			searchindex.url.push('/penalty/?from=from_search');
+						searchindex.name.push('Переделки');
+			searchindex.url.push('/room-decoration/?from=from_search');
+						searchindex.name.push('Перри
+Утконос');
+			searchindex.url.push('/duckface/?from=from_search');
+						searchindex.name.push('Песня');
+			searchindex.url.push('/song/?from=from_search');
+						searchindex.name.push('Песочница');
+			searchindex.url.push('/sandbox/?from=from_search');
+						searchindex.name.push('Пианино');
+			searchindex.url.push('/pianino/?from=from_search');
+						searchindex.name.push('Пиксель');
+			searchindex.url.push('/pixel/?from=from_search');
+						searchindex.name.push('Пиксельная
+война');
+			searchindex.url.push('/pixel-war/?from=from_search');
+						searchindex.name.push('Пинбол');
+			searchindex.url.push('/pinball/?from=from_search');
+						searchindex.name.push('Пингвины
+из
+Мадагаскара');
+			searchindex.url.push('/the-penguins-of-madagascar/?from=from_search');
+						searchindex.name.push('Пираньи');
+			searchindex.url.push('/piranyi/?from=from_search');
+						searchindex.name.push('Пираты');
+			searchindex.url.push('/pirate/?from=from_search');
+						searchindex.name.push('Пираты
+Карибского
+моря');
+			searchindex.url.push('/pirates/?from=from_search');
+						searchindex.name.push('Пирог
+в
+лицо');
+			searchindex.url.push('/pirog-v-litso/?from=from_search');
+						searchindex.name.push('Питомец');
+			searchindex.url.push('/pitomets/?from=from_search');
+						searchindex.name.push('Пицца');
+			searchindex.url.push('/pizza/?from=from_search');
+						searchindex.name.push('Пиццы
+готовить');
+			searchindex.url.push('/picci-gotovit/?from=from_search');
+						searchindex.name.push('Плавание');
+			searchindex.url.push('/swimming/?from=from_search');
+						searchindex.name.push('План');
+			searchindex.url.push('/plan/?from=from_search');
+						searchindex.name.push('Планета');
+			searchindex.url.push('/planeta/?from=from_search');
+						searchindex.name.push('Пластилин');
+			searchindex.url.push('/plastilin/?from=from_search');
+						searchindex.name.push('Плохие
+свинки');
+			searchindex.url.push('/bad-piggies/?from=from_search');
+						searchindex.name.push('По
+комиксам');
+			searchindex.url.push('/po-komiksam/?from=from_search');
+						searchindex.name.push('По
+сети');
+			searchindex.url.push('/po-seti/?from=from_search');
+						searchindex.name.push('Побег');
+			searchindex.url.push('/escape/?from=from_search');
+						searchindex.name.push('Побег
+из
+тюрьмы');
+			searchindex.url.push('/pobeg-iz-turmi/?from=from_search');
+						searchindex.name.push('Повар');
+			searchindex.url.push('/povar/?from=from_search');
+						searchindex.name.push('Повелитель
+стихий');
+			searchindex.url.push('/povelitel-stihiy/?from=from_search');
+						searchindex.name.push('Погрузчик');
+			searchindex.url.push('/pogruzchik/?from=from_search');
+						searchindex.name.push('Подвижные');
+			searchindex.url.push('/podvizhnie/?from=from_search');
+						searchindex.name.push('Подводные
+лодки');
+			searchindex.url.push('/submarines/?from=from_search');
+						searchindex.name.push('Подопытные');
+			searchindex.url.push('/lab-rats/?from=from_search');
+						searchindex.name.push('Поезд
+динозавров');
+			searchindex.url.push('/poezd-dinozavrov/?from=from_search');
+						searchindex.name.push('Поезда');
+			searchindex.url.push('/poezda/?from=from_search');
+						searchindex.name.push('Пожарные');
+			searchindex.url.push('/firefighters/?from=from_search');
+						searchindex.name.push('Пожарный
+Сэм');
+			searchindex.url.push('/pojarniy-sem/?from=from_search');
+						searchindex.name.push('Познавательные');
+			searchindex.url.push('/poznavatelnye/?from=from_search');
+						searchindex.name.push('Поиск
+предметов');
+			searchindex.url.push('/poisk-predmetov/?from=from_search');
+						searchindex.name.push('Пойми
+меня');
+			searchindex.url.push('/understand-me/?from=from_search');
+						searchindex.name.push('Покемоны');
+			searchindex.url.push('/pokemon/?from=from_search');
+						searchindex.name.push('Покер');
+			searchindex.url.push('/poker/?from=from_search');
+						searchindex.name.push('Покойо');
+			searchindex.url.push('/pokojo/?from=from_search');
+						searchindex.name.push('Поле
+чудес');
+			searchindex.url.push('/pole-chudes/?from=from_search');
+						searchindex.name.push('Полиция');
+			searchindex.url.push('/police/?from=from_search');
+						searchindex.name.push('Полли
+Покет');
+			searchindex.url.push('/polly-pocket/?from=from_search');
+						searchindex.name.push('Пони');
+			searchindex.url.push('/pony/?from=from_search');
+						searchindex.name.push('Понивиль');
+			searchindex.url.push('/ponyville/?from=from_search');
+						searchindex.name.push('ПопПикси');
+			searchindex.url.push('/poppixie/?from=from_search');
+						searchindex.name.push('Попрыгунчик');
+			searchindex.url.push('/jumper/?from=from_search');
+						searchindex.name.push('Попугай');
+			searchindex.url.push('/popugai/?from=from_search');
+						searchindex.name.push('Пороро');
+			searchindex.url.push('/pororo/?from=from_search');
+						searchindex.name.push('Поу');
+			searchindex.url.push('/pow/?from=from_search');
+						searchindex.name.push('Поцелуи');
+			searchindex.url.push('/pocelui/?from=from_search');
+						searchindex.name.push('Правда');
+			searchindex.url.push('/truth/?from=from_search');
+						searchindex.name.push('Правда
+или
+действие');
+			searchindex.url.push('/pravda-ili-deistvie/?from=from_search');
+						searchindex.name.push('Правила
+войны');
+			searchindex.url.push('/pravila-voiny/?from=from_search');
+						searchindex.name.push('Приготовление
+еды');
+			searchindex.url.push('/prigotovlenie-edy/?from=from_search');
+						searchindex.name.push('Призрак');
+			searchindex.url.push('/prizrak/?from=from_search');
+						searchindex.name.push('Призрачный
+гонщик');
+			searchindex.url.push('/prizrachnyi-gonshchik/?from=from_search');
+						searchindex.name.push('Приключения');
+			searchindex.url.push('/adventure/?from=from_search');
+						searchindex.name.push('Приколы');
+			searchindex.url.push('/prikoly/?from=from_search');
+						searchindex.name.push('Принц
+Персии');
+			searchindex.url.push('/prince-of-persia/?from=from_search');
+						searchindex.name.push('Принцесса
+Джульетта');
+			searchindex.url.push('/princess-juliett/?from=from_search');
+						searchindex.name.push('Принцесса
+и
+лягушка');
+			searchindex.url.push('/the-princess-and-the-frog/?from=from_search');
+						searchindex.name.push('Принцессы');
+			searchindex.url.push('/princess/?from=from_search');
+						searchindex.name.push('Прически');
+			searchindex.url.push('/haircut/?from=from_search');
+						searchindex.name.push('Про
+инопланетян');
+			searchindex.url.push('/pro-inoplanetyan/?from=from_search');
+						searchindex.name.push('Про
+рыбалку');
+			searchindex.url.push('/pro-rybalku/?from=from_search');
+						searchindex.name.push('Про
+эльфов');
+			searchindex.url.push('/pro-elfov/?from=from_search');
+						searchindex.name.push('Простоквашино');
+			searchindex.url.push('/prostokvashyno/?from=from_search');
+						searchindex.name.push('Простые');
+			searchindex.url.push('/prostye/?from=from_search');
+						searchindex.name.push('Прыжки');
+			searchindex.url.push('/jumps/?from=from_search');
+						searchindex.name.push('Птица');
+			searchindex.url.push('/ptista/?from=from_search');
+						searchindex.name.push('Пузырь');
+			searchindex.url.push('/puzyr/?from=from_search');
+						searchindex.name.push('Путешествия');
+			searchindex.url.push('/puteshestviya/?from=from_search');
+						searchindex.name.push('пушистики');
+			searchindex.url.push('/pushistiki/?from=from_search');
+						searchindex.name.push('Пушка');
+			searchindex.url.push('/pushka/?from=from_search');
+						searchindex.name.push('Пушок');
+			searchindex.url.push('/pushok/?from=from_search');
+						searchindex.name.push('Пчелка
+Майя');
+			searchindex.url.push('/maya-the-bee/?from=from_search');
+						searchindex.name.push('Пытки');
+			searchindex.url.push('/pytki/?from=from_search');
+						searchindex.name.push('Пьяный
+борцы');
+			searchindex.url.push('/drunk-fighters/?from=from_search');
+						searchindex.name.push('Пятнашки');
+			searchindex.url.push('/pyatnashki/?from=from_search');
+						searchindex.name.push('Радуга');
+			searchindex.url.push('/rainbow/?from=from_search');
+						searchindex.name.push('Радужный
+рок');
+			searchindex.url.push('/rainbow-rock/?from=from_search');
+						searchindex.name.push('Разбей
+машину');
+			searchindex.url.push('/crush-the-car/?from=from_search');
+						searchindex.name.push('Развивающие
+игры
+для
+детей');
+			searchindex.url.push('/educational/?from=from_search');
+						searchindex.name.push('Развлечение');
+			searchindex.url.push('/razvlechenie/?from=from_search');
+						searchindex.name.push('Раздевалка');
+			searchindex.url.push('/razdevalka/?from=from_search');
+						searchindex.name.push('Разные');
+			searchindex.url.push('/other/?from=from_search');
+						searchindex.name.push('Разрушение');
+			searchindex.url.push('/destruction/?from=from_search');
+						searchindex.name.push('Ракета');
+			searchindex.url.push('/rocket/?from=from_search');
+						searchindex.name.push('Ральф');
+			searchindex.url.push('/ralph/?from=from_search');
+						searchindex.name.push('Рапунцель');
+			searchindex.url.push('/rapunzel/?from=from_search');
+						searchindex.name.push('Раскраски');
+			searchindex.url.push('/raskraski/?from=from_search');
+						searchindex.name.push('Растения
+против
+зомби');
+			searchindex.url.push('/plants-vs-zombies/?from=from_search');
+						searchindex.name.push('Растишка');
+			searchindex.url.push('/rastishka/?from=from_search');
+						searchindex.name.push('Расчлени
+человека');
+			searchindex.url.push('/cut-human/?from=from_search');
+						searchindex.name.push('Ревашн');
+			searchindex.url.push('/revansh/?from=from_search');
+						searchindex.name.push('Резать
+фрукты');
+			searchindex.url.push('/rezat-frukty/?from=from_search');
+						searchindex.name.push('Рейз');
+			searchindex.url.push('/reiz/?from=from_search');
+						searchindex.name.push('Рейка');
+			searchindex.url.push('/reika/?from=from_search');
+						searchindex.name.push('Рейнджеры-самураи
+');
+			searchindex.url.push('/rejndzhery-samurai/?from=from_search');
+						searchindex.name.push('Рекс
+динозавр');
+			searchindex.url.push('/rex-dino/?from=from_search');
+						searchindex.name.push('Реслинг');
+			searchindex.url.push('/wrestling/?from=from_search');
+						searchindex.name.push('Республика');
+			searchindex.url.push('/respublika/?from=from_search');
+						searchindex.name.push('Ресторан');
+			searchindex.url.push('/restaurant/?from=from_search');
+						searchindex.name.push('Ретро');
+			searchindex.url.push('/retro/?from=from_search');
+						searchindex.name.push('Рикошет');
+			searchindex.url.push('/rikoshet/?from=from_search');
+						searchindex.name.push('Рим');
+			searchindex.url.push('/rim/?from=from_search');
+						searchindex.name.push('Рио');
+			searchindex.url.push('/rio/?from=from_search');
+						searchindex.name.push('Рисовалки');
+			searchindex.url.push('/risovalki/?from=from_search');
+						searchindex.name.push('Робокар
+Поли');
+			searchindex.url.push('/robocar-poly/?from=from_search');
+						searchindex.name.push('Роботы');
+			searchindex.url.push('/robots/?from=from_search');
+						searchindex.name.push('Рога
+и
+копыта');
+			searchindex.url.push('/roga-i-kopyta/?from=from_search');
+						searchindex.name.push('Родина');
+			searchindex.url.push('/rodina/?from=from_search');
+						searchindex.name.push('Роды');
+			searchindex.url.push('/rodi/?from=from_search');
+						searchindex.name.push('Розовая
+пантера');
+			searchindex.url.push('/rozovaya-pantera/?from=from_search');
+						searchindex.name.push('Ролевые
+игры');
+			searchindex.url.push('/role/?from=from_search');
+						searchindex.name.push('Ролики');
+			searchindex.url.push('/roliki/?from=from_search');
+						searchindex.name.push('Росомаха');
+			searchindex.url.push('/wolverine/?from=from_search');
+						searchindex.name.push('РПГ');
+			searchindex.url.push('/rpg/?from=from_search');
+						searchindex.name.push('Рулетка');
+			searchindex.url.push('/ruletka/?from=from_search');
+						searchindex.name.push('Русалки');
+			searchindex.url.push('/mermaid/?from=from_search');
+						searchindex.name.push('Русалочка
+Ариэль');
+			searchindex.url.push('/ariel-mermaid/?from=from_search');
+						searchindex.name.push('Русская
+рыбалка');
+			searchindex.url.push('/russian-fishing/?from=from_search');
+						searchindex.name.push('Рыбка
+Фредди');
+			searchindex.url.push('/freddy-fish/?from=from_search');
+						searchindex.name.push('Рыбки');
+			searchindex.url.push('/fish/?from=from_search');
+						searchindex.name.push('Рыцари');
+			searchindex.url.push('/knight/?from=from_search');
+						searchindex.name.push('Рэтчет
+и
+Кланк');
+			searchindex.url.push('/ratchet-and-clank/?from=from_search');
+						searchindex.name.push('С
+буквами');
+			searchindex.url.push('/s-bukvami/?from=from_search');
+						searchindex.name.push('С
+дельфином');
+			searchindex.url.push('/s-delfinom/?from=from_search');
+						searchindex.name.push('С
+другом');
+			searchindex.url.push('/s-drugom/?from=from_search');
+						searchindex.name.push('С
+друзьями');
+			searchindex.url.push('/with-friends/?from=from_search');
+						searchindex.name.push('С
+лололошкой');
+			searchindex.url.push('/s-lololoshkoy/?from=from_search');
+						searchindex.name.push('С
+огнем');
+			searchindex.url.push('/s-ognem/?from=from_search');
+						searchindex.name.push('С
+оружием');
+			searchindex.url.push('/with-weapons/?from=from_search');
+						searchindex.name.push('С
+приветом
+по
+планетам');
+			searchindex.url.push('/wander-over-yonder/?from=from_search');
+						searchindex.name.push('С
+шариком');
+			searchindex.url.push('/s-sharikom/?from=from_search');
+						searchindex.name.push('Сабвей
+Серф');
+			searchindex.url.push('/subway-surf/?from=from_search');
+						searchindex.name.push('Сабрина:
+Маленькая
+ведьма');
+			searchindex.url.push('/sabrina-the-teenage-witch/?from=from_search');
+						searchindex.name.push('Салон
+красоты');
+			searchindex.url.push('/salon-krasoty/?from=from_search');
+						searchindex.name.push('Самая
+сложная
+игра
+в
+мире');
+			searchindex.url.push('/wolrd-hardest-game/?from=from_search');
+						searchindex.name.push('Самолеты');
+			searchindex.url.push('/planes/?from=from_search');
+						searchindex.name.push('Самые
+крутые');
+			searchindex.url.push('/samye-krutye/?from=from_search');
+						searchindex.name.push('Санджей
+и
+Крейг');
+			searchindex.url.push('/sanjay-and-craig/?from=from_search');
+						searchindex.name.push('Сапер');
+			searchindex.url.push('/saper/?from=from_search');
+						searchindex.name.push('Сахар
+сахар');
+			searchindex.url.push('/sugar-sugar/?from=from_search');
+						searchindex.name.push('Свадьба');
+			searchindex.url.push('/wedding/?from=from_search');
+						searchindex.name.push('Светофор');
+			searchindex.url.push('/traffic/?from=from_search');
+						searchindex.name.push('Свидание
+Стеллы');
+			searchindex.url.push('/svidanie-stelly/?from=from_search');
+						searchindex.name.push('Свинка
+Пепа');
+			searchindex.url.push('/peppa-pig/?from=from_search');
+						searchindex.name.push('Своя
+игра');
+			searchindex.url.push('/svoya-igra/?from=from_search');
+						searchindex.name.push('Сега');
+			searchindex.url.push('/sega/?from=from_search');
+						searchindex.name.push('Сейлор
+Мун');
+			searchindex.url.push('/sailor-moon/?from=from_search');
+						searchindex.name.push('Семейные');
+			searchindex.url.push('/semeynie/?from=from_search');
+						searchindex.name.push('Сенсорные
+игры');
+			searchindex.url.push('/touch-games/?from=from_search');
+						searchindex.name.push('Серфинг');
+			searchindex.url.push('/surfing/?from=from_search');
+						searchindex.name.push('Сибирь');
+			searchindex.url.push('/sybir/?from=from_search');
+						searchindex.name.push('Симпсоны');
+			searchindex.url.push('/simpsons/?from=from_search');
+						searchindex.name.push('Симулятор
+вождения');
+			searchindex.url.push('/driving-simulator/?from=from_search');
+						searchindex.name.push('Симулятор
+слизня');
+			searchindex.url.push('/simulator-sliznya/?from=from_search');
+						searchindex.name.push('Симуляторы');
+			searchindex.url.push('/simulator/?from=from_search');
+						searchindex.name.push('Ска');
+			searchindex.url.push('/ska/?from=from_search');
+						searchindex.name.push('Сканворды');
+			searchindex.url.push('/skanvordy/?from=from_search');
+						searchindex.name.push('Скачки
+на
+лошадях');
+			searchindex.url.push('/skachki-na-loshadah/?from=from_search');
+						searchindex.name.push('Скейтборд');
+			searchindex.url.push('/skateboard/?from=from_search');
+						searchindex.name.push('Скелет');
+			searchindex.url.push('/skelet/?from=from_search');
+						searchindex.name.push('Скорая
+помощь');
+			searchindex.url.push('/fast-help/?from=from_search');
+						searchindex.name.push('Скрабл');
+			searchindex.url.push('/skrabl/?from=from_search');
+						searchindex.name.push('Скуби-Ду');
+			searchindex.url.push('/scooby-doo/?from=from_search');
+						searchindex.name.push('Слагтерра');
+			searchindex.url.push('/slugterra/?from=from_search');
+						searchindex.name.push('Слендермен');
+			searchindex.url.push('/slenderman/?from=from_search');
+						searchindex.name.push('Слизне
+ферма');
+			searchindex.url.push('/slizne-ferma/?from=from_search');
+						searchindex.name.push('Слова
+из
+слов');
+			searchindex.url.push('/words/?from=from_search');
+						searchindex.name.push('Смерть
+шпионам');
+			searchindex.url.push('/death-to-spies/?from=from_search');
+						searchindex.name.push('Смешарики');
+			searchindex.url.push('/smeshariki/?from=from_search');
+						searchindex.name.push('Смешарики:
+Пин-код');
+			searchindex.url.push('/smeshariki-pin-kod/?from=from_search');
+						searchindex.name.push('Смешные');
+			searchindex.url.push('/funny/?from=from_search');
+						searchindex.name.push('Смурфики');
+			searchindex.url.push('/smurfs/?from=from_search');
+						searchindex.name.push('Снайпер');
+			searchindex.url.push('/sniper/?from=from_search');
+						searchindex.name.push('Снежки
+');
+			searchindex.url.push('/snowballs/?from=from_search');
+						searchindex.name.push('Снежок');
+			searchindex.url.push('/snezhok/?from=from_search');
+						searchindex.name.push('Сноуборд');
+			searchindex.url.push('/snowboard/?from=from_search');
+						searchindex.name.push('Снукер');
+			searchindex.url.push('/snooker/?from=from_search');
+						searchindex.name.push('Со
+смертью');
+			searchindex.url.push('/so-smertju/?from=from_search');
+						searchindex.name.push('Собаки');
+			searchindex.url.push('/dog/?from=from_search');
+						searchindex.name.push('Собери
+робота');
+			searchindex.url.push('/soberi-robota/?from=from_search');
+						searchindex.name.push('Создавать
+монстров');
+			searchindex.url.push('/create-monster/?from=from_search');
+						searchindex.name.push('Создавать
+пони');
+			searchindex.url.push('/make-pony/?from=from_search');
+						searchindex.name.push('Создай
+своего
+персонажа');
+			searchindex.url.push('/create-a-character/?from=from_search');
+						searchindex.name.push('Сокобан');
+			searchindex.url.push('/sokoban/?from=from_search');
+						searchindex.name.push('Сокровища
+Монтесумы');
+			searchindex.url.push('/montesuma/?from=from_search');
+						searchindex.name.push('Сокровища
+пиратов');
+			searchindex.url.push('/sokrovisha-piratov/?from=from_search');
+						searchindex.name.push('Солдаты');
+			searchindex.url.push('/soldiers/?from=from_search');
+						searchindex.name.push('Солитер');
+			searchindex.url.push('/solitaire/?from=from_search');
+						searchindex.name.push('Соник');
+			searchindex.url.push('/sonic/?from=from_search');
+						searchindex.name.push('Сонник');
+			searchindex.url.push('/sonnik/?from=from_search');
+						searchindex.name.push('София
+Прекрасная');
+			searchindex.url.push('/sofia-the-first/?from=from_search');
+						searchindex.name.push('Спанч
+Боб');
+			searchindex.url.push('/spongebob/?from=from_search');
+						searchindex.name.push('Спарта');
+			searchindex.url.push('/sparta/?from=from_search');
+						searchindex.name.push('Спасатель');
+			searchindex.url.push('/spasatel/?from=from_search');
+						searchindex.name.push('Спецназ');
+			searchindex.url.push('/spetsnaz/?from=from_search');
+						searchindex.name.push('Спор');
+			searchindex.url.push('/spor/?from=from_search');
+						searchindex.name.push('Спортивные
+игры');
+			searchindex.url.push('/sport/?from=from_search');
+						searchindex.name.push('Сражения');
+			searchindex.url.push('/srajeniya/?from=from_search');
+						searchindex.name.push('Средневековье');
+			searchindex.url.push('/srednevekovje/?from=from_search');
+						searchindex.name.push('Сталинград');
+			searchindex.url.push('/stalingrad/?from=from_search');
+						searchindex.name.push('Сталкер');
+			searchindex.url.push('/stalker/?from=from_search');
+						searchindex.name.push('Стальной
+алхимик');
+			searchindex.url.push('/fullmetal-alchemist/?from=from_search');
+						searchindex.name.push('Старые
+игры');
+			searchindex.url.push('/starye-igri/?from=from_search');
+						searchindex.name.push('Степанида');
+			searchindex.url.push('/stepanida/?from=from_search');
+						searchindex.name.push('Стикмен');
+			searchindex.url.push('/stickman/?from=from_search');
+						searchindex.name.push('Стоматолог');
+			searchindex.url.push('/dentist/?from=from_search');
+						searchindex.name.push('Страсти');
+			searchindex.url.push('/strasti/?from=from_search');
+						searchindex.name.push('Стратегии');
+			searchindex.url.push('/strategy/?from=from_search');
+						searchindex.name.push('Страшные
+игры');
+			searchindex.url.push('/horror/?from=from_search');
+						searchindex.name.push('Стрельба
+из
+лука');
+			searchindex.url.push('/strelba-iz-luka/?from=from_search');
+						searchindex.name.push('Стрелялки');
+			searchindex.url.push('/shot/?from=from_search');
+						searchindex.name.push('Строить
+дома');
+			searchindex.url.push('/stroit-doma/?from=from_search');
+						searchindex.name.push('Строить
+мосты');
+			searchindex.url.push('/stroit-mosty/?from=from_search');
+						searchindex.name.push('Стройка');
+			searchindex.url.push('/stroika/?from=from_search');
+						searchindex.name.push('Судоку');
+			searchindex.url.push('/sudoku/?from=from_search');
+						searchindex.name.push('Сумерки');
+			searchindex.url.push('/twilight/?from=from_search');
+						searchindex.name.push('Сумо');
+			searchindex.url.push('/sumo/?from=from_search');
+						searchindex.name.push('Супер
+бойцы');
+			searchindex.url.push('/super-fighters/?from=from_search');
+						searchindex.name.push('Супер
+корова');
+			searchindex.url.push('/super-cow/?from=from_search');
+						searchindex.name.push('Супергерои');
+			searchindex.url.push('/superheroes/?from=from_search');
+						searchindex.name.push('Супермаркет
+мания');
+			searchindex.url.push('/supermarket-mania/?from=from_search');
+						searchindex.name.push('Супермен');
+			searchindex.url.push('/superman/?from=from_search');
+						searchindex.name.push('Суперсемейка');
+			searchindex.url.push('/incredibles/?from=from_search');
+						searchindex.name.push('Суши
+кот');
+			searchindex.url.push('/sushi-cat/?from=from_search');
+						searchindex.name.push('Счастливая
+обезьянка');
+			searchindex.url.push('/monkey-go-happy/?from=from_search');
+						searchindex.name.push('Счастливые
+колёса');
+			searchindex.url.push('/happy-kolesa/?from=from_search');
+						searchindex.name.push('Съедобная
+планета');
+			searchindex.url.push('/eatable-planet/?from=from_search');
+						searchindex.name.push('Сью');
+			searchindex.url.push('/siyu/?from=from_search');
+						searchindex.name.push('Таблица
+умножения');
+			searchindex.url.push('/multiplication-table/?from=from_search');
+						searchindex.name.push('Тайная
+комната');
+			searchindex.url.push('/taynaya-komnata/?from=from_search');
+						searchindex.name.push('Такси');
+			searchindex.url.push('/taxi/?from=from_search');
+						searchindex.name.push('Тамагочи');
+			searchindex.url.push('/tamagochi/?from=from_search');
+						searchindex.name.push('Танки');
+			searchindex.url.push('/tanks/?from=from_search');
+						searchindex.name.push('Танцы');
+			searchindex.url.push('/dancing/?from=from_search');
+						searchindex.name.push('Тарзан');
+			searchindex.url.push('/tarzan/?from=from_search');
+						searchindex.name.push('Тачки');
+			searchindex.url.push('/cars/?from=from_search');
+						searchindex.name.push('Твари');
+			searchindex.url.push('/tvari/?from=from_search');
+						searchindex.name.push('Твистер');
+			searchindex.url.push('/tvister/?from=from_search');
+						searchindex.name.push('Текила
+зомби');
+			searchindex.url.push('/tequila-zombie/?from=from_search');
+						searchindex.name.push('Теккен');
+			searchindex.url.push('/tekken/?from=from_search');
+						searchindex.name.push('Телеканал
+Карусель');
+			searchindex.url.push('/karusel-tv/?from=from_search');
+						searchindex.name.push('Теннис');
+			searchindex.url.push('/tennis/?from=from_search');
+						searchindex.name.push('Теория');
+			searchindex.url.push('/teoriya/?from=from_search');
+						searchindex.name.push('Тера');
+			searchindex.url.push('/tera/?from=from_search');
+						searchindex.name.push('Теремок');
+			searchindex.url.push('/teremok/?from=from_search');
+						searchindex.name.push('Терминатор');
+			searchindex.url.push('/terminator/?from=from_search');
+						searchindex.name.push('Террария');
+			searchindex.url.push('/terraria/?from=from_search');
+						searchindex.name.push('Тесто');
+			searchindex.url.push('/testo/?from=from_search');
+						searchindex.name.push('Тесты');
+			searchindex.url.push('/test/?from=from_search');
+						searchindex.name.push('Тесты
+для
+девочек');
+			searchindex.url.push('/testy-dlya-devochek/?from=from_search');
+						searchindex.name.push('Тесты
+на
+IQ');
+			searchindex.url.push('/iq-test/?from=from_search');
+						searchindex.name.push('Тесты
+на
+идиота');
+			searchindex.url.push('/test-na-idiota/?from=from_search');
+						searchindex.name.push('Тетрис');
+			searchindex.url.push('/tetris/?from=from_search');
+						searchindex.name.push('Тимон
+и
+Пумба');
+			searchindex.url.push('/timon-i-pumba/?from=from_search');
+						searchindex.name.push('Титаник');
+			searchindex.url.push('/titanik/?from=from_search');
+						searchindex.name.push('Том
+и
+Джерри
+');
+			searchindex.url.push('/tomjerry/?from=from_search');
+						searchindex.name.push('Томас
+и
+его
+друзья');
+			searchindex.url.push('/tomas-i-ego-druzya/?from=from_search');
+						searchindex.name.push('Тор');
+			searchindex.url.push('/tor/?from=from_search');
+						searchindex.name.push('Торты');
+			searchindex.url.push('/cakes/?from=from_search');
+						searchindex.name.push('Тотали
+Спайс');
+			searchindex.url.push('/totally-spies/?from=from_search');
+						searchindex.name.push('Точки');
+			searchindex.url.push('/tochki/?from=from_search');
+						searchindex.name.push('Тракторы');
+			searchindex.url.push('/tractor/?from=from_search');
+						searchindex.name.push('Трамвай');
+			searchindex.url.push('/tram/?from=from_search');
+						searchindex.name.push('Трансформеры');
+			searchindex.url.push('/transformers/?from=from_search');
+						searchindex.name.push('Трансформеры
+Прайм');
+			searchindex.url.push('/transformery-praim/?from=from_search');
+						searchindex.name.push('Три
+богатыря');
+			searchindex.url.push('/tri-bogatirya/?from=from_search');
+						searchindex.name.push('Три
+в
+ряд');
+			searchindex.url.push('/match3/?from=from_search');
+						searchindex.name.push('Три
+панды');
+			searchindex.url.push('/tri-pandy/?from=from_search');
+						searchindex.name.push('Троллфейс');
+			searchindex.url.push('/trollfeys/?from=from_search');
+						searchindex.name.push('Трололо');
+			searchindex.url.push('/trololo/?from=from_search');
+						searchindex.name.push('ТРОН');
+			searchindex.url.push('/tron/?from=from_search');
+						searchindex.name.push('Трюки');
+			searchindex.url.push('/tricks/?from=from_search');
+						searchindex.name.push('Туалет');
+			searchindex.url.push('/tualet/?from=from_search');
+						searchindex.name.push('Туземец');
+			searchindex.url.push('/tuzemets/?from=from_search');
+						searchindex.name.push('Турбо-Агент
+Дадли');
+			searchindex.url.push('/tuff-puppy/?from=from_search');
+						searchindex.name.push('Тысяча');
+			searchindex.url.push('/1000/?from=from_search');
+						searchindex.name.push('Тюнинг');
+			searchindex.url.push('/tuning/?from=from_search');
+						searchindex.name.push('Тюнинг
+машины');
+			searchindex.url.push('/car-tuning/?from=from_search');
+						searchindex.name.push('Убейте
+жену');
+			searchindex.url.push('/kill-the-wife/?from=from_search');
+						searchindex.name.push('Убейте
+человека');
+			searchindex.url.push('/ubeyte-cheloveka/?from=from_search');
+						searchindex.name.push('Убить
+босса');
+			searchindex.url.push('/kill-the-boss/?from=from_search');
+						searchindex.name.push('Уборка');
+			searchindex.url.push('/cleaning/?from=from_search');
+						searchindex.name.push('Угадай
+кто');
+			searchindex.url.push('/guess-who/?from=from_search');
+						searchindex.name.push('Угадай
+личность');
+			searchindex.url.push('/ugaday-lichnost/?from=from_search');
+						searchindex.name.push('Угадай
+мелодию');
+			searchindex.url.push('/ugaday-melodiyu/?from=from_search');
+						searchindex.name.push('Угадай
+слово');
+			searchindex.url.push('/guess-word/?from=from_search');
+						searchindex.name.push('Ударный
+отряд
+котят');
+			searchindex.url.push('/udarniy-ortyad-kotyat/?from=from_search');
+						searchindex.name.push('Удивительный
+мир
+Гамбола');
+			searchindex.url.push('/the-amazing-world-of-gumball/?from=from_search');
+						searchindex.name.push('Украшения');
+			searchindex.url.push('/ukrashenia/?from=from_search');
+						searchindex.name.push('Улитка');
+			searchindex.url.push('/ulitka/?from=from_search');
+						searchindex.name.push('Улитка
+Боб');
+			searchindex.url.push('/ulitka-bob/?from=from_search');
+						searchindex.name.push('Уличные
+драки');
+			searchindex.url.push('/street-fights/?from=from_search');
+						searchindex.name.push('Умелец
+Мэнни');
+			searchindex.url.push('/handy-manny/?from=from_search');
+						searchindex.name.push('Умизуми');
+			searchindex.url.push('/umizoomi/?from=from_search');
+						searchindex.name.push('Уно');
+			searchindex.url.push('/uno/?from=from_search');
+						searchindex.name.push('Утиные
+истории');
+			searchindex.url.push('/duck-tales/?from=from_search');
+						searchindex.name.push('Уход
+за
+животными');
+			searchindex.url.push('/animal-care/?from=from_search');
+						searchindex.name.push('Уход
+за
+малышами');
+			searchindex.url.push('/babysitting/?from=from_search');
+						searchindex.name.push('Фабрика
+героев');
+			searchindex.url.push('/hero-factory/?from=from_search');
+						searchindex.name.push('Фанбой
+и
+Чам
+Чам');
+			searchindex.url.push('/fanboy-chum-chum/?from=from_search');
+						searchindex.name.push('Фанта');
+			searchindex.url.push('/fanta/?from=from_search');
+						searchindex.name.push('Фараон');
+			searchindex.url.push('/faraon/?from=from_search');
+						searchindex.name.push('Феи');
+			searchindex.url.push('/fairies/?from=from_search');
+						searchindex.name.push('Феи
+Динь
+Динь');
+			searchindex.url.push('/fei-din-din/?from=from_search');
+						searchindex.name.push('Фейри
+Тейл');
+			searchindex.url.push('/feyri-teyl/?from=from_search');
+						searchindex.name.push('Ферби
+Бум');
+			searchindex.url.push('/ferbi-bum/?from=from_search');
+						searchindex.name.push('Ферма');
+			searchindex.url.push('/ferma/?from=from_search');
+						searchindex.name.push('Филворды');
+			searchindex.url.push('/fillwords/?from=from_search');
+						searchindex.name.push('Фильм');
+			searchindex.url.push('/film/?from=from_search');
+						searchindex.name.push('фин
+и
+джейк');
+			searchindex.url.push('/finn-and-jake/?from=from_search');
+						searchindex.name.push('Финис
+и
+Ферб');
+			searchindex.url.push('/finis-and-ferb/?from=from_search');
+						searchindex.name.push('Флеш');
+			searchindex.url.push('/flash/?from=from_search');
+						searchindex.name.push('Флеш
+приколы');
+			searchindex.url.push('/flash-prikol/?from=from_search');
+						searchindex.name.push('Флирт');
+			searchindex.url.push('/flirt/?from=from_search');
+						searchindex.name.push('Фнаф');
+			searchindex.url.push('/fnaf/?from=from_search');
+						searchindex.name.push('Формула
+1');
+			searchindex.url.push('/formula-odin/?from=from_search');
+						searchindex.name.push('Форсаж');
+			searchindex.url.push('/fast-and-furious/?from=from_search');
+						searchindex.name.push('Фото');
+			searchindex.url.push('/photo/?from=from_search');
+						searchindex.name.push('Фрив');
+			searchindex.url.push('/friv/?from=from_search');
+						searchindex.name.push('Фрукт');
+			searchindex.url.push('/frukt/?from=from_search');
+						searchindex.name.push('Фруктовый
+Ниндзя');
+			searchindex.url.push('/fruit-ninja/?from=from_search');
+						searchindex.name.push('Фрукты');
+			searchindex.url.push('/fruits/?from=from_search');
+						searchindex.name.push('Футбол');
+			searchindex.url.push('/football/?from=from_search');
+						searchindex.name.push('Футбол
+головами');
+			searchindex.url.push('/futbol-golovami/?from=from_search');
+						searchindex.name.push('Футбольные');
+			searchindex.url.push('/futbolnye/?from=from_search');
+						searchindex.name.push('Футурама');
+			searchindex.url.push('/fururama/?from=from_search');
+						searchindex.name.push('Халк');
+			searchindex.url.push('/hulk/?from=from_search');
+						searchindex.name.push('Ханна
+Монтана');
+			searchindex.url.push('/hannamontana/?from=from_search');
+						searchindex.name.push('Хасбро');
+			searchindex.url.push('/hasbro/?from=from_search');
+						searchindex.name.push('Хаю
+хай');
+			searchindex.url.push('/hayu-hay/?from=from_search');
+						searchindex.name.push('Хвост
+феи');
+			searchindex.url.push('/fairy-tail/?from=from_search');
+						searchindex.name.push('Хейзел');
+			searchindex.url.push('/hazel-baby/?from=from_search');
+						searchindex.name.push('Хелло
+Китти');
+			searchindex.url.push('/hello-kitty/?from=from_search');
+						searchindex.name.push('Химия');
+			searchindex.url.push('/chemistry/?from=from_search');
+						searchindex.name.push('Хищник');
+			searchindex.url.push('/predator/?from=from_search');
+						searchindex.name.push('Хищник
+против
+чужого');
+			searchindex.url.push('/alien-vs-predator/?from=from_search');
+						searchindex.name.push('Хлебоутки');
+			searchindex.url.push('/breadwinners/?from=from_search');
+						searchindex.name.push('Ходилки');
+			searchindex.url.push('/hodilki/?from=from_search');
+						searchindex.name.push('Ходячие
+мертвецы');
+			searchindex.url.push('/walking-dead/?from=from_search');
+						searchindex.name.push('Хоккей');
+			searchindex.url.push('/hockey/?from=from_search');
+						searchindex.name.push('Хоккей
+головами');
+			searchindex.url.push('/head-hockey/?from=from_search');
+						searchindex.name.push('Холли');
+			searchindex.url.push('/holli/?from=from_search');
+						searchindex.name.push('Холодное
+сердце');
+			searchindex.url.push('/frozen/?from=from_search');
+						searchindex.name.push('Хомяки');
+			searchindex.url.push('/homyaki/?from=from_search');
+						searchindex.name.push('Хот
+Вилс');
+			searchindex.url.push('/hot-wheels/?from=from_search');
+						searchindex.name.push('Храбрая
+сердцем');
+			searchindex.url.push('/brave/?from=from_search');
+						searchindex.name.push('Храброе
+сердце');
+			searchindex.url.push('/braveheart/?from=from_search');
+						searchindex.name.push('Хранители
+снов');
+			searchindex.url.push('/rise-of-the-guardians/?from=from_search');
+						searchindex.name.push('Хэллоуин');
+			searchindex.url.push('/halloween/?from=from_search');
+						searchindex.name.push('Хэппи
+Вилс');
+			searchindex.url.push('/happy-wheels/?from=from_search');
+						searchindex.name.push('Цивилизация');
+			searchindex.url.push('/civilization/?from=from_search');
+						searchindex.name.push('Цирк');
+			searchindex.url.push('/tsirk/?from=from_search');
+						searchindex.name.push('Цитадель');
+			searchindex.url.push('/tsitadel/?from=from_search');
+						searchindex.name.push('Цифра');
+			searchindex.url.push('/tsyfra/?from=from_search');
+						searchindex.name.push('Цыпленок
+Цыпа');
+			searchindex.url.push('/chicken-little/?from=from_search');
+						searchindex.name.push('Чародейки');
+			searchindex.url.push('/witch/?from=from_search');
+						searchindex.name.push('Часть
+2');
+			searchindex.url.push('/part-2/?from=from_search');
+						searchindex.name.push('Часть
+3');
+			searchindex.url.push('/part-3/?from=from_search');
+						searchindex.name.push('Чашка
+Петри');
+			searchindex.url.push('/petri-dish/?from=from_search');
+						searchindex.name.push('Человек-муравей');
+			searchindex.url.push('/antman/?from=from_search');
+						searchindex.name.push('Человек-паук');
+			searchindex.url.push('/spider-man/?from=from_search');
+						searchindex.name.push('Человечек');
+			searchindex.url.push('/chelovechek/?from=from_search');
+						searchindex.name.push('Червячки');
+			searchindex.url.push('/worms/?from=from_search');
+						searchindex.name.push('Черепашки-ниндзя');
+			searchindex.url.push('/tmnt/?from=from_search');
+						searchindex.name.push('Чернобыль');
+			searchindex.url.push('/chernobyl/?from=from_search');
+						searchindex.name.push('Чима');
+			searchindex.url.push('/chima/?from=from_search');
+						searchindex.name.push('Чип
+и
+Дейл');
+			searchindex.url.push('/chip-and-dale/?from=from_search');
+						searchindex.name.push('Чудики');
+			searchindex.url.push('/chudiki/?from=from_search');
+						searchindex.name.push('Чудо
+машинки');
+			searchindex.url.push('/wonderful-cars/?from=from_search');
+						searchindex.name.push('Чудо
+ферма');
+			searchindex.url.push('/chudo-ferma/?from=from_search');
+						searchindex.name.push('Чудо-зверята');
+			searchindex.url.push('/the-wonder-pets/?from=from_search');
+						searchindex.name.push('Чужой');
+			searchindex.url.push('/alien/?from=from_search');
+						searchindex.name.push('Шакал');
+			searchindex.url.push('/jackal/?from=from_search');
+						searchindex.name.push('Шарарам');
+			searchindex.url.push('/shararam/?from=from_search');
+						searchindex.name.push('Шарики');
+			searchindex.url.push('/shariki/?from=from_search');
+						searchindex.name.push('Шарлотта
+Земляничка');
+			searchindex.url.push('/strawberry-shortcake/?from=from_search');
+						searchindex.name.push('Шахматы');
+			searchindex.url.push('/chess/?from=from_search');
+						searchindex.name.push('Шашки');
+			searchindex.url.push('/checkers/?from=from_search');
+						searchindex.name.push('Шерлок
+Холмс');
+			searchindex.url.push('/scherlock-holmes/?from=from_search');
+						searchindex.name.push('Шиммер
+и
+Шайн');
+			searchindex.url.push('/shimmer-and-shine/?from=from_search');
+						searchindex.name.push('Шиномонтаж');
+			searchindex.url.push('/shinomontazh/?from=from_search');
+						searchindex.name.push('Шить
+одежду');
+			searchindex.url.push('/sewing/?from=from_search');
+						searchindex.name.push('Школа');
+			searchindex.url.push('/shkola/?from=from_search');
+						searchindex.name.push('Шопкинс');
+			searchindex.url.push('/shopkins/?from=from_search');
+						searchindex.name.push('Шоппинг');
+			searchindex.url.push('/shopping/?from=from_search');
+						searchindex.name.push('Шоу
+дельфинов');
+			searchindex.url.push('/my-dolphin-show/?from=from_search');
+						searchindex.name.push('Шпион');
+			searchindex.url.push('/shpion/?from=from_search');
+						searchindex.name.push('Шпионские');
+			searchindex.url.push('/spy/?from=from_search');
+						searchindex.name.push('Шрек');
+			searchindex.url.push('/shrek/?from=from_search');
+						searchindex.name.push('Шутеры');
+			searchindex.url.push('/shuteri/?from=from_search');
+						searchindex.name.push('Щенячий
+патруль');
+			searchindex.url.push('/paw-patrol/?from=from_search');
+						searchindex.name.push('Эвер
+Афтер
+Хай');
+			searchindex.url.push('/ever-after-high/?from=from_search');
+						searchindex.name.push('Эволюция');
+			searchindex.url.push('/evolution/?from=from_search');
+						searchindex.name.push('Эйви');
+			searchindex.url.push('/avie/?from=from_search');
+						searchindex.name.push('Экономические
+стратегии');
+			searchindex.url.push('/economic-strategies/?from=from_search');
+						searchindex.name.push('Экшен');
+			searchindex.url.push('/action/?from=from_search');
+						searchindex.name.push('Элбэикс');
+			searchindex.url.push('/elbeiks/?from=from_search');
+						searchindex.name.push('Элвин
+и
+бурундуки');
+			searchindex.url.push('/elvin-and-chipmunks/?from=from_search');
+						searchindex.name.push('Эльза');
+			searchindex.url.push('/elza/?from=from_search');
+						searchindex.name.push('Эмо');
+			searchindex.url.push('/emo/?from=from_search');
+						searchindex.name.push('Эпоха
+войны');
+			searchindex.url.push('/age-of-war/?from=from_search');
+						searchindex.name.push('эра');
+			searchindex.url.push('/era/?from=from_search');
+						searchindex.name.push('Эрудит');
+			searchindex.url.push('/erudit/?from=from_search');
+						searchindex.name.push('Южный
+парк');
+			searchindex.url.push('/south-park/?from=from_search');
+						searchindex.name.push('Юные
+титаны');
+			searchindex.url.push('/teen-titans/?from=from_search');
+						searchindex.name.push('Я
+ищу');
+			searchindex.url.push('/ya-ishu/?from=from_search');
+						searchindex.name.push('Японские');
+			searchindex.url.push('/japanese/?from=from_search');
+			
+			//$('#js_search').on('submit',
+searchSubmit);
+
+			search.autocomplete({
+				autoFocus:
+true,
+				open
+:
+searchopen,
+				close
+:
+searchSubmit,
+				source:
+searchindex.name,
+				appendTo:
+".V3-header"
+			});
+
+			function
+matchs(value)
+{
+				var
+index
+=
+$.inArray(value,
+searchindex.name);
+				if
+(index
+>=
+0
+)
+document.location.href
+=
+searchindex.url[index];
+			};
+
+			function
+searchopen(event,
+ui)
+{
+				var
+ui
+=
+$('.ui-autocomplete:visible');
+				var
+link
+=
+$('a',
+ui);
+				ui.css({'left'
+:
+ui.offset().left
+-7,
+'width'
+:
+ui.outerWidth()
++
+10});
+
+				link.on('click',
+function()
+{
+					matchs($(this).html())
+				});
+			};
+
+			function
+searchSubmit()
+{
+				matchs(search.val());
+				return
+false;
+			};
+
+		});
+	})(jQuery);
+//
+По
+историческим
+причинам
+в
+качестве
+проекта
+во
+front-end
+части
+	//
+указывается
+provider
+back-end’а.
+	window.login.project
+=
+'gameguru';
+	//
+Указываем
+относительный
+URL
+для
+отправляемых
+данных
+на
+сервер
+	window.login.urlReceiveData
+=
+'http://onlineguru.ru/ajax/loginapi/send.html';
+	//
+Указываем
+абсолютный
+URL
+для
+отправляемых
+данных
+на
+сервер
+	window.login.absoleteUrlReceiveData
+=
+'http://onlineguru.ru/ajax/loginapi/send.html';
+Гость
+Авторизоваться
+Я
+0
+игр
+Лучшие
+игры
+Многопользовательские
+онлайн
+игры
+Майнкрафт
+ГТА
+игры
+Лего
+Angry
+Birds
+Черепашки-ниндзя
+Марио
+Тачки
+Зомби
+Человек-паук
+Дружба
+—
+это
+чудо
+Гадкий
+я
+Смешарики
+Спанч
+Боб
+Соник
+Том
+и
+Джерри
+Бэтмен
+Скуби-Ду
+Бен
+10
+Винкс
+Даша
+Наруто
+Монстр
+Хай
+Zuma
+подобные
+игры
+Шрек
+Барби
+Аватар
+Слендермен
+Щенячий
+патруль
+Рейнджеры-самураи
+Трансформеры
+Маленький
+зоомагазин
+Кик
+Бутовски
+Самолеты
+Холодное
+сердце
+Девушки
+Эквестрии
+Халк
+Flappy
+Bird
+Смурфики
+Рапунцель
+Ханна
+Монтана
+HTML5
+Время
+приключений
+Алладин
+Друзья
+ангелов
+Мстители
+Бакуган
+Братц
+Чима
+Золушка
+Диего
+Гриффины
+Форсаж
+Финис
+и
+Ферб
+Гарфилд
+Гравити
+Фолс
+Хэппи
+Вилс
+Хейзел
+Хот
+Вилс
+Как
+приручить
+дракона
+Джейк
+и
+пираты
+Нетландии
+Джейк
+Лонг
+Лалалупси
+Лило
+и
+Стич
+Король
+Лев
+Масяня
+Микки
+Маус
+Счастливая
+обезьянка
+Мортал
+Комбат
+Папа
+Луи
+Папины
+дочки
+Свинка
+Пепа
+Классный
+ниндзя
+Бешеные
+кролики
+Сабрина:
+Маленькая
+ведьма
+Симпсоны
+София
+Прекрасная
+Южный
+парк
+Звездные
+войны
+Крокодильчик
+Свомпи
+Юные
+титаны
+Удивительный
+мир
+Гамбола
+Пингвины
+из
+Мадагаскара
+Принцесса
+и
+лягушка
+Кот
+Том
+Тотали
+Спайс
+Улитка
+Боб
+Умизуми
+Дядя
+Деда
+Винни
+Пух
+Росомаха
+100
+1001
+ночь
+101
+далматинец
+1234567890
+2010
+года
+2011
+года
+2012
+года
+2013
+года
+2014
+года
+2015
+года
+2016
+года
+2048
+2D
+3
+панды
+4
+элемента
+4x4
+5
+ночей
+с
+Фредди
+60
+секунд
+7
+гномов
+A10
+Agar
+io
+Angry
+Birds
+Besiege
+Blur
+Bmx
+Cтрасть
+Fish.io
+Flappy
+Bird
+Fuel
+GROW
+HTML5
+Kingdom
+Rush
+Lines
+Mad
+Max
+Need
+for
+speed
+Pack
+War
+Paragon
+Prototype
+Rage
+Rust
+Sims
+Slither.io
+Subway
+surfers
+Tower
+Defense
+Unity
+Uphill
+Rush
+Windows
+10
+Zuma
+подобные
+Авария
+Аватар
+Аватария
+Все
+жанры
+Все
+жанры
+Авто
+Автоботы
+Автобусы
+Автоматы
+Адам
+и
+Ева
+Азартные
+Азбука
+Ай
+Карли
+Аквапарк
+Акинатор
+Активити
+Акулы
+Алавар
+Алиса
+в
+стране
+чудес
+Алладин
+Алфавит
+Алхимика
+Алхимия
+Альфа
+и
+Омега
+Ам
+Ням
+Американские
+горки
+Американский
+папа
+Американский
+футбол
+Амнезия
+Ангел
+Английский
+язык
+Андроид
+Анжела
+Анжела
+и
+Том
+Аниме
+Апокалипсис
+Аркады
+Арканоид
+Армада
+Ассасин
+Ассоциация
+Астерикс
+и
+Обеликс
+Атака
+Атака
+титанов
+Аэропорт
+Баба-Яга
+Бабочки
+Бабы
+яги
+Бадминтон
+База
+защита
+Бактерии
+Бакуган
+Балда
+Бандит
+Барабаны
+Барашек
+Шон
+Барашки
+Барби
+Бармен
+Баскетбол
+Баскетбол
+головами
+Батла
+Башенки
+Башня
+Бегалки
+Беги,
+Фред
+Бегун
+Без
+звука
+Безделье
+Безумный
+Макс
+Безумный
+Макс
+дорога
+ярости
+Бейблэйд
+Бейсбол
+Белка
+и
+Стрелка
+Белоснежка
+Бен
+10
+Беременна
+Бернард
+Бешеная
+бабка
+Бешеные
+кролики
+Биатлон
+Биг
+фарм
+Бизнес
+Бильярд
+Бионикл
+Битва
+Битвы
+титанов
+Бить
+битой
+Блич
+Блокада
+Блоки
+Блум
+Блумикс
+Боб-строитель
+Бой
+с
+тенью
+Бойцовский
+клуб
+Бокс
+Больница
+Бомба
+Бомберы
+Бомж
+Бот
+Боулинг
+БПАН
+Братц
+Братья
+Пук
+Бродилки
+Бродяга
+Буквы
+учим
+Бумажки
+Бургер
+Бурундуки
+Бутылочка
+Бэтмен
+В
+правду
+В
+темноте
+В
+школе
+В
+школу
+Валли
+Вампиры
+Ван-Пис
+Варкрафт
+Ведьмак
+Вектор
+Велосипед
+Верность
+Вертолеты
+Веселая
+ферма
+Весёлые
+Ветеринар
+Взлом
+Взорви
+это
+Взрыв
+Взрывы:
+Плазмы
+Викинги
+Вилли
+Винкс
+Винкс
+Клуб
+Винкс
+Сиреникс
+Винкс
+энчантикс
+Винни
+Пух
+Виолетта
+Виселица
+Властелин
+колец
+Вов
+Водные
+горки
+Военные-самолеты
+Война
+1941-1945
+Война
+и
+мир
+Война
+миров
+Войнушки
+Вокруг
+Света
+Волейбол
+Волк
+Волшебство
+Вольт
+Воришка
+Вормикс
+Воронина
+Воры
+Время
+приключений
+Вселенная
+стивена
+Вспыш
+Вторая
+мировая
+Вулкан
+Выход
+из
+комнаты
+Гадалка
+Гадание
+на
+любовь
+Гадкий
+я
+Гангстер
+Гарри
+Поттер
+Гаррис
+мод
+Гарфилд
+Генералы
+Генератор
+Рекс
+Геркулес
+Герои
+ударного
+отряда
+Гладиаторы
+Глаз
+Глаз:
+Ужас
+Гном
+Гоблины
+Годзилла
+Голкипер
+Головоломки
+Гольф
+Гонки
+Гонки
+на
+квадроциклах
+Гонки
+на
+крутых
+машинах
+Город
+Город
+героев
+Готика
+Готовим
+еду
+Готовка
+Грабители
+Грабитель
+Боб
+Гравити
+Фолс
+Граффити
+Фолс
+Гриффины
+Груз
+Грузовики
+ГТА
+Гугл
+Гугл
+плей
+Гуппи
+и
+пузырьки
+Давить
+зомби
+Дальнобойщики
+Дартс
+Даша
+Даша
+и
+Башмачок
+Два
+крыла
+Двери
+Девушки
+Супергерои
+Девушки
+Эквестрии
+Девчачие
+Дед
+деда
+Дед
+Мороз
+Дедпул
+Дельфины
+Демоны
+и
+ангелы
+Денди
+Детектив
+Детский
+сад
+Джанго
+Джедаи
+Джейк
+и
+пираты
+Нетландии
+Джейк
+Лонг
+Джек
+и
+Эльза
+Джеки
+Чан
+Джексмиф
+Дженга
+Джентльмен
+Джеффа
+убийцы
+Джимми
+Нейтрон
+Джин
+Джипы
+Джони
+Тест
+Дивизион
+Дивный
+сад
+Диего
+Дикий
+Запад
+Дино
+Заряд
+Динозавр
+робот
+Динозавры
+Дисней
+Дисней:
+Наследники
+Для
+1
+класса
+Для
+10
+класса
+Для
+11
+класса
+Для
+2
+класса
+Для
+3
+класса
+Для
+4
+класса
+Для
+5
+класса
+Для
+6
+класса
+Для
+7
+класса
+Для
+8
+класса
+Для
+9
+класса
+Для
+айфона
+Для
+влюбленных
+Для
+всей
+семьи
+Для
+всех
+Для
+дебилов
+Для
+девочек
+Для
+девушек
+Для
+детей
+Для
+маленьких
+детей
+Для
+мальчиков
+Для
+нетбука
+Для
+ноутбуков
+Для
+планшета
+Для
+подростков
+Для
+развития
+мозга
+Для
+слабого
+ноутбука
+Для
+слабого
+ПК
+Для
+смартфона
+Для
+телефона
+Для
+ума
+Доббль
+Доктор
+Панда
+Доктор
+Плюшева
+Долина
+сладостей
+Дом
+Домино
+Дора
+Дота
+ДПС
+Драки
+Драконы
+Драконы:
+Всадники
+Олуха
+Дрифт
+Дружба
+—
+это
+чудо
+Друзья
+ангелов
+Дудл
+Джамп
+Дума
+Дурак
+Дурак
+подкидной
+Дэнни
+призрак
+Дюна
+Дядя
+Деда
+Египет
+Египтус
+Еда
+Единороги
+Епи
+Ерш
+Железная
+дорога
+Железный
+человек
+Живая
+сталь
+Животные
+Жизнь
+Жизнь
+утки
+Жук
+За
+покупками
+За
+рулем
+Загадки
+Замок
+Запорожье
+Защита
+Защита
+замка
+Звезда
+Звездные
+войны
+Звездные
+войны:
+Повстанцы
+Зверополис
+Зеленый
+Фонарь
+Зельда
+Зелье
+Зелья
+Зиг
+и
+Шарко
+Зима
+Зимние
+Зимние
+Олимпийские
+Зимние
+рыбалка
+Злая
+бабушка
+Змейка
+Змейка
+io
+Знаменитости
+Золотоискатель
+Золушка
+Зомби
+Зомби
+против
+людей
+Зомби
+против
+людей
+Зомботрон
+Зона
+Зоопарк
+Иван
+Царевич
+и
+Серый
+Волк
+Ивангай
+Игровые
+автоматы
+Издевательства
+Имаджинариум
+Империя
+Инди
+Индиана
+Джонс
+Инопланетяне
+Интеллектуальные
+Интерны
+Ио
+Искорка
+История
+игрушек
+Йепи
+Йети
+Казак
+Казино
+Казуальные
+Как
+достать
+соседа
+Как
+приручить
+дракона
+Кактус
+Маккой
+Камаз
+Канал
+Капитан
+Америка
+Каратэ
+Картинка
+Карточные
+Картун
+Нетворк
+Карусель
+Каскадер
+Катапульта
+Катя
+Кафе
+Качалка
+Качок
+Квесты
+Кекс
+шоп
+Кизи
+Кик
+Бутовски
+Кико
+Киллеры
+Ким
+Пять-с-Плюсом
+Кит
+Кит
+виси
+Кэт
+Китолет
+Кларенс
+Классические
+Классный
+ниндзя
+Кликеры
+Клондайк
+Клуб
+пингвинов
+Клубника
+Книги
+Ковбой
+Когама
+Козел
+Коктейль
+Колобок
+Коммандос
+Комнаты
+Конкурсы
+Конструктор
+Конструктор
+игр
+Контр
+страйк
+Контра
+Контра
+сити
+Конфликт
+Копатель
+Корабли
+Королева
+Королевство
+Король
+Король
+Лев
+Корпорация
+монстров
+Космос
+Кость
+Косынка
+Кот
+в
+сапогах
+Кот
+Леопольд
+Кот
+Том
+Котики
+Коты-Воители
+Котята
+против
+лисят
+Кофейня
+Кошки
+Краски
+Красная
+Шапочка
+Красный
+шар
+Крестики-нолики
+Крестный
+отец
+Кризис
+Кристаллы
+Крокодил
+Крокодильчик
+Свомпи
+Кроссворды
+Крыса
+Крысы
+Кубики
+Кузнец
+Джек
+Кузя
+Куклы
+Кукольный
+домик
+Кулинария
+Кунг-фу
+Куско
+Кухня
+Кухня
+Сары
+Лабиринт
+страха
+Лабиринты
+Лалалупси
+Лара
+Крофт
+Лего
+Лего
+Дупло
+Лего
+Минифигурки
+Лего
+Сити
+Лего
+Френдс
+Лего
+Хоббит
+Леди
+баг
+Леди
+Баг
+и
+Супер
+Кот
+Ледниковый
+период
+Лентяево
+Леталки
+Лечить
+животных
+Лечить
+зубы
+Лечить
+людей
+Лига
+Справедливости
+Лили
+Лило
+и
+Стич
+Лимбо
+Линии
+Логические
+Ложь
+Лол
+Лола
+Лотерея
+Лото
+Лошади
+Луни
+Тюнз
+Лучник
+Любовные
+Любовь
+Люди
+Икс
+Люди
+против
+пришельцев
+Лягушки
+Ляля
+Магазин
+Магазин
+одежды
+Магия
+Мадагаскар
+Маджонг
+Маджонг
+Бабочки
+Май
+Майл
+ру
+Майлз
+с
+другой
+планеты
+Майнкрафт
+Майнкрафт:
+Голодные
+Макдональдс
+симулятор
+Макияж
+Макс
+Стил
+Маленький
+зоомагазин
+Маленькое
+королевство
+Маленькое
+королевство
+бена
+и
+холли
+Малышарики
+Малыши
+Малышка
+барби
+Мама
+Манга
+Маникюр
+Марвел
+Марвел
+Лего
+Марио
+Маска
+Маска
+Массовый
+погром
+Масяня
+Математика
+Матрешка
+Матрица
+Матч
+Мафия
+Машина
+ест
+машину
+Машинариум
+Машинки
+Мегамозг
+Медаль
+за
+отвагу
+Медведи
+Медведи
+соседи
+Мейкер
+Метро
+Метро
+2033
+Механика
+Мечи
+и
+души
+Мечи
+и
+Сандали
+Микки
+Маус
+Миксели
+Миллионеры
+Мини-
+Миньоны
+Мир
+Юрского
+периода
+Мистер
+Бин
+Мишка
+Мишка
+Фредди
+ММА
+Мода
+Модный
+бутик
+Мозаики
+Молодежка
+Молчание
+Монополия
+Монстр
+трак
+Монстр
+Трак
+Монстр
+Хай
+Монстры
+Монстры
+на
+каникулах
+Монстры
+против
+монстров
+Монстры
+против
+пришельцев
+Мороженое
+Мороженое
+готовить
+Морской
+бой
+Мортал
+Комбат
+Морхухн
+Мост
+Мотокросс
+Мотоциклы
+Моя
+новая
+комната
+Мстители
+Музыка
+Мулан
+Мультяшные
+Мыть
+машину
+Мышка
+Мышки
+кошки
+На
+внимательность
+На
+время
+На
+гитаре
+На
+двоих
+На
+деньги
+На
+знакомство
+На
+ловкость
+На
+масленицу
+На
+одного
+На
+память
+На
+русском
+На
+сервис
+На
+троих
+На
+улучшения
+На
+четверых
+Назад
+в
+будущее
+Найди
+кота
+Найди
+отличия
+Наперстки
+Нарды
+Нарды
+длинные
+Нарды
+короткие
+Наруто
+Наруто
+против
+блич
+Насекомые
+Наследники
+Настольные
+Настольный
+теннис
+Находить
+котов
+Небеса
+Небо
+Небоскребы
+Невософт
+Нексо
+найтс
+Немо
+Несквик
+Нёрф
+Никелодеон
+Ниндзя
+Новый
+год
+Ночные
+перестрелки
+Ну,
+погоди!
+Нэнси
+дрю
+Нян
+кэт
+Няня
+О
+счастливчик
+Обитель
+Анубиса
+Оборона
+Обслуживание
+Обучающие
+Овечки
+идут
+домой
+Огонь
+и
+вода
+Одевалки
+Одевалки
+на
+оценку
+Одноклассник
+Олимпийские
+Операции
+Операция
+на
+сердце
+Оптимус
+Прайм
+Оружие
+Осада
+города
+От
+PlayToMax
+От
+Softgames
+Отель
+Отряд
+котят
+Отчаянные
+герои
+Офисные
+Охота
+Охота
+и
+рыбалка
+Пазлы
+Пакман
+Панда
+Панда
+Кунг-фу
+Папа
+Луи
+Папины
+дочки
+Парикмахерская
+Парковка
+Паркур
+Паровоз
+Пасхальные
+Пасьянс
+Пасьянс
+коврик
+Пасьянс:
+Гадание
+Паук
+ПДД
+Пегасы
+Пейнтбол
+Пенальти
+Переделки
+Перри
+Утконос
+Песня
+Песочница
+Пианино
+Пиксель
+Пиксельная
+война
+Пинбол
+Пингвины
+из
+Мадагаскара
+Пираньи
+Пираты
+Пираты
+Карибского
+моря
+Пирог
+в
+лицо
+Питомец
+Пицца
+Пиццы
+готовить
+Плавание
+План
+Планета
+Пластилин
+Плохие
+свинки
+По
+комиксам
+По
+мультфильмам
+По
+сети
+Побег
+Побег
+из
+тюрьмы
+Повар
+Повелитель
+стихий
+Погрузчик
+Подвижные
+Подводные
+лодки
+Подопытные
+Поезд
+динозавров
+Поезда
+Пожарные
+Пожарный
+Сэм
+Познавательные
+Поиск
+предметов
+Пойми
+меня
+Покемоны
+Покер
+Покойо
+Поле
+чудес
+Полиция
+Полли
+Покет
+Пони
+Понивиль
+ПопПикси
+Попрыгунчик
+Попугай
+Пороро
+Поу
+Поцелуи
+Правда
+Правда
+или
+действие
+Правила
+войны
+Приготовление
+еды
+Призрак
+Призрачный
+гонщик
+Приключения
+Приколы
+Принц
+Персии
+Принцесса
+Джульетта
+Принцесса
+и
+лягушка
+Принцессы
+Прически
+Про
+выживание
+Про
+инопланетян
+Про
+рыбалку
+Про
+эльфов
+Простоквашино
+Простые
+Прыжки
+Птица
+Пузырь
+Путешествия
+Пушистики
+Пушка
+Пушок
+Пчелка
+Майя
+Пытки
+Пьяный
+борцы
+Пятнашки
+Радуга
+Радужный
+рок
+Разбей
+машину
+Развивающие
+
+для
+детей
+Развлечение
+Раздевалка
+Разные
+Разрушение
+Ракета
+Ральф
+Рапунцель
+Раскраски
+Растения
+против
+зомби
+Растишка
+Расчлени
+человека
+Ревашн
+Резать
+фрукты
+Рейз
+Рейка
+Рейнджеры-самураи
+Рекс
+динозавр
+Реслинг
+Республика
+Ресторан
+Ретро
+Рикошет
+Рим
+Рио
+Рисовалки
+Робокар
+Поли
+Роботы
+Рога
+и
+копыта
+Родина
+Роды
+Розовая
+пантера
+Ролевые
+Ролики
+Росомаха
+РПГ
+Рулетка
+Русалки
+Русалочка
+Ариэль
+Русская
+рыбалка
+Рыбка
+Фредди
+Рыбки
+Рыцари
+Рэтчет
+и
+Кланк
+С
+буквами
+С
+дельфином
+С
+другом
+С
+друзьями
+С
+компьютером
+С
+кровью
+С
+лололошкой
+С
+огнем
+С
+оружием
+С
+приветом
+по
+планетам
+С
+шариком
+Сабвей
+Серф
+Сабрина:
+Маленькая
+ведьма
+Салон
+красоты
+Самая
+сложная
+игра
+в
+мире
+Самолеты
+Самые
+крутые
+Санджей
+и
+Крейг
+Сапер
+Сахар
+сахар
+Свадьба
+Светофор
+Свидание
+Стеллы
+Свинка
+Пепа
+Своя
+игра
+Сега
+Сейлор
+Мун
+Семейные
+Сенсорные
+Серфинг
+Сибирь
+Симпсоны
+Симулятор
+вождения
+Симулятор
+слизня
+Симуляторы
+Ска
+Сканворды
+Скачки
+на
+лошадях
+Скейтборд
+Скелет
+Скорая
+помощь
+Скрабл
+Скуби-Ду
+Слагтерра
+Слендермен
+Слизне
+ферма
+Слова
+из
+слов
+Смерть
+шпионам
+Смешарики
+Смешарики:
+Пин-код
+Смешные
+Смурфики
+Снайпер
+Снежки
+Снежок
+Сноуборд
+Снукер
+Со
+смертью
+Со
+спичками
+Собаки
+Собери
+робота
+Создавать
+монстров
+Создавать
+пони
+Создай
+своего
+персонажа
+Сокобан
+Сокровища
+Монтесумы
+Сокровища
+пиратов
+Солдаты
+Солитер
+Соник
+Сонник
+София
+Прекрасная
+Спанч
+Боб
+Спарта
+Спасатель
+Спецназ
+Спор
+Спортивные
+Сражения
+Средневековье
+Сталинград
+Сталкер
+Стальной
+алхимик
+Старые
+Степанида
+Стикмен
+Стоматолог
+Страсти
+Стратегии
+Страшные
+Стрельба
+из
+лука
+Стрелялки
+Строить
+дома
+Строить
+мосты
+Стройка
+Судоку
+Сумерки
+Сумо
+Супер
+бойцы
+Супер
+корова
+Супергерои
+Супермаркет
+мания
+Супермен
+Суперсемейка
+Суши
+кот
+Счастливая
+обезьянка
+Счастливые
+колёса
+Съедобная
+планета
+Сью
+Таблица
+умножения
+Тайная
+комната
+Такси
+Тамагочи
+Танки
+Танцы
+Тарзан
+Твари
+Твистер
+Текила
+зомби
+Теккен
+Телеканал
+Карусель
+Теннис
+Теория
+Тера
+Теремок
+Терминатор
+Террария
+Тесто
+Тесты
+Тесты
+для
+девочек
+Тесты
+на
+IQ
+Тесты
+на
+идиота
+Тетрис
+Тимон
+и
+Пумба
+Титаник
+Том
+и
+Джерри
+Томас
+и
+его
+друзья
+Тор
+Торты
+Тотали
+Спайс
+Точки
+Тракторы
+Трамвай
+Трансформеры
+Трансформеры
+Прайм
+Три
+богатыря
+Три
+в
+ряд
+Три
+панды
+Троллфейс
+Трололо
+ТРОН
+Трюки
+Туалет
+Туземец
+Турбо-Агент
+Дадли
+Тысяча
+Тюнинг
+Тюнинг
+машины
+Убейте
+жену
+Убейте
+человека
+Убить
+босса
+Уборка
+Угадай
+кто
+Угадай
+личность
+Угадай
+мелодию
+Угадай
+слово
+Ударный
+отряд
+котят
+Удивительный
+мир
+Гамбола
+Украшения
+Улитка
+Улитка
+Боб
+Уличные
+драки
+Умелец
+Мэнни
+Умизуми
+Уно
+Утиные
+истории
+Уход
+за
+животными
+Уход
+за
+малышами
+Фабрика
+героев
+Фанбой
+и
+Чам
+Чам
+Фанта
+Фараон
+Феи
+Феи
+Динь
+Динь
+Фейри
+Тейл
+Ферби
+Бум
+Ферма
+Филворды
+Фильм
+Фин
+и
+джейк
+Финис
+и
+Ферб
+Флеш
+Флеш
+приколы
+Флирт
+Фнаф
+Формула
+1
+Форсаж
+Фото
+Фрив
+Фрукт
+Фруктовый
+Ниндзя
+Фрукты
+Футбол
+Футбол
+головами
+Футбольные
+Футурама
+Халк
+Ханна
+Монтана
+Хасбро
+Хаю
+хай
+Хвост
+феи
+Хейзел
+Хелло
+Китти
+Химия
+Хищник
+Хищник
+против
+чужого
+Хлебоутки
+Ходилки
+Ходячие
+мертвецы
+Хоккей
+Хоккей
+головами
+Холли
+Холодное
+сердце
+Хомяки
+Хот
+Вилс
+Храбрая
+сердцем
+Храброе
+сердце
+Хранители
+снов
+Хэллоуин
+Хэппи
+Вилс
+Цивилизация
+Цирк
+Цитадель
+Цифра
+Цыпленок
+Цыпа
+Чародейки
+Часть
+2
+Часть
+3
+Чашка
+Петри
+Человек-муравей
+Человек-паук
+Человечек
+Червячки
+Черепашки-ниндзя
+Чернобыль
+Чима
+Чип
+и
+Дейл
+Чудики
+Чудо
+машинки
+Чудо
+ферма
+Чудо-зверята
+Чужой
+Шакал
+Шарарам
+Шарики
+Шарлотта
+Земляничка
+Шахматы
+Шашки
+Шерлок
+Холмс
+Шиммер
+и
+Шайн
+Шиномонтаж
+Шить
+одежду
+Школа
+Шопкинс
+Шоппинг
+Шоу
+дельфинов
+Шпион
+Шпионские
+Шрек
+Шутеры
+Щенячий
+патруль
+Эвер
+Афтер
+Хай
+Эволюция
+Эйви
+Экономические
+стратегии
+Экшен
+Элбэикс
+Элвин
+и
+бурундуки
+Эльза
+Эмо
+Эпоха
+войны
+Эра
+Эрудит
+Южный
+парк
+Юные
+титаны
+Я
+ищу
+Японские
+3Д
+игры
+Тачки
+На
+нашем
+сайте
+создана
+лучшая
+подборка
+онлайн
+3D
+игры,
+Тачки,
+играйте
+бесплатно,
+комментируйте
+и
+делитесь
+своими
+достижениями
+в
+соцсетях.
+Узнай
+самого лучшего
+игрока
+нашего
+сайта в
+3D
+игры,
+Тачки
+и
+переиграй
+его!
+Играть
+на
+нашем
+сайте
+очень
+легко.
+Нужно
+просто
+найти
+игру
+которая
+вам
+понравится
+и
+начать
+играть,  бесплатно.
+Так
+же
+играя
+в
+игры
+вы
+увидите похожие,
+возможно
+они
+вас
+заинтересуют?
+Похожие
+игры
+отображаются
+в
+зависимости
+от
+ваших
+предпочтений
+и
+выводят
+похожие
+жанры
+игровых
+разделов
+сайта.
+3D
+Тачки
+лучшие
+лучшие
+новые
+1
+2
+new
+adriver('pz_2_6592',
+{
+		sid:
+91709,
+		bt:
+52,
+		pz:
+2,
+		sz:
+'onlineguru',
+		keyword:
+'other',
+		custom:
+custom
+	}).onLoadComplete(function
+()
+{
+			setTimeout(function
+()
+{
+//
+ставим
+задержку,
+так
+как
+метод
+onLoadComplete
+adriver'а
+не
+всегда
+срабатывает
+				if
+(typeof
+window.followList
+!=
+'undefined'
+&&
+typeof
+window.followList.update
+!=
+'undefined')
+{
+					window.followList.update();
+				}
+			},
+300);
+		});
+
+		setTimeout(
+		function
+()
+{
+			if
+((typeof
+not_blocked
+===
+'undefined')
+&&
+jQuery('#pz_2_6592').html()
+===
+'')
+{
+				var
+content
+=
+'<!--
+our
+pz_2
+--><if'
++
+'rame
+type="text/javascript"
+src="http://onlineguru.ru/mmog/highlight.html?utm_medium=highlight_blocked&zone_ids='
++
+custom[77]
++
+'"
+width="240"
+height="400"
+frameborder="0"></if'
++
+'rame>';
+				jQuery('#pz_2_6592').html(content);
+			}
+		},
+1500
+	);
+Игра
+Парковка
+3д
+Гран-при
+Игра
+3д
+Гонки
+Супер
+Дрифт
+3D
+Last
+Empire
+War
+Z
+Онлайн
+стратегия,
+действие
+которой
+разворачивается
+в
+мире,
+пережившем
+апокалипсис.
+Только
+представьте,
+что
+большая
+часть
+населения
+планеты
+превратилась
+в
+кровожадных
+зомби...
+Стратегия
+Постапокалиптика
+Браузерная
+Играть
+сейчас
+Tanki
+X
+Многопользовательский
+экшен,
+в
+котором
+танки
+не
+ползующие
+груды
+металла,
+а
+стремительные
+боевые
+машины!
+Экшен
+Футуристическая
+Браузерная
+Играть
+сейчас
+Турбогонки
+3:
+Шанхай
+Скачать
+«3D
+игры,
+Тачки»
+Скоростная
+лихорадка
+Игра
+Дрифт
+гонки
+3D
+Уличный
+гонщик
+Гонки
+на
+такси
+3D
+Игра
+Испытание
+спортивного
+байка
+Свободный
+бег
+2
+Трасса
+смерти
+Игра
+гонки
+на
+крутых
+машинах
+Real
+Racing
+3
+Dofus
+Фэнтезийная
+ролевая
+игра
+с
+прекрасной
+мультяшной
+графикой
+Ролевая
+Фэнтези
+Скачиваемая
+Играть
+сейчас
+Игра
+3D
+Танки
+гонки
+Горящие
+покрышки:
+гонка
+на
+выживание
+Войны
+Престолов
+Закладывай
+прочный
+фундамент
+будущей
+империи!
+Стратегия
+Историческая
+Браузерная
+Играть
+сейчас
+Игра
+Хот
+Вилс:
+3D
+Гонка
+Городской
+гонщик
+3
+Дорожное
+безумие:
+арена
+3D-такси
+Turbo
+Dismount
+Взрывоопасная
+гонка
+Автомобильные
+войны
+2
+Симулятор
+таксиста
+3D
+Построй
+свой
+собственный
+гоночный
+трек
+Углеродная
+битва
+Metal
+War
+Online
+Оцени
+все
+прелести
+боя
+на
+просторах
+мегаполисов
+Австралии!
+Экшен
+Футуристическая
+Скачиваемая
+Играть
+сейчас
+Хоккей
+или
+бей
+Мототрюки
+в
+3D
+Black
+Desert
+Фэнтезийная
+онлайн
+ролевая
+игра
+с
+самыми
+реалистичными
+персонажами
+в
+жанре
+MMORPG
+Ролевая
+Фэнтези
+Скачиваемая
+Играть
+сейчас
+Уличный
+ястреб
+Симулятор
+стритрейсера
+3D
+Все
+в
+вертолет!
+Школьная
+парковка
+3D
+Полицейская
+машина
+Дорожное
+безумие
+Чемпионат
+стритрейсеров
+Гонки
+по
+трассе
+Игра
+Вспыш
+и
+Чудо-машинки:
+Гонка
+на
+острове
+Дракона
+Похмельная
+парковка
+Спарта:
+Война
+империй
+Присоединяйся
+к
+реалистичной
+ММО-стратегии
+«Спарта:
+Война
+империй»
+и
+останови
+натиск
+персов!
+Докажи,
+что
+достоин
+называться
+спартанцем!
+Стратегия
+Историческая
+Браузерная
+Играть
+сейчас
+Торопливая
+доставка
+Припаркуй
+аэроплан
+1
+2
+new
+adriver('interpool-banner',
+{
+sid:91709,
+bt:52,
+sz:'onlineguru',
+bn:6,
+pz:3,
+keyword:'main',
+custom:custom
+});
+Поделись
+с
+друзьями
+VK.init({apiId:
+3050214,
+onlyWidgets:
+true});
+.vk_like
+{
+						display:
+inline-block;
+						width:
+165px
+!important;
+						margin-top:
+-1px;
+						vertical-align:
+top;
+					}
+VK.Widgets.Like("vk_like",
+{type:
+"button",
+verb:
+1,
+width:
+165});
+.fb_reset
+{
+						display:
+inline-block;
+					}
+					.fb-like
+>
+span
+{
+						vertical-align:
+baseline
+!important;
+						width:
+150px
+!important;
+					}
+(function
+(d,
+s,
+id)
+{
+						var
+js,
+fjs
+=
+d.getElementsByTagName(s)[0];
+						if
+(d.getElementById(id))
+							return;
+						js
+=
+d.createElement(s);
+						js.id
+=
+id;
+						js.src
+=
+"//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.0";
+						fjs.parentNode.insertBefore(js,
+fjs);
+					}(document,
+'script',
+'facebook-jssdk'));
+.twitter-share-button
+{
+						width:
+110px
+!important;
+					}
+Твитнуть
+!function
+(d,
+s,
+id)
+{
+							var
+js,
+fjs
+=
+d.getElementsByTagName(s)[0],
+p
+=
+/^http:/.test(d.location)
+?
+'http'
+:
+'https';
+							if
+(!d.getElementById(id))
+{
+								js
+=
+d.createElement(s);
+								js.id
+=
+id;
+								js.src
+=
+p
++
+'://platform.twitter.com/widgets.js';
+								fjs.parentNode.insertBefore(js,
+fjs);
+							}
+						}(document,
+'script',
+'twitter-wjs');
+Нравится
+!function
+(d,
+id,
+did,
+st)
+{
+						var
+js
+=
+d.createElement("script");
+						js.src
+=
+"http://connect.ok.ru/connect.js";
+						js.onload
+=
+js.onreadystatechange
+=
+function
+()
+{
+							if
+(!this.readyState
+||
+this.readyState
+==
+"loaded"
+||
+this.readyState
+==
+"complete")
+{
+								if
+(!this.executed)
+{
+									this.executed
+=
+true;
+									setTimeout(function
+()
+{
+										OK.CONNECT.insertShareWidget(id,
+did,
+st);
+									},
+0);
+								}
+							}
+						};
+						d.documentElement.appendChild(js);
+					}(document,
+"ok_shareWidget",
+document.URL,
+"{width:145,height:30,st:'oval',sz:20,ck:1}");
+Комментарии
+и
+оценки
+игроков
+Leo
+в
+игре
+Трансформер
+в
+длительном
+полете
+16
+марта,
+2016
+в
+20:32
+Поиграл
+в
+игру
+Трансформер
+в
+длительном
+полете.
+Неплохое
+кратковременное
+развлечение,
+интересный
+сюжет
+и
+относительно
+неплохая
+графика
+для
+игр
+такого
+типа.
+Контрастность
+не
+высокая
+и
+хороший
+дизайн,
+приятные
+цвета
+для
+глаз.
+Управление
+не
+сложное,
+перемещается
+трансформер
+нажатием
+стрелочек
+на
+клавиатуре,
+стрелять
+ракетой
+можно
+с
+помощью
+кнопки
+«N»,
+из
+лазерной
+пушки
+кнопкой
+«B».
+Музыкальное
+сопровождение
+мне
+не
+понравилось,
+я
+его
+отключил,
+ведь
+оно
+очень
+отвлекает.
+Не
+забывайте
+следить
+за
+уровнем
+жизни,
+он
+находиться
+в
+верхнем
+левом
+углу.
+Игроку
+даётся
+две
+жизни,
+потратив
+одну
+жизнь
+игра
+продолжается
+с
+того
+же
+самого
+места.
+Трансформеру
+необходимо
+убивать
+вражеские
+машины
+и
+уклоняться
+от
+метеорита.
+Я
+быстро
+всему
+научился,
+все
+понятно
+и
+просто.
+Старался
+быть
+очень
+внимательным,
+ведь
+два,
+три
+попадания
+достаточно,
+чтобы
+лишить
+главного
+героя
+жизни.
+Также
+на
+пути
+героя
+встречаются
+ячейки
+бонусов,
+я
+постоянно
+забывал
+их
+подбирать,
+а
+ведь
+это
+значительно
+облегчит
+игру.
+Я
+поиграл,
+мне
+понравилось,
+но
+это
+не
+та,
+игра
+в
+которую
+можно
+играть
+часами
+на
+пролет.
+В
+общем,
+советую
+всем,
+кто
+хочет
+ненадолго
+развлечься
+и
+пройти
+легкое
+сражение!
+Богдан
+в
+игре
+Защита
+базы
+трансформеров
+15
+марта,
+2016
+в
+19:22
+Люблю
+разные
+игры
+с
+трансформерами
+и
+эта
+игра
+очень
+понравилась.
+Перед
+игрой
+показана
+краткая
+история
+в
+комиксах,
+но
+если
+вы
+её
+не
+хотите
+читать,
+то
+можно
+пропустить,
+нажав
+на
+кнопку
+в
+верхнем
+левом
+углу.
+В
+первую
+очередь
+стоит
+отметить
+удобное
+управление
+пушкой,
+необходимо
+направлять
+мышкой
+в
+диапазоне
+выстрелов
+на
+врага
+и
+нажимать
+при
+верной
+траектории.
+Хорошая
+графика
+и
+красочный
+дизайн
+игры
+тоже
+притягивают
+внимание.
+Также
+стоит
+сказать
+о
+возможности
+выставлять
+силу
+удара,
+ведь
+иногда
+это
+играет
+ключевую
+роль.
+Врагов
+в
+миссии
+очень
+много,
+и
+они
+все
+разноплановые.
+Нужно
+защитить
+базу
+с
+радиоактивными
+веществами.
+Враги
+прилетают
+на
+вертолетах,
+приезжают
+на
+машинах
+и
+даже
+делают
+подкопы.
+Необходимо
+уничтожать
+всех,
+выбирая
+правильную
+траекторию
+полета
+ракеты.
+Важно
+не
+попасть
+в
+хранилище
+веществ,
+ведь
+это
+очень
+опасно,
+оно
+может
+взорваться.
+Позже
+противникам
+будет
+помогать
+летающий
+трансформер,
+который
+двигается
+невероятно
+быстро
+и
+легко
+может
+сбежать.
+Я
+старался
+спрогнозировать
+его
+маршрут
+и
+стрелял
+заранее,
+чтоб
+ракета
+успевала
+долететь.
+В
+общем
+стрелялка
+безумно
+понравилась,
+и
+я
+весело
+провел
+свое
+время.
+Рекомендую
+всем
+парням!
+wpe.wp
+в
+игре
+Игра
+Машинка
+Вилли
+4:
+Путешествие
+во
+времени
+3
+марта,
+2016
+в
+18:04
+Не
+читай
+твоя
+мама
+умрет,
+чтобы
+снять
+проклятье
+напиши
+ето
+к
+другой
+игре
+LetsPlay
+в
+игре
+Трансформеры:
+драки
+3
+марта,
+2016
+в
+01:01
+Для
+любителей
+восхитительных
+трансформеров
+и
+разноплановых
+сражений,
+эта
+игра
+в
+самый
+раз.
+Я
+искал
+подобные
+сражения
+роботов
+с
+удобным
+и
+понятным
+управлением,
+вот
+и
+попал
+на
+одно
+из
+таких.
+Перед
+началом
+игры,
+показаны
+все
+удары
+и
+нюансы
+управления
+героем.
+Игра
+ведется
+от
+первого
+лица
+и
+это
+мне
+безумно
+понравилось.
+В
+первом
+уровне
+противник
+одолел
+моего
+робота,
+но
+во
+втором
+и
+третьем
+я
+наверстал
+упущенное.
+Рядом
+с
+каждым
+трансформером
+показано
+процентное
+соотношение
+урона.
+Для
+того
+чтоб
+победить,
+нужно
+совершить
+большое
+количество
+разных
+ударов.
+Мы
+с
+братом
+пробовали
+играть
+по
+очереди
+и
+набирать
+баллы.
+В
+общем,
+весело
+и
+необычно,
+развлечение
+достойно
+внимания.
+Графика
+хорошая,
+и
+нет
+замысловатых
+улучшений
+оружия
+или
+героев.
+Эта
+игра
+для
+тех,
+кто
+хочет
+провести
+свободное
+время
+с
+друзьями,
+не
+разгадывая
+сложных
+головоломок
+или
+заданий.
+Нужно
+просто
+поворачивать
+мышку
+и
+нажимать
+для
+удара.
+Постарайтесь
+вовремя
+ставить
+защиту
+и
+ловко
+уворачеваться
+от
+ударов
+громилы.
+Музыкальное
+сопровождение
+не
+мешает,
+а
+добавляет
+экшина.
+Советую
+всем
+любителям
+трансформеров
+попробовать
+пройти
+игру!
+Yagnaytko
+в
+игре
+Игра
+Человек-паук
+Розыск
+1
+марта,
+2016
+в
+14:35
+Безумно
+люблю
+человека-паука,
+комиксы,
+игры
+и
+фильмы
+с
+ним.
+Нашел
+эту
+замечательную
+игру
+на
+сайте
+и
+запустил.
+Быстро
+грузится,
+без
+задержек.
+В
+основу
+игра
+заложена
+короткая
+история
+о
+том
+как
+преступная
+группировка
+ограбила
+банк
+и
+пытается
+уйти
+с
+деньгами.
+Управление
+удобное,
+машина
+передвигается
+при
+нажатии
+стрелок.
+Задача
+игрока
+–
+помочь
+главному
+герою,
+выполнить
+его
+долг
+перед
+городом
+и
+поймать
+опасных
+преступников.
+Для
+тех,
+кто
+любит
+управлять
+автомобилем
+и
+устраивать
+гонки,
+это
+развлечение
+отлично
+подойдет.
+Графика
+неплохая,
+для
+такой
+игры
+в
+самый
+раз.
+Необходимо
+догнать
+плохих
+парней
+и
+задержать
+их
+до
+приезда
+полиции.
+Важно
+внимательно
+и
+ловко
+управлять
+транспортным
+средством,
+чтоб
+пройти
+все
+препятствия
+и
+догнать
+злоумышленников.
+Провел
+я
+за
+игрой
+долгое
+время,
+а
+потом
+ещё
+и
+с
+друзьями
+ловили
+преступников.
+Всем
+развлечение
+очень
+понравилось.
+Правда
+музыку
+в
+играх
+я
+не
+люблю,
+поэтому
+всегда
+отключаю,
+но
+если
+не
+мешает,
+то
+можно
+и
+оставить.
+При
+необходимости
+можно
+поставить
+на
+паузу.
+Советую
+всем
+любителям
+комиксов
+Марвелс,
+заходить
+на
+сайт
+OnlineGuru
+и
+проходить
+игры
+с
+известными
+героями.
+LetsPlay
+в
+игре
+Кризис
+энергона
+1
+марта,
+2016
+в
+12:34
+Интересная
+игра
+на
+прохождение
+миссий
+с
+заданиями.
+Необходимо
+ездить
+на
+машине
+марки
+Шевроле
+по
+городу.
+Графика
+хорошая,
+все
+детализировано
+и
+контрастно.
+Звуковое
+сопровождение
+отличное
+и
+уместное.
+Управление
+не
+сложное
+и
+легкое,
+машина
+передвигается
+быстро
+и
+маневренно.
+Миссии
+интересные
+и
+разные.
+Для
+выполнений
+заданий
+есть
+карта
+подсказка,
+где
+указано,
+в
+каком
+направлении
+нужно
+двигаться.
+Собрав
+все
+предметы,
+указанные
+в
+задании
+нужно
+вернуться
+обратно
+на
+базу,
+которая
+обозначена,
+синим
+квадратиком
+на
+карте.
+Главное
+не
+удариться
+в
+полицейскую
+машину,
+но
+если
+уже
+случилось,
+то
+нужно
+от
+нее
+оторваться,
+ведь
+она
+будет
+преследовать.
+Вырвавшись
+сильно
+вперед,
+полиция
+упустит
+вас
+из
+виду
+и
+оставит
+в
+покое.
+В
+правом
+нижнем
+углу
+указано
+состояние
+машины.
+При
+каждом
+ударе
+машины
+об
+другую
+машину
+или
+здание,
+линия
+технического
+состояния
+уменьшается.
+Когда
+синяя
+линия
+станет
+красной,
+значит,
+машина
+полностью
+сломалась,
+и
+вы
+проиграли.
+Проваливши
+миссию,
+предлагается
+начать
+ее
+заново,
+а
+прошлые
+пройденные
+миссии
+сохраняются.
+Карта
+города
+довольно
+большая
+и
+не
+сложная,
+есть,
+где
+поездить
+и
+разогнаться.
+Советую
+всем
+автолюбителям
+и
+ценителям
+гонок!
+LiPa
+в
+игре
+Игра
+Разыскиваются
+трансформеры
+29
+февраля,
+2016
+в
+08:28
+Фильм
+трансформеры
+я
+обожаю,
+и
+моим
+любимым
+героем
+является
+Оптимус
+Прайм.
+В
+этой
+игре
+он
+в
+главной
+роли
+и
+им
+можно
+управлять.
+Огромный
+стальной
+герой
+вызывает
+восхищение,
+а
+его
+оружие
+огромный
+восторг.
+Управление
+удобное,
+но
+я
+не
+сразу
+разобрался,
+как
+стрелять.
+Геймерам
+на
+будущее
+–
+кнопки
+К
+и
+L.
+Графика
+нормальная,
+хоть
+я
+думал,
+будет
+хуже.
+Игра
+загрузилась
+очень
+быстро,
+что
+бывает
+не
+часто
+с
+онлайн
+развлечениями.
+Главным
+задание
+робота,
+является
+уничтожение
+противников
+с
+помощью
+предложенного
+оружия.
+Это
+сделать
+очень
+трудно,
+ведь
+противников
+много
+и
+они
+нападают
+сразу
+с
+разных
+сторон.
+Сверху
+есть
+индикатор
+здоровья,
+за
+которым
+обязательно
+нужно
+следить
+и
+когда
+он
+дойдет
+до
+придела,
+то
+не
+позволить
+врагам
+подойти
+близко.
+На
+протяжении
+игры
+будут
+появляться
+бонусные
+маски
+посреди
+игрового
+поля,
+их
+стоит
+собирать,
+чтоб
+заработать
+балла.
+Также
+сверху
+показано
+количество
+набранных
+очей.
+Игры
+мне
+понравилась,
+и
+я
+долго
+не
+мог
+оторваться.
+Удивила
+скорость
+нападающих,
+в
+конце
+даже
+не
+успеваешь
+сделать
+шаг
+или
+разворот.
+Это
+хорошо
+тренирует
+ловкость,
+как
+по
+мне.
+Советую
+всем
+любителям
+Оптимуса
+попробовать
+это
+приложение.
+Всем
+победы!
+Маша
+в
+игре
+Игра
+Трансформеры:
+Траксформеры
+28
+февраля,
+2016
+в
+11:45
+Отличная
+игра
+для
+умных
+геймеров.
+Люблю
+задания,
+в
+которых
+можно
+повеселиться
+и
+развить
+мышление.
+Достойна
+внимания
+и
+графика,
+очень
+реалистичная
+и
+хорошая.
+Главное
+обновить
+плеер,
+чтоб
+ничего
+не
+мешало
+веселиться.
+В
+первом
+уровне
+нужно
+проехать
+заданный
+маршрут
+большой
+крутой
+тачкой
+и
+переехать
+несколько
+машин.
+Странным
+мне
+показалось
+то,
+что
+машина
+проваливалась
+под
+асфальт
+и
+в
+результате
+взрывалась,
+но
+в
+целом
+задумка
+хороша.
+Внизу
+представлены
+виды
+машин,
+их
+всего
+три,
+а
+слева
+индикатор
+здоровья.
+Важно
+следить
+за
+уровнем
+жизни
+после
+каждого
+падения
+или
+взрыва.
+В
+конце
+уровня,
+показаны
+балы,
+которые
+игрок
+набрал
+за
+крушение
+и
+дальность
+поездки.
+Необходимо
+пройти
+уровень
+быстро,
+ведь
+время
+не
+ждет,
+и
+от
+скорости
+будет
+зависеть
+количество
+очков.
+Для
+того
+чтоб
+изменить
+вид
+автомобиля,
+нужно
+нажать
+цифру
+соответствующую
+порядковому
+номеру
+машины.
+Через
+огонь
+не
+пройдет
+первый
+вариант,
+а
+вот
+второй
+будет,
+кстати,
+ведь
+машина
+умеет
+летать.
+Если
+на
+пути
+будет
+большое
+деревянное
+препятствие,
+то
+лучше
+воспользоваться
+третьим
+автомобилем.
+Огромная
+пила
+перед
+транспортом,
+легко
+разрежет
+все
+по
+дороге.
+Короче
+советую
+всем
+парням,
+которые
+любят
+крушения
+и
+гонки.
+Малая
+в
+игре
+Парк
+Танк
+28
+февраля,
+2016
+в
+01:05
+Отличная
+игра
+с
+хорошим
+качеством.
+Содержит
+много
+уровней
+с
+разноплановыми
+заданиями.
+Необходимо
+управлять
+танком
+и
+поместить
+его
+на
+заданном
+месте.
+Первые
+уровни
+абсолютно
+не
+сложные,
+для
+разминки.
+Но
+дальше
+препятствий
+становится
+безумно
+много.
+Приходилось
+переигрывать
+по
+несколько
+раз.
+Музыка
+однообразная
+и
+я
+её
+отключил
+в
+результате.
+Важно
+не
+врезается
+в
+другую
+боевую
+технику
+в
+процессе
+езды.
+Время
+игры
+показано
+в
+верхнем
+правом
+углу
+экрана.
+Чем
+меньше
+потрачено
+времени
+на
+прохождение
+уровня,
+тем
+больше
+баллов
+получишь.
+Уже
+с
+третьего
+уровня
+задания
+становятся
+очень
+сложными,
+но
+занимательными.
+Мне
+помогали
+проходить
+друзья,
+и
+мы
+играли
+по
+очереди.
+Игра
+не
+надоедает
+и
+затягивает
+на
+долгое
+время.
+Достаточно
+один
+раз
+зайти
+и
+ты
+уже
+не
+можешь
+оторваться,
+испытывая
+свою
+ловкость
+в
+развлечении.
+Побеждать
+не
+сложно,
+если
+приложить
+максимум
+усилий.
+Я
+люблю
+добиваться
+своего
+и
+прошел
+много
+уровней
+с
+хорошим
+результатом.
+Конечно,
+не
+все
+быстро
+научатся
+управлять
+танком,
+но
+практика
+позволит
+победить.
+Достойное
+внимания
+приложение
+среди
+предложенных
+на
+сайте
+вариантов.
+Советую
+всем
+парням,
+которые
+любят
+проводить
+время
+с
+пользой.
+Соня
+Пашова
+в
+игре
+Трансформеры
+защищают
+город
+27
+февраля,
+2016
+в
+15:35
+Трансформеров
+обожают
+все,
+но
+чтоб
+найти
+хорошее
+развлечение
+с
+ними,
+нужно
+потратить
+много
+времени.
+На
+этом
+сайте
+я
+нашел
+много
+достойных
+игр
+с
+этими
+роботами
+разных
+жанров.
+В
+этой
+игре
+предложено
+управлять
+автоботом
+и
+победить
+всех
+противников.
+Естественно
+ими
+являются
+десептиконы.
+Здесь
+есть
+все
+желаемое,
+и
+великолепные
+трансформации
+и
+необычные
+задания.
+Управление
+очень
+удобное
+и
+быстро
+понимаешь,
+что
+нужно
+сделать
+в
+том
+или
+ином
+месте.
+Одна
+из
+лучших
+стрелялок
+с
+хорошим
+оружием
+и
+удобным
+прицелом.
+Важно
+правильно
+целится
+и
+быстро
+стрелять
+по
+врагам,
+чтоб
+они
+не
+успели
+удить
+тебя.
+Нужна
+ловкость
+и
+внимательность,
+чтоб
+пройти
+все
+уровни.
+Помимо
+десептиконов
+есть
+и
+другие
+препятствия,
+которые
+необходимо
+преодолеть.
+Играл
+вместе
+с
+друзьями
+в
+школе,
+все
+герои
+очень
+реалистичные,
+как
+и
+их
+оружие.
+Можно
+соревноваться
+в
+количестве
+уничтоженных
+противников
+или
+во
+времени
+прохождения
+уровней.
+Музыка
+не
+раздражает,
+но
+в
+любом
+случаи
+её
+можно
+отключить.
+Важно
+следить
+за
+количеством
+жизни,
+чтоб
+проигрыш
+не
+стал
+неожиданным.
+Советую
+всем
+любителям
+трансформерам
+попробовать
+пройти
+это
+развлечение,
+и
+вы
+не
+пожалеете.
+BlackSilver
+в
+игре
+Игра
+Макс
+Стил:
+ТУРБО-ПЕРЕЗАГРУЗКА
+26
+февраля,
+2016
+в
+20:05
+Прикольное
+развлечение
+с
+большим
+количеством
+заданий.
+Макс
+Стил
+просто
+супер
+и
+в
+этой
+игре
+он
+ищет
+своего
+врага.
+Понравилось
+все:
+качество,
+фоновые
+звуки,
+дизайн.
+Все
+события
+происходят
+на
+огромном
+космическом
+корабле
+с
+разными
+каютами.
+Главный
+герой
+должен
+добраться
+до
+цели
+и
+пройти
+все
+задания,
+но
+они
+довольно
+сложные.
+Мне
+пришлось
+проходить
+некоторые
+из
+них
+пару
+раз
+или
+с
+чужой
+помощью.
+Есть
+уровни
+с
+ограничением
+времени,
+там
+пришлось
+поспешить
+и
+быстро
+решить
+что
+делать.
+Важно
+не
+забывать
+собирать
+энергию
+для
+персонажа.
+Игра
+занимает
+много
+времени
+и
+мне
+не
+пришлось
+скучать
+на
+уроке
+литературы.
+Сосед
+по
+парте
+помогал
+проходить
+трудные
+уровни.
+Можно
+играть
+по
+очереди
+и
+быстрее
+пройти
+все
+комнаты.
+Развлечение
+понравится
+всем,
+кто
+любит
+бродилки
+такого
+типа.
+В
+правилах
+разобраться
+не
+сложно,
+но
+на
+это
+потребуется
+немного
+времени.
+Задания
+класно
+продуманны
+и
+игра
+затягивает
+надолго.
+Хотелось
+больше
+заданий
+и
+бонусов,
+а
+так
+все
+безумно
+интересно
+и
+правдоподобно.
+Загрузилось
+без
+проблем,
+а
+и
+не
+так
+медленно
+как
+на
+большинстве
+сайтов.
+Советую
+всем
+любителям
+Макса
+пройти
+эту
+игру
+от
+начала
+и
+до
+конца.
+Александр
+в
+игре
+Гонки
+на
+машинах
+с
+пейнтбольными
+снарядами
+26
+февраля,
+2016
+в
+04:41
+Хорошая
+и
+веселая
+игра
+для
+двоих
+понравилась
+всем
+моим
+друзьям.
+Несложное
+управление,
+быстро
+разобрались
+и
+начали
+соревнования.
+Много
+ездили
+с
+другом
+на
+тачках,
+а
+потом
+и
+папа
+присоединился.
+Прикольное
+дополнение
+–
+пушки.
+Пейнтбол
+обожаю,
+а
+с
+гонками
+вообще
+великолепно
+сочетается.
+Сложно
+было
+управлять
+машиной
+и
+при
+этом
+стрелять
+в
+противника.
+Старался
+максимально
+сосредоточиться,
+чтоб
+и
+за
+дорогой
+следить
+и
+боковым
+зрением
+видеть
+соседнюю
+машину.
+Яркие
+шарики
+попадали
+в
+мою
+тачку
+и
+приостанавливали
+её,
+но
+я
+все
+равно
+догонял.
+Сложно
+было
+перестроиться
+управления
+автомобилем,
+на
+стрельбу.
+Когда
+проигрываешь,
+появляется
+большое
+желание
+отыграться,
+и
+мы
+соревновались
+довольно
+долго.
+Простой
+дизайн,
+ничего
+лишнего
+и
+все
+понравилось.
+Ничего
+не
+отвлекает
+внимание
+от
+гонки.
+Графика
+нормальная,
+хоть
+и
+бывает
+лучше,
+но
+для
+такой
+игры
+достаточно.
+Не
+хватало
+бонусов
+или
+призов,
+но
+в
+целом
+игра
+заслуживает
+внимания.
+Не
+зря
+зашел
+и
+на
+сайт.
+Фоновые
+звуки
+не
+отвлекают,
+а
+игра
+запускается
+быстро.
+Класно,
+что
+можно
+играть
+онлайн.
+Мы
+с
+друзьями
+на
+школьных
+перерывах
+заходим
+и
+соревнуемся.
+Развлечение
+для
+отдыха
+и
+развития
+ловкости.
+Обязательно
+попробуйте!
+Кира
+в
+игре
+Игра
+Трансформеры
+гоночные
+машины
+25
+февраля,
+2016
+в
+22:12
+Игра
+оставила
+смешанное
+впечатление.
+Да,
+в
+ней
+есть
+экшн,
+есть
+действия
+и
+она
+затягивает,
+потому
+что
+это
+гонки.
+Но
+в
+то
+же
+время
+в
+игре
+не
+очень
+удобное
+управление
+машиной.
+Изначально
+было
+трудно
+понять,
+как
+управлять
+ею,
+и
+как
+нужно
+ехать,
+поэтому
+отстал
+надолго
+от
+своих
+соперников.
+Только
+когда
+разобрался,
+на
+следующем
+уровне
+получилось
+выигрывать
+первые
+места.
+В
+самом
+начале
+игры
+можно
+выбрать
+любую
+из
+предложенных
+машин
+и
+участвовать
+в
+гонках
+именно
+на
+ней.
+Что
+касается
+уровней,
+то
+здесь
+каждая
+трасса
+-
+это
+новый
+уровень,
+который
+открывается,
+если
+ты
+не
+проиграл
+предыдущий.
+Ездить
+сложновато,
+поэтому
+моя
+машина
+иногда
+выдавала
+такие
+потрясающие
+маневры,
+что
+мне
+и
+самому
+было
+весело
+смотреть.
+Проигравшим
+уровень
+считается
+в
+том
+случае,
+если
+автомобиль
+переворачивается
+и
+сильно
+ударяется,
+поэтому
+ездить
+нужно
+аккуратно,
+чтобы
+не
+проиграть.
+Кстати,
+очень
+удачный
+угол
+обзора,
+с
+помощью
+которого
+видно
+всю
+неровную
+поверхность
+трассы.
+Несмотря
+на
+то,
+что
+игра
+не
+слишком
+реалистичная,
+в
+нее
+прикольно
+играть,
+причем
+графика
+довольно
+таки
+неплохая.
+Если
+хочется
+чего-то
+более
+экстремального,
+то
+подобная
+игрушка
+не
+для
+этого.
+А
+если
+любите
+любые
+гонки,
+то
+советую
+поиграть,
+главное
+сразу
+разобраться.
+LetsPlay
+в
+игре
+Трансформер
+на
+мотоцикле
+25
+февраля,
+2016
+в
+09:00
+Прикольная
+и
+веселая
+игрушка.
+Мне
+понравилась.
+Качество
+хорошее,
+яркая
+картинка.
+Но
+расстроило,
+что
+всего
+десять
+уровней.
+Кстати,
+эта
+игра
+мне
+очень
+напомнила
+давнюю
+всеми
+известную
+игру
+«gravity
+defied».
+Смысл
+абсолютно
+тот
+же,
+только
+графика
+более
+объемная.
+Я
+бы
+даже
+сказала,
+что
+напоминает
+3Д.
+Играть
+с
+одной
+стороны
+просто,
+а
+с
+другой
+стороны
+-
+сложновато.
+Разобраться
+легко,
+а
+вот
+в
+управлении
+мотоциклом
+у
+меня
+возникли
+сложности,
+и
+нужно
+было
+приловчиться.
+Суть
+в
+том,
+чтобы
+продвигаться
+по
+дороге
+вперед
+и
+преодолевать
+неровную
+поверхность.
+Для
+этого
+необходимо
+нажимать
+поочередно
+стрелки
+на
+клавиатуре.
+Помимо
+того,
+чтобы
+не
+опрокинуть
+свой
+персонаж,
+я
+собирала
+различные
+бонусы,
+которые
+превращались
+в
+очки.
+Поэтому
+можно
+устанавливать
+рекорды
+на
+каждом
+из
+десяти
+уровней.
+Кстати,
+как
+оказалось,
+когда
+я
+долго
+стояла
+на
+одном
+месте,
+то
+это
+тоже
+приняли
+как
+за
+проигрыш.
+Немного
+обидно,
+ведь
+на
+тот
+момент
+я
+уже
+почти
+прошла
+до
+конца
+весь
+уровень.
+А
+так,
+игру
+советую,
+прохождение
+ее
+полностью
+не
+занимает
+много
+времени.
+Она
+не
+только
+для
+мальчиков,
+несмотря
+на
+главного
+персонажа.
+Дмитрий
+в
+игре
+Игра
+Засада
+25
+февраля,
+2016
+в
+03:24
+Очень
+затягивающая
+игрушка,
+но
+мне
+показалась
+она
+не
+совсем
+продуманной.
+А
+все
+потому,
+что
+играть
+в
+нее
+сложновато.
+Несмотря
+на
+то,
+что
+в
+начале
+игры
+есть
+подсказки,
+которые
+немного
+помогают
+сориентироваться,
+через
+некоторое
+время
+подсказки
+перестают
+появляться.
+И
+когда
+их
+нет
+-
+не
+понятно,
+что
+делать.
+Поэтому
+пришлось
+разбираться
+самому.
+Когда
+наконец-то
+разобрался,
+то
+в
+дальнейшем
+остались
+неплохие
+впечатления.
+Перед
+самой
+игрой
+есть
+небольшой
+сюжетик,
+который
+прикольно
+оформлен.
+Особенно
+понравился
+момент
+с
+письмом,
+хотя
+оно
+было
+и
+на
+английском
+языке,
+и
+наверняка
+не
+многие
+его
+поймут.
+Но
+тем,
+кто
+изучает,
+советую
+прочесть.
+Затем
+мне
+необходимо
+было
+расставить
+своих
+бойцов
+так,
+чтобы
+как
+можно
+быстрее
+сразить
+врага.
+Скажу
+честно,
+удалось
+мне
+пройти
+первый
+уровень
+далеко
+не
+с
+первого
+раза.
+А
+остальные
+уровни
+так
+тем
+более.
+Но
+когда
+все-таки
+я
+выиграл,
+можно
+было
+на
+заработанные
+деньги
+купить
+еще
+бойцов
+и
+это
+затягивает,
+ведь
+постепенно
+увеличиваешь
+свою
+армию,
+появляется
+больше
+возможностей
+и
+играть
+становится
+легче.
+Это
+не
+аркадная
+игра
+в
+стрелялки,
+это
+логическая,
+но
+необычная.
+Рита
+в
+игре
+Гонки
+на
+пони
+25
+февраля,
+2016
+в
+00:16
+Игра
+достаточно
+интересная
+и
+очень
+легкая.
+В
+ней
+нет
+никакого
+экшена
+и
+нет
+особого
+сюжета.
+Лично
+я,
+когда
+играла,
+то
+абсолютно
+не
+напрягалась.
+В
+игре
+создано
+приятное
+красочное
+оформление.
+Особенно
+отмечу
+музыку,
+с
+которой
+играть
+веселее.
+Это
+наподобие
+аркадных
+игр,
+только
+с
+меньшей
+эмоциональной
+нагрузкой.
+Классно,
+что
+сама
+игра
+на
+рекорд,
+а
+не
+на
+уровни.
+А
+иначе
+было
+бы
+однообразно.
+Изначально
+думала,
+что
+там
+есть
+уровни,
+но
+поиграв,
+не
+могу
+сказать
+точно.
+Не
+совсем
+понятно.
+Единственное,
+что
+я
+поняла,
+так
+это
+то,
+что
+в
+течение
+всего
+забега
+нужно
+часто
+прыгать.
+Играешь
+в
+"забег
+на
+пони"
+и
+прыгаешь
+через
+все
+попадающиеся
+на
+пути
+препятствия.
+Помимо
+этого,
+желательно
+собирать
+ягоды
+с
+деревьев
+–
+для
+получения
+бонусов.
+И
+весь
+смысл
+в
+том,
+чтобы
+не
+спотыкаться
+о
+заборчики
+и
+обгонять
+соперников.
+У
+меня
+получилось.
+Хотя
+было
+весело
+просто
+так
+прыгать,
+не
+зная,
+когда
+следующая
+преграда,
+так
+как
+слишком
+быстро
+меняется
+фон.
+В
+этом
+и
+есть
+маленькая
+сложность
+игры.
+Но,
+в
+целом,
+для
+девочек
+это
+будет
+одна
+из
+самых
+любимых
+игрушек,
+пожалуй.
+Владимир
+в
+игре
+Игра
+Трансформеры
+4
+22
+февраля,
+2016
+в
+17:44
+Если
+вам
+нечем
+себя
+занять
+или
+очень
+скучно,
+можете
+попробовать
+поиграть
+в
+эту
+игру
+про
+трансформеров.
+Честно
+говоря,
+я
+так
+и
+не
+понял,
+причем
+здесь
+именно
+трансформеры,
+так
+каких-то
+здесь
+вообще
+не
+видно.
+Вся
+суть
+игры
+очень
+простая,
+я
+бы
+сказал
+без
+заморочек.
+На
+экране
+появляется
+большое
+количество
+роботов
+белого
+и
+оранжевого
+цвета.
+Ваша
+задача
+уничтожать
+их,
+кликая
+мишкой.
+Как
+только
+вы
+подводите
+к
+ним
+мышку,
+они
+начинают
+убегать,
+или
+уходить
+в
+сторону.
+Чтобы
+уничтожить
+очередного
+робота,
+нужно
+кликнуть
+по
+нему
+мышкой
+несколько
+раз.
+Вверху
+экрана
+ведется
+подсчет
+количества
+уничтоженных
+врагов.
+Вот
+и
+все.
+Это
+и
+есть
+вся
+задумка
+игры.
+Не
+понятно,
+какая
+же
+основная
+цель
+ее,
+что
+нужно
+сделать
+в
+конце.
+Оказывается,
+всего
+лишь
+все
+время
+кликать
+мышкой
+по
+бродящим
+по
+экрану
+роботам.
+Если
+вы
+долго
+не
+кликаете
+по
+ним,
+то
+их
+количество
+уменьшается.
+Игра
+не
+требует
+никакого
+напряжения,
+короче
+говоря,
+сиди
+и
+расслабляйся.
+Глеб
+в
+игре
+Игра
+Маджонг:
+Башня
+22
+февраля,
+2016
+в
+15:15
+Игра
+просто
+суперская!
+Я
+вообще
+люблю
+игры
+в
+стиле
+Маджонг.
+Это
+увлекает
+и
+затягивает
+больше
+любых
+других
+развлечений.
+Увидев
+ее
+на
+сайте,
+я,
+не
+раздумывая,
+начала
+играть.
+Тут
+все
+просто
+и
+понятно.
+Поскольку
+игра
+называется
+«Маджонг
+Башня»,
+то
+все
+фишки
+здесь
+сложены
+в
+одну
+большую
+башню.
+На
+игру
+дается
+определенное
+время,
+за
+ним
+можно
+следить
+внизу
+экрана.
+Вся
+суть
+заключается
+в
+том,
+чтобы
+за
+отведенное
+время
+удалить
+с
+поля
+как
+можно
+больше
+фишек.
+Когда
+очередная
+фигура
+удалена,
+то
+снизу
+появляется
+еще
+одна.
+Все
+они
+разные
+и
+не
+повторяются
+дважды.
+Когда
+время
+окончено,
+можно
+посмотреть
+на
+свой
+результат
+и
+играть
+вновь.
+Причем
+все
+фишки
+будут
+сложены
+по-новому.
+Честно
+скажу,
+играла
+я
+в
+нее
+долго,
+не
+могла
+оторваться.
+Буду
+играть
+дальше
+–
+это
+точно!
+Такой
+Маджонг
+очень
+интересный
+еще
+и
+из-за
+ограниченного
+времени,
+это
+подталкивает
+играть
+быстрее
+и
+нет
+ни
+секунды
+на
+долгое
+присчитывание
+ходов.
+Все
+нужно
+делать
+быстро.
+Если
+все
+возможные
+варианты
+удаления
+фишек
+исчерпаны,
+то
+они
+автоматически
+перемешаются.
+Также,
+если
+вы
+долго
+не
+можете
+сориентироваться,
+какие
+фишки
+можно
+удалять
+дальше,
+то
+возможный
+вариант
+подсвечивается.
+Я
+точно
+подсажу
+на
+эту
+игру
+своих
+друзей.
+Это
+весело
+и
+захватывающе.
+Виктория
+в
+игре
+Iron
+Force
+для
+мальчиков
+21
+февраля,
+2016
+в
+05:41
+Стоящая
+игра.
+Зашел
+поиграть
+на
+пять
+минут,
+а
+играл
+больше
+часа.
+Я
+вообще
+любитель
+стрелялок
+и
+подобного
+рода
+сражений.
+Действительно,
+очень
+затягивает.
+Казалось
+бы,
+много
+подобных
+игр
+с
+танчиками,
+эта
+тоже
+похожа
+на
+многие
+другие,
+но
+здесь
+мне
+понравилась
+хорошая
+и
+качественная
+графика.
+Ничего
+не
+размыто,
+не
+наляписто,
+а
+все
+четко
+и
+качественно.
+Не
+мельтешат
+перед
+глазами
+различного
+рода
+подсказки,
+как
+это
+обычно
+бывает.
+Звуки
+выстрелов
+правдоподобные,
+но
+очень
+громкие,
+приходилось
+налаживать
+звук
+тише.
+Чтобы
+выиграть,
+необходимо
+ездить
+по
+территории,
+собирать
+бонусы
+для
+улучшения
+состояние
+танка,
+а
+также
+стрелять
+в
+противников.
+Что
+хорошо,
+так
+это
+большое
+разнообразие
+карт,
+на
+которых
+можно
+сражаться
+в
+битвах
+за
+победу.
+Ездить
+по
+одной
+и
+той
+же
+территории
+надоедает,
+и
+поэтому
+хорошо,
+что
+можно
+переходить
+на
+другую
+карту,
+с
+другим
+фоном
+и
+с
+другой
+незнакомой
+местностью.
+Игра
+совсем
+не
+однообразная,
+но
+требует
+сосредоточенности.
+И
+еще,
+я
+для
+себя
+разработал
+специальную
+тактику
+для
+победы.
+Советую
+поиграть
+в
+эту
+одну
+из
+самых
+качественных
+игр
+в
+танчики.
+Если
+вы
+любитель
+таких
+игр,
+то
+точно
+поймете
+мое
+впечатление.
+Кисуня
+в
+игре
+Игра
+Машинка
+Вилли
+4:
+Путешествие
+во
+времени
+20
+февраля,
+2016
+в
+16:59
+Думал
+игра
+для
+маленьких
+детей,
+но
+оказалось
+не
+совсем
+так.
+Было
+очень
+интересно
+проходить
+уровни,
+а
+их
+не
+мало.
+Каждый
+новый
+уровень
+появляется
+с
+новым
+фоном,
+и
+совершенно
+разными
+заданиями,
+не
+похожими
+на
+предыдущие.
+Поэтому
+игра
+не
+однообразная
+и
+требует
+логического
+мышления.
+Скажу
+честно,
+в
+некоторых
+местах
+пришлось
+очень
+даже
+подумать,
+чтобы
+пройти
+уровень
+дальше.
+Кстати,
+после
+каждого,
+полностью
+пройденного
+уровня,
+даются
+от
+одной
+до
+трех
+звезд,
+так
+что
+можно
+считать,
+что
+их
+прохождение
+является
+своего
+рода
+рекордом.
+Очень
+понравилась
+графика,
+красивая
+и
+впечатляющая
+как
+для
+такой
+флешь
+игры.
+Есть
+мультяшный
+сюжет:
+машинка
+Вилли
+должна
+проехать
+весь
+предстоящий
+ей
+путь,
+при
+этом,
+периодически,
+ей
+придется
+заезжать
+в
+мастерскую.
+Чтобы
+машина
+ехала,
+нужно
+нажимать
+на
+нее,
+а
+для
+преодоления
+ею
+различных
+препятствий
+на
+своем
+пути,
+необходимо
+искать
+решения,
+кликать
+и
+тем
+самым
+устранять
+их.
+Интересная
+игрушка,
+которая
+поможет
+напрячь
+свою
+сообразительность.
+Можно
+даже
+проходить
+уровни
+по
+очереди
+со
+своим
+другом,
+как
+я
+и
+делал.
+Мини-соревнования
+на
+логику.
+Смело
+включайте
+эту
+игру
+в
+свои
+любимые,
+советую
+ее.
+Все
+flash
+игры
+на
+одном
+сайте
+мини
+Майнкрафт
+в
+сети
+112
+игр
+мини
+3D
+игры
+в
+сети
+320
+игр
+мини
+Игры
+про
+животных
+в
+сети
+2018
+игр
+мини
+Смурфики
+в
+сети
+37
+игр
+мини
+игры
+в
+сети
+Не
+удалось
+войти
+в
+игру?
+Скорее
+всего,
+у
+вас
+установлен
+плагин
+Adblock
+Plus,
+который
+блокирует
+переход
+на
+желаемый
+сайт.
+Чтобы
+перейти
+на
+страницу
+с
+игрой,
+либо
+отключите
+Adblock
+Plus,
+либо
+вручную
+скопируйте
+нижеуказанную
+ссылку,
+откройте
+в
+браузере
+новую
+вкладку,
+вставьте
+туда
+ранее
+скопированную
+ссылку
+и
+перейдите
+по
+ней.
+Но
+лучше
+все-таки
+отключить
+Adblock
+Plus,
+хотя
+бы
+на
+нашем
+сайте.
+:)
+Приятной
+игры!
+Скопировать
+Главная
+Игры
+для
+девочек
+Игры
+для
+мальчиков
+MMO-игры
+Все
+жанры
+О
+сайте
+Реклама
+на
+сайте
+Контакты
+©
+2016
+OnlineGuru.ru
+Любая
+перепечатка
+материалов
+без
+разрешения
+редакции
+запрещена!
+18+
+new
+adriver("adriver_fullscreen",
+{sid:
+91709,
+bt:
+52,
+pz:
+3,
+sz:
+'onlineguru',
+keyword:
+'other',
+bn:
+2,
+custom:
+custom});
+
+		new
+adriver("ob_top",
+{sid:
+91709,
+bt:
+52,
+pz:
+1,
+sz:
+'onlineguru',
+keyword:
+'other',
+custom:
+custom});
+.gamesIcons.hide
+{
+					display:
+none
+!important;
+				}
+var
+joint_show_cookie_name
+=
+'online_joint_show_countonline_joint_show_count_OG_JOINT_BLOCK_2';
+				function
+getJointShowCount()
+{
+					return
+jQuery.cookie(joint_show_cookie_name);
+				}
+				function
+setJointShowCount(value)
+{
+					jQuery.cookie(joint_show_cookie_name,
+value,
+{'expires':
+1,
+path:
+'/'});
+				}
+				(function
+($)
+{
+					var
+show_count
+=
+getJointShowCount();
+					show_count
+=
+show_count
+?
+parseInt(show_count)
+:
+0;
+
+					if
+(show_count
+<
+2)
+{
+						$(document).ready(function
+()
+{
+							new
+JointNew({
+								img:
+'/f/config/1/58/main.jpg?1467819119',
+								url:
+'http://onlineguru.ru/mmog/?from=from_joint_onlineguru',
+								pixel:
+'http://onlineguru.ru/pixel.php?utm_source=onlineguru&utm_medium=joint&utm_campaign=mmog',
+								callback:
+function
+()
+{
+									show_count++;
+									setJointShowCount(show_count);
+								},
+								hideCallback:
+function
+()
+{
+									if
+(show_count
+>=
+2)
+{
+										jQuery('#jointNew').remove();
+										jQuery('.gamesIcons').removeClass('hide');
+									}
+								}
+							});
+							jQuery('.gamesIcons').addClass('hide');
+						});
+					}
+				})(jQuery);

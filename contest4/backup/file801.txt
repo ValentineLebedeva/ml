@@ -1,0 +1,7738 @@
+Как
+можно
+сказать
+родителям,что
+тебя
+отчислили
+из
+университета?
+-
+Sibnet
+•
+Форум
+Новосибирск
+Кемерово
+Красноярск
+Омск
+Барнаул
+Иркутск
+Томск
+/*
+
+
+*
+
+CSS
+для
+"IPB
+2.1
+Cozy
+Green
+Style"
+
+*
+------------------------------------------
+
+*
+
+Версия
+скина:
+1.3
+
+*
+
+Выпуск:
+30
+апреля
+2006
+
+*
+------------------------------------------
+
+*
+
+Над
+скином
+работал:
+
+*
+
+V.Stabrovsky
+aka
+vasyast
+
+*
+
+http://stabrovsky.ru
+&
+http://ibresource.ru
+*/
+
+
+/*
+
+
+*
+------------------------------------------
+
+
+*
+
+Глобальные
+элементы
+стиля:
+
+*
+------------------------------------------
+*/
+
+html{
+	overflow-x:
+auto;
+}
+
+body{
+
+	background:
+#FFF
+url(style_images/cozygreen/bg.gif);
+	color:
+#222;
+	font-family:
+Verdana,
+Tahoma,
+Arial,
+Trebuchet
+MS,
+Sans-Serif,
+Georgia,
+Courier,
+Times
+New
+Roman,
+Serif;
+	font-size:
+11px;
+	line-height:
+135%;
+	margin:
+0px;
+	padding:
+0px;
+	text-align:
+center;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Стили
+для
+IPB
+таблиц
+
+*
+------------------------------------------
+
+*/
+
+
+.ipbtable
+{
+width:100%
+}
+.ipbtable
+.postcolor
+img
+{
+max-width:
+1000px;
+}
+
+table.ipbtable,
+tr.ipbtable,
+td.ipbtable
+{
+	background:
+transparent;
+	color:
+#222;
+	font-size:
+11px;
+	line-height:
+135%;
+}
+.banners_top
+{
+
+
+
+border-bottom:
+1px
+solid
+#777;
+
+
+
+background:
+#CBCFD5
+url(http://www.sibnet.ru/images/banner_area_bg.jpg)
+top
+left
+repeat-x;
+}
+.ipbtable
+td,
+.divpad{
+	padding:
+5px;
+}
+
+td.nopad{
+	padding:
+0;
+}
+
+
+
+form{
+	display:
+inline;
+	margin:
+0;
+	padding:
+0;
+}
+
+img{
+	border:
+0;
+	vertical-align:
+middle;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Глобальные
+стили
+ссылок
+
+
+*
+------------------------------------------
+
+*/
+
+a:link,
+a:visited,
+a:active{
+	background:
+transparent;
+	color:
+#0B2200;
+	text-decoration:
+underline;
+}
+
+a:hover{
+	background:
+transparent;
+	color:
+#4D8B34;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Параметры
+Wrapper
+
+*
+------------------------------------------
+
+*/
+
+#ipbwrapper{
+
+	margin:
+10px
+auto
+10px
+auto;
+	text-align:
+left;
+	width:
+98%;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Стили
+для
+нумерации
+страниц
+
+*
+------------------------------------------
+
+*/
+
+
+
+.pagelink,
+.pagelinklast,
+.pagecurrent,
+.minipagelink,
+.minipagelinklast{
+	background:
+#F4FBE8;
+	border:
+1px
+solid
+#426607;
+	padding:
+1px
+3px
+1px
+3px;
+}
+
+.pagelinklast,
+.minipagelinklast{
+	background:
+#E8EFDF;
+}
+
+
+.pagecurrent{
+	background:
+#FFDAA5;
+}
+
+.minipagelink,
+.minipagelinklast{
+	border:
+1px
+solid
+#9DC18C;
+	font-size:
+10px;
+	margin:
+0
+1px
+0
+0;
+}
+
+.pagelink
+a:active,
+.pagelink
+a:visited,
+.pagelink
+a:link,
+.pagelinklast
+a:active,
+.pagelinklast
+a:visited,
+.pagelinklast
+a:link,
+.pagecurrent
+a:active,
+.pagecurrent
+a:visited,
+.pagecurrent
+a:link,
+.minipagelink
+a:active,
+.minipagelink
+a:visited,
+.minipagelink
+a:link,
+.minipagelinklast
+a:active,
+.minipagelinklast
+a:visited,
+.minipagelinklast
+a:link{
+	text-decoration:
+none;
+}
+
+.fauxbutton{
+	background:
+#BFE0C6;
+	border:
+1px
+solid
+#587C1D;
+	font-size:
+11px;
+	font-weight:
+bold;
+	padding:
+4px;
+}
+
+.fauxbutton
+a:link,
+.fauxbutton
+a:visited,
+.fauxbutton
+a:active{
+	color:
+#222
+!important;
+	text-decoration:
+none;
+}
+
+.forumdesc,
+.forumdesc
+a:link,
+.forumdesc
+a:visited,
+.forumdesc
+a:active{
+
+	background:
+transparent;
+	font-size:
+10px;
+
+	color:
+#666;
+	line-height:
+135%;
+	margin:
+2px
+0
+0
+0;
+	padding:
+0;
+}
+
+.searchlite
+{
+	background-color:yellow;
+	font-weight:bold;
+	color:
+red;
+}
+
+.activeusers{
+	background:
+#FFF;
+	border:
+1px
+solid
+#587C1D;
+	color:
+#000;
+	margin:
+0px;
+	padding:
+1px;
+}
+
+.activeuserposting
+a:link,
+.activeuserposting
+a:visited,
+.activeuserposting
+a:active,
+.activeuserposting
+{
+	font-style:italic;
+	text-decoration:
+none;
+	border-bottom:1px
+dotted
+black;
+}
+
+fieldset.search{
+
+	line-height:
+150%;
+	padding:
+6px;
+
+}
+
+label{
+
+	cursor:
+pointer;
+
+}
+
+img.attach{
+
+	background:
+#808080
+url(style_images/cozygreen/click2enlarge.gif)
+no-repeat
+top
+right;
+	border:
+1px
+solid
+#808080;
+	margin:
+0
+2px
+0
+0;
+	padding:
+11px
+2px
+2px
+2px;
+}
+
+.thumbwrap,
+.thumbwrapp,
+.fullimagewrap{
+	border:
+1px
+solid
+#587C1D;
+	margin:
+2px;
+}
+
+.thumbwrapp{
+	border:
+2px
+solid
+#660707;
+}
+
+.fullimagewrap{
+	background:
+#F9FDF5;
+	text-align:
+center;
+	margin:
+5px
+0
+5px
+0;
+	padding:
+5px;
+}
+
+.thumbwrap
+h4,
+.thumbwrapp
+h4{	
+	background:
+#E6F2DD;
+	border:
+0
+!important;
+	border-bottom:
+1px
+solid
+#5E9145
+!important;
+	color:
+#70B551;
+
+	font-size:
+12px;
+	font-weight:
+bold;
+
+	margin:
+0;
+	padding:
+5px;
+}
+
+.thumbwrap
+p,
+.thumbwrapp
+p{
+	background:
+#F5F7EE
+!important;
+	border:
+0
+!important;
+	border-top:
+1px
+solid
+#5E9145
+!important;
+	margin:
+0
+!important;
+	padding:
+5px
+!important;
+	text-align:
+left;
+}
+
+.thumbwrap
+p.alt,
+.thumbwrapp
+p.alt{
+	background:
+#D9E7CB
+!important;
+	margin:
+0
+!important;
+	padding:
+5px
+!important;
+	text-align:
+left;
+}
+
+.thumbwrapp
+p.pin{
+	background:
+#EFDFDF
+!important;
+	text-align:
+center
+!important;
+}
+	
+.thumbwrap
+img.galattach,
+.thumbwrapp
+img.galattach{
+	background:
+#FFF
+url(style_images/cozygreen/img_larger.gif)
+no-repeat
+bottom
+right;
+	border:
+1px
+solid
+#587C1D;
+	margin:
+5px;
+	padding:
+2px
+2px
+10px
+2px;
+}
+
+li.helprow{
+
+	margin:
+0
+0
+10px
+0;
+	padding:
+0;
+
+}
+
+ul#help{
+
+	padding:
+0
+0
+0
+15px;
+
+}
+
+.warngood,
+.warnverbal,
+.warnbad{
+
+	color:
+#0B9500;
+	font-weight:
+bold;
+}
+
+.warnbad{
+
+	color:
+#DD0000;
+}
+
+.warnverbal{
+
+	color:
+#0000DD;
+}
+
+#padandcenter{
+
+	margin:
+0
+auto
+0
+auto;
+	padding:
+14px
+0
+14px
+0;
+	text-align:
+center;
+}
+
+#profilename{
+
+	font-size:
+28px;
+
+	font-weight:
+bold;
+
+}
+
+#photowrap{
+
+	padding:
+6px;
+
+}
+
+#phototitle{
+
+	border-bottom:
+1px
+solid
+#000;
+
+	font-size:
+24px;
+
+}
+
+#photoimg{
+
+	margin:
+15px
+0
+0
+0;
+	text-align:
+center;
+
+}
+
+
+#ucpmenu,
+#ucpcontent{
+
+	background:
+#F0F7E5;
+	border:
+1px
+solid
+#587C1D;
+	line-height:
+150%;
+}
+
+#ucpmenu
+p{
+
+	margin:
+0;
+
+	padding:
+2px
+5px
+6px
+9px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border-top:
+1px
+solid
+#82AA5E;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border-bottom:
+1px
+solid
+#82AA5E;
+}
+
+#ucpmenu
+a:link,
+
+#ucpmenu
+a:active,
+
+#ucpmenu
+a:visited{
+
+	text-decoration:
+none;
+
+}
+
+#ucpcontent{
+
+	width:
+auto;
+}
+
+#ucpcontent
+p{
+
+	margin:
+0;
+	padding:
+10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border-top:
+1px
+solid
+#82AA5E;
+}
+
+.activeuserstrip{
+
+	background:
+#BCD0ED;
+	padding:
+6px;
+}
+
+/*
+Topic
+View
+elements
+*/
+.signature{
+
+
+	background:
+transparent;
+	color:
+#689045;
+
+	font-size:
+10px;
+	line-height:
+150%;
+}
+
+.postdetails{
+
+	font-size:
+10px;
+	line-height:140%;
+}
+
+.postcolor{
+
+	font-size:
+12px;
+
+	line-height:
+160%;
+}
+
+.normalname{
+
+	color:
+#003;
+	font-size:
+12px;
+
+	font-weight:
+bold;
+
+}
+
+.normalname
+a:link,
+
+.normalname
+a:visited,
+
+.normalname
+a:active{
+
+	font-size:
+12px;
+}
+
+.post1{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+background:
+#FAF8F1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border:
+1px
+solid
+#C7D59D
+}
+.bg1{
+
+	background:
+#F8FCEF;
+}
+
+.post2,
+.bg3{
+
+	background:
+#F8FCEF;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border:
+1px
+solid
+#C7D59D
+}
+
+.row2shaded,
+.post1shaded
+{
+background-color:
+#DEDBE4
+}
+.row4shaded,
+.post2shaded
+{
+background-color:
+#E3DFE7
+}
+
+.row1{
+
+	background:
+#DEE8CD;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border:
+1px
+solid
+#C7D59D;
+
+}
+
+.row2{
+
+	background:
+#E4EBD7;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border:
+1px
+solid
+#C7D59D;
+}
+
+.darkrow1{
+
+	background:
+#97BB74;
+	color:
+#38520E;
+
+}
+
+.darkrow3{
+
+	background:
+#C0D5AA;
+
+	color:
+#38520E;
+
+}
+
+.plainborder,
+.tablefill,
+.tablepad{
+
+	background:
+#F5FCE9;
+/*
+F0F7E5
+*/
+	border:
+1px
+solid
+#587C1D;
+}
+
+.tablefill,
+.tablepad{
+
+	padding:
+6px;
+
+
+}
+
+.tablepad{
+
+	border:
+0
+!important;
+}
+
+.wrapmini{
+
+	float:
+left;
+	line-height:
+1.5em;
+	width:
+30%;
+}
+
+.pagelinks{
+	float:
+left;
+	line-height:
+1.2em;
+	width:
+35%;
+}
+
+.desc{
+
+	font-size:
+11px;
+
+	color:
+#434951;
+}
+
+.lastaction
+{
+	font-size:
+10px;
+
+	color:
+#434951;
+}
+
+.edit{
+
+	font-size:
+9px;
+}
+
+.thin{
+
+	border:
+1px
+solid
+#FAFAED;
+	border-left:
+0;
+	border-right:
+0;
+	line-height:
+150%;
+	margin:
+2px
+0
+2px
+0;
+	padding:
+6px
+0
+6px
+0;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Стили
+для
+Календаря
+
+
+*
+------------------------------------------
+
+*/
+	
+.calmonths{
+
+	background:
+#EDF4E4;
+	border:
+1px
+solid
+#B2D0A2;
+	font-size:
+18px;
+
+	font-weight:
+bold;
+
+	margin:
+5px
+0
+5px
+0;
+	padding:
+8px;
+	text-align:
+center;
+}
+
+.weekday{
+	font-size:
+14px;
+	font-weight:
+bold;
+}
+
+.calmonths
+a{
+	text-decoration:
+none;
+}
+
+.calday,
+.calweekday{
+
+	background:
+#E7EDD4;
+	color:
+#556D00;
+	font-size:
+11px;
+	font-weight:
+bold;
+	margin:
+0;
+	padding:
+4px;
+	text-align:
+right;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border:
+1px
+solid
+#BDD595;
+}
+
+.calweekday{
+	border-right:
+1px
+solid
+#AAA;
+	color:
+#222;
+	font-size:
+14px;
+	padding:
+6px;
+	text-align:
+center;
+}
+
+.celltodayshaded,
+.celldateshaded,
+.cellblank,
+.celldate,
+.celltoday,
+.mcellblank,
+.mcelldate,
+.mcelltoday{
+	background:
+#EAF6DA;
+
+	height:
+100px;
+	margin:
+0;
+	padding:
+0;
+	vertical-align:
+top;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border:
+1px
+solid
+#C4CA99;
+}
+
+.celltodayshaded,
+.celldateshaded
+{
+	background:
+#E3DFE7;
+}
+
+.mcellblank,
+.mcelldate,
+.mcelltoday{
+	height:
+auto;
+}
+
+.cellblank,
+.mcellblank{
+	background:
+#C9DFC2;
+}
+
+.celltoday,
+.celltodayshaded,
+.mcelltoday{
+	border:
+2px
+solid
+#558B01;
+}
+
+.calranged
+{
+	border:
+2px
+outset
+#C2CFDF;
+	background:
+#C2CFDF;
+	padding:4px;
+}
+
+.calitem
+{
+	border-bottom:
+1px
+dotted
+#C2CFDF;
+	padding:4px;
+}
+
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Стилия
+форм,
+кнопок
+
+
+*
+------------------------------------------
+
+*/
+
+.input-warn,
+.input-green,
+input,
+textarea,
+select{
+	background:
+#FBFEF5;
+	border:
+1px
+solid
+#749244;
+	color:
+#203104;
+	font-family:
+verdana,
+helvetica,
+sans-serif;
+	font-size:
+11px;
+	margin:
+5px;
+	padding:
+2px;
+	vertical-align:
+middle;
+}
+
+.input-warn,
+.input-warn-content
+{
+	border:
+1px
+solid
+#C00;
+}
+
+.input-ok,
+.input-ok-content
+{
+	border:
+1px
+solid
+#0C0;
+}
+
+.input-warn-content
+{
+	padding:
+4px;
+	margin:
+4px;
+	background-color:
+#FCC;
+}
+
+.input-ok-content
+{
+	padding:
+4px;
+	margin:
+4px;
+	background-color:
+#CFC;
+}
+
+
+.input-text
+{
+	color:
+#900;
+}
+
+select{
+	border:
+0;
+	font-family:
+verdana,
+helvetica,
+sans-serif;
+	font-size:
+12px;
+	margin:
+0;
+	padding:
+0;
+}
+
+input.button{
+	margin:
+0;
+	width:
+auto;
+}
+
+optgroup
+option{
+	font-family:
+verdana,
+helvetica,
+sans-serif;
+	font-size:
+12px;
+}
+
+.codebuttons{
+
+	font-family:
+Verdana,
+Helvetica,
+Sans-Serif;
+
+	font-size:
+10px;
+
+	vertical-align:
+middle;
+	margin:2px;
+}
+
+.textarea,
+.searchinput,
+.button,
+.gobutton{
+	background:
+#FBFDF7;
+	border:
+1px
+solid
+#587C1D;
+	color:
+#304A07;
+	font-family:
+Verdana,
+Helvetica,
+Sans-Serif;
+	font-size:
+11px;
+	padding:
+2px;
+	vertical-align:
+middle;
+}
+	
+.button{
+	background:
+#FBFEF5;
+}
+
+.gobutton{
+	background:
+transparent;
+	border:
+0;
+	color:
+#072A66;
+	margin:
+0;
+	vertical-align:
+middle;
+}
+
+.radiobutton,
+.checkbox,
+.helpbox
+{
+
+	border:
+1;
+	vertical-align:
+middle;
+}
+
+.formtable{
+	background:
+transparent;
+}
+
+.formtable
+td,
+.pformleft,
+.pformleftw,
+.pformright{
+	background:#F0F7E5;
+	border:
+1px
+solid
+#82AA5E;
+	border-bottom:
+0;
+	border-left:
+0;
+	font-weight:
+bold;
+	margin:
+1px
+0
+0
+0;
+	padding:
+6px;
+	width:
+25%;
+}
+
+
+.formtable
+td.wider,
+.pformleftw,
+.pformright{
+	width:
+40%;
+}
+
+.formtable
+td.formright,
+.pformright{
+	border-right:
+0px;
+	font-weight:
+normal;
+	width:
+auto;
+}
+
+
+.formtable
+td.formtitle,
+.formsubtitle{
+	background:
+#C1D8A5;
+	border:
+0px
+solid
+#729C4E;
+
+	border-bottom:
+0;
+	border-left:
+0;
+	border-right:
+0;
+	font-weight:
+normal;
+}
+
+.formsubtitle{
+
+	color:
+#3E6123;
+	font-weight:
+bold;
+	padding:
+5px;
+}
+
+.formtable
+td.formstrip{
+	background:
+#DDE8F2;
+	border:
+1px
+solid
+#9FB9D4;
+	border-left:
+0;
+	border-right:
+0;
+	font-weight:
+normal;
+}
+
+.spoilertop{
+	background:
+#DBECD9
+url(style_images/cozygreen/css_img_spoiler.gif)
+no-repeat
+right;
+	border:
+1px
+dotted
+#000;
+	border-left:
+4px
+solid
+#81A95E;
+	color:
+#000;
+	font-weight:
+bold;
+	font-size:
+10px;
+	margin:
+8px
+auto
+0
+auto;
+	padding:
+3px;
+
+}
+
+.spoilermain{
+	background:
+#FAFEFA;
+	border:
+1px
+dotted
+#44672A;
+	border-left:
+4px
+solid
+#81A95E;
+	border-top:
+0;
+	color:
+#618247;
+	padding:
+4px;
+	margin:
+0
+auto
+8px
+auto;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Стиль
+цитат
+и
+кода
+от
+MATT'а
+
+
+*
+------------------------------------------
+
+*/
+
+.quotetop{
+	background:
+#DBECD9
+url(style_images/cozygreen/css_img_quote.gif)
+no-repeat
+right;
+	border:
+1px
+dotted
+#44672A;
+	border-bottom:
+0;
+	border-left:
+4px
+solid
+#81A95E;
+	color:
+#000;
+	font-weight:
+bold;
+	font-size:
+10px;
+	margin:
+8px
+auto
+0
+auto;
+	padding:
+3px;
+}
+
+.quotemain{
+	background:
+#FAFEFA;
+	border:
+1px
+dotted
+#44672A;
+	border-left:
+4px
+solid
+#81A95E;
+	border-top:
+0;
+	color:
+#618247;
+	padding:
+4px;
+	margin:
+0
+auto
+8px
+auto;
+}
+
+.codetop,
+.sqltop,
+.htmltop{
+	background:
+#FDEDCC
+url(style_images/cozygreen/css_img_code.gif)
+no-repeat
+right;
+	color:
+#2E570F;
+	font-weight:
+bold;
+	margin:
+0
+auto
+0
+auto;
+	padding:
+3px;
+	width:
+98%;
+}
+
+.codemain,
+.sqlmain,
+.htmlmain{
+	background:
+#FAFEFA;
+	border:
+1px
+dotted
+#44672A;
+	color:
+#284414;
+	font-family:
+Courier,
+Courier
+New,
+Verdana,
+Arial;
+	margin:
+0
+auto
+0
+auto;
+	padding:
+2px;
+	width:
+98%;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Старый
+стиль
+цитат
+и
+кода
+
+
+*
+------------------------------------------
+
+*/
+
+#QUOTE,
+#CODE{
+
+
+	background:
+#FAFCFE;
+
+	border:
+1px
+solid
+#000;
+
+	color:
+#465584;
+
+	font-family:
+Verdana,
+Arial;
+
+	font-size:
+11px;
+
+	padding:
+2px;
+
+	white-space:
+normal;
+}
+
+#CODE{
+
+	font-family:
+Courier,
+Courier
+New,
+Verdana,
+Arial;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Все
+новые
+стили
+
+*
+------------------------------------------
+
+*/
+
+.cleared{
+	clear:
+both;
+}
+
+.borderwrap,
+.borderwrapm{
+	background:
+#FEFDF7
+url(style_images/cozygreen/borderwrapbg.gif);
+
+	border:
+1px
+solid
+#587C1D;
+	padding:
+0px;
+
+	margin:
+0px;
+
+}
+
+.borderwrapm{
+	margin:
+5px;
+}
+
+.borderwrap
+h3,
+.maintitle,
+.maintitlecollapse{
+	background:
+url(style_images/cozygreen/tile_cat.gif);
+	border:
+1px
+solid
+#DDF3BA;
+	border-bottom:
+1px
+solid
+#6E9134;
+	color:
+#FFF;
+
+	font-size:
+12px;
+	font-weight:
+bold;
+
+	margin:
+0px;
+	padding:
+8px;
+}
+
+.maintitle
+td
+{
+	color:
+#FFF;
+
+	font-size:
+12px;
+	font-weight:
+bold;
+}
+
+
+.maintitlecollapse{
+	border:
+1px
+solid
+#FFF;
+}
+
+.maintitle
+p,
+.maintitlecollapse
+p,
+.formsubtitle
+p{
+	background:
+transparent
+!important;
+	border:
+0
+!important;
+	margin:
+0
+!important;
+	padding:
+0
+!important;
+}
+
+.maintitle
+p.expand,
+.maintitle
+p.goto,
+.maintitlecollapse
+p.expand,
+.formsubtitle
+p.members{
+	float:
+right;
+	width:
+auto
+!important;
+}
+
+.maintitle
+a:link,
+
+.maintitle
+a:visited,
+.maintitlecollapse
+a:link,
+
+.maintitlecollapse
+a:visited{
+
+	background:
+transparent;
+	color:
+#FFF;
+	text-decoration:
+none;
+
+}
+
+.maintitle
+a:hover,
+
+.maintitle
+a:active,
+.maintitlecollapse
+a:hover,
+
+.maintitlecollapse
+a:active{
+
+	background:
+transparent;
+	color:
+#F1F1F1;
+}
+
+table
+th,
+.borderwrap
+table
+th,
+.subtitle,
+.subtitlediv,
+.postlinksbar{
+
+	background:
+transparent
+url(style_images/cozygreen/tile_sub.gif);
+	border:
+1px
+solid
+#9CC570;
+	color:
+#3E6123;
+
+	font-size:
+10px;
+	font-weight:
+bold;
+
+	letter-spacing:
+1px;
+	margin:
+0;
+
+	padding:
+5px;
+
+}
+
+.subtitlediv{
+	border-bottom:
+1px
+solid
+#587C1D;
+	text-align:
+right;
+}
+
+.borderwrap
+table
+th
+a:link,
+.subtitle
+a:link,
+.subtitlediv
+a:link,
+.borderwrap
+table
+th
+a:visited,
+.subtitle
+a:visited,
+
+.subtitlediv
+a:visited,
+
+.borderwrap
+table
+th
+a:active,
+.subtitle
+a:active,
+.subtitlediv
+a:active,
+.borderwrap
+table
+th
+a:hover,
+.subtitle
+a:hover,
+.subtitlediv
+a:hover{
+
+	background:
+transparent;
+	color:
+#405A15;
+	text-decoration:
+none;
+
+}
+
+.borderwrap
+h4{
+	background:
+#E9F2DD;
+	border:
+1px
+solid
+#FFF;
+	border-bottom:
+1px
+solid
+#8BB367;
+	border-top:
+1px
+solid
+#8BB367;
+	color:
+#3A702B;
+
+	font-size:
+12px;
+	font-weight:
+bold;
+
+	margin:
+0;
+	padding:
+5px;
+}
+
+.borderwrap
+p{
+	background:
+#F2FAE6;
+	border:
+1px
+solid
+#8BB367;
+	margin:
+5px;
+	padding:
+10px;
+	text-align:
+left;
+}
+
+td.formbuttonrow,
+.borderwrap
+p.formbuttonrow,
+.borderwrap
+p.formbuttonrow1{
+	background:
+#E4EBD7
+!important;
+
+	border:
+1px
+solid
+#C7D59D;
+	border-top:
+1px
+solid
+#81A95E;
+	margin:
+0px
+!important;
+	padding:
+5px
+!important;
+	text-align:
+center;
+}
+
+td.formbuttonrow{
+	border-bottom:
+1;
+	border-left:
+1;
+	border-right:
+1;
+}
+
+.borderwrap
+p.formbuttonrow1{
+	background:
+#E9F2DD
+!important;
+	border:
+0;
+	border-top:
+1px
+solid
+#87BD5B;
+}
+
+.bar,
+.barb,
+.barc{
+	background:
+#BBCDA2;
+	border:
+1px
+solid
+#FFF;
+}
+
+.barc{
+	border-top:
+0;
+}
+
+.bar
+p,
+.barb
+p,
+.barc
+p{
+	background:
+transparent;
+	border:
+0;
+	color:
+#222;
+	font-size:
+11px;
+	margin:
+0;
+	padding:
+5px;
+	text-align:
+left;
+}
+
+.barb
+p{
+	text-align:
+right;
+}
+
+.bar
+p.over,
+.bar
+p.overs,
+.barc
+p.over,
+.barc
+p.overs{
+	float:
+right;
+}
+
+.barb
+p.over,
+.barb
+p.overs{
+	float:
+left;
+}
+
+.bar
+p.overs,
+.barb
+p.overs,
+.barc
+p.overs{
+	position:
+relative;
+	top:
+5px;
+}
+
+.catend{
+	background:
+#81A95E;
+	color:
+#000;
+	font-size:
+1px;
+	height:
+5px;
+}
+
+.newslink{
+	background:
+#E4EBD7;
+
+	border:
+1px
+solid
+#75A154;
+	margin:
+0;
+	width:
+100%;
+}
+
+.newslink
+td{
+	color:
+#222;
+	font-size:
+10px;
+	padding:
+5px
+5px
+5px
+10px;
+}
+
+.newslink
+span{
+	background:
+transparent;
+	color:
+#587C1D;
+	font-style:
+italic;
+	font-weight:
+normal;
+}
+
+.newslink
+input{
+	background:
+#FFF;
+	border:
+1px
+solid
+#999;
+	color:
+#587C1D;
+	font-size:
+10px;
+	padding:
+3px;
+	vertical-align:
+middle;
+	width:
+auto;
+}
+
+.newslink
+input.button{
+	background:
+transparent;
+	border:
+0;
+	color:
+#587C1D;
+	vertical-align:
+middle;
+}
+
+.fieldwrap{
+	background:
+#FAFEF7;
+	border:
+1px
+solid
+#8CBA67;
+	border-top:
+0;
+	margin:
+5px;
+	padding:
+0;
+	text-align:
+left;
+}
+
+.fieldwrap
+h4{
+	border-left:
+0;
+	border-right:
+0;
+	color:
+#226045;
+
+	font-size:
+12px;
+	font-weight:
+bold;
+
+	margin:
+0;
+	padding:
+5px;
+}
+
+.errorwrap
+{
+	background:
+#F2DDDD;
+	border:
+1px
+solid
+#992A2A;
+	border-top:
+0;
+	margin:
+5px;
+	padding:
+0;
+}
+
+
+.errorwrap
+h4
+{
+	background:
+#E3C0C0;
+	border:
+1px
+solid
+#992A2A;
+	border-left:
+0;
+	border-right:
+0;
+	color:
+#992A2A;
+
+	font-size:
+12px;
+	font-weight:
+bold;
+
+	margin:
+0;
+	padding:
+5px;
+}
+
+.errorwrap
+p
+{
+	background:
+transparent;
+	border:
+0;
+	color:
+#992A2A;
+	margin:
+0;
+	padding:
+8px;
+}
+
+
+.ruleswrap{
+	background:
+#F2DDDD;
+	border:
+1px
+solid
+#992A2A;
+	color:
+#992A2A;
+
+	margin:
+5px
+0
+5px
+0;
+	padding:
+5px;
+}
+
+#redirectwrap{
+	background:
+#F4FAF0;
+	border:
+1px
+solid
+#89AC6C;
+	margin:
+200px
+auto
+0
+auto;
+	text-align:
+left;
+	width:
+500px;
+}
+
+#redirectwrap
+h4{
+	background:
+#D8EAD0;
+	border-bottom:
+1px
+solid
+#89AC6C;
+	color:
+#416C3A;
+	font-size:
+14px;
+	margin:
+0;
+	padding:
+5px;
+}
+
+#redirectwrap
+p{
+	margin:
+0;
+	padding:
+5px;
+}
+
+#redirectwrap
+p.redirectfoot{
+	background:
+#D8EAD0;
+	border-top:
+1px
+solid
+#89AC6C;
+	text-align:
+center;
+}
+
+
+#gfooter{
+	background:
+#7AA357;
+	margin:
+5px
+0
+5px
+0;
+	padding:
+0;
+	width:
+100%;
+}
+
+#gfooter
+td{
+	color:
+#FFF;
+	font-size:
+10px;
+	padding:
+4px;
+}
+
+#gfooter
+a:link,
+#gfooter
+a:visited{
+	color:
+#FFF;
+}
+
+#logostrip{
+
+	background:
+#FFF
+url(style_images/cozygreen/tile_back.gif);;
+	border:
+1px
+solid
+#FFF;
+	height:
+68px;
+	margin:
+0;
+	padding:
+0;
+}
+
+#logographic{
+	background:
+transparent
+url(style_images/cozygreen/logo4.gif)
+no-repeat
+left;
+	height:
+68px;
+	margin:
+0;
+	padding:
+0;
+}
+
+#submenu{
+
+	background:
+transparent
+url(style_images/cozygreen/tile_sub.gif);
+	border:
+1px
+solid
+#FFF;
+	border-top:
+0;
+	color:
+#2F5106;
+
+	margin:
+0;
+
+}
+
+#userlinks,
+#userlinksguest{
+
+	background:
+#E4EBD7;
+
+	border:
+1px
+solid
+#75A154;
+	margin:
+5px
+0
+5px
+0;
+	padding:
+0
+5px
+0
+5px;
+}
+
+#userlinksguest{
+
+	background:
+#F4E7EA;
+	border:
+1px
+solid
+#986265;
+}
+
+#submenu
+p,
+#userlinks
+p,
+#userlinksguest
+p{
+	background:
+transparent
+!important;
+	border:
+0
+!important;
+	font-size:
+10px;
+	font-weight:
+bold;
+
+	letter-spacing:
+1px;
+	margin:
+0
+!important;
+	padding:
+7px
+0
+7px
+0;
+
+	text-align:
+right;
+}
+
+#userlinks
+p,
+#userlinksguest
+p{
+	font-weight:
+normal;
+	letter-spacing:
+0;
+}
+
+#submenu
+p.home,
+#userlinks
+p.home,
+#userlinksguest
+p.home{
+	float:
+left;
+}
+
+#userlinksguest
+p.pcen{
+	text-align:
+center;
+}
+
+#submenu
+a:link,
+
+#submenu
+
+a:visited{
+
+	background:
+transparent;
+
+	color:
+#2E4308;
+
+	padding:
+0
+6px
+0
+6px;
+	text-decoration:
+none;
+}
+
+#submenu
+a:hover,
+
+#submenu
+a:active{
+	background:
+transparent;
+
+	color:
+#76A63D;
+
+}
+
+#navstrip{
+
+	background:
+transparent;
+	color:
+#999;
+	font-size:
+12px;
+	font-weight:
+bold;
+	margin:
+0
+0
+5px
+0;
+	padding:
+14px
+0px
+8px
+0px;
+
+}
+
+#navstrip
+a:link,
+
+#navstrip
+
+a:visited{
+
+	background:
+transparent;
+
+	color:
+#222;
+
+	text-decoration:
+none;
+}
+
+#navstrip
+a:hover,
+
+#navstrip
+a:active{
+	background:
+transparent;
+
+	color:
+#87B551;
+
+}
+
+.toplinks{
+	background:
+transparent;
+	color:
+#587C1D;
+	margin:
+0;
+	padding:
+0
+0
+5px
+0;
+	text-align:
+right;
+}
+
+.toplinks
+span{
+	background:
+#E4EBD7;
+
+	border:
+1px
+solid
+#75A154;
+	border-bottom:
+0;
+	color:
+#587C1D;
+	font-size:
+10px;
+	font-weight:
+bold;
+	margin:
+0
+10px
+0
+0;
+	padding:
+5px;
+}
+
+.copyright{
+
+	background:
+#EEE;
+	font-size:
+11px;
+
+	margin:
+0
+0
+5px
+0;
+	padding:
+8px;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Стиль
+страницы
+для
+печати
+
+
+*
+------------------------------------------
+
+*/
+
+#print{
+	margin:
+20px
+auto
+20px
+auto;
+	padding:
+0;
+	text-align:
+left;
+	width:
+85%;
+}
+
+#print
+h1,
+#print
+h2,
+#print
+h3,
+#print
+h4,
+#print
+p{
+	color:
+#036;
+	font-size:
+18px;
+	font-weight:
+bold;
+	margin:
+0;
+	padding:
+8px;
+}
+
+#print
+h2,
+#print
+h3,
+#print
+p{
+	border-bottom:
+1px
+solid
+#999;
+	font-size:
+11px;
+	font-weight:
+normal;
+}
+
+#print
+h3{
+	background:
+#F5F5F5;
+	font-size:
+12px;
+	font-weight:
+bold;
+	margin:
+0
+0
+10px
+0;
+}
+
+#print
+h4{
+	background:
+#F9F9F9;
+	font-size:
+11px;
+}
+
+#print
+p{
+	margin:
+0
+0
+5px
+0;
+	padding:
+10px;
+}
+
+#print
+p.printcopy{
+	border:
+0;
+	color:
+#000;
+	text-align:
+center;
+}
+
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Стиль
+для
+Rich
+Text
+Editor
+(RTE)
+
+
+*
+------------------------------------------
+
+*/
+
+.rteimage
+{
+	/*background:
+#D3D3D3;*/
+	/*border:
+1px
+outset
+transparent*/;
+	cursor:
+pointer;
+	cursor:
+hand;
+	padding:1px;
+}
+
+.rteImageRaised
+{
+	/*background:
+#D3D3D3;*/
+	border:
+1px
+outset;
+	cursor:
+pointer;
+	cursor:
+hand;
+	padding:0px;
+}
+
+.rteImageLowered
+{
+	/*background:
+#D3D3D3;*/
+	border:
+1px
+inset;
+	cursor:
+pointer;
+	cursor:
+hand;
+	padding:0px;
+}
+
+.rteimage:hover
+{
+	background:
+#EBEBEB;
+	cursor:
+pointer;
+	cursor:
+hand;
+}
+
+.rteVertSep
+{
+	margin:
+0
+4px
+0
+4px;
+}
+
+.rteBack
+{
+	background:
+#D3D3D3;
+	border:
+1px
+outset;
+	letter-spacing:
+0;
+	padding:
+2px;
+}
+
+/*
+используется
+в
+in
+ips_rte.js
+-
+не
+удалять
+*/
+.rtebottombutton
+{
+	font-size:10px;
+	border:1px
+solid
+#777;
+	border-top:0px;
+	padding:3px;
+	margin:0px;
+	background-color:
+#EBEBEB;
+}
+
+/*
+используется
+в
+ips_rte.js
+-
+не
+удалять
+*/
+.rtebottombuttonon
+{
+	font-size:10px;
+	border:1px
+solid
+#777;
+	border-top:0px;
+	padding:3px;
+	margin:0px;
+	background-color:
+#D3D3D3;
+}
+
+.rtebuttonbar1
+{
+	/*background:
+#D3D3D3;*/
+	background-image:
+url(style_images/cozygreen/folder_rte_images/rte_tile.gif);
+	border:
+1px
+solid
+gray;
+	border-bottom:0px;
+	letter-spacing:
+0;
+	padding:
+2px;
+	height:26px;
+}
+
+.rtebuttonbar2
+{
+	/*background:
+#D3D3D3;*/
+	background-image:
+url(style_images/cozygreen/folder_rte_images/rte_tile.gif);
+	border:
+1px
+solid
+gray;
+	border-top:1px
+solid
+gray;
+	letter-spacing:
+0;
+	padding:
+2px;
+	height:26px;
+}
+
+.rtebuttonbar1
+tbody
+tr
+td,
+.rtebuttonbar1
+tr
+td,
+.rtebuttonbar2
+tbody
+tr
+td,
+.rtebuttonbar2
+tr
+td,
+.rteBack
+tbody
+tr
+td,
+.rteBack
+tr
+td
+{
+	/*background:
+#D3D3D3;*/
+	padding:
+0;
+}
+
+.rteDiv
+{
+	display:
+block;
+	position:
+relative;
+	padding:0px;
+	margin:0px;
+}
+
+.rteiframe
+{
+	border:1px
+solid
+#777;
+	background-color:#FFF;
+}
+
+.rteselectbox
+{
+	font-size:11px;
+}
+
+
+.dny-edit-title
+{
+	border:0px;
+	padding:3px;
+	margin:0px;
+	background:
+#DDF3BA;
+
+	color:
+#3405B13;
+
+}
+
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Tabs
+для
+Помощника
+
+
+*
+------------------------------------------
+
+*/
+
+.tabon
+{
+	border-top:0px
+solid
+#999;
+	border-left:0px
+solid
+#999;
+	border-right:0px
+solid
+#999;
+	background-color:#F0F5DF;
+	padding:8px;
+	padding-bottom:9px;
+	font-size:10px;
+	float:left;
+	width:auto;
+	margin-top:3px;
+}
+
+.taboff
+{
+	border-top:
+1px
+solid
+#777;
+	border-left:
+1px
+solid
+#777;
+	border-right:
+1px
+solid
+#777;
+	background-color:
+#C6D9B5;
+	color:
+#333;
+	padding:
+8px;
+	font-size:10px;
+	float:
+left;
+	width:
+auto;
+	margin-top:3px;
+}
+
+.tabon
+a:link,
+
+.tabon
+a:visited,
+
+.tabon
+a:active
+{
+	text-decoration:none;
+	color:
+#335D0E;
+}
+
+.taboff
+a:link,
+
+.taboff
+a:visited,
+
+.taboff
+a:active
+{
+	text-decoration:none;
+	color:
+#333;
+}
+
+.mya-back
+{
+	background:
+#7BA458;
+	margin:1px;
+}
+
+.mya-content
+{
+	background:
+#F0F5DF;
+	padding:8px;
+	margin:1px;
+	border:
+1px
+solid
+#75A154;
+}
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Для
+PM
+
+*
+------------------------------------------
+
+*/
+
+.iframeshim
+{
+	position:absolute;
+	display:none;
+	background:
+#FFF;
+	filter:alpha(opacity=0);
+	border:0px;
+	width:auto;
+	height:auto;
+}
+
+
+
+/*
+
+
+*
+------------------------------------------
+
+*
+
+Для
+Pop-Up
+меню
+
+*
+------------------------------------------
+
+*/
+
+.popupmenu
+{
+
+
+
+background:
+#E4EBD7;
+
+
+
+border:
+1px
+solid
+#587C1D;
+
+
+
+text-align:left;
+
+
+
+font-size:10px;
+
+
+
+white-space:nowrap;
+
+
+
+/*padding:3px
+5px
+3px
+3px;*/
+
+
+
+/*width:300px;*/
+}
+
+.popupmenu-item
+{
+	padding:
+5px;
+	/*
+margin-top:4px;
+*/
+	white-space:
+nowrap;
+	border-bottom:
+1px
+solid
+#587C1D;
+}
+
+.popupmenu-item-last
+{
+	padding:
+5px;
+	/*margin-top:4px;*/
+	white-space:
+nowrap;
+}
+
+.popmenubutton
+{
+	width:110px;
+	white-space:nowrap;
+	background-color:
+#DDF3BA;
+	border:1px
+solid
+#6E9134;
+	color:
+#6E9134;
+	font-weight:bold;
+	float:right;
+	height:14px;
+	text-align:center;
+	margin:0px;
+	font-size:11px;
+	padding:3px;
+}
+
+
+.popmenubutton
+a:link,
+
+.popmenubutton
+a:visited,
+.popupmenu-item
+a:link,
+
+.popupmenu-item
+a:visited,
+.popupmenu-item-last
+a:link,
+
+.popupmenu-item-last
+a:visited
+{
+
+	color:
+#405B13;
+
+	text-decoration:
+none;
+}
+
+.popmenubutton
+a:hover,
+
+.popupmenu-item
+a:hover,
+
+.popupmenu-item-last
+a:hover
+{
+
+	color:
+#79A357;
+
+	text-decoration:
+none;
+}
+
+.popupmenu-category
+{
+
+	background:
+transparent
+url(style_images/cozygreen/tile_sub.gif);
+	border-top:
+0px
+solid
+#587C1D;
+	border-bottom:
+1px
+solid
+#587C1D;
+	color:
+#405B13;
+
+	font-size:
+10px;
+	font-weight:
+bold;
+
+	letter-spacing:
+1px;
+	margin:
+0;
+
+	padding:
+5px;
+
+}
+
+/*
+
+
+*
+------------------------------------------
+
+
+*
+
+Ещё
+CSS
+для
+Cozy
+Green
+Style
+
+*
+------------------------------------------
+*/
+
+.cgsformsubtitle{
+	background:
+#C1D8A5;
+	border:
+1px
+solid
+#729C4E;
+
+	border-bottom:
+0;
+	border-left:
+0;
+	border-right:
+0;
+	font-weight:
+normal;
+}
+
+.cgsformsubtitle{
+
+	color:
+#3E6123;
+	font-weight:
+bold;
+	padding:
+5px;
+}
+
+.cgsformsubtitled{
+	background:
+#C1D8A5;
+	border:
+1px
+solid
+#729C4E;
+
+	border-top:
+0;
+	border-left:
+0;
+	border-right:
+0;
+	font-weight:
+normal;
+}
+
+.cgsformsubtitled{
+
+	color:
+#3E6123;
+	font-weight:
+bold;
+	padding:
+5px;
+}
+
+.cgsformsubtitlec{
+	background:
+#C1D8A5;
+	border:
+1px
+solid
+#729C4E;
+
+	border-left:
+0;
+	border-right:
+0;
+	font-weight:
+normal;
+}
+
+.cgsformsubtitlec{
+
+	color:
+#3E6123;
+	font-weight:
+bold;
+	padding:
+5px;
+}
+.share
+a
+{
+	opacity:
+0.6;
+}
+.share
+a:hover
+{
+	opacity:
+1;
+}
+.sharetop
+{
+	float:
+right;
+	margin-right:
+5px;
+}
+
+.sharebottom
+{
+display:
+inline-block;
+margin:
+1px
+0
+0
+8px;
+}
+.share
+img
+{
+margin-left:
+2px;
+}
+<!--
+		function
+openClose(id)
+	{
+		var
+obj
+=
+"";	
+
+		//
+Check
+browser
+compatibility
+		if(document.getElementById)
+			obj
+=
+document.getElementById(id).style;
+		else
+if(document.all)
+			obj
+=
+document.all[id];
+		else
+if(document.layers)
+			obj
+=
+document.layers[id];
+		else
+			return
+1;
+			
+		//
+Do
+the
+magic
+:)
+		if(obj.display
+==
+"")
+			obj.display
+=
+"none";
+		else
+if(obj.display
+!=
+"none")
+			obj.display
+=
+"none";
+		else
+			obj.display
+=
+"block";
+	}
+//-->
+НОВОСТИ
+Зимнее
+время
+События
+Подробности
+Афиша
+Гороскопы
+Интернет-мосты
+Online-трансляции
+Погода
+Валюта
+ТОВАРЫ
+И
+УСЛУГИ
+Интернет-магазин
+Авто
+Объявления
+Работа
+Каталог
+Предприятий
+РАЗВЛЕЧЕНИЯ
+Видеоролики
+Фильмы
+Музыка
+Фото
+Игры
+Шахматы
+Шутки
+Панорамы
+Веб-камеры
+MIX
+Афиша
+Online-трансляции
+More
+ОБЩЕНИЕ
+Форум
+Почта
+Знакомства
+Блог
+Чат
+"Свои"
+Jabber-сервер
+IRC
+чат
+СЕРВИСЫ
+Помощь
+Почта
+Mix
+Файлы
+Софт
+Полезные
+ссылки
+Библиотека
+Проверка
+IP-адреса
+Проверка
+скорости
+Хостинг
+Sibnet-клуб
+Ws-TV.программа
+Сообщить
+о
+проблеме
+доступа
+More
+РОСТЕЛЕКОМ
+Кабинет
+абонента
+(ИСПА)
+Ростелеком
+Интерактивное
+ТВ
+КАРТА
+САЙТА
+Sibnet.ru
+ГЛАВНАЯ
+НОВОСТИ
+ФОТО
+АФИША
+ВИДЕО
+ФОРУМ
+БЛОГ
+АВТО
+РАБОТА
+ИГРЫ
+MIX
+СОФТ
+ФАЙЛЫ
+ASTRO
+ЗНАКОМСТВА
+ШУТКИ
+ЧАТ
+ПОЧТА
+СЕРВИСЫ
+Главная
+страница
+портала
+Sibnet.Ru
+Помощь
+и
+поддержка
+Погода
+Проверка
+IP-адреса
+Валюта
+Проверка
+скорости
+Веб-камеры
+Sibnet-клуб
+Sibnet
+-
+Хостинг
+Ws-TV.программа
+Pda-версия
+Sibnet.Ru
+Интернет-мосты
+Пользовательское
+соглашение
+Главная
+страница
+«Новости.Sibnet»
+Рубрики:
+Новости
+регионов:
+Подборки
+новостей:
+Статьи
+Сибирь
+Последние
+новости
+Политика
+Новосибирская
+область
+Самые
+читаемые
+Экономика
+Кемеровская
+область
+Вся
+лента
+новостей
+Общество
+Иркутская
+область
+Новости
+компании
+«Ростелеком»
+Происшествия
+Омская
+область
+Наука
+и
+технологии
+Алтайский
+край
+E-business
+Красноярская
+область
+Игры
+Республика
+Хакасия
+Авто
+Спорт
+Шоу-бизнес
+Курьезы
+Главная
+страница
+«Фото.Sibnet»
+Добавить
+фото
+Новинки
+Популярные
+Обсуждаемые
+Авторы
+Конкурсы
+Выбираем
+фото
+дня
+Главная
+страница
+«Афиша.Sibnet»
+Афиша
+Статьи
+Анонсы
+Рецензии
+Конкурсы
+Главная
+страница
+«Видео.Sibnet»
+Добавить
+ролик
+Новинки
+Популярные
+Обсуждаемые
+Авторы
+Видео
+дня
+Конкурсы
+Sibnet
+video
+Главная
+страница
+«Форум.Sibnet»
+Новые
+сообщения
+Тематические
+форумы
+Образование
+Компьютеры
+и
+связь
+Увлечения
+и
+хобби
+Техподдержка
+Главная
+страница
+«Блог.Sibnet»
+Создать
+дневник
+Сообщества
+Статистика
+Поиск
+Помощь
+Главная
+страница
+«Авто.Sibnet»
+Продать
+авто
+Купить
+авто
+Каталог
+Автосалоны
+Акции
+автосалонов
+Отзывы
+Карта
+цен
+на
+бензин
+Главная
+страница
+«Работа.Sibnet»
+Банк
+вакансий
+-
+поиск
+работы
+Добавить
+вакансию
+Статьи
+Подписка
+Добавить
+резюме
+Интернет-мост
+Главная
+страница
+«Игры.Sibnet»
+Alawar
+Шахматы
+Обзоры
+игр
+Бегалки
+Стрелялки
+Демо-версии
+игр
+Арканоиды
+Шарики
+Логические
+RPG
+Racing
+3D
+Simulation
+3D
+Action
+Action
+Flash-игры
+Главная
+страница
+«Mix.Sibnet»
+Фильмы
+Сериалы
+Аниме
+Мультфильмы
+Главная
+страница
+«Софт.Sibnet»
+Windows
+Mac
+OS
+Unix
+PDA
+Mobile
+Обновления
+Linux
+Главная
+страница
+«Файлы.Sibnet»
+Каталог
+Топ
+Последние
+поступления
+Вопросы
+Заявки
+Главная
+страница
+«Astro.Sibnet»
+Персональный
+гороскоп
+Рунический
+гороскоп
+Китайский
+гороскоп
+Совместимость
+Гороскоп
+друидов
+Цветочный
+гороскоп
+Мои
+гороскопы
+Хиромантия
+Руны
+Психологические
+тесты
+Нумерология
+Таро
+Главная
+страница
+«Love.Sibnet»
+Добавить
+анкету
+Девушки
+Парни
+Самые
+популярные
+анкеты
+Главная
+страница
+«Шутки.Sibnet»
+Лучшие
+шутки
+Видео
+Анекдоты
+Стишки
+и
+эпиграммы
+Картинки
+Афоризмы
+Цитаты
+Тосты
+Истории
+Главная
+страница
+«Чат.Sibnet»
+Jabber
+IRC
+чат
+Правила
+чата
+Топ
+по
+времени
+Топ
+по
+числу
+сообщений
+Архив
+истории
+сообщений
+Главная
+страница
+«Mail.Sibnet.ru»
+Бесплатная
+почта
+Корпоративная
+почта
+Объявления
+Каталог
+предприятий
+Города
+Библиотека
+Полезные
+ссылки
+Свои-активность
+О
+нас
+Реклама
+Вакансии
+Доска
+почета
+Конкурсы
+Сделать
+стартовой
+Добавить
+в
+избранное
+Sibnet.ru
+Sibnet.ru
+—
+это
+информационно-развлекательный
+интернет-проект,
+ориентированный
+на
+широкий
+круг
+Сибирского
+региона.
+По
+данным
+Rambler
+Top100,
+Sibnet.ru
+является
+самым
+популярным
+порталом
+в
+Сибири.
+Контакты:
+АО
+"Ринет"
+ОГРН
+1025402475856
+г.
+Новосибирск,
+ул.
+Якушева,
+д. 37,
+3
+этаж
+отдел
+рекламы:
+(383)
+347-10-50,
+347-06-78,
+347-22-11,
+347-03-97
+Sibnet.Utils.printEmail("ur.tenbis.troppus@emalcer",
+"b-sibnet-head__sitemap__contacts__link");
+Редакция:
+(383)
+347-86-84
+Sibnet.Utils.printEmail("ur.tenbis@ofni",
+"b-sibnet-head__sitemap__contacts__link");
+Техподдержка:
+(383)
+347-22-44
+help.sibnet.ru
+ВХОД
+Войти
+с
+помощью
+или
+Логин
+Пароль
+Вы
+ввели
+e-mail
+вместо
+логина.
+Если
+вы
+не
+помните
+свой
+логин,
+воспользуйтесь
+восстановлением
+пароля
+по
+e-mail
+Логин
+будет
+указан
+в
+ответном
+письме.
+Вы
+ввели
+неправильный
+логин
+или
+пароль.
+Проверьте
+раскладку
+клавиатуры,
+не
+нажата
+ли
+клавиша
+«Caps Lock»
+и
+попробуйте
+ввести
+логин
+и
+пароль
+ещё
+раз.
+Авторизация
+временно
+недоступна.
+Попробуйте
+позже.
+Забыли
+пароль?
+Зарегистрироваться
+Войти
+Sibnet.Menu.init();
+//<![CDATA[
+
+var
+ipb_var_st
+
+
+
+
+
+
+
+
+
+
+
+=
+"";
+
+var
+ipb_lang_tpl_q1
+
+
+
+
+
+
+=
+"Введите
+номер
+страницы,
+на
+которую
+хотите
+перейти.";
+
+var
+ipb_var_s
+
+
+
+
+
+
+
+
+
+
+
+
+=
+"a0a0e1ba1d3726827c4be2a6dad4134b";
+
+var
+ipb_var_phpext
+
+
+
+
+
+
+
+=
+"php";
+
+var
+ipb_var_base_url
+
+
+
+
+
+=
+"http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&";
+
+var
+ipb_var_image_url
+
+
+
+
+=
+"style_images/cozygreen";
+
+var
+ipb_input_f
+
+
+
+
+
+
+
+
+
+
+=
+"42";
+
+var
+ipb_input_t
+
+
+
+
+
+
+
+
+
+
+=
+"1168059";
+
+var
+ipb_input_p
+
+
+
+
+
+
+
+
+
+
+=
+"";
+
+var
+ipb_var_cookieid
+
+
+
+
+
+=
+"";
+
+var
+ipb_var_cookie_domain
+=
+"";
+
+var
+ipb_var_cookie_path
+
+
+=
+"/";
+
+var
+ipb_md5_check
+
+
+
+
+
+
+
+
+=
+"880ea6a14ea49e853634fbdc5015a024";
+
+var
+ipb_new_msgs
+
+
+
+
+
+
+
+
+
+=
+0;
+
+var
+use_enhanced_js
+
+
+
+
+
+
+=
+0;
+
+var
+use_charset
+
+
+
+
+
+
+=
+"windows-1251";
+var
+ipb_myass_chars_lang
+=
+"Вы
+ввели
+слишком
+мало
+символов
+для
+поиска";
+
+//]]>
+$(
+"#profile"
+).sibnetProfile({
+
+
+
+});
+Правила
+форума
+Галерея
+Закладки
+Помощь
+Поиск
+Пользователи
+Репутация
+Сообщества
+Внимание!
+Теперь
+для
+входа
+на
+форум
+необходимо
+вводить
+единый
+пароль
+регистрации
+сервисов
+sibnet.ru!
+Здравствуйте,
+гость
+(
+Вход
+|
+Регистрация
+)
+Sibnet
+•
+Форум
+>
+Тематические
+форумы
+>
+Срочный
+вопрос
+(взаимопомощь)
+Сейчас
+обсуждают
+&nbsp
+Название
+темы
+Форум
+Ответов
+Последнее
+сообщение
+Россиян
+и
+японцев
+призвали
+совместно
+жить
+на
+Курилах
+1
+2
+3
+Политика
+и
+Экономика
+55
+Сегодня,
+5:56
+Посл.
+сообщение:
+rastafaray
+Путин
+оценил
+японскую
+водку
+1
+2
+Политика
+и
+Экономика
+23
+Сегодня,
+5:42
+Посл.
+сообщение:
+rastafaray
+Подаренную
+Россией
+овчарку
+Добрыню
+признали
+негодной
+к
+службе
+Общество,
+Наука
+и
+технологии
+11
+Сегодня,
+5:09
+Посл.
+сообщение:
+sasha12583
+Опрос:
+Россия
+и
+власть
+1
+2
+3
+»
+138
+События
+и
+факты
+2
+756
+Сегодня,
+4:57
+Посл.
+сообщение:
+tolstichok
+<!--
+var
+ipb_lang_tt_prompt
+=
+"Копирование
+прямой
+ссылки
+этого
+сообщения,
+для
+сохранения
+в
+буфере
+обмена";
+var
+ipb_lang_js_del_1
+
+=
+"Вы
+действительно
+хотите
+удалить
+это
+сообщение?";
+var
+ipb_lang_js_del_2
+
+=
+"Не
+хотите,
+как
+хотите";
+var
+addquotebutton
+
+
+
+
+=
+"style_images/cozygreen/p_mq_add.gif";
+var
+removequotebutton
+
+=
+"style_images/cozygreen/p_mq_remove.gif";
+var
+unselectedbutton
+=
+"style_images/cozygreen/topic_unselected.gif";
+var
+selectedbutton
+
+
+=
+"style_images/cozygreen/topic_selected.gif";
+var
+lang_gobutton
+
+
+
+=
+"отмеченные
+темы";
+var
+lang_suredelete
+
+=
+"Вы
+действительно
+хотите
+удалить
+эти
+темы?";
+var
+js_error_no_permission
+=
+"Извините,
+но
+вам
+не
+разрешено
+редактировать
+это
+сообщение";
+-->
+function
+rep_change_window_open(addr)
+
+{
+
+
+
+
+
+
+
+
+win1
+=
+open(addr,"win1","menubar=no,status=no,toolbar=no,width=600,height=225");
+}var
+topic_pids
+=
+new
+Array(11451245,11451434,11451499,11451598,11451635,11451658,11451661,11451770,11451772,11452646,11452976,11453340,11453540,11453909,11456187,11461570,11462973,11463070,11463371,11463778);
+2
+страниц
+1
+2
+>
+//<![CDATA[
+ipb_pages_shown++;
+var
+pgjmp
+=
+document.getElementById(
+'page-jump'
+);
+pgjmp.id
+
+=
+'page-jump-'+ipb_pages_shown;
+ipb_pages_array[
+ipb_pages_shown
+]
+=
+new
+Array(
+'http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;showtopic=1168059',
+20,
+23
+);
+menu_build_menu(
+	pgjmp.id,
+	new
+Array(
+
+"--NODIV--<div
+onmouseover='pages_st_focus("+ipb_pages_shown+")'
+class='popupmenu-category'
+align='center'>Перейти
+к
+странице</div>",
+				"<input
+type='text'
+size='5'
+name='st'
+id='st-"+ipb_pages_shown+"'
+/>
+<input
+type='button'
+class='button'
+onclick='do_multi_page_jump("+ipb_pages_shown+");'
+value='ОК'
+/>"
+)
+);
+//]]>
+Как
+можно
+сказать
+родителям,что
+тебя
+отчислили
+из
+университета?
+,
+Помягче
+так
+сказать.
+Опции
+menu_build_menu(
+
+
+"topicmenu-options",
+
+
+new
+Array(
+img_item
++
+"
+<a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=usercp&amp;CODE=start_subs&amp;method=topic&amp;tid=1168059'>Подписка
+на
+тему<\/a>",
+
+
+			
+img_item
++
+"
+<a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=Forward&amp;f=42&amp;t=1168059'>Сообщить
+другу<\/a>",
+
+
+			
+img_item
++
+"
+<a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=Print&amp;client=printer&amp;f=42&amp;t=1168059'>Версия
+для
+печати<\/a>",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img_item
++
+"
+<a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=Print&amp;client=choose&amp;f=42&amp;t=1168059'>Скачать
+/
+Распечатать
+тему<\/a>",
+
+
+			
+img_item
++
+"
+<a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=usercp&amp;CODE=start_subs&amp;method=forum&amp;fid=42'>Подписаться
+на
+форум<\/a>",
+
+			
+"--NODIV--<div
+class='popupmenu-category'
+align='center'>Режимы
+отображения<\/div>",
+
+
+			
+img_item
++
+"
+<a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;showtopic=1168059&amp;mode=threaded'>Переключить
+на:
+Древовидный</a>",
+
+
+			
+img_item
++
+"
+<strong><em><a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;showtopic=1168059&amp;mode=linear'>Стандартный</a></em></strong>",
+
+
+			
+img_item
++
+"
+<a
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;showtopic=1168059&amp;mode=linearplus'>Переключить
+на:
+Линейный</a>"
+		
+
+
+
+)
+);
+Wolf
+Hound
+13.2.2012,
+17:56
+Сообщение
+#1
+МЕГА
+флудер
+Группа:
+CSKA
+Fan
+Сообщений:
+6
+969
+Регистрация:
+12.7.2009
+Из:
+Киселёвск
+Пользователь
+№:
+119
+815
+Репутация:
+716
+Всем
+привет.
+Друга
+из
+универа
+отчислили,дали
+10
+дней
+на
+то,чтобы
+все
+вещи
+вывезти
+из
+общаги
+и
+собрать
+документы.
+Как
+можно
+родителям
+это
+сказать?
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451245',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451245&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451245,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+PROgR
+13.2.2012,
+18:26
+Сообщение
+#2
+Группа:
+Sibnet-club
+Сообщений:
+2
+261
+Регистрация:
+10.12.2009
+Из:
+Киселевск
+Пользователь
+№:
+176
+769
+Репутация:
+486
+Цитата(Wolf
+Hound
+@
+13.2.2012,
+16:56)
+Всем
+привет.
+Друга
+из
+универа
+отчислили,дали
+10
+дней
+на
+то,чтобы
+все
+вещи
+вывезти
+из
+общаги
+и
+собрать
+документы.
+Как
+можно
+родителям
+это
+сказать?
+Типа
+так:
+"Сюрпрайз...
+Скоро
+в
+армию
+пойду
+я,
+в
+армию
+могучую..."
+А
+по
+существу,
+как
+есть,
+так
+и
+сказать,
+все
+равно
+как
+не
+скажешь,
+по
+голове
+за
+это
+никто
+не
+погладит.
+Сообщение
+отредактировал
+PROgR
+-
+13.2.2012,
+18:37
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451434',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451434&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451434,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+sasha047
+13.2.2012,
+18:39
+Сообщение
+#3
+МЕГА
+флудер
+Группа:
+Sibnet-club
+Сообщений:
+4
+525
+Регистрация:
+1.8.2008
+Из:
+Новокузнецк-Томск
+Пользователь
+№:
+42
+916
+Репутация:
+227
+Цитата(Wolf
+Hound
+@
+13.2.2012,
+16:56)
+Всем
+привет.
+Друга
+из
+универа
+отчислили,дали
+10
+дней
+на
+то,чтобы
+все
+вещи
+вывезти
+из
+общаги
+и
+собрать
+документы.
+Как
+можно
+родителям
+это
+сказать?
+Сказать
+правду..ведь
+это
+все-таки
+родители
+как
+никак...
+и
+к
+призыву
+готовиться)))))))))))))))))))
+ну
+отчислили..с
+кем
+не
+бывает?
+жизнь
+такая
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451499',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451499&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451499,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Wolf
+Hound
+13.2.2012,
+18:51
+Сообщение
+#4
+МЕГА
+флудер
+Группа:
+CSKA
+Fan
+Сообщений:
+6
+969
+Регистрация:
+12.7.2009
+Из:
+Киселёвск
+Пользователь
+№:
+119
+815
+Репутация:
+716
+Цитата(sasha047
+@
+13.2.2012,
+18:39)
+Сказать
+правду..ведь
+это
+все-таки
+родители
+как
+никак...
+и
+к
+призыву
+готовиться)))))))))))))))))))
+ну
+отчислили..с
+кем
+не
+бывает?
+жизнь
+такая
+обидно
+то,что
+столько
+нервов
+и
+финансов
+потрачено
+зря.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451598',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451598&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451598,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+fighter_S
+13.2.2012,
+18:56
+Сообщение
+#5
+МЕГА
+флудер
+Группа:
+Пользователи
+Сообщений:
+17
+926
+Регистрация:
+25.10.2010
+Пользователь
+№:
+316
+708
+Репутация:
+320
+что,
+уже
+и
+с
+платных
+групп
+отчислять
+начали?
+это
+как
+же
+надо
+было
+так
+забить
+на
+учебу?
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451635',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451635&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451635,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+reksar070792
+13.2.2012,
+18:59
+Сообщение
+#6
+МЕГА
+флудер
+Группа:
+Sibnet-club
+Сообщений:
+2
+446
+Регистрация:
+16.7.2009
+Из:
+Новосибирск
+Пользователь
+№:
+120
+658
+Репутация:
+579
+дежавю!
+универ
+это
+случаем
+не
+СГУПС?
+друг
+рассказывал
+такую
+приколюху
+универа,
+в
+том
+году
+2011
+был
+набор
+на
+первый
+курс
+студентов,
+из-за
+не
+хвата
+мест-
+на
+платное!,
+и
+в
+конце
+из
+-за
+каких
+либо
+долгов
+людей
+просто
+отчисляли
+массого)
+или
+по
+одиночку
+за
+какие
+либо
+касяки...,
+я
+бы
+сказал,
+что
+у
+меня
+
+2
+долга
+не
+сдано,
+и
+я
+уже
+упустил
+свое
+время
+и
+меня
+сейчас
+заберут
+в
+армию!
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451658',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451658&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451658,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Wolf
+Hound
+13.2.2012,
+19:03
+Сообщение
+#7
+МЕГА
+флудер
+Группа:
+CSKA
+Fan
+Сообщений:
+6
+969
+Регистрация:
+12.7.2009
+Из:
+Киселёвск
+Пользователь
+№:
+119
+815
+Репутация:
+716
+Цитата(fighter_S
+@
+13.2.2012,
+18:56)
+что,
+уже
+и
+с
+платных
+групп
+отчислять
+начали?
+это
+как
+же
+надо
+было
+так
+забить
+на
+учебу?
+Долги
+не
+сдал.
+Рамс
+с
+преподами.
+Цитата(reksar070792
+@
+13.2.2012,
+18:59)
+дежавю!
+универ
+это
+случаем
+не
+СГУПС?
+друг
+рассказывал
+такую
+приколюху
+универа,
+в
+том
+году
+2011
+был
+набор
+на
+первый
+курс
+студентов,
+из-за
+не
+хвата
+мест-
+на
+платное!,
+и
+в
+конце
+из
+-за
+каких
+либо
+долгов
+людей
+просто
+отчисляли
+массого)
+или
+по
+одиночку
+за
+какие
+либо
+касяки...,
+я
+бы
+сказал,
+что
+у
+меня
+
+2
+долга
+не
+сдано,
+и
+я
+уже
+упустил
+свое
+время
+и
+меня
+сейчас
+заберут
+в
+армию!
+Не,КузГТУ
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451661',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451661&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451661,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Lunh
+13.2.2012,
+19:15
+Сообщение
+#8
+Поддерживает
+разговор
+Группа:
+Sibnet-club
+Сообщений:
+197
+Регистрация:
+25.12.2008
+Пользователь
+№:
+69
+871
+Репутация:
+5
+Ну
+как
+обычно
+все
+валить
+на
+преподов
+надо,
+мол
+невзлюбили
+его.
+Типа
+пусть
+скажет
+что
+случайно
+препода
+спалил
+как
+тот
+взятку
+берет
+и
+после
+этого
+бедному
+студенту
+вообще
+ни
+в
+какую
+экзамены
+не
+ставили
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451770',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451770&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451770,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+PROgR
+13.2.2012,
+19:15
+Сообщение
+#9
+Группа:
+Sibnet-club
+Сообщений:
+2
+261
+Регистрация:
+10.12.2009
+Из:
+Киселевск
+Пользователь
+№:
+176
+769
+Репутация:
+486
+Цитата(Wolf
+Hound
+@
+13.2.2012,
+18:03)
+Долги
+не
+сдал.
+Рамс
+с
+преподами.
+Не,КузГТУ
+Такая
+же
+лабуда
+была
+у
+меня
+в
+свое
+время
+с
+преподавателем
+политологии
+(правда
+учился
+я
+на
+бюджетном),
+отчислили,
+сходил
+в
+армию,
+пришел
+восстановился
+(на
+коммерческой
+основе)
+и
+закончил.
+Неприятно,
+конечно
+было,
+но
+просто
+политолог
+уперся
+рогами,
+за
+то,
+что
+я
+на
+его
+лекции
+не
+ходил.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11451772',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11451772&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11451772,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Чеснок
+13.2.2012,
+20:57
+Сообщение
+#10
+Это
+игра
+по
+моим
+правилам
+...
+Группа:
+Sibnet-club
+Сообщений:
+2
+089
+Регистрация:
+6.9.2008
+Пользователь
+№:
+48
+203
+Репутация:
+157
+Цитата(fighter_S
+@
+13.2.2012,
+17:56)
+что,
+уже
+и
+с
+платных
+групп
+отчислять
+начали?
+это
+как
+же
+надо
+было
+так
+забить
+на
+учебу?
+Вообще
+и
+с
+платных
+групп
+отчисляли
+,
+это
+не
+не
+давняя
+практика
+...
+Если
+на
+учебу
+забить
+и
+если
+за
+тебя
+не
+кому
+проплачивать
+сессию
+,
+то
+хоть
+откуда
+отчислят
+...
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11452646',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11452646&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11452646,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+S-stilet
+13.2.2012,
+21:43
+Сообщение
+#11
+Нахожусь
+в
+самом
+лучшем
+возрасте:
+дурь
+уже
+прошла,
+а
+маразм
+ещё
+не
+начался...))
+Группа:
+Пользователи
+Сообщений:
+604
+Регистрация:
+28.12.2011
+Пользователь
+№:
+416
+287
+А
+я
+думаю,
+что
+надо
+рассказать
+всё
+как
+есть.
+Так
+как,
+чем
+дольше
+врать,
+тем
+только
+хуже
+будет
+потом,
+когда
+всё
+раскроется.
+А
+родители
+поворчат,
+смирятся,
+поймут,
+и
+помогут
+в
+дальнейшем...
+»
+Спасибо
+сказали:
+«
+Wolf
+Hound
+,
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11452976',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11452976&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11452976,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+MFlower
+13.2.2012,
+22:33
+Сообщение
+#12
+МЕГА
+флудер
+Группа:
+Взаимоотношения
+и
+Психология
+Сообщений:
+1
+392
+Регистрация:
+28.12.2011
+Пользователь
+№:
+416
+221
+Репутация:
+53
+Цитата(Lunh
+@
+13.2.2012,
+18:15)
+Ну
+как
+обычно
+все
+валить
+на
+преподов
+надо,
+мол
+невзлюбили
+его.
+Типа
+пусть
+скажет
+что
+случайно
+препода
+спалил
+как
+тот
+взятку
+берет
+и
+после
+этого
+бедному
+студенту
+вообще
+ни
+в
+какую
+экзамены
+не
+ставили
+А
+если
+родители
+из
+тех,
+кто
+поедет
+разбираться
+за
+что
+выгнали
+их
+ребенка?
+Что
+тогда
+ему
+говорить,
+когда
+они
+узнают
+всю
+правду,
+что
+он
+сам
+виноват.
+Мое
+мнение,
+что
+надо
+все
+сказать
+как
+есть
+и
+все.
+Ну
+и
+вообще-то
+же
+можно
+восстановиться?
+Разве
+нет?
+Ну
+правда
+это
+стоит
+денег,
+потому
+что
+заново
+придется
+платить
+за
+год
+или
+пол
+года.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11453340',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11453340&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11453340,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Arator
+13.2.2012,
+23:03
+Сообщение
+#13
+Группа:
+Sibnet-club
+Сообщений:
+3
+947
+Регистрация:
+2.12.2009
+Из:
+Энск
+Пользователь
+№:
+172
+753
+Репутация:
+436
+Прямо
+и
+сказать
+-
+как
+еще
+то?
+Все
+равно
+когда-нибудь
+узнают
+все
+как
+есть.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11453540',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11453540&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11453540,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Politruk-
+14.2.2012,
+0:33
+Сообщение
+#14
+МЕГА
+флудер
+Группа:
+Events
+and
+facts
+club
+Сообщений:
+54
+660
+Регистрация:
+2.11.2008
+Пользователь
+№:
+58
+247
+Репутация:
+1838
+Цитата(sasha047
+@
+13.2.2012,
+18:39)
+ну
+отчислили..с
+кем
+не
+бывает?
+жизнь
+такая
+Кто
+не
+забивает,
+с
+тем
+и
+не
+бывает.
+Цитата(Wolf
+Hound
+@
+13.2.2012,
+18:51)
+обидно
+то,что
+столько
+нервов
+и
+финансов
+потрачено
+зря.
+Цитата(Wolf
+Hound
+@
+13.2.2012,
+19:03)
+Долги
+не
+сдал.
+Рамс
+с
+преподами.Не,КузГТУ
+Вот
+только
+не
+нужно
+на
+преподавателей
+валить.
+Сам
+виноват.
+Никто
+не
+мешает
+учиться.
+Только
+собственная
+лень
+и
+прочие
+заморочки.
+По
+себе
+знаю.
+Самого
+чуть
+не
+выпнули
+в
+этом
+семестре.
+Но
+ничего,
+выкрутился.
+А
+родителям
+сказать
+как
+есть.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11453909',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11453909&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11453909,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Wolf
+Hound
+14.2.2012,
+14:51
+Сообщение
+#15
+МЕГА
+флудер
+Группа:
+CSKA
+Fan
+Сообщений:
+6
+969
+Регистрация:
+12.7.2009
+Из:
+Киселёвск
+Пользователь
+№:
+119
+815
+Репутация:
+716
+Спасибо
+всем
+за
+ответы.
+Тему
+я
+думаю
+можно
+закрывать.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11456187',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11456187&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11456187,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Nikolas85
+15.2.2012,
+11:50
+Сообщение
+#16
+"But
+before
+you
+come
+to
+any
+conclusions
+Try
+walking
+in
+my
+shoes"
+Группа:
+Sibnet-club
+Сообщений:
+680
+Регистрация:
+26.10.2008
+Из:
+Omsk
+Пользователь
+№:
+56
+850
+Репутация:
+39
+Академ
+взять
+уже
+никак?
+Справку
+купить
+никогда
+не
+было
+проблемой.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11461570',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11461570&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11461570,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Stek1
+15.2.2012,
+15:55
+Сообщение
+#17
+МЕГА
+флудер
+Группа:
+VIP
+Сообщений:
+2
+085
+Регистрация:
+9.11.2008
+Из:
+Иркутск
+Пользователь
+№:
+59
+638
+Репутация:
+711
+Лень
+наша
+всему
+виной.
+Я
+когда
+учился
+тоже
+был
+разок
+в
+ситуации
+когда
+меня
+вешали
+кандидатом
+на
+отчисление.
+Но
+ничего
+справился.
+Если
+приказ
+вышел,
+то
+академ
+уже
+никак.
+Даже
+если
+тут
+же
+восстановится
+за
+денежку,
+все
+равно
+в
+армию
+заберут.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11462973',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11462973&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11462973,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+ArTiDaRk
+15.2.2012,
+16:17
+Сообщение
+#18
+МЕГА
+флудер
+Группа:
+Киноклуб
+Sibnet.ru
+Сообщений:
+12
+254
+Регистрация:
+15.8.2009
+Пользователь
+№:
+128
+473
+Репутация:
+804
+С
+КузГТУ
+отчисляют,
+странно,
+я
+сейчас
+на
+5
+курсе,
+диплом
+остался
+и
+ГОСы.
+Ну
+чтобы
+тебя
+отчислили,
+надо
+вообще
+не
+учится,
+просто
+как
+помню,
+всегда
+студентов
+держали,
+прям
+до
+последнего,
+всегда
+давали
+шанс
+сдать
+долги,
+видно
+у
+твоего
+друга
+совсем
+завал
+был.
+И
+как
+понять
+рамс
+с
+преподами?
+значит
+вообще
+не
+ходил
+на
+лекции
+и
+ничего
+не
+сдавал
+на
+парах.
+Уважение
+надо
+иметь.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11463070',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11463070&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11463070,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+b7music
+15.2.2012,
+17:02
+Сообщение
+#19
+Везет
+тому,
+кто
+сам
+себя
+везет...
+Группа:
+Активисты
+mix.sibnet.ru
+Сообщений:
+933
+Регистрация:
+9.12.2009
+Из:
+Russia,
+Barnaul
+Пользователь
+№:
+176
+360
+Репутация:
+148
+Цитата(Stek1
+@
+15.2.2012,
+15:55)
+Лень
+наша
+всему
+виной.
+Я
+когда
+учился
+тоже
+был
+разок
+в
+ситуации
+когда
+меня
+вешали
+кандидатом
+на
+отчисление.
+Но
+ничего
+справился.
+Если
+приказ
+вышел
+,
+то
+академ
+уже
+никак.
+Даже
+если
+тут
+же
+восстановится
+за
+денежку,
+все
+равно
+в
+армию
+заберут.
+А
+если
+только
+проект,
+то
+не
+поздно
+написать
+заявление
+псж.
+И
+вернуть
+уплаченные
+бабки.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11463371',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11463371&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11463371,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+Lunh
+15.2.2012,
+18:14
+Сообщение
+#20
+Поддерживает
+разговор
+Группа:
+Sibnet-club
+Сообщений:
+197
+Регистрация:
+25.12.2008
+Пользователь
+№:
+69
+871
+Репутация:
+5
+У
+меня
+друга
+отчислили
+с
+ТУСУРа
+на
+2
+курсе
+что-ли,
+и
+он
+еще
+3
+года
+жил
+в
+Томске,
+типа
+учился.
+А
+потом
+купил
+диплом
+и
+теперь
+работает
+ген.директором
+в
+одной
+фирме.
+//<![CDATA[
+if
+(
+ajax_loaded
+&&
+use_enhanced_js
+)
+{
+menu_build_menu(
+'edit-but-11463778',
+	new
+Array(
+
+img_item
++
+"
+<a
+title='Полное
+редактирование
+со
+всеми
+опциями'
+href='http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;act=post&amp;do=edit_post&amp;f=42&amp;t=1168059&amp;p=11463778&amp;st='>Полное
+редактирование</a>",
+				img_item
++
+"
+<a
+href='#'
+title='Быстро
+изменить
+это
+сообщение
+с
+базовыми
+опциями'
+onclick='return
+ajax_prep_for_edit(11463778,
+event);'>Быстрое
+редактирование</a>"
+)
+);
+}
+//]]>
+«
+Предыдущая
+тема
+·
+Срочный
+вопрос
+(взаимопомощь)
+·
+Следующая
+тема
+»
+2
+страниц
+1
+2
+>
+//<![CDATA[
+ipb_pages_shown++;
+var
+pgjmp
+=
+document.getElementById(
+'page-jump'
+);
+pgjmp.id
+
+=
+'page-jump-'+ipb_pages_shown;
+ipb_pages_array[
+ipb_pages_shown
+]
+=
+new
+Array(
+'http://forum.sibnet.ru/index.php?s=a0a0e1ba1d3726827c4be2a6dad4134b&amp;showtopic=1168059',
+20,
+23
+);
+menu_build_menu(
+	pgjmp.id,
+	new
+Array(
+
+"--NODIV--<div
+onmouseover='pages_st_focus("+ipb_pages_shown+")'
+class='popupmenu-category'
+align='center'>Перейти
+к
+странице</div>",
+				"<input
+type='text'
+size='5'
+name='st'
+id='st-"+ipb_pages_shown+"'
+/>
+<input
+type='button'
+class='button'
+onclick='do_multi_page_jump("+ipb_pages_shown+");'
+value='ОК'
+/>"
+)
+);
+//]]>
+3
+чел.
+просматривают
+этот
+форум
+(гостей:
+3,
+скрытых
+пользователей:
+0)
+Пользователей:
+0
+Главная
+страница
+Поиск
+Помощь
+Жизнь
+на
+Sibnet.ru
+|--
+More
+на
+Sibnet.ru
+|--
+Группы
+и
+Сообщества
+|--
+Конкурсы
+и
+акции
+Тематические
+форумы
+|--
+События
+и
+факты
+|--
+Деловой
+форум
+|--
+Образование
+|--
+Культура
+и
+искусство
+|--
+Семья
+и
+дом
+|--
+Взаимоотношения
+и
+психология
+|--
+Наши
+города
+|--
+Срочный
+вопрос
+(взаимопомощь)
+|--
+Разговоры
+обо
+всём
+|--
+Юмор
+и
+развлечения
+Увлечения
+и
+хобби
+|--
+Музыка
+|--
+Япония,
+аниме,
+манга
+|--
+Кино
+|--
+Фотография
+|--
+Видеосъемка
+и
+видеомонтаж
+|--
+Радиотехника
+|--
+Домашние
+питомцы
+|--
+Спорт
+|--
+Путешествия
+и
+туризм
+|--
+Клубы,
+кафе,
+рестораны
+Компьютеры
+и
+связь
+|--
+Железо
+|--
+Софт
+|--
+Операционные
+системы
+|--
+Программирование
+|--
+Компьютерная
+графика
+|--
+Компьютерные
+игры
+|--
+Интернет
+и
+сети
+|--
+Мобильный
+мир
+|--
+Безопасность
+|--
+Файловый
+обмен
+|--
+Mix.sibnet.ru
+Техподдержка
+|--
+Книга
+жалоб
+форума
+|--
+Сервисы
+http://www.sibnet.ru/
+Онлайн
+игры
+|--
+Сервис
+Game.sibnet.ru
+|--
+Team
+Fortress
+2
+|--
+Quake
+|--
+Battle.Net
+|--
+Grand
+Theft
+Auto:
+San
+Andreas
+Multiplayer
+|--
+Grand
+Theft
+Auto:
+Sibnet
+Grand
+Theft
+Online
+|--
+Grand
+Theft
+Auto:
+Sibnet
+Role
+Play
+|--
+Battlefield
+2
+|--
+Unreal
+Tournament
+2004
+|--
+Call
+of
+Duty
+4
+|--
+Star
+Wars
+Jedi
+Academy
+|--
+Lineage
+II
+|--
+Форумы
+кланов
+|--
+Комментарии
+Режим
+отображения:
+Стандартный
+·
+Переключить
+на:
+Линейный
+·
+Переключить
+на:
+Древовидный
+Подписка
+на
+тему
+·
+Сообщить
+другу
+·
+Версия
+для
+печати
+·
+Подписаться
+на
+форум
+//<![CDATA[
+
+document.getElementById('topicoptionsjs').style.display
+=
+'none';
+
+
+
+//
+Scroll
+to
+PID?
+
+topic_scroll_to_post(
+parseInt("")
+);
+//]]>
+(function(w,
+d,
+n,
+s,
+t)
+{
+w[n]
+=
+w[n]
+||
+[];
+w[n].push(function()
+{
+Ya.Direct.insertInto(71740,
+"yandex_ad2",
+{
+site_charset:
+"windows-1251",
+ad_format:
+"direct",
+font_size:
+1,
+type:
+"horizontal",
+border_type:
+"block",
+limit:
+4,
+title_font_size:
+3,
+site_bg_color:
+"FFFFFF",
+header_bg_color:
+"CCCCCC",
+border_color:
+"CCCCCC",
+title_color:
+"0000CC",
+url_color:
+"006600",
+all_color:
+"0000CC",
+text_color:
+"000000",
+hover_color:
+"0066FF",
+favicon:
+true
+});
+});
+t
+=
+d.documentElement.firstChild;
+s
+=
+d.createElement("script");
+s.type
+=
+"text/javascript";
+s.src
+=
+"http://an.yandex.ru/system/context.js";
+s.setAttribute("async",
+"true");
+t.insertBefore(s,
+t.firstChild);
+})(window,
+document,
+"yandex_context_callbacks");
+Текстовая
+версия
+Сейчас:
+17.12.2016,
+5:57
+//<![CDATA[
+menu_do_global_init();//]]>
+Редакция:
+(383)
+347-86-84
+Sibnet.Utils.printEmail('ur.tenbis@ofni',
+'b-sibnet-foot__text__link');
+Техподдержка:
+(383)
+347-22-44
+help.sibnet.ru
+Размещение
+рекламы:
+тел:
+(383)
+347-06-78,
+347-10-50
+Sibnet.Utils.printEmail('ur.tenbis.troppus@emalcer',
+'b-sibnet-foot__text__link');
+Правила
+использования
+материалов
+document.write('<img
+src="//luxup.ru/tr/22710/&r='+escape(document.referrer)+'&t='+(new
+Date()).getTime()+'"
+width="1"
+height="1"
+style="position:absolute"
+/>');
+var
+img
+=
+new
+Image();
+img.src
+=
+'//www.tns-counter.ru/V13a***R>'
++
+document.referrer.replace(/\*/g,'%2a')
++
+'*sib_net/ru/UTF-8/tmsec=sibnet_site/'
++
+Math.round(Math.random()
+*
+1000000000);
+new
+Image().src
+=
+"//counter.yadro.ru/hit;Sibnet?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();
+var
+tc_project=33;
+var
+tc_project=3379;
+var
+tc_project=31;
+(function()
+{
+
+
+setTimeout(function()
+{
+
+
+
+
+var
+isEnabled
+=
+typeof
+adriver
+===
+'undefined';
+
+
+
+
+try
+{
+
+
+
+
+
+
+var
+pageTracker
+=
+_gat._getTracker("UA-21284827-1");
+
+
+
+
+
+
+pageTracker._trackEvent('Adblock',
+isEnabled
+?
+'on'
+:
+'off');
+
+
+
+
+}
+catch(err)
+{}
+
+
+
+
+if
+(isEnabled)
+{
+
+
+
+
+
+
+window.tc_project
+=
+3391;
+
+
+
+
+
+
+var
+script
+=
+document.createElement('script');
+
+
+
+
+
+
+script.src
+=
+"//counter.sibnet.ru/counter.js";
+
+
+
+
+
+
+document.getElementsByTagName('head')[0].appendChild(script);
+
+
+
+
+}
+
+
+},
+500);
+})();
+Пользовательское
+соглашение

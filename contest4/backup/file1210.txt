@@ -1,0 +1,1109 @@
+где
+искать
+девушку,для
+совместной
+поездки
+на
+курорт?))
+var
+skin_close_img
+=
+'/skin/all/close.gif';
+	var
+skin_vote_star
+=
+'/skin/all/vote/vote.gif';
+	var
+skin_vote_star_
+=
+'/skin/all/vote/vote_.gif';
+	var
+skin_vote_star_half
+=
+'/skin/all/vote/vote_half.gif';
+	var
+allow_custom_smiles
+=
+('1'
+==
+1)
+?
+1
+:
+0;
+var
+png_cnt
+=
+0;
+		var
+png_arr
+=
+new
+Array();
+
+		$(document).ready(function(){
+			pngdo();
+			detect_browser();
+		});
+
+		window.name
+=
+'boomtime';
+		lang
+=
+'ru';
+
+		var
+isIE7
+=
+false;
+		if
+(document.all){
+			if
+(navigator.appVersion.indexOf('MSIE
+7')
+>
+-1){
+				isIE7
+=
+true;
+			}
+		}
+
+		function
+pngdo(n){
+
+			for(i=0;
+i
+<
+png_cnt;
+i++){
+				png_arr[i].runtimeStyle.filter
+=
+"progid:DXImageTransform.Microsoft.AlphaImageLoader(src="+png_arr[i].style.backgroundImage.substr(4,png_arr[i].style.backgroundImage.length-5)+",
+image)";
+			}
+
+			return
+true;
+		}
+
+		function
+pngfix(obj){
+
+			obj.runtimeStyle.behavior
+=
+"none";
+
+			if
+(isIE7)return
+false;
+
+			for(i
+=
+0;
+i
+<
+png_cnt;
+i++){
+				if
+(png_arr[i]
+==
+obj)return
+false;
+			}
+
+			obj.runtimeStyle.backgroundImage
+=
+"none";
+
+			png_arr[png_cnt]
+=
+obj;
+			png_cnt++;
+
+			return
+true;
+		}
+img.png
+{
+			behavior:
+expression(
+				pngfix(this)
+			);
+		}
+
+		.left_menu-td1{
+			width:20px;
+			height:23px;
+		}
+
+		.left_menu-td2{
+			height:23px;
+			padding-left:3px
+		}
+
+		.left_menu-td3{
+			padding-right:3px;
+			text-align:right;
+		}
+
+		.context_menu
+td{
+			cursor:pointer
+		}
+
+		h1{
+			font-size:11px;
+			font-weight:bold;
+			padding:0;
+			margin:0
+		}
+Menu
+layer
+Menu
+layer
+Суббота,
+17.12.2016
+ 
+01:01
+wap.boomtime.lv
+latviski
+Друзья
+Знакомства
+Герои
+Достижения
+Кланы
+Вопросы
+Новости
+Mafia
+$(document).ready(function(){
+	skip_clr
+=
+true;
+	$('#prf_pass').attr('autocomplete',
+'off');
+});
+.focusField{
+		background:#f7fcff;
+}
+.idleField{
+	background:#f7fcff;
+}
+Логин:
+Пароль:
+Регистрация
+Забыли
+пароль?
+Войти
+$(document).ready(function(){
+	$("#prf_login").focus();
+});
+
+function
+login_focus(){
+	$("#prf_login").focus();
+}
+
+function
+password_focus(){
+	$("#prf_pass").focus();
+}
+
+
+function
+authorize(){
+
+	var
+postvars
+=
+{
+			
+prf_login
+:
+$("#prf_login").val(),
+			
+prf_pass
+
+:
+$("#prf_pass").val()
+			}
+
+	$("#auth_button").html('Авторизация');
+	$("#auth_button_s").attr('disabled',
+true);
+
+	$.post('/ajax/authorize_ajax.html',
+postvars,
+function(input){
+			input
+
+=
+eval("("
++
+input
++
+")");
+			if
+(input.data[0].result){
+			switch(input.data[0].result){
+				case
+'pending':
+					$("#auth_result").hide();
+					document.location.href
+=
+'/authorize/confirm.html';
+					break;
+
+				case
+'enabled':
+					$("#auth_result").hide();
+																		document.location.href
+=
+'http://friends.boomtime.lv/friend/2186307.html';
+																break;
+
+				case
+'disabled':
+					$("#auth_button").html('Войти');
+					$("#auth_button_s").removeAttr("disabled");
+					$("#auth_result").html('Пользователь
+заблокирован<br
+/>причина:
+'+input.data[0].reason);
+					$("#auth_result").show();
+
+			}
+		}else{
+			$("#auth_button").html('Войти');
+			$("#auth_button_s").removeAttr("disabled");
+			$("#auth_result").html('Ошибка
+авторизации');
+			$("#auth_result").show();
+		}
+	});
+}
+function
+question_stats(nick,
+questions,
+answers,
+best){
+	menu
+=
+'<div
+class="java_menu"
+id="popup_width_p">'+
+			'<div
+class="head">'+nick+'<\/div>'+
+			'<div
+class="j_menu"
+style="line-height:130%;padding:10px;">'+
+				'Вопросов:
+'+questions+'<br
+\/>'+
+				'Ответов
+(всего):&nbsp;&nbsp;'+answers+'<br
+\/>'+
+				'Лучших
+ответов:&nbsp;&nbsp;'+best+'<br
+\/>'+
+			'<\/div>'+
+		'<\/div>';
+
+	object_position(0,
+0,
+menu,
+'popup_width_p');
+}
+Вопросы
+$(document).ready(function(){
+
+		$('#editor').editor({
+				post_url:
+'/question/2186307/answer.html',
+				onresult:
+check_reply,
+				height:
+110,
+				unbind_btn:
+true,
+				editor_msg:
+''
+
+				});
+
+		function
+check_reply(msg){
+			$('#error_msg').html('');
+			switch(msg){
+				case
+'too_many_msg':
+					$('#error_msg').html('Запрещено
+отправлять
+три
+сообщения
+подряд.
+Сделайте
+паузу!');
+					$('#send_btn').show();
+					break;
+
+				case
+'empty_msg':
+					$('#error_msg').html('Введите
+текст');
+					$('#send_btn').show();
+					break;
+
+				case
+'not_expert':
+					$('#error_msg').html('Вы
+не
+знаток!');
+					$('#send_btn').show();
+					break;
+
+				default:
+					document.location.href
+=
+msg;
+					document.location.reload();
+
+			}
+		}
+	});
+function
+question_vote(url){
+		$.get(url,
+function(input){
+			input
+
+=
+eval("("
++
+input
++
+")");
+			if
+(input.data[0].result
+==
+1){
+				data
+=
+input.data[0];
+				$("#mark"
++
+data.id).html('<span
+class="color1">'+
+data.text
++':
+'+
+data.points
++'</span>');
+			}
+		});
+	}
+
+	function
+questions_vote(url){
+		$.get(url,
+function(input){
+			input
+
+=
+eval("("
++
+input
++
+")");
+			if
+(input.data[0].result
+==
+1){
+				$("#qmark").html('<span
+class="color1">'+
+input.data[0].text
++':
+'+
+input.data[0].points
++'</span>');
+			}
+		});
+	}
+
+	function
+subscribe_handler(input){
+
+		input
+
+=
+eval("("
++
+input
++
+")");
+		if
+(input.data[0].result
+==
+3){
+			$("#subscribe_a").html('<table
+cellspacing="0"
+cellpadding="0"
+class="button"
+onclick="javascript:subscribe(4);
+return
+false;"><tr><td
+class="button-td1"></td><td
+class="button-td2"><img
+src="/skin/all/btn_ico/fav.gif"
+alt=""
+/>
+Отписаться
+от
+автора</td><td
+class="button-td3"></td></tr></table>');
+		}
+		if
+(input.data[0].result
+==
+4){
+			$("#subscribe_a").html('<table
+cellspacing="0"
+cellpadding="0"
+class="button"
+onclick="javascript:subscribe(3);
+return
+false;"><tr><td
+class="button-td1"></td><td
+class="button-td2"><img
+src="/skin/all/btn_ico/fav.gif"
+alt=""
+/>
+Подписаться
+на
+автора</td><td
+class="button-td3"></td></tr></table>');
+		}
+	}
+
+	var
+subscribe_q="none";
+
+	function
+subscribe_c(){
+		var
+params
+=
+new
+Array();
+
+		switch(subscribe_q){
+			case
+'none':
+				url
+=
+'/question/2186307/subscribe/question/all.html';
+				subscribe_q
+=
+'checked';
+				break;
+			case
+'checked':
+				url
+=
+'/question/2186307/subscribe/question/none.html';
+				subscribe_q
+=
+'none';
+				break;
+		}
+
+		$.get(url,
+function(input){
+			subscribe_handler(input);
+		});
+	}
+
+	function
+subscribe(type){
+		var
+params
+=
+new
+Array();
+
+		switch(type){
+			case
+3:
+url
+=
+'/question/2186307/subscribe/author/0/all.html';
+				break;
+			case
+4:
+url
+=
+'/question/2186307/subscribe/author/0/none.html';
+				break;
+		}
+
+		$.get(url,
+function(input){
+			subscribe_handler(input);
+		});
+	}
+
+
+	$(document).ready(function(){
+		$('.msg_body').bb2html();
+	});
+где
+искать
+девушку,для
+совместной
+поездки
+на
+курорт?))
+14
+Июля
+2016
+13:00
+(вопрос
+закрыт)
+Все
+вопросы
+»
+var
+phs_id_enc_clwcmb6yibn='';
+Целый
+центнер
+твоего
+счастья!♚
+14
+Июля
+2016
+13:03
+тут
+важно
+уточнить,
+за
+чей
+счёт?
+[e05]
+var
+phs_id_enc_clwcmb6yibn='';
+Целый
+центнер
+твоего
+счастья!♚
+14
+Июля
+2016
+13:05
+:
+за
+ее
+счет
+конечно
+xD
+красава!)))
+var
+phs_id_enc_clwcmb6yibn='';
+Целый
+центнер
+твоего
+счастья!♚
+14
+Июля
+2016
+13:08
+:
+и
+пошлют
+тоже
+красиво
+xD
+ну
+так
+ведь
+главное,
+чтобы
+всёё
+было
+краасиивааа)))
+var
+phs_id_enc_ck0kkblk1bn='';
+JOHN
+SMITH
+14
+Июля
+2016
+13:10
+[e05]
+если
+за
+твой
+шёт
+,
+то
+в
+любом
+месте,
+очередь
+встанет!
+[e05]
+[e21]
+var
+phs_id_enc_fgihbrrubf='';
+­
+14
+Июля
+2016
+13:14
+Езжай
+так
+-
+на
+месте
+уже
+ждут!))
+var
+phs_id_enc_clx24aig6bn='';
+♂
+川崎
+♂
+14
+Июля
+2016
+13:17
+В
+Тулу
+со
+своим
+самоваром
+не
+принято
+[e05]
+Вопрос
+закрыт
+Почему
+девушкам
+нравится,
+когда
+называешь
+их
+"киской",
+но
+не
+нравится,
+когда
+называешь
+"псинкой".Что
+за
+расизм
+домашних
+животных?
+(14)
+парни
+а
+вы
+шепчете
+своим
+девушкам
+на
+ушко
+о
+том,
+что
+они
+самые
+лучшие
+приходя
+домой,
+или
+
+
+сразу
+же
+требуете
+еды
+с
+порога?
+(23)
+А
+у
+вас
+лично
+были
+истории
+с
+меркантильными
+девушками
+типа
+как
+внутри?)))
+(26)
+а
+для
+секса
+девушку
+где
+искать
+ну
+только
+чтоб
+не
+проститутка
+была?!)а
+просто
+любительница
+(26)
+Лучше
+девушку
+искать
+с
+чем..?
+(31)
+ну
+што
+нород.
+уже
+восьмой
+час.
+а
+не
+пора
+ли
+нам
+пойти
+искать
+девушку
+наших
+мечт?
+она
+ж
+ждёт!
+плачет
+и
+ждёт
+(
+(10)
+Вопросы
+и
+комментарии:
+support@boomtime.lv
+Реклама
+на
+портале:
+ads.boomtime.lv
+У
+Вас
+есть
+новые
+идеи
+или
+комментарии
+по
+поводу
+сайта?
+Правила
+Пользования
+/
+Реклама
+на
+портале
+/
+Отказаться
+от
+услуг
+©
+
+2006
+-
+2016
+BOOMTIME.
+Все
+права
+защищены
+//
+DSNR
+		var
+_conf
+=
+_conf
+||
+{};
+		_conf.width
+=
+300;
+		_conf.height
+=
+250;
+		_conf.position
+=
+"fixed-left";
+		_conf.borderOffset
+=
+10;
+		_conf.animate
+=
+true;
+		_conf.src="https://wrapper.z5x.net/wrapper.html?ad_type=iframe&ad_size=300x250§ion=4760849&pub_url=";
+		_conf.type=
+"iframe";
+		(function()
+{
+			var
+ss
+=
+document.createElement('script');
+			ss.async
+=
+true;
+			ss.src
+=
+"https://wrapper.z5x.net/test.js";
+			var
+s
+=
+document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ss,
+s);
+		})();
+var
+_gaq
+=
+_gaq
+||
+[];
+	
+
+_gaq.push(['_setAccount',
+'UA-1358420-1']);
+	
+
+_gaq.push(['_setDomainName',
+'.boomtime.lv']);
+	
+
+_gaq.push(['_setAllowHash',
+false]);
+	
+
+_gaq.push(['_trackPageview']);
+
+	
+
+(function()
+{
+	
+
+
+
+var
+ga
+=
+document.createElement('script');
+ga.type
+=
+'text/javascript';
+ga.async
+=
+true;
+	
+
+
+
+ga.src
+=
+('https:'
+==
+document.location.protocol
+?
+'https://ssl'
+:
+'http://www')
++
+'.google-analytics.com/ga.js';
+	
+
+
+
+var
+s
+=
+document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga,
+s);
+	
+
+})();
+/*
+<![CDATA[
+*/
+		var
+bbs=screen,bbn=navigator,bbh;bbh='&ubl='+bbn.browserLanguage+'&ucc='+bbn.cpuClass+'&ucd='+bbs.colorDepth+'&uce='+bbn.cookieEnabled+'&udx='+bbs.deviceXDPI+'&udy='+bbs.deviceYDPI+'&usl='+bbn.systemLanguage+'&uje='+bbn.javaEnabled()+'&uah='+bbs.availHeight+'&uaw='+bbs.availWidth+'&ubd='+bbs.bufferDepth+'&uhe='+bbs.height+'&ulx='+bbs.logicalXDPI+'&uly='+bbs.logicalYDPI+'&use='+bbs.fontSmoothingEnabled+'&uto='+(new
+Date()).getTimezoneOffset()+'&uti='+(new
+Date()).getTime()+'&uui='+bbs.updateInterval+'&uul='+bbn.userLanguage+'&uwi='+bbs.width;
+		if(typeof(bburlparam)=='string')
+{
+bbh+='&'+bburlparam;
+}
+		if(typeof(bbkeywords)=='string')
+{
+bbh+='&keywords='+escape(bbkeywords);
+}
+		document.write("<scr"+"ipt
+type='text/javascript'
+charset='windows-1250'
+src='http://go.adlv.bbelements.com/please/showit/15422/1/11/21/?typkodu=js"+bbh+"&alttext=0&border=0&bust="+Math.random()+"&target=_blank'><"+"\/scr"+"ipt>");
+		/*
+]]>
+*/
+<!--//<![CDATA[
+			var
+_smartad
+=
+_smartad
+||
+{};
+_smartad.page_id=Math.floor(Math.random()*10000001);
+			if(!_smartad.prop)
+_smartad.prop='screen_width='+(window.innerWidth
+||
+document.documentElement.clientWidth
+||
+document.getElementsByTagName('body')[0].clientWidth)+unescape('%26screen_height=')+(window.innerHeight
+||
+document.documentElement.clientHeight
+||
+document.getElementsByTagName('body')[0].clientHeight)+unescape('%26os=')+navigator.platform+unescape('%26refurl=')+(document.referrer?encodeURIComponent(document.referrer.slice(0,document.referrer.indexOf('?')+50)):'')+unescape('%26pageurl=')+(document.URL?encodeURIComponent(document.URL.slice(0,document.URL.indexOf('?')+50)):'')+unescape('%26rnd=')+
+new
+Date().getTime();
+			(function()
+{
+				if
+(_smartad.space){
+					_smartad.space
++=
+',362f4dbf-8fac-45fe-abe0-c488feb865ae';
+				}else{
+					_smartad.space
+=
+'362f4dbf-8fac-45fe-abe0-c488feb865ae';
+					_smartad.type='onload';
+					var
+f=function(){
+						var
+d
+=
+document,
+b
+=
+d.body
+||
+d.documentElement
+||
+d.getElementsByTagName('BODY')[0],n
+=
+b.firstChild,
+s
+=
+d.createElement('SCRIPT');
+						s.type
+=
+'text/javascript',s.language
+=
+'javascript',s.async
+=
+true,s.charset='UTF-8';
+						s.src=location.protocol+'//serving.bepolite.eu/script?space='+_smartad.space+unescape('%26type=')+_smartad.type+unescape('%26page_id=')+_smartad.page_id+unescape('%26')+_smartad.prop;
+						n?b.insertBefore(s,
+n):b.appendChild(s);
+					}
+					if(window.addEventListener)window.addEventListener('load',f,false);
+					else
+if(window.attachEvent)window.attachEvent('onload',f);
+				}
+			})();
+		//]]>-->
+/*
+(c)AdOcean
+2003-2012
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(typeof
+ado!=="object"){ado={};ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){};}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ado.config({mode:
+"old",
+xml:
+false,
+characterEncoding:
+true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ado.preview({enabled:
+true,
+emiter:
+"lv.adocean.pl",
+id:
+"72jnLkkYd6i4PkZFaJY_hT3JXewBVcbt4K9VmPy0kYP.87"});
+/*
+(c)AdOcean
+2003-2012,
+OMG_lv.Boomtime.lv.Toplayer_main
+*/
+
+ado.placement({id:
+'ado-cFrnaVx4d1ZJSbwld1OQo5YhXczF.sbzPRA1XDPRIET.l7',
+server:
+'lv.adocean.pl'
+});

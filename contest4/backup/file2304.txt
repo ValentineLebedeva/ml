@@ -1,0 +1,3930 @@
+Узнать,
+кто
+удалился
+и
+добавился
+в
+друзья,
+и
+заработать
+на
+этом
+-
+Общие
+темы
+по
+социальным
+сетям
+и
+сервисам
+-
+Info-Forum.Ru
+-
+Сообщество
+Киберсантов
+Рунета
+//<![CDATA[
+			jsDebug			=
+0;
+/*
+Must
+come
+before
+JS
+includes
+*/
+			DISABLE_AJAX	=
+parseInt(0);
+/*
+Disables
+ajax
+requests
+where
+text
+is
+sent
+to
+the
+DB;
+helpful
+for
+charset
+issues
+*/
+			inACP			=
+false;
+			var
+isRTL		=
+false;
+			var
+rtlIe		=
+'';
+			var
+rtlFull		=
+'';
+		//]]>
+img.bbc_img
+{
+			max-width:
+664px
+!important;
+			max-height:
+664px
+!important;
+		}
+//<![CDATA[
+		/*
+----
+URLs
+----
+*/
+		ipb.vars['base_url']
+			=
+'http://www.info-forum.ru/index.php?s=86c25f8f7c93dea3b51abd8ad3e13f09&';
+		ipb.vars['board_url']			=
+'http://www.info-forum.ru';
+		ipb.vars['img_url']
+			=
+"http://www.info-forum.ru/public/style_images/master";
+		ipb.vars['loading_img']
+		=
+'http://www.info-forum.ru/public/style_images/master/loading.gif';
+		ipb.vars['active_app']			=
+'forums';
+		ipb.vars['upload_url']			=
+'http://www.info-forum.ru/uploads';
+		/*
+----
+Member
+----
+*/
+		ipb.vars['member_id']			=
+parseInt(
+0
+);
+		ipb.vars['is_supmod']			=
+parseInt(
+0
+);
+		ipb.vars['is_admin']			=
+parseInt(
+0
+);
+		ipb.vars['secure_hash']
+		=
+'880ea6a14ea49e853634fbdc5015a024';
+		ipb.vars['session_id']			=
+'86c25f8f7c93dea3b51abd8ad3e13f09';
+		ipb.vars['twitter_id']			=
+0;
+		ipb.vars['fb_uid']				=
+0;
+		ipb.vars['auto_dst']			=
+parseInt(
+0
+);
+		ipb.vars['dst_in_use']			=
+parseInt(
+
+);
+		ipb.vars['is_touch']			=
+false;
+		ipb.vars['member_group']		=
+{"g_mem_info":"1"}
+		/*
+----
+cookies
+-----
+*/
+		ipb.vars['cookie_id']
+			=
+'iforum';
+		ipb.vars['cookie_domain']
+		=
+'.info-forum.ru';
+		ipb.vars['cookie_path']			=
+'/';
+		/*
+----
+Rate
+imgs
+----
+*/
+		ipb.vars['rate_img_on']			=
+'http://www.info-forum.ru/public/style_images/master/star.png';
+		ipb.vars['rate_img_off']		=
+'http://www.info-forum.ru/public/style_images/master/star_off.png';
+		ipb.vars['rate_img_rated']		=
+'http://www.info-forum.ru/public/style_images/master/star_rated.png';
+		/*
+----
+Uploads
+----
+*/
+		ipb.vars['swfupload_swf']		=
+'http://www.info-forum.ru/public/js/3rd_party/swfupload/swfupload.swf';
+		ipb.vars['swfupload_enabled']	=
+true;
+		ipb.vars['use_swf_upload']		=
+(
+''
+==
+'flash'
+)
+?
+true
+:
+false;
+		ipb.vars['swfupload_debug']		=
+false;
+		/*
+----
+other
+----
+*/
+		ipb.vars['highlight_color']
+
+
+
+
+=
+"#ade57a";
+		ipb.vars['charset']				=
+"utf-8";
+		ipb.vars['time_offset']			=
+"1";
+		ipb.vars['hour_format']			=
+"24";
+		ipb.vars['seo_enabled']			=
+1;
+		
+		ipb.vars['seo_params']			=
+{"start":"-","end":"\/","varBlock":"?","varPage":"page-","varSep":"&","varJoin":"="};
+		
+		/*
+Templates/Language
+*/
+		ipb.templates['inlineMsg']		=
+"";
+		ipb.templates['ajax_loading']
+	=
+"<div
+id='ajax_loading'><img
+src='http://www.info-forum.ru/public/style_images/master/ajax_loading.gif'
+alt='"
++
+ipb.lang['loading']
++
+"'
+/></div>";
+		ipb.templates['close_popup']	=
+"<img
+src='http://www.info-forum.ru/public/style_images/master/close_popup.png'
+alt='x'
+/>";
+		ipb.templates['rss_shell']		=
+new
+Template("<ul
+id='rss_menu'
+class='ipbmenu_content'>#{items}</ul>");
+		ipb.templates['rss_item']		=
+new
+Template("<li><a
+href='#{url}'
+title='#{title}'>#{title}</a></li>");
+		
+		ipb.templates['autocomplete_wrap']
+=
+new
+Template("<ul
+id='#{id}'
+class='ipb_autocomplete'
+style='width:
+250px;'></ul>");
+		ipb.templates['autocomplete_item']
+=
+new
+Template("<li
+id='#{id}'
+data-url='#{url}'><img
+src='#{img}'
+alt=''
+class='ipsUserPhoto
+ipsUserPhoto_mini'
+/>&nbsp;&nbsp;#{itemvalue}</li>");
+		ipb.templates['page_jump']		=
+new
+Template("<div
+id='#{id}_wrap'
+class='ipbmenu_content'><h3
+class='bar'>Перейти
+к
+странице</h3><p
+class='ipsPad'><input
+type='text'
+class='input_text'
+id='#{id}_input'
+size='8'
+/>
+<input
+type='submit'
+value='ОК'
+class='input_submit
+add_folder'
+id='#{id}_submit'
+/></p></div>");
+		ipb.templates['global_notify']
+	=
+new
+Template("<div
+class='popupWrapper'><div
+class='popupInner'><div
+class='ipsPad'>#{message}
+#{close}</div></div></div>");
+		
+		
+		ipb.templates['header_menu']
+	=
+new
+Template("<div
+id='#{id}'
+class='ipsHeaderMenu
+boxShadow'></div>");
+		
+		Loader.boot();
+	//]]>
+var
+_gaq
+=
+_gaq
+||
+[];
+
+
+_gaq.push(['_setAccount',
+'UA-8230040-7']);
+
+
+_gaq.push(['_trackPageview']);
+
+
+
+(function()
+{
+
+
+
+
+var
+ga
+=
+document.createElement('script');
+ga.type
+=
+'text/javascript';
+ga.async
+=
+true;
+
+
+
+
+ga.src
+=
+('https:'
+==
+document.location.protocol
+?
+'https://ssl'
+:
+'http://www')
++
+'.google-analytics.com/ga.js';
+
+
+
+
+var
+s
+=
+document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga,
+s);
+
+
+})();
+Перейти
+к
+содержимому
+Войти
+Регистрация
+Поиск
+Расширенный
+Искать
+в:
+Эта
+тема
+Форумы
+Пользователи
+Помощь
+Блоги
+Галерея
+Файлы
+Календарь
+Просмотр
+новых
+публикаций
+Info-DVD
+Инфоклуб
+Форумы
+Блоги
+Галерея
+Файлы
+Пользователи
+Правила
+Помощь
+Больше
+Info-Forum.Ru
+-
+Сообщество
+Киберсантов
+Рунета
+→
+Инфотовары.
+Партнерки.
+Маркетинг
+и
+Реклама
+→
+Социальные
+сети
+→
+Общие
+темы
+по
+социальным
+сетям
+и
+сервисам
+Отключен
+JavaScript
+У
+вас
+отключен
+JavaScript.
+Некоторые
+возможности
+системы
+не
+будут
+работать.
+Пожалуйста,
+включите
+JavaScript
+для
+получения
+доступа
+ко
+всем
+функциям.
+(function(w,
+c)
+{
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+try
+{
+w.yaCounter11938030
+=
+new
+Ya.Metrika({id:11938030,
+enableAll:
+true,
+trackHash:true,
+webvisor:true});
+}
+catch(e)
+{
+}
+});
+})(window,
+"yandex_metrika_callbacks");
+<!--
+new
+Image().src
+=
+"//counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+
+";"+Math.random();//-->
+//<![CDATA[
+	ipb.topic.inSection
+
+
+
+=
+'topicview';
+	ipb.topic.topic_id
+
+
+
+
+=
+27161;
+	ipb.topic.forum_id
+
+
+
+
+=
+150;
+	ipb.topic.redirectPost
+=
+1;
+	ipb.topic.start_id
+
+
+
+
+=
+0;
+	ipb.topic.page_id
+
+
+
+
+
+=
+0;
+	ipb.topic.topPid
+
+
+
+
+
+
+=
+0;
+	ipb.topic.counts
+
+
+
+
+
+
+=
+{
+postTotal:
+14,
+							
+
+curStart:
+
+ipb.topic.start_id,
+							
+
+perPage:
+
+
+20
+};
+	//Search
+Setup
+	ipb.vars['search_type']			=
+'forum';
+	ipb.vars['search_type_id']		=
+150;
+	ipb.vars['search_type_2']		=
+'topic';
+	ipb.vars['search_type_id_2']	=
+27161;
+	
+	
+	//
+Delete
+stuff
+set
+up
+	ipb.topic.deleteUrls['hardDelete']
+=
+new
+Template(
+ipb.vars['base_url']
++
+"app=forums&module=moderate&section=moderate&do=04&f=150&t=27161&page=&auth_key=880ea6a14ea49e853634fbdc5015a024&p=#{pid}"
+);
+	ipb.topic.deleteUrls['softDelete']
+=
+new
+Template(
+ipb.vars['base_url']
++
+"app=forums&module=moderate&section=moderate&do=postchoice&tact=sdelete&t=27161&f=150&auth_key=880ea6a14ea49e853634fbdc5015a024&selectedpids[#{pid}]=#{pid}&pid=#{pid}"
+);
+	
+	
+	ipb.topic.modPerms	
+
+=
+[];
+	
+	
+	ipb.templates['post_moderation']
+=
+new
+Template("<div
+id='comment_moderate_box'
+class='ipsFloatingAction'
+style='display:
+none'><span
+class='desc'><span
+id='comment_count'>#{count}</span>
+сообщений:
+
+</span><select
+id='tactInPopup'
+class='input_select'><option
+value='approve'>Подтвердить</option><option
+value='delete'>Скрыть</option><option
+value='sundelete'>Показать</option><option
+value='deletedo'>Удалить</option><option
+value='merge'>Объединить</option><option
+value='split'>Разделить</option><option
+value='move'>Перенести</option></select>&nbsp;&nbsp;<input
+type='button'
+class='input_submit'
+id='submitModAction'
+value='Ок'
+/></div>");
+	
+//]]>
+Узнать,
+кто
+удалился
+и
+добавился
+в
+друзья,
+и
+заработать
+на
+этом
+Автор
+темы
+Elelle
+,
+18
+Ноя
+2014
+13:13
+Авторизуйтесь
+для
+ответа
+в
+теме
+Сообщений
+в
+теме:
+13
+#1
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+18
+Ноябрь
+2014
+-
+13:13
+У
+меня
+из
+группы
+вконтакте
+народ
+уходил,
+захотел
+понять
+кто
+и
+не
+нашел
+никакого
+способа,
+в
+статистике
+только
+«вышедших
+Х
+человек».
+Запилил
+сервис
+по-быстрому,
+который
+поименно
+показывает,
+кто
+же
+покинул
+мою
+группу.
+Оказалось,
+что
+смотреть
+за
+удаляющимися
+и
+добавляющимися
+друзьями
+надо
+не
+только
+мне,
+поэтому
+решил
+развивать
+сервис.
+Итак,
+теперь
+вы
+можете
+абсолютно
+бесплатно:
+-
+с
+удобством
+смотреть,
+кто
+добавляется/удаляется
+в
+друзьях
+у
+себя
+на
+страничках;
+-
+следить
+за
+страничками
+подруги/друга;
+-
+и,
+ГЛАВНОЕ,
+смотреть
+кто
+добавляется/удаляется
+со
+страниц/групп
+конкурентов.
+Сервис
+уже
+работает
+для
+Вконтакте,
+Инстаграма
+и
+Твиттера.
+Понятно,
+что
+наблюдая
+за
+страницей
+подруги,
+можно
+заработать
+только
+головную
+боль
+и
+скандал
+А
+вот
+если
+смотреть,
+кто
+подписывается
+на
+странички
+Инстаграмов
+конкурентов,
+то
+можно
+их
+сразу
+же
+фолловить
+себе,
+а
+там
+и
+до
+прибыли
+рукой
+подать!
+Пользоваться
+очень
+просто:
+вводите
+в
+форму
+тут
+http
+://
+www
+.
+zebraboss
+.
+com
+урлы,
+никнеймы
+или
+id
+страниц,
+групп
+и
+свой
+емейл,
+на
+который
+раз
+в
+сутки
+будет
+приходить
+отчет.
+В
+нем
+будет:
+-
+ссылка
+на
+профиль;
+-
+ФИО,
+возраст,
+город,
+страна;
+-
+время
+удаления/добавления
+(скрипт
+проверяет
+раз
+в
+час
+все
+страницы).
+Отписаться
+можно
+в
+любой
+момент.
+Чтобы
+не
+оставалось
+сомнений,
+что
+сервис
+действительно
+работает,
+вот
+ссылка
+на
+сэмпловый
+отчет.
+Там
+Отслеживаются
+три
+акка
+в
+твиттере,
+инстаграмме
+и
+ВК:
+http://www.zebraboss...c09ca6f1ea.html
+Совсем
+скоро
+распишу
+кейс
+как
+же
+все
+автоматизировать
+для
+Инстаграма,
+чтобы
+не
+приходилось
+фолловить
+и
+лайкать
+подписчиков
+конкурентов
+руками
+Так
+как
+сервис
+активно
+развиваю,
+то
+жду
+ваших
+замечаний,
+предложений
+по
+улучшениям.
+Ну
+и
+просто
+вопросов,
+всегда
+буду
+раз
+помочь!
+1
+ipb.global.registerReputation(
+'rep_post_306989',
+{
+domLikeStripId:
+'like_post_306989',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'306989'
+},
+parseInt('1')
+);
+Наверх
+var
+pid
+=
+parseInt(306989);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_306989')
+)
+	{
+		$('multiq_306989').show();
+	}
+	
+	if(
+$('toggle_post_306989')
+)
+	{
+		$('toggle_post_306989').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[306989]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#2
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+19
+Ноябрь
+2014
+-
+17:59
+Сегодня 
+маленький 
+день 
+рождения:
+моему
+поиску
+удалившихся
+друзей
+половина
+месяца,
+ура!
+В  
+честь  
+этого  
+события  
+прикрутил,  
+наконец-то, 
+дизайн. 
+Вроде
+симпатичный, 
+только 
+вот 
+форма
+на
+главной
+страничке
+как-то
+смущает..
+Не
+выглядит
+ли,
+как
+сообщение
+об
+ошибке,
+и
+все
+ли
+понятно?
+Кстати,  
+теперь  
+в  
+отчетах 
+появилась 
+новая 
+фишка: 
+список 
+всех
+друзей/подписчиков
+аккаунта/группы.
+Пользуйтесь!
+Пример
+отчета
+можете
+увидеть
+тут
+http://www.zebraboss...c09ca6f1ea.html
+0
+ipb.global.registerReputation(
+'rep_post_307166',
+{
+domLikeStripId:
+'like_post_307166',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'307166'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(307166);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_307166')
+)
+	{
+		$('multiq_307166').show();
+	}
+	
+	if(
+$('toggle_post_307166')
+)
+	{
+		$('toggle_post_307166').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[307166]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#3
+Neovzor
+Neovzor
+Новичок
+Пользователи
+5
+сообщений
+0
+Обычный
+Отправлено
+25
+Ноябрь
+2014
+-
+06:29
+Прикольный
+сервис!
+Обязательно
+испробую
+чуть
+поз
+же
+(когда
+начну
+раскручивать
+проект)!
+0
+ipb.global.registerReputation(
+'rep_post_307932',
+{
+domLikeStripId:
+'like_post_307932',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'307932'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(307932);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_307932')
+)
+	{
+		$('multiq_307932').show();
+	}
+	
+	if(
+$('toggle_post_307932')
+)
+	{
+		$('toggle_post_307932').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[307932]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#4
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+26
+Ноябрь
+2014
+-
+16:18
+Как
+и
+обещал,
+продолжаю
+улучшать
+свой
+проект.
+Последние
+новости
+с
+«поля
+боя»:
+Запустил
+англоязычную
+версию
+сайта,
+посмотрим,
+что
+на
+буржуйском
+рынке
+творится.
+Русская
+версия
+сайта
+переехала
+сюда:
+http://ru.zebraboss.com
+Ссылки
+из
+ранних
+моих
+сообщений
+будут
+вести
+вас
+на
+англоязычную
+версию
+сайта!
+Еще
+я
+решил
+начать
+монетизировать
+свою
+деятельность
+—
+добавил
+платных
+плюшек
+для
+продвижения
+аккаунтов
+в
+Instagram:
+http://ru.zebraboss.com/services
+Ну
+а
+сам
+сервис
+по-прежнему
+бесплатный
+(за
+отчеты
+о
+добавившихся-удалившихся
+подписчиках
+денег
+не
+беру)!
+Народ,
+что
+скажете?
+Как
+думаете,
+стоило
+создавать
+англоязычную
+версию?
+Буду
+рад
+услышать
+ваши
+мнения
+о
+платных
+услугах.
+Может
+ли
+это
+реально
+помочь
+администратору 
+магазина
+в
+инстаграме?
+А
+что
+бы
+вы
+еще
+добавили
+в
+услуги?
+В
+общем,
+высказывайтесь,
+критикуйте
+—
+мне
+это
+только
+на
+пользу)
+0
+ipb.global.registerReputation(
+'rep_post_308126',
+{
+domLikeStripId:
+'like_post_308126',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'308126'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(308126);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_308126')
+)
+	{
+		$('multiq_308126').show();
+	}
+	
+	if(
+$('toggle_post_308126')
+)
+	{
+		$('toggle_post_308126').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[308126]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#5
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+15
+Декабрь
+2014
+-
+13:49
+Сегодня
+появилась
+возможность
+отписаться
+от
+отслеживания
+любой
+группы
+или
+страницы
+пользователя
+прямо
+в
+отчете!
+Чтобы
+отписаться,
+перейдите
+в
+полную
+версию
+отчета
+и
+нажмите
+«Отписаться»
+напротив
+нужной
+страницы
+или
+группы.
+0
+ipb.global.registerReputation(
+'rep_post_310638',
+{
+domLikeStripId:
+'like_post_310638',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'310638'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(310638);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_310638')
+)
+	{
+		$('multiq_310638').show();
+	}
+	
+	if(
+$('toggle_post_310638')
+)
+	{
+		$('toggle_post_310638').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[310638]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#6
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+29
+Декабрь
+2014
+-
+11:09
+По
+многочисленным
+заявкам
+«трудящихся»
+прикрутил
+новый
+функционал
+в
+отчеты.
+Теперь
+рядом
+с
+ссылкой
+на
+удалившегося
+пользователя
+находится
+значок
+конверта.
+Кликните
+на
+него,
+чтобы
+спросить
+у
+этого
+пользователя,
+почему
+он
+удалился
+из
+списка
+ваших
+друзей
+или
+подписчиков.
+Выглядит
+все
+так:
+Правда,
+если
+вы
+отслеживаете
+добавившихся
+и
+удалившихся
+подписчиков
+групп
+или
+сообществ,
+то
+иконки
+с
+конвертом
+вы
+в
+отчете
+не
+увидите.
+Все
+потому,
+что
+этот
+функционал
+пока
+что
+реализован
+только
+для
+отслеживания
+друзей
+и
+подписчиков
+личной
+страницы
+пользователя.
+С
+наступающим
+вас!
+Желаю
+вам,
+чтобы
+в
+Новом
+Году
+подписчиков
+у
+вас
+становилось
+больше,
+а
+количество
+отписавшихся
+–
+меньше!
+0
+ipb.global.registerReputation(
+'rep_post_312490',
+{
+domLikeStripId:
+'like_post_312490',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'312490'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(312490);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_312490')
+)
+	{
+		$('multiq_312490').show();
+	}
+	
+	if(
+$('toggle_post_312490')
+)
+	{
+		$('toggle_post_312490').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[312490]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#7
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+12
+Январь
+2015
+-
+10:48
+И
+снова
+о
+положительных
+изменениях
+в
+сервисе
+отслеживания
+подписчиков.
+В
+ближайшие
+два
+дня
+планирую
+опцию,
+которую
+давно
+уже
+просят
+сделать.
+Помимо
+имени
+пользователей
+и
+скрин-неймов
+добавившихся-удалившихся
+юзеров
+Вконтакте,
+Twitter
+и
+Instagram
+хочу
+добавить
+возможность
+выведения
+id
+пользователей
+в
+отчетах,
+плюс
+сделать
+удобный
+экспорт
+списка
+всех
+айдишников
+(в
+том
+числе
+за
+определенный
+период)
+в
+текстовом
+формате
+(.xls,
+.txt).
+Нужны
+еще
+какие-то
+форматы
+файлов?
+Вообще
+пока
+работаю
+над
+этим,
+так
+что
+любые
+пожелания
+еще
+принимаются
+0
+ipb.global.registerReputation(
+'rep_post_314870',
+{
+domLikeStripId:
+'like_post_314870',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'314870'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(314870);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_314870')
+)
+	{
+		$('multiq_314870').show();
+	}
+	
+	if(
+$('toggle_post_314870')
+)
+	{
+		$('toggle_post_314870').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[314870]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#8
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+14
+Январь
+2015
+-
+13:30
+Ура!
+Дошли
+руки
+и
+до
+ОК.
+Попутно
+пилю
+отслеживание
+удалившихся
+и
+добавившихся
+в
+Facebook.
+К
+концу
+этой
+недели
+-
+началу
+следующей
+уже
+планирую
+все
+допилить
+и
+запуститься.
+Так
+что
+совсем
+скоро
+будем
+узнавать
+кто
+удалился
+из
+друзей
+во
+всеми
+востребованных
+Одноклассниках.
+А
+пока
+мини-бонус:
+приложение
+ZebraBoss
+ВКонтакте
+-
+http://sls4.net/zb1vkapp
+Для
+тех,
+кто
+вообще
+из
+ВК
+вылазить
+не
+желает.
+Кстати,
+стоит
+приложение
+развивать
+до
+полноценного,
+с
+выгрузкой
+статсы
+и
+пр.,
+или
+этого
+достаточно?
+0
+ipb.global.registerReputation(
+'rep_post_315235',
+{
+domLikeStripId:
+'like_post_315235',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'315235'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(315235);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_315235')
+)
+	{
+		$('multiq_315235').show();
+	}
+	
+	if(
+$('toggle_post_315235')
+)
+	{
+		$('toggle_post_315235').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[315235]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#9
+niceweb
+niceweb
+Коммерсант
+Киберсанты
+204
+сообщений
+35
+Очень
+хороший
+Страна,
+Город:
+Омск
+Пол:
+Мужчина
+Отправлено
+14
+Январь
+2015
+-
+16:37
+Идея
+сервиса
+отличная,
+подписался,
+буду
+ждать
+первого
+отчёта.
+Но
+над
+сайтом
+нужно
+очень
+хорошо
+поработать!
+0
+ipb.global.registerReputation(
+'rep_post_315272',
+{
+domLikeStripId:
+'like_post_315272',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'315272'
+},
+parseInt('0')
+);
+Закажите
+сайт
+с
+индивидуальным
+дизайном!
+(моя
+тема
+на
+форуме)
+Создание
+и
+продвижение
+сайтов
+в
+Омске
+(сайт
+веб-студии)
+Наверх
+var
+pid
+=
+parseInt(315272);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_315272')
+)
+	{
+		$('multiq_315272').show();
+	}
+	
+	if(
+$('toggle_post_315272')
+)
+	{
+		$('toggle_post_315272').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[315272]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#10
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+19
+Январь
+2015
+-
+13:28
+Все!
+Допилил
+отслеживание
+удалившихся
+и
+добавившихся
+в
+Одноклассниках!
+Теперь,
+добавив
+на
+Главной
+ссылки
+на
+акки
+ОК,
+вы
+узнаете,
+кто
+удалился
+и
+добавился
+у
+вас
+из
+друзей.
+Пользуйтесь
+на
+здоровье!
+Возможность
+смотреть
+за
+добавившимися
+и
+удалившимися
+друзьями
+и
+подписчиками
+на
+Одноклассниках
+писалась
+в
+спешке,
+поэтому
+прошу
+всех,
+кто
+найдет
+какие-либо
+ошибки,
+сообщить
+мне,
+чтобы
+я
+их
+исправил
+в
+самом
+скором
+времени!
+0
+ipb.global.registerReputation(
+'rep_post_315820',
+{
+domLikeStripId:
+'like_post_315820',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'315820'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(315820);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_315820')
+)
+	{
+		$('multiq_315820').show();
+	}
+	
+	if(
+$('toggle_post_315820')
+)
+	{
+		$('toggle_post_315820').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[315820]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#11
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+22
+Январь
+2015
+-
+13:03
+Теперь
+есть
+возможность
+смотреть
+за
+добавившимися
+и
+удалившимися
+друзьями
+и
+подписчиками
+друзей
+и
+подписчиков
+для
+Facebook.
+Все
+-
+как
+обычно
+-
+добавляете
+урлы
+на
+странички
+на
+главной
+и
+узнаете,
+кто
+удалился
+на
+Фейсбуке.
+0
+ipb.global.registerReputation(
+'rep_post_316219',
+{
+domLikeStripId:
+'like_post_316219',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'316219'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(316219);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_316219')
+)
+	{
+		$('multiq_316219').show();
+	}
+	
+	if(
+$('toggle_post_316219')
+)
+	{
+		$('toggle_post_316219').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[316219]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#12
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+29
+Январь
+2015
+-
+11:11
+И
+вот
+еще
+доделки.
+1.
+Добавил
+в
+полном
+отчете
+возможность
+загрузить
+отчет
+о
+тех,
+кто
+отписался
+и
+подписался
+в
+excel-формате
+(пока
+просто
+id-шники
+юзеров,
+потом
+запилю
+гораздо
+больше
+информации
+и 
+больше
+доступных
+форматов).
+2.
+Запустил
+приложение
+в
+контакте
+https://vk.com/zebrabossapp
+3.
+Сделал
+плагин
+для
+WordPress,
+позволяющий
+владельцам
+сайта
+на
+WordPress
+смотреть
+отчет
+по
+подписчикам
+аккаунтов
+в
+Instagram
+прямо
+из
+админки:
+https://wordpress.or...lowers-tracker/
+4.
+Наконец-то
+Google
+заапрувил
+мое
+расширение
+для
+браузера
+Хром!
+Вся
+статистика
+по
+добавившимся
+и
+удалившимся
+друзьям
+и
+подписчикам
+выгружется
+в
+окне
+Хрома,
+если
+это
+расширение
+есть
+в
+вашем
+Хроме.
+Вот
+ссылка
+на
+вебсторе:
+https://chrome.googl...olgljcjdecgpfmf
+0
+ipb.global.registerReputation(
+'rep_post_317199',
+{
+domLikeStripId:
+'like_post_317199',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'317199'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(317199);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_317199')
+)
+	{
+		$('multiq_317199').show();
+	}
+	
+	if(
+$('toggle_post_317199')
+)
+	{
+		$('toggle_post_317199').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[317199]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#13
+Elelle
+Elelle
+Ученик
+Пользователи
+11
+сообщений
+1
+Обычный
+Отправлено
+13
+Февраль
+2015
+-
+19:09
+Сегодня
+хочу
+вас
+порадовать
+новым
+приложением,
+которое
+пригодится
+тем,
+кто
+проводил
+или
+собирается
+проводить
+конкурсы
+и
+розыгрыши
+ВКонтакте,
+Одноклассниках
+с
+призами
+за
+репост.
+Вот
+что
+оно
+умеет:
+-
+случайное
+определение
+одного
+или
+нескольких
+победителей
+среди
+сделавших
+репост
+или
+лайкнувших
+запись;
+-
+автоматический
+контроль
+на
+вступление
+в
+группу
+(группы)
+и
+на
+наличие
+репоста;
+-
+полная
+статистика
+по
+тому,
+сколько
+времени
+висят
+ваши
+репосты
+на
+стенах
+участников
+конкурсов
+даже
+после
+проведения
+розыгрыша;
+-
+автоматический
+контроль
+на
+какой
+позиции
+на
+стене
+висит
+репост
+–
+это
+можно
+использовать
+в
+условиях
+конкурсов;
+-
+и,
+ГЛАВНОЕ,
+анализ
+как
+долго
+после
+розыгрыша
+участники
+конкурсов
+остаются
+у
+вас
+в
+группе.
+Очень
+ценно
+для
+анализа
+эффективности!
+Работает
+как
+для
+ВКонтакта,
+так
+и
+для
+Одноклассников.
+Сейчас
+провожу
+закрытое
+тестирование
+этого
+сервиса-приложения.
+Если
+найдутся
+желающие
+принять
+участие
+в
+тестирование
+– 
+пишите
+на
+zebraboss@yandex.ru
+Также
+приветствуются
+пожелания
+о
+функционале,
+который
+вам
+нужен!
+Да,
+и
+не
+забудьте,
+что
+мой
+бесплатный
+сервис
+http://ru.zebraboss.com
+прекрасно
+смотрит
+за
+теми
+,
+кто
+добавляется/удаляется
+в
+группах
+или
+на
+личных
+страничках.
+Уже
+5
+соц.
+сетей:
+ВКонтакте,
+Facebook,
+Instagram,
+Одноклассники,
+Twitter
+0
+ipb.global.registerReputation(
+'rep_post_319096',
+{
+domLikeStripId:
+'like_post_319096',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'319096'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(319096);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_319096')
+)
+	{
+		$('multiq_319096').show();
+	}
+	
+	if(
+$('toggle_post_319096')
+)
+	{
+		$('toggle_post_319096').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[319096]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#14
+Basida
+Basida
+Ученик
+Пользователи
+16
+сообщений
+2
+Обычный
+Отправлено
+04
+Март
+2015
+-
+07:24
+А
+смысл
+узнавать,
+если
+кто-то
+удалился,
+какая
+от
+этого
+польза?
+0
+ipb.global.registerReputation(
+'rep_post_321578',
+{
+domLikeStripId:
+'like_post_321578',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'321578'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(321578);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_321578')
+)
+	{
+		$('multiq_321578').show();
+	}
+	
+	if(
+$('toggle_post_321578')
+)
+	{
+		$('toggle_post_321578').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[321578]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+for(
+var
+id
+in
+ipb.global.reputation
+)
+{
+	if
+(
+$(
+id
+)
+)
+	{
+		if
+(
+$(
+id
+).down('.rep_up')
+)
+		{
+			$(
+id
+).down('.rep_up').stopObserving();
+			$(
+id
+).down('.rep_up').observe(
+'click',
+ah30Rep.bindAsEventListener(0,
+1,
+id)
+);
+		}
+		
+		if
+(
+$(
+id
+).down('.rep_down')
+)
+		{
+			$(
+id
+).down('.rep_down').stopObserving();
+			$(
+id
+).down('.rep_down').observe(
+'click',
+ah30Rep.bindAsEventListener(0,
+-1,
+id)
+);
+		}
+	}
+}
+function
+ah30Rep(
+event
+)
+{
+	Event.stop(event);
+	
+	type	=
+(
+arguments
+)[1];
+	id		=
+(
+arguments
+)[2];
+	
+	if(
+!ipb.global.reputation[
+id
+]
+)
+	{
+		return;
+	}
+	else
+	{
+		var
+rep
+=
+ipb.global.reputation[
+id
+];
+	}
+	
+	if
+(
+$(
+id
+).down('.rep_up')
+)
+	{
+		$(
+id
+).down('.rep_up').hide();
+	}
+	
+	if
+(
+$(
+id
+).down('.rep_down')
+)
+	{
+		$(
+id
+).down('.rep_down').hide();
+	}
+				
+	pos
+=
+$(id).cumulativeOffset();
+	finalPos
+=
+{
+
+			top:
+pos.top
++
+$(id).getHeight(),
+			left:
+(
+pos.left
+)
+		};
+	
+	popup
+=	new
+Element('div',
+				{
+					id:
+id
++
+'_popup'
+				}
+			).hide().setStyle('padding-top:25px;padding-left:4px;');
+	$(id).insert(
+{
+bottom:
+popup
+}
+);
+	
+	popup.update(
+"<div
+id='reputationMsgBox'><input
+type='textbox'
+name='rep_msg'
+id='rep_msg'
+value=''
+size='30'
+/>&nbsp;<input
+type='submit'
+id='sendRep'
+class='input_submit
+ah30rep_input'
+value='Дать'
+/>
+или
+<a
+href='javascript:void(0);'
+id='cancelRep'
+class='cancel'>Отмена</a><br
+/><span
+class='desc
+ah30rep_desc'>Введите
+комментарий
+к
+репутации.</span></div>"
+);
+	
+	$(id).down('ul').setStyle('float:right;');
+	
+	$(id).removeClassName('rep_bar_expanded');
+	$(id).removeClassName('rep_bar_shrink');
+	
+	new
+Effect.Morph(
+$(id),
+		{
+			style:
+'rep_bar_expanded',
+			duration:
+0.4,
+			afterFinish:
+function()
+			{
+				new
+Effect.Appear(
+popup,
+{duration:0.4}
+);
+			}
+		}
+
+	);
+	
+	/*
+Class
+*/
+	if
+(
+type
+==
+1
+)
+	{
+		$('rep_msg').addClassName('ah30rep_positive');
+	}
+	else
+if
+(
+type
+==
+-1
+)
+	{
+		$('rep_msg').addClassName('ah30rep_negative');
+	}
+	
+	$('reputationMsgBox').writeAttribute('id',
+id
++
+'_box'
+);
+	$('cancelRep').writeAttribute('id',
+id
++
+'_cancel'
+);
+	$('sendRep').writeAttribute('id',
+id
++
+'_send'
+);
+	$('rep_msg').writeAttribute('id',
+id
++
+'_msg'
+);
+	
+	$(
+id
++
+'_cancel'
+).observe(
+'click',
+ah30CancelRep.bindAsEventListener(0,
+type,
+id)
+);
+	$(
+id
++
+'_send'
+).observe(
+'click',
+ah30SendRep.bindAsEventListener(0,
+type,
+id)
+);
+}
+function
+ah30CancelRep(
+event
+)
+{
+	Event.stop(event);
+	
+	type	=
+(
+arguments
+)[1];
+	id		=
+(
+arguments
+)[2];
+	
+	ah30ShrinkBar(
+id
+);
+}
+function
+ah30SendRep(
+event
+)
+{
+	Event.stop(event);
+	
+	type	=
+(
+arguments
+)[1];
+	id		=
+(
+arguments
+)[2];
+	value	=
+(
+type
+==
+1
+)
+?
+1
+:
+-1;
+	
+	if(
+!
+ipb.global.reputation[
+id
+]
+)
+	{
+		return;
+	}
+	else
+	{
+		var
+rep
+=
+ipb.global.reputation[
+id
+];
+	}
+	
+	ah30ShrinkBar(id,false);
+	
+	//
+Send
+ping
+	new
+Ajax.Request(
+rep.sendUrl
++
+'&rating='
++
+value
++
+'&rep_msg='
++
+$(id
++
+'_msg').getValue().encodeParam(),
+	{
+		method:
+'get',
+		onSuccess:
+function(
+t
+)
+		{
+			if(
+t.responseJSON['status']
+==
+'ok'
+)
+
+			{
+				try
+{									
+					//
+It
+worked!
+Hide
+the
+rep
+buttons
+					rep.obj.down('.rep_up').up('li').hide();
+					rep.obj.down('.rep_down').up('li').hide();
+					
+					/*
+Can
+we
+see
+some,
+though?
+*/
+					if
+(
+t.responseJSON['canRepUp']
+===
+true
+)
+					{
+						rep.obj.down('.rep_up').up('li').show();
+					}
+					
+					if
+(
+t.responseJSON['canRepDown']
+
+===
+true
+)
+					{
+						rep.obj.down('.rep_down').up('li').show();
+					}										
+				}
+catch(err)
+{
+Debug.error(
+err
+);
+}
+				
+				//
+Update
+the
+figure
+				var
+rep_display
+=
+rep.obj.down('.rep_show');
+				if(
+rep_display
+)
+				{										
+					['positive',
+'negative',
+'zero'].each(function(c){
+rep_display.removeClassName(c);
+});
+					
+					var
+newValue
+=
+parseInt(
+t.responseJSON['rating']
+);
+					
+					if(
+newValue
+>
+0
+)
+					{
+						rep_display.addClassName('positive');
+					}
+					else
+if(
+newValue
+<
+0
+)
+					{
+						rep_display.addClassName('negative');
+					}
+					else
+					{
+						rep_display.addClassName('zero');
+					}
+					
+					rep_display.update(
+newValue
+);
+				}
+				
+				/*
+Got
+a
+like
+strip
+*/
+				if
+(
+$(rep.domLikeStripId.id)
+)
+				{
+					if
+(
+t.responseJSON['likeData'].formatted
+!==
+false
+)
+					{
+						$(rep.domLikeStripId.id).update(
+t.responseJSON['likeData'].formatted
+).show();
+					}
+					else
+					{
+						$(rep.domLikeStripId.id).update(
+''
+).hide();
+					}
+				}
+			}
+			else
+			{
+				if(
+t.responseJSON['error']
+==
+'nopermission'
+||
+t.responseJSON['error']
+==
+'no_permission'
+)
+				{
+					ipb.global.errorDialogue(
+ipb.lang['no_permission']
+);
+				}
+				else
+				{
+					ipb.global.errorDialogue(
+t.responseJSON['error']
+);
+				}
+			}
+
+
+
+
+
+
+		}
+	}
+	);	
+}
+function
+ah30ShrinkBar(
+id,
+buttons
+)
+{
+	if
+(
+!
+id
+)
+	{
+		return;
+	}
+	
+	$(
+id
++
+'_send'
+).stopObserving();
+	$(
+id
++
+'_cancel'
+).stopObserving();
+	
+	$(id).removeClassName('rep_bar_shrink');
+	
+	new
+Effect.Fade(
+$(
+id
++
+'_popup'
+),
+		{
+			duration:
+0.4,
+			afterFinish:
+function()
+			{
+				new
+Effect.Morph(
+$(id),
+					{
+						style:
+'rep_bar_shrink',
+						duration:
+0.4,
+						afterFinish:
+function()
+						{
+							$(id).removeClassName('rep_bar_expanded');
+							
+							if
+(
+typeof(
+buttons
+)
+==
+'undefined'
+||
+buttons
+==
+true
+)
+							{
+								$(id).down('ul').setStyle('float:left;');
+								
+								if
+(
+$(
+id
+).down('.rep_up')
+)
+								{
+									$(
+id
+).down('.rep_up').show();
+								}
+								
+								if
+(
+$(
+id
+).down('.rep_down')
+)
+								{
+									$(
+id
+).down('.rep_down').show()
+								}
+							}
+							
+							Element.remove(
+id
++
+'_popup'
+);
+						}
+					}
+				);
+			}
+		}
+	);
+}
+Обратно
+в
+Общие
+темы
+по
+социальным
+сетям
+и
+сервисам
+{lang:
+'ru'}
+ipb.sharelinks.url
+
+
+=
+"http://www.info-forum.ru/topic/27161-uznat-kto-udalilsia-i-dobavilsia-v-druzia-i-zarab/";
+		ipb.sharelinks.title
+=
+"Узнать,
+кто
+удалился
+и
+добавился
+в
+друзья,
+и
+заработать
+на
+этом";
+		ipb.sharelinks.bname
+=
+"Info-Forum.Ru
+-
+Сообщество
+Киберсантов
+Рунета";
+Количество
+пользователей,
+читающих
+эту
+тему:
+2
+0
+пользователей,
+2
+гостей,
+0
+скрытых
+пользователей
+//<![CDATA[
+		Event.observe(
+window,
+'load',
+function(e){
+prettyPrint()
+});
+	//]]>
+Ответить
+цитируемым
+сообщениям
+Очистить
+Info-Forum.Ru
+-
+Сообщество
+Киберсантов
+Рунета
+→
+Инфотовары.
+Партнерки.
+Маркетинг
+и
+Реклама
+→
+Социальные
+сети
+→
+Общие
+темы
+по
+социальным
+сетям
+и
+сервисам
+Правила
+форума
+Изменить
+стиль
+IP.Board
+IP.Board
+Mobile
+Помощь
+Система
+для
+сообществ
+IP.Board
+Лицензия
+зарегистрирована
+на:
+
+издательство
+Info-DVD.Ru
+//<![CDATA[
+	//
+Lightbox
+Configuration
+	LightboxOptions
+=
+Object.extend({
+	
+
+
+
+fileLoadingImage:
+
+
+
+
+
+
+
+'http://www.info-forum.ru/public/style_images/master/lightbox/loading.gif',
+
+
+
+
+
+	
+
+
+
+fileBottomNavCloseImage:
+'http://www.info-forum.ru/public/style_images/master/lightbox/closelabel.gif',
+	
+
+
+
+overlayOpacity:
+0.8,
+
+
+//
+controls
+transparency
+of
+shadow
+overlay
+	
+
+
+
+animate:
+true,
+
+
+
+
+
+
+
+
+//
+toggles
+resizing
+animations
+	
+
+
+
+resizeSpeed:
+10,
+
+
+
+
+
+
+
+//
+controls
+the
+speed
+of
+the
+image
+resizing
+animations
+(1=slowest
+and
+10=fastest)
+	
+
+
+
+borderSize:
+10,
+
+
+
+
+
+
+
+
+//if
+you
+adjust
+the
+padding
+in
+the
+CSS,
+you
+will
+need
+to
+update
+this
+variable
+		//
+When
+grouping
+images
+this
+is
+used
+to
+write:
+Image
+#
+of
+#.
+		//
+Change
+it
+for
+non-english
+localization
+		labelImage:
+"Изображение",
+		labelOf:
+"из"
+	},
+window.LightboxOptions
+||
+{});
+/*
+Watch
+for
+a
+lightbox
+image
+and
+set
+up
+our
+downloadbutton
+watcher
+*/
+document.observe('click',
+(function(event){
+
+
+
+
+var
+target
+=
+event.findElement('a[rel*="lightbox"]')
+||
+event.findElement('area[rel*="lightbox"]')
+||
+event.findElement('span[rel*="lightbox"]');
+
+
+
+
+if
+(target)
+{
+
+
+
+
+
+
+
+
+event.stop();
+
+
+
+
+
+
+
+
+gbl_addDownloadButton();
+
+
+
+
+}
+}).bind(this));
+var
+_to
+
+
+
+=
+'';
+var
+_last
+
+=
+'';
+function
+gbl_addDownloadButton()
+{
+	if
+(
+typeof(
+ipsLightbox.lightboxImage
+)
+!=
+'undefined'
+&&
+ipsLightbox.lightboxImage.src
+)
+	{
+		if
+(
+_last
+!=
+ipsLightbox.lightboxImage.src
+)
+		{
+			if
+(
+!
+$('gbl_d')
+)
+			{
+				$('bottomNav').insert(
+{
+top:
+"<div
+id='gbl_d'
+style='text-align:right;padding-bottom:4px;'></div>"
+}
+);
+			}
+			
+			$('gbl_d').update(
+"<a
+href='"+
+ipsLightbox.lightboxImage.src
++
+"'
+target='_blank'><img
+src='http://www.info-forum.ru/public/style_images/master/lightbox/download-icon.png'
+/></a>"
+);
+			
+			_last
+=
+ipsLightbox.lightboxImage.src;
+		}
+	}
+	
+	/*
+Check
+for
+init
+and
+then
+keep
+checking
+for
+new
+image
+*/
+	_to
+=
+setTimeout(
+"gbl_addDownloadButton()",
+1000
+);
+}
+//]]>
+Войти
+Использовать
+Facebook
+Использовать
+Twitter
+Необходим
+аккаунт?
+Зарегистрируйтесь
+сейчас!
+Имя
+пользователя:
+Пароль
+форума
+Я
+забыл
+свой
+пароль
+Запомнить
+меня
+Это
+не
+рекомендуется
+для
+публичных
+компьютеров
+Войти
+анонимно
+Не
+добавлять
+меня
+в
+список
+активных
+пользователей
+if(
+$('primary_nav')
+){	ipb.global.activateMainMenu();
+}

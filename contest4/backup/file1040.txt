@@ -1,0 +1,7385 @@
+Как
+восстановить
+(заменить,
+обновить)
+просроченные
+водительские
+права?
+(function(w,
+d,
+n,
+s,
+t)
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w[n]
+=
+w[n]
+||
+[];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w[n].push(function()
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ya.Direct.insertInto(150192,
+"yandex_ad",
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stat_id:
+1,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ad_format:
+"direct",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+type:
+"adaptive",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border_type:
+"ad",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+limit:
+6,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title_font_size:
+3,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+links_underline:
+true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+site_bg_color:
+"EDEFF0",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border_color:
+"0A4B77",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title_color:
+"0000CC",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+url_color:
+"006600",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+text_color:
+"000000",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hover_color:
+"0066FF",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sitelinks_color:
+"0000CC",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+favicon:
+true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no_sitelinks:
+false,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+height:
+150,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+width:
+990
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t
+=
+d.getElementsByTagName("script")[0];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
+=
+d.createElement("script");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.src
+=
+"//an.yandex.ru/system/context.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.type
+=
+"text/javascript";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.async
+=
+true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t.parentNode.insertBefore(s,
+t);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})(window,
+document,
+"yandex_context_callbacks");
+var
+firsts
+=
+new
+Array();
+			var
+seconds
+=
+new
+Array();
+			var
+count_punct
+=
+0;
+firsts[count_punct]
+=
+21722;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+	seconds[count_punct][count_seconds]
+=
+9500;
+	count_seconds++;
+
+	seconds[count_punct][count_seconds]
+=
+7446;
+	count_seconds++;
+
+	seconds[count_punct][count_seconds]
+=
+9615;
+	count_seconds++;
+
+	seconds[count_punct][count_seconds]
+=
+9052;
+	count_seconds++;
+
+	seconds[count_punct][count_seconds]
+=
+9500;
+	count_seconds++;
+
+	seconds[count_punct][count_seconds]
+=
+7446;
+	count_seconds++;
+
+	seconds[count_punct][count_seconds]
+=
+9615;
+	count_seconds++;
+
+	seconds[count_punct][count_seconds]
+=
+9052;
+	count_seconds++;
+
+				count_punct++;
+Учеба.
+Образование
+Поступление
+Стипендия
+Диплом
+Образование
+Поступление
+Стипендия
+Диплом
+Образование
+firsts[count_punct]
+=
+114;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Регистрация
+и
+прописка
+firsts[count_punct]
+=
+113;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Выселение,
+расселение
+firsts[count_punct]
+=
+70;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Аренда
+и
+найм
+жилья
+firsts[count_punct]
+=
+71;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Купля-продажа
+квартиры
+firsts[count_punct]
+=
+2811;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Приватизация
+firsts[count_punct]
+=
+1860;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Дарственная
+(договор
+дарения)
+firsts[count_punct]
+=
+73;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Обмен
+квартирами
+firsts[count_punct]
+=
+84;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пожизненное
+содержание
+(рента)
+firsts[count_punct]
+=
+74;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Очередь
+на
+жилье
+firsts[count_punct]
+=
+39;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Жилищный
+сертификат
+firsts[count_punct]
+=
+75;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Жилищные
+субсидии
+firsts[count_punct]
+=
+2812;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Льготы
+и
+субсидии
+firsts[count_punct]
+=
+72;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Молодая
+семья
+firsts[count_punct]
+=
+3603;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Многодетная
+семья
+firsts[count_punct]
+=
+83;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Налоги
+и
+жилье
+firsts[count_punct]
+=
+1642;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Налоговый
+вычет
+firsts[count_punct]
+=
+213;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Ипотека
+firsts[count_punct]
+=
+322;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Многоквартирный
+дом
+firsts[count_punct]
+=
+5374;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Гараж
+firsts[count_punct]
+=
+2093;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Затопили
+firsts[count_punct]
+=
+1719;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Домовая
+книга
+firsts[count_punct]
+=
+2885;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Квартплата
+firsts[count_punct]
+=
+521;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Коммунальные
+услуги
+firsts[count_punct]
+=
+2257;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Электросчетчик
+firsts[count_punct]
+=
+1517;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+WiFi
+firsts[count_punct]
+=
+793;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Наследство
+firsts[count_punct]
+=
+82;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Земля
+firsts[count_punct]
+=
+5525;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Дачная
+амнистия
+firsts[count_punct]
+=
+1381;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Кадастровый
+паспорт
+firsts[count_punct]
+=
+2092;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Технический
+паспорт
+firsts[count_punct]
+=
+2253;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+ЕГРП
+firsts[count_punct]
+=
+1859;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Скутер
+firsts[count_punct]
+=
+2098;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Маломерные
+суда
+firsts[count_punct]
+=
+2099;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Квадроцикл
+firsts[count_punct]
+=
+359;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Водительское
+удостоверение
+firsts[count_punct]
+=
+269;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Госномера
+на
+авто
+firsts[count_punct]
+=
+267;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Растаможка
+авто
+firsts[count_punct]
+=
+1520;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Парковка
+firsts[count_punct]
+=
+268;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+ДТП
+firsts[count_punct]
+=
+298;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Штрафы
+ГИБДД,
+лишение
+прав
+firsts[count_punct]
+=
+2255;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Эвакуация
+автомобиля
+(штрафстоянка)
+firsts[count_punct]
+=
+299;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+ПТС
+на
+авто
+firsts[count_punct]
+=
+300;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Инспектор
+ДПС
+firsts[count_punct]
+=
+452;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Угон
+автомобиля
+firsts[count_punct]
+=
+454;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Обмен
+авто
+на
+авто
+firsts[count_punct]
+=
+468;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+КАСКО
+firsts[count_punct]
+=
+471;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+ОСАГО
+firsts[count_punct]
+=
+527;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Покупка
+авто
+firsts[count_punct]
+=
+528;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Продажа
+авто
+firsts[count_punct]
+=
+614;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Техосмотр
+firsts[count_punct]
+=
+615;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Регистрация
+автомобиля
+firsts[count_punct]
+=
+2886;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Аптечка
+firsts[count_punct]
+=
+616;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Налог
+на
+автомобиль
+firsts[count_punct]
+=
+617;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Утилизация
+автомобиля
+firsts[count_punct]
+=
+3223;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Такси
+firsts[count_punct]
+=
+1451;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Вынужденные
+переселенцы
+firsts[count_punct]
+=
+1452;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Беженцы
+firsts[count_punct]
+=
+1428;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+РВП
+firsts[count_punct]
+=
+5563;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Вид
+на
+жительство
+firsts[count_punct]
+=
+1099;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Гражданство
+РФ
+firsts[count_punct]
+=
+1453;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Двойное
+гражданство
+firsts[count_punct]
+=
+1097;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Паспорт
+РФ
+firsts[count_punct]
+=
+475;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Загранпаспорт
+firsts[count_punct]
+=
+481;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Визы
+firsts[count_punct]
+=
+1639;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Врачи
+firsts[count_punct]
+=
+2500;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Квота
+на
+операцию
+firsts[count_punct]
+=
+517;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Больничный
+лист
+firsts[count_punct]
+=
+4084;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Аборт
+firsts[count_punct]
+=
+5789;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Декретные
+firsts[count_punct]
+=
+610;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Детское
+пособие
+firsts[count_punct]
+=
+1419;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Свидетельство
+о
+рождении
+firsts[count_punct]
+=
+1030;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+СНИЛС
+firsts[count_punct]
+=
+1101;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+ИНН
+firsts[count_punct]
+=
+1449;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Свидетельство
+о
+браке
+firsts[count_punct]
+=
+1858;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Молочная
+кухня
+firsts[count_punct]
+=
+1861;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Детский
+сад
+firsts[count_punct]
+=
+1857;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Бесплатное
+питание
+firsts[count_punct]
+=
+745;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Брачный
+договор
+firsts[count_punct]
+=
+2258;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Родительские
+права
+(обязанности)
+firsts[count_punct]
+=
+5367;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Ювенальная
+юстиция
+firsts[count_punct]
+=
+746;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Развод
+firsts[count_punct]
+=
+747;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Алименты
+firsts[count_punct]
+=
+3224;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Отцовство
+firsts[count_punct]
+=
+748;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Материнский
+капитал
+firsts[count_punct]
+=
+3073;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Опекунство
+firsts[count_punct]
+=
+4930;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Государственная
+служба
+firsts[count_punct]
+=
+3841;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Работа
+firsts[count_punct]
+=
+1103;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Разрешения
+(лицензии)
+на
+работу
+firsts[count_punct]
+=
+1862;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Характеристика
+с
+места
+работы
+firsts[count_punct]
+=
+611;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Трудовой
+договор
+firsts[count_punct]
+=
+612;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Зарплата
+firsts[count_punct]
+=
+4501;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Надбавки
+firsts[count_punct]
+=
+613;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Отпуск
+firsts[count_punct]
+=
+6682;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Календарь
+firsts[count_punct]
+=
+5377;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Выходные
+и
+праздники
+firsts[count_punct]
+=
+4859;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Каникулы
+firsts[count_punct]
+=
+1031;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Авиа
+и
+жд
+билеты
+firsts[count_punct]
+=
+529;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Мед
+страхование
+firsts[count_punct]
+=
+530;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Инвалидность
+firsts[count_punct]
+=
+563;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Рекомендательное
+письмо
+firsts[count_punct]
+=
+716;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Резюме
+firsts[count_punct]
+=
+1640;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Автобиография
+firsts[count_punct]
+=
+2095;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Должностные
+инструкции
+(обязанности)
+firsts[count_punct]
+=
+1641;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Объяснительная
+записка
+firsts[count_punct]
+=
+564;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Увольнение
+firsts[count_punct]
+=
+2097;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Биржа
+труда
+firsts[count_punct]
+=
+4348;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пособие
+по
+безработице
+firsts[count_punct]
+=
+770;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пенсия
+firsts[count_punct]
+=
+884;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Льготы
+пенсионерам
+firsts[count_punct]
+=
+1100;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Ветераны
+firsts[count_punct]
+=
+771;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Страхование
+firsts[count_punct]
+=
+1032;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Банковские
+карты
+firsts[count_punct]
+=
+839;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Социальная
+карта
+москвича
+firsts[count_punct]
+=
+1521;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Возврат
+товара
+firsts[count_punct]
+=
+1718;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Защита
+прав
+потребителей
+firsts[count_punct]
+=
+901;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Кредиты
+и
+долги
+firsts[count_punct]
+=
+4933;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Оферта
+firsts[count_punct]
+=
+3849;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Договор
+firsts[count_punct]
+=
+902;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Договор
+поручительства
+firsts[count_punct]
+=
+1104;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Накладная
+(ТОРГ-12,
+ТТН)
+firsts[count_punct]
+=
+2252;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Счет-фактура
+firsts[count_punct]
+=
+1832;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Акт
+firsts[count_punct]
+=
+4082;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Экономика
+firsts[count_punct]
+=
+969;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Бизнес
+firsts[count_punct]
+=
+5782;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Электронные
+деньги
+firsts[count_punct]
+=
+970;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+ИП
+firsts[count_punct]
+=
+4937;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Перевозки
+firsts[count_punct]
+=
+1856;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Проверка
+firsts[count_punct]
+=
+6315;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Банкротство
+firsts[count_punct]
+=
+1450;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Справка
+о
+несудимости
+firsts[count_punct]
+=
+1638;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Мошенничество
+firsts[count_punct]
+=
+2096;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Военкомат
+firsts[count_punct]
+=
+971;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Призыв
+в
+армию
+firsts[count_punct]
+=
+972;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Военнослужащие
+firsts[count_punct]
+=
+1246;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Чернобыльцы
+firsts[count_punct]
+=
+2884;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Доноры
+firsts[count_punct]
+=
+5836;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Молодой
+специалист
+firsts[count_punct]
+=
+1102;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Разрешение
+(лицензия)
+на
+оружие
+firsts[count_punct]
+=
+1247;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Охота
+и
+рыбалка
+firsts[count_punct]
+=
+2809;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Правила
+поведения
+firsts[count_punct]
+=
+6541;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Подпись
+firsts[count_punct]
+=
+1720;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Расписка
+firsts[count_punct]
+=
+1855;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Письма
+firsts[count_punct]
+=
+3601;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Телеграммы
+firsts[count_punct]
+=
+3602;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Бандероли
+и
+посылки
+firsts[count_punct]
+=
+3605;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Доверенность
+firsts[count_punct]
+=
+2368;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Справки
+firsts[count_punct]
+=
+4010;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Отчет
+firsts[count_punct]
+=
+4009;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Дневник
+firsts[count_punct]
+=
+3831;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пояснительные
+записки
+firsts[count_punct]
+=
+1853;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Заявления
+firsts[count_punct]
+=
+1854;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Исковые
+заявления
+firsts[count_punct]
+=
+1637;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Ходатайства
+firsts[count_punct]
+=
+1518;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Жалобы
+firsts[count_punct]
+=
+3843;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Суд
+firsts[count_punct]
+=
+5676;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Исковая
+давность
+firsts[count_punct]
+=
+3604;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Запреты
+и
+ограничения
+firsts[count_punct]
+=
+4587;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Алкоголь
+firsts[count_punct]
+=
+2094;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Судебные
+приставы
+firsts[count_punct]
+=
+5833;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Административные
+правонарушения
+и
+ответственность
+firsts[count_punct]
+=
+5053;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Подписка
+о
+невыезде
+firsts[count_punct]
+=
+3846;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Арест
+firsts[count_punct]
+=
+2256;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Уголовная
+ответственность
+firsts[count_punct]
+=
+2254;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Свидетельство
+о
+смерти
+firsts[count_punct]
+=
+1519;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Похороны
+firsts[count_punct]
+=
+2810;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пособие
+на
+погребение
+firsts[count_punct]
+=
+7275;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Юристы
+и
+адвокаты
+firsts[count_punct]
+=
+7355;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Апелляционная
+жалоба
+firsts[count_punct]
+=
+7444;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Удостоверения
+firsts[count_punct]
+=
+7446;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Стипендия
+firsts[count_punct]
+=
+7516;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Характеристика
+firsts[count_punct]
+=
+7520;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Электронная
+почта
+firsts[count_punct]
+=
+7923;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Беременность
+firsts[count_punct]
+=
+8137;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Кассационная
+жалоба
+firsts[count_punct]
+=
+8222;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Лекарства
+firsts[count_punct]
+=
+8698;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Трудовая
+книжка
+firsts[count_punct]
+=
+8701;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Гарантийное
+письмо
+firsts[count_punct]
+=
+9036;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Cудмедэкспертиза
+firsts[count_punct]
+=
+9052;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Образование
+firsts[count_punct]
+=
+9060;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Ответственность
+(штрафы)
+firsts[count_punct]
+=
+9500;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Поступление
+firsts[count_punct]
+=
+9615;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Диплом
+firsts[count_punct]
+=
+9930;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Денежные
+переводы
+firsts[count_punct]
+=
+10322;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Брак
+(официальный
+и
+гражданский)
+firsts[count_punct]
+=
+10535;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Декларации
+firsts[count_punct]
+=
+10817;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Чеки
+firsts[count_punct]
+=
+11521;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Полиция
+firsts[count_punct]
+=
+11728;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Другое
+firsts[count_punct]
+=
+12111;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Мать
+firsts[count_punct]
+=
+12226;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Тайна
+firsts[count_punct]
+=
+12374;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Деньги
+firsts[count_punct]
+=
+12378;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Госпошлина
+firsts[count_punct]
+=
+12594;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пособия
+firsts[count_punct]
+=
+12596;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Социальные
+сети
+firsts[count_punct]
+=
+13358;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Волонтеры
+firsts[count_punct]
+=
+13363;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Авторские
+права
+firsts[count_punct]
+=
+13851;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Ущерб
+firsts[count_punct]
+=
+14437;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Собственность
+firsts[count_punct]
+=
+14803;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Трудовой
+стаж
+firsts[count_punct]
+=
+14805;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Выслуга
+лет
+firsts[count_punct]
+=
+15426;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Льготная
+пенсия
+firsts[count_punct]
+=
+15461;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Снятие
+судимости
+firsts[count_punct]
+=
+16457;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+ЗАГС
+firsts[count_punct]
+=
+17731;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Сделки
+firsts[count_punct]
+=
+17893;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Исполнительное
+производство
+firsts[count_punct]
+=
+17966;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Счетчик
+воды
+firsts[count_punct]
+=
+20388;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Персональные
+данные
+firsts[count_punct]
+=
+23288;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Телефон,
+интернет
+firsts[count_punct]
+=
+23299;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Санитарная
+книжка
+firsts[count_punct]
+=
+23340;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Ремонт
+firsts[count_punct]
+=
+24004;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Дееспособность
+firsts[count_punct]
+=
+26902;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Травма
+firsts[count_punct]
+=
+26904;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Торговля
+firsts[count_punct]
+=
+29489;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Домашние
+животные
+firsts[count_punct]
+=
+29505;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Семья
+firsts[count_punct]
+=
+30496;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Право
+собственности
+firsts[count_punct]
+=
+31373;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Налогообложение
+firsts[count_punct]
+=
+31680;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Деловая
+репутация
+firsts[count_punct]
+=
+32800;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Дисциплинарная
+ответственность
+firsts[count_punct]
+=
+33064;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Несовершеннолетние
+firsts[count_punct]
+=
+33963;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Административный
+процесс
+firsts[count_punct]
+=
+33988;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Лицензирование
+firsts[count_punct]
+=
+33991;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Административный
+надзор
+firsts[count_punct]
+=
+35997;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Права
+и
+обязанности
+firsts[count_punct]
+=
+36232;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Права
+ребенка
+firsts[count_punct]
+=
+36808;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Перепланировка
+firsts[count_punct]
+=
+38787;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Иностранцы
+firsts[count_punct]
+=
+39126;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Поручительство
+firsts[count_punct]
+=
+39129;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Банк
+firsts[count_punct]
+=
+39273;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Апостиль
+firsts[count_punct]
+=
+39443;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Миграционная
+карта
+firsts[count_punct]
+=
+39463;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Безвестно
+отсутствующий
+firsts[count_punct]
+=
+39564;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Присяжные
+firsts[count_punct]
+=
+39567;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Документы
+firsts[count_punct]
+=
+39750;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пенсионное
+свидетельство
+firsts[count_punct]
+=
+40178;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Переселение
+firsts[count_punct]
+=
+40180;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Жилье
+firsts[count_punct]
+=
+40204;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Залог
+firsts[count_punct]
+=
+41293;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Строительство
+firsts[count_punct]
+=
+41471;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Усыновление
+firsts[count_punct]
+=
+41741;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Командировки
+firsts[count_punct]
+=
+41748;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Признание
+умершим
+firsts[count_punct]
+=
+41753;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Патент
+firsts[count_punct]
+=
+50673;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Докладная
+firsts[count_punct]
+=
+62995;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Займ
+firsts[count_punct]
+=
+67004;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Возмещение
+вреда
+firsts[count_punct]
+=
+68839;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Проектная
+документация
+firsts[count_punct]
+=
+68996;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Профстандарты
+firsts[count_punct]
+=
+69295;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Доменное
+имя
+firsts[count_punct]
+=
+70870;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Стажировка
+firsts[count_punct]
+=
+78865;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Пожарная
+безопасность
+firsts[count_punct]
+=
+78867;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Кадровые
+документы
+firsts[count_punct]
+=
+79041;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+График
+и
+учет
+рабочего
+времени
+firsts[count_punct]
+=
+79390;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Правила
+внутреннего
+трудового
+распорядка
+firsts[count_punct]
+=
+80078;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Воинский
+учет
+firsts[count_punct]
+=
+80467;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Рабочее
+место
+firsts[count_punct]
+=
+81093;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Медицинский
+осмотр
+firsts[count_punct]
+=
+81524;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Аттестация
+работников
+firsts[count_punct]
+=
+83432;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Премии
+и
+премирование
+firsts[count_punct]
+=
+84845;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Кадры
+firsts[count_punct]
+=
+90665;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Профзаболевания
+firsts[count_punct]
+=
+91088;
+				seconds[count_punct]
+=
+new
+Array();
+				var
+count_seconds
+=
+0;
+				
+				count_punct++;
+Материальная
+помощь
+$(document).ready(function(){					
+				
+				var
+curp
+=
+401;
+				jQuery('.accordion
+a').removeClass('ui-accordion-header-active');
+				jQuery('.accordion
+a').removeClass('ui-state-active');
+				jQuery('.accordion
+a').attr('aria-selected',
+'false');
+				jQuery('.ui-accordion-content').hide();		
+				
+				var
+is_firsts
+=
+false;
+				var
+is_seconds
+=
+false;
+				var
+search_first
+=
+0;
+				var
+search_second
+=
+0;
+
+				for(var
+i
+=
+0;
+i
+<
+count_punct;
+i++)
+{
+					
+					if(firsts[i]
+==
+curp)
+{
+						
+						is_firsts
+=
+true;
+						search_first
+=
+curp;
+						break;
+						
+					}
+					else
+{
+						
+						var
+jLen
+=
+seconds[i].length;
+						
+						for(var
+j
+=
+0;
+j
+<
+jLen;
+j++)
+{
+							
+							if(seconds[i][j]
+==
+curp)
+{
+								
+								is_seconds
+=
+true;
+								search_first
+=
+firsts[i];
+								search_second
+=
+curp;
+								break;
+								
+							}
+							
+						}
+						
+					}
+					
+				}
+				
+				if(is_firsts
+||
+is_seconds)
+{
+				
+					jQuery('#link_'
++
+search_first).addClass('ui-accordion-header-active');
+					jQuery('#link_'
++
+search_first).addClass('ui-state-active');
+					jQuery('div[aria-labelledby
+=
+"link_'
++
+search_first
++
+'"]').show();
+					jQuery('#link_'
++
+curp).css('background-color',
+'#cce0ed');
+				
+				}
+				else
+{
+					
+					
+						curp
+=
+359;
+						
+						is_firsts
+=
+false;
+						is_seconds
+=
+false;
+						search_first
+=
+0;
+						search_second
+=
+0;
+
+						for(var
+i
+=
+0;
+i
+<
+count_punct;
+i++)
+{
+							
+							if(firsts[i]
+==
+curp)
+{
+								
+								is_firsts
+=
+true;
+								search_first
+=
+curp;
+								break;
+								
+							}
+							else
+{
+								
+								var
+jLen
+=
+seconds[i].length;
+								
+								for(var
+j
+=
+0;
+j
+<
+jLen;
+j++)
+{
+									
+									if(seconds[i][j]
+==
+curp)
+{
+										
+										is_seconds
+=
+true;
+										search_first
+=
+firsts[i];
+										search_second
+=
+curp;
+										break;
+										
+									}
+									
+								}
+								
+							}
+							
+						}
+						
+						if(is_firsts
+||
+is_seconds)
+{
+						
+							jQuery('#link_'
++
+search_first).addClass('ui-accordion-header-active');
+							jQuery('#link_'
++
+search_first).addClass('ui-state-active');
+							jQuery('div[aria-labelledby
+=
+"link_'
++
+search_first
++
+'"]').show();
+							jQuery('#link_'
++
+curp).css('background-color',
+'#cce0ed');
+						
+						}
+						else
+{
+							
+							
+							
+						}
+						
+					
+					
+					
+				}
+				
+			});
+Как
+восстановить
+(заменить,
+обновить)
+просроченные
+водительские
+права?
+Главная
+/
+Водительское
+удостоверение
+/
+Как
+восстановить
+(заменить,
+обновить)
+просроченные
+водительские
+права?
+Новости
+по
+тематике
+Предложено
+продлить
+срок
+действия
+международных
+водительских
+удостоверений
+Ужесточены
+экзамены
+на
+право
+управления
+транспортным
+средством
+Для
+восстановления
+водительского
+удостоверения
+после
+его
+утраты
+медицинская
+справка
+больше
+не
+нужна
+Вопрос
+«Как
+заменить
+просроченные
+водительские
+права?»
+волнует
+многих
+владельцев
+автомобилей,
+которые
+вот-вот
+перешагнут
+10-летний
+рубеж
+со
+дня
+получения
+предыдущего
+водительского
+удостоверения.
+Обновление
+водительского
+удостоверения
+потребует
+немного
+времени
+и
+денежных
+средств.
+Так
+как
+эта
+процедура
+четко
+регламентирована,
+как
+правило,
+проблем
+у
+автовладельцев
+не
+возникает.
+Как
+восстановить
+просроченные
+водительские
+права?
+Как
+обновить
+водительские
+права?
+Как
+восстановить
+просроченные
+водительские
+права?
+Водительские
+права
+выдаются
+гражданам
+сроком
+на
+10 лет,
+по
+истечении
+этого
+времени
+они
+считаются
+просроченными.
+Действующим
+законодательством
+не
+предусмотрен
+термин
+«восстановление»
+просроченных
+водительских
+прав,
+речь
+в
+данном
+случае
+идет
+о
+замене
+и
+получении
+нового
+водительского
+удостоверения.
+Для
+того
+чтобы
+получить
+новое
+удостоверение
+взамен
+просроченного,
+владельцу
+транспортного
+средства
+необходимо
+обратиться
+в
+подразделение
+ГИБДД
+с
+заявлением
+и
+следующими
+документами:
+просроченное
+водительское
+удостоверение;
+документ
+об
+оплате
+госпошлины
+(госпошлину
+можно
+оплатить
+либо
+непосредственно
+в ГИБДД,
+либо
+в
+любом
+отделении
+Сбербанка);
+паспорт;
+медицинская
+справка;
+фотография
+(как
+правило,
+фотография
+делается
+непосредственно
+в
+ГИБДД,
+поэтому
+приносить
+ее
+с
+собой
+не
+нужно);
+личная
+карточка
+водителя
+или
+документ
+о
+прохождении
+обучения
+(если
+такого
+документа
+у
+вас
+нет,
+приходите
+без
+него).
+При
+замене
+водительского
+удостоверения
+экзамен
+сдавать
+не
+нужно.
+Но
+если
+вы
+не
+пользовались
+правами
+более
+12 месяцев
+подряд,
+то
+есть
+не
+ездили
+за
+рулем,
+то
+вам
+предстоит
+сдача
+теоретического
+экзамена.
+Как
+правило,
+замена
+водительских
+прав
+происходит
+по
+месту
+прописки
+автовладельца.
+Если
+регистрация
+временная,
+то
+дополнительно
+необходимо
+предъявить
+документ,
+подтверждающий
+этот
+факт.
+Права
+выдаются
+в
+течение
+короткого
+промежутка
+времени,
+как
+правило,
+сразу
+же,
+в
+день
+обращения
+(максимум
+2-3 суток
+в
+зависимости
+от
+региона).
+Но
+если
+у
+инспекторов
+ГИБДД
+возникли
+сомнения
+в
+подлинности
+прав,
+то
+проводится
+дополнительная
+проверка,
+которая
+обычно
+длится
+не
+больше
+1
+месяца.
+О
+замене
+просроченного
+водительского
+удостоверения
+стоит
+позаботиться
+заранее,
+так
+как
+ст. 12.7
+КоАП
+предусматривает
+штраф
+в
+размере
+от
+5 000
+до
+15 000 рублей.
+Ваш
+автомобиль
+также
+будет
+отправлен
+на
+штрафстоянку,
+так
+как
+просрочка
+прав
+приравнивается
+к
+прекращению
+права
+на
+управление
+транспортным
+средством.
+ОБРАТИТЕ
+ВНИМАНИЕ!
+Данная
+статья
+применима
+к
+тем,
+у
+кого
+права
+просрочены,
+только
+в
+том
+случае,
+если
+он
+управляет
+транспортным
+средством
+с
+такими
+правами.
+А
+если
+машина
+стоит
+в гараже
+и
+документ
+пылится
+на
+полке,
+то
+никто
+вас
+штрафовать
+не
+будет,
+так
+как
+отсутствует
+состав
+административного
+правонарушения.
+Как
+обновить
+водительские
+права?
+Водительское
+удостоверение
+может
+«обновляться»
+не
+только
+в
+связи
+с
+истечением
+срока
+его
+действия,
+но
+и
+по
+некоторым
+другим
+причинам,
+например:
+смена
+фамилии;
+восстановление
+удостоверения
+в
+случае
+его
+утери
+или
+кражи;
+восстановление
+удостоверения
+после
+окончания
+срока,
+на
+который
+водитель
+был
+его
+лишен,
+и
+т.д.
+Процедура
+получения
+нового
+водительского
+удостоверения
+стандартная.
+Исключение
+составляет
+пакет
+документов
+в
+зависимости
+от
+конкретного
+случая
+замены.
+Например,
+если
+вы
+меняете
+права
+в
+связи
+с
+изменением
+фамилии,
+то
+необходимо
+предоставить
+к
+общему
+пакету
+документов
+свидетельство
+о
+заключении
+брака.
+Если
+вы
+меняете
+права
+в
+связи
+с
+их
+кражей
+или
+утерей,
+то
+в
+случае
+обращения
+в
+полицию
+с
+заявлением
+о
+пропаже
+в
+ГИБДД
+необходимо
+представить
+справку
+о
+том,
+что
+дело
+закрыто
+и
+документы
+не
+найдены.
+Кроме
+того,
+с
+февраля
+2016 года
+водителям,
+получающим
+новое
+водительское
+удостоверение
+в
+связи
+с
+утратой
+или
+порчей
+старого,
+а
+также
+по
+причине
+смены
+анкетных
+данных,
+больше
+не
+нужно
+проходить
+медицинское
+освидетельствование.
+То
+же
+самое
+касается
+автолюбителей,
+желающих
+получить
+права
+международного
+образца
+на
+основании
+действующего
+национального
+удостоверения.
+Размер
+госпошлины
+за
+замену
+водительского
+удостоверения
+составляет
+2 000 рублей
+(пластик)
+или
+500 рублей
+(бумага).
+Но
+если
+вам
+по
+какой-то
+«необъективной»
+причине
+отказывают
+в
+выдаче
+прав
+или
+просят
+представить
+дополнительные
+документы,
+требуйте
+письменный
+отказ
+и
+пишите
+жалобу
+на
+имя
+руководителя
+ГИБДД
+субъекта,
+в
+прокуратуру
+или
+сразу
+в
+суд.
+Есть
+еще
+одна
+небольшая
+подсказка
+для
+автовладельцев,
+на
+которой
+можно
+«сэкономить»:
+приурочивание
+к
+получению
+нового
+водительского
+удостоверения
+«открытия»
+дополнительных
+категорий
+на
+управление
+автомобилем.
+Безусловно,
+новые
+категории
+получаются
+после
+сдачи
+соответствующих
+экзаменов,
+но
+если
+вы
+позаботитесь
+об
+этом
+заранее,
+то
+существенно
+сэкономите
+на
+госпошлине.
+Теперь
+пару
+слов
+о
+замене
+международного
+водительского
+удостоверения.
+Как
+мы
+знаем,
+срок
+действия
+этого
+документа —
+3
+года,
+но
+не
+больше
+срока
+действия
+российских
+прав.
+Поэтому
+если
+вы
+все
+же
+решите
+поехать
+за
+границу
+и
+там
+управлять
+автомобилем,
+не
+забудьте
+«обновить»
+международные
+и
+российские
+права.
+Замена
+водительского
+удостоверения —
+дело
+несложное
+и
+в
+некоторых
+случаях
+даже
+быстрое.
+Старайтесь
+позаботиться
+об
+этом
+заблаговременно
+и
+сдать
+все
+документы
+в
+удобное
+для
+вас
+время,
+чтобы
+потом
+не
+стоять
+в
+очередях
+и
+не
+оббивать
+пороги
+ГИБДД.
+(function(w,
+d,
+n,
+s,
+t)
+{
+				w[n]
+=
+w[n]
+||
+[];
+				w[n].push(function()
+{
+					Ya.Direct.insertInto(150192,
+"yandex_ad2",
+{
+						stat_id:
+3,
+						ad_format:
+"direct",
+						type:
+"adaptive",
+						border_type:
+"block",
+						limit:
+9,
+						border_radius:
+true,
+						links_underline:
+true,
+						site_bg_color:
+"FFFFFF",
+						border_color:
+"0A4B77",
+						title_color:
+"0000CC",
+						url_color:
+"006600",
+						text_color:
+"000000",
+						hover_color:
+"0066FF",
+						sitelinks_color:
+"0000CC",
+						favicon:
+true,
+						no_sitelinks:
+false,
+						height:
+150,
+						width:
+630
+					});
+				});
+				t
+=
+d.getElementsByTagName("script")[0];
+				s
+=
+d.createElement("script");
+				s.src
+=
+"//an.yandex.ru/system/context.js";
+				s.type
+=
+"text/javascript";
+				s.async
+=
+true;
+				t.parentNode.insertBefore(s,
+t);
+			})(window,
+document,
+"yandex_context_callbacks");
+Оставить
+комментарий
+Заголовок:
+Ваш
+комментарий:
+*
+Ваше
+имя:
+*
+Получить
+e-mail
+уведомление
+об
+ответе
+Ваш
+e-mail:
+*
+Обновить
+текст
+Введите
+код
+с
+картинки:
+*
+Поля,
+отмеченные
+*
+,
+обязательны
+для
+заполнения
+Похожие
+статьи
+Как
+выглядят
+международные
+водительские
+права
+(международного
+образца)?
+Как
+выглядит
+международное
+водительское
+удостоверение
+(права)?
+Фото
+Водительские
+права
+нового
+образца:
+в
+чем
+отличия?
+Размер
+и
+оплата
+госпошлины
+за
+выдачу
+водительского
+удостоверения
+2014-2015
+Для
+замены
+водительского
+удостоверения
+больше
+
+не
+нужна
+медицинская
+справка
+(function(w,
+d,
+n,
+s,
+t)
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w[n]
+=
+w[n]
+||
+[];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w[n].push(function()
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ya.Direct.insertInto(150192,
+"yandex_ad_1",
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stat_id:
+2,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ad_format:
+"direct",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+type:
+"adaptive",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border_type:
+"block",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+limit:
+6,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title_font_size:
+3,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border_radius:
+true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+links_underline:
+true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+site_bg_color:
+"EDEFF0",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border_color:
+"0A4B77",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title_color:
+"0000CC",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+url_color:
+"006600",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+text_color:
+"000000",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hover_color:
+"0066FF",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sitelinks_color:
+"0000CC",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+favicon:
+true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no_sitelinks:
+false,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+height:
+150,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+width:
+990
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t
+=
+d.getElementsByTagName("script")[0];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
+=
+d.createElement("script");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.src
+=
+"//an.yandex.ru/system/context.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.type
+=
+"text/javascript";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.async
+=
+true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t.parentNode.insertBefore(s,
+t);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})(window,
+document,
+"yandex_context_callbacks");
+©
+2016
+(function
+(d,
+w,
+c)
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+try
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w.yaCounter25114295
+=
+new
+Ya.Metrika({id:25114295,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+webvisor:true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clickmap:true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trackLinks:true,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+accurateTrackBounce:true});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+catch(e)
+{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var
+n
+=
+d.getElementsByTagName("script")[0],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
+=
+d.createElement("script"),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.type
+=
+"text/javascript";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.async
+=
+true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if
+(w.opera
+==
+"[object
+Opera]")
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d.addEventListener("DOMContentLoaded",
+f,
+false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+else
+{
+f();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})(document,
+window,
+"yandex_metrika_callbacks");
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ga('create',
+'UA-54142518-1',
+'auto');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ga('send',
+'pageview');
+Разработка
+Обратная
+связь
+О
+проекте

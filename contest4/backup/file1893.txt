@@ -1,0 +1,12260 @@
+Первоапрельская
+шутка
+от
+Навитела
+-
+Форум
+Навител
+Навигатор
+jsDebug
+=
+0;
+/*
+Must
+come
+before
+JS
+includes
+*/
+			USE_RTE
+=
+0;
+			inACP
+
+
+=
+false;
+/*
+Inline
+CSS
+*/
+		
+/*
+CSS:
+calendar_select*/
+.calendar_date_select
+{
+
+
+color:white;
+
+
+border:#777
+1px
+solid;
+
+
+display:block;
+
+
+width:195px;
+
+
+z-index:
+1000;
+}
+/*
+this
+is
+a
+fun
+ie6
+hack
+to
+get
+drop
+downs
+to
+stay
+behind
+the
+popup
+window.
+
+This
+should
+always
+be
+just
+underneath
+.calendar_date_select
+*/
+iframe.ie6_blocker
+{
+
+
+position:
+absolute;
+
+
+z-index:
+999;
+}
+
+.calendar_date_select
+thead
+th
+{
+
+
+font-weight:bold;
+
+
+background-color:
+#000;
+
+
+border-top:1px
+solid
+#777;
+
+
+border-bottom:2px
+solid
+#333;
+
+
+color:
+white
+!important;
+}
+
+.calendar_date_select
+.cds_buttons
+{
+
+
+text-align:center;
+
+
+padding:5px
+0px;
+
+
+background-color:
+#555;
+}
+
+.calendar_date_select
+.cds_footer
+{
+
+
+background-color:
+black;
+
+
+padding:3px;
+
+
+font-size:12px;
+
+
+text-align:center;
+}
+
+.calendar_date_select
+table
+{
+
+
+margin:
+0px;
+
+
+padding:
+0px;
+}
+
+
+.calendar_date_select
+.cds_header
+{
+
+
+background-color:
+#ccc;
+
+
+border-bottom:
+2px
+solid
+#aaa;
+
+
+text-align:center;
+}
+
+.calendar_date_select
+.cds_header
+span
+{
+
+
+font-size:15px;
+
+
+color:
+black;
+
+
+font-weight:
+bold;
+}
+
+.calendar_date_select
+select
+{
+font-size:11px;}
+
+.calendar_date_select
+.cds_header
+a:hover
+{
+
+
+color:
+white;
+}
+.calendar_date_select
+.cds_header
+a
+{
+
+
+width:22px;
+
+
+height:20px;
+
+
+text-decoration:
+none;
+
+
+font-size:14px;
+
+
+color:black
+!important;
+}
+
+.calendar_date_select
+.cds_header
+a.prev
+{
+
+
+float:left;
+}
+.calendar_date_select
+.cds_header
+a.next
+{
+
+
+float:right;
+}
+.calendar_date_select
+.cds_header
+a.close
+{
+
+
+float:right;
+
+
+display:none;
+}
+
+.calendar_date_select
+.cds_header
+select.month
+{
+
+
+width:90px;
+}
+
+.calendar_date_select
+.cds_header
+select.year
+{
+
+
+width:61px;
+}
+
+.calendar_date_select
+.cds_buttons
+a
+{
+
+
+color:
+white;
+
+
+font-size:
+9px;
+}
+.calendar_date_select
+td
+{
+
+
+font-size:12px;
+
+
+width:
+24px;
+
+
+height:
+21px;
+
+
+text-align:center;
+
+
+vertical-align:
+middle;
+
+
+background-color:
+#666666;
+}
+.calendar_date_select
+td.weekend
+{
+
+
+background-color:
+#606060;
+}
+
+.calendar_date_select
+td
+div
+{
+
+
+color:
+#fff;
+}
+.calendar_date_select
+td
+div.other
+{
+
+
+color:
+#888;
+}
+.calendar_date_select
+td.selected
+div
+{
+
+
+color:black;
+}
+
+.calendar_date_select
+tbody
+td
+{
+
+
+border-bottom:
+1px
+solid
+#555;
+}
+.calendar_date_select
+td.selected
+{
+
+
+background-color:white;
+}
+
+.calendar_date_select
+td:hover
+{
+
+
+background-color:#ccc;
+}
+
+.calendar_date_select
+td.today
+{
+
+
+border:
+1px
+dashed
+#999;
+}
+
+.calendar_date_select
+td.disabled
+div
+{
+
+
+color:
+#454545;
+}
+
+
+.fieldWithErrors
+.calendar_date_select
+{
+
+
+border:
+2px
+solid
+red;
+}
+/*
+Inline
+CSS
+*/
+		
+/*
+CSS:
+ipb_editor*/
+/***************************************************************/
+/*
+IP.Board
+3
+Editor
+CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+/*
+___________________________________________________________
+*/
+/*
+By
+Rikki
+Tissier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+/*
+(c)2008
+Invision
+Power
+Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+/***************************************************************/
+/*
+ipb_editor.css
+-
+Styles
+for
+the
+editor
+(colors
+in
+main
+css)
+*/
+/***************************************************************/
+
+#ipboard_body
+.input_rte
+{
+	width:
+99.5%;
+	height:
+250px;
+}
+
+	#ipboard_body
+.ips_editor.lite_edition
+.input_rte
+{
+		height:
+60px;
+	}
+	
+	#ipboard_body
+.ips_editor
+.input_rte.unloaded_editor
+{
+		font-family:
+arial,
+verdana,
+tahoma,
+sans-serif;
+		font-style:
+italic;
+		font-size:
+11px;
+		color:
+#b4b4b4;
+		padding:
+5px
+0px;
+		text-indent:
+5px;
+	}
+	
+#ipboard_body
+.ips_editor
+{
+	/*background-color:
+#aaf088;
+	border:
+2px
+solid
+#aaf088;*/
+	margin:
+8px;
+	/*padding:
+6px;*/
+	position:
+relative;
+	line-height:
+100%
+!important;
+}
+
+	#ipboard_body
+.ips_editor.with_sidebar
+.controls,
+	#ipboard_body
+.ips_editor.with_sidebar
+.editor,
+	#ipboard_body
+.ips_editor.with_sidebar
+.resizer
+{
+		margin-right:
+200px;
+	}
+	
+	#ipboard_body
+.ips_editor
+.controls
+{
+		position:
+relative;
+	}
+	
+	/*
+Sidebar
+go
+bye-bye-bye
+(like
+Keith)
+*/
+	#ipboard_body
+.ips_editor.with_sidebar
+.sidebar
+{
+		position:
+absolute;
+		top:
+0px;
+		right:
+0px;
+		width:
+194px;
+		bottom:
+1px;
+		margin:
+0;
+		border-width:
+1px;
+		border-style:
+solid;
+		border-color:
+#f6f8fa
+#d1d7de
+#d1d7de
+#f6f8fa;
+	}
+		
+		#ipboard_body
+.ips_editor.with_sidebar
+.sidebar
+h4
+{
+			background-color:
+#e4ebf2;
+			height:
+25px;
+			color:
+#224624;
+			font-size:
+10px;
+			font-weight:
+bold;
+		}
+		
+			#ipboard_body
+.ips_editor.with_sidebar
+.sidebar
+h4
+span
+{
+				padding:
+6px
+0
+0
+6px;
+				display:
+block;
+			}
+		
+		#ipboard_body
+.ips_editor.with_sidebar
+.sidebar
+.emoticon_holder
+{
+			position:
+absolute;
+			top:
+25px;
+			bottom:
+1px;
+			width:
+193px;
+			overflow:
+auto;
+		}
+		
+
+	#ipboard_body
+.ips_editor
+.toolbar
+{
+		height:
+30px;
+		/*clear:
+both;*/
+		background:
+#dddddd;
+/*url(http://forum.navitel.ru/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+left
+50%;*/
+		border-width:
+1px;
+		border-style:
+solid;
+		border-color:
+#f6f8fa
+#d1d7de
+#d1d7de
+#f6f8fa;
+	}
+		
+		#ipboard_body
+.ips_editor
+.resizer
+.toolbar
+{
+			background:
+transparent;
+			border:
+0;
+		}
+		
+		#ipboard_body
+.ips_editor
+.toolbar
+li
+{
+			float:
+left;
+			padding:
+3px;
+		}
+		
+			#ipboard_body
+.ips_editor
+.toolbar
+li.sep
+{
+				padding-right:
+4px;
+				/*border-right:
+1px
+solid
+#aaf088;*/
+				margin-right:
+4px;
+			}
+			
+			#ipboard_body
+.ips_editor
+.toolbar
+li.left
+{
+				float:
+left;
+			}
+			
+			#ipboard_body
+.ips_editor
+.toolbar
+li.right
+{
+				float:
+right;
+			}
+		
+		#ipboard_body
+.ips_editor
+.toolbar
+li
+span
+{
+			display:
+block;
+			padding:
+3px;
+		}
+		
+	#ipboard_body
+.ips_editor
+ul.ipbmenu_content,
+	#ipboard_body
+.ips_editor
+ul.ipbmenu_content
+li
+{
+		display:
+block;
+		float:
+none;
+		background-color:
+#fff;
+	}
+		
+#ipboard_body
+.ips_editor
+.toolbar
+li
+.rte_control.rte_menu
+{
+	font-size:
+11px;
+	height:
+14px;
+	border:
+1px
+solid
+#aeb9c5;
+	margin-top:
+1px;
+	padding:
+4px
+15px
+2px
+7px;
+	background-color:
+#fff;
+/*	background-image:
+url(http://forum.navitel.ru/public/style_images/navitel-icq/rte_icons/rte_arrow.png);*/
+	background-image:
+url(/public/style_images/navitel/rte_icons/rte_arrow.png);
+	background-repeat:
+no-repeat;
+	background-position:
+right
+center;
+}
+
+#ipboard_body
+.rte_title
+{
+	background-color:
+#e1e1e1;
+	padding:
+4px;
+	margin:
+-4px
+-4px
+5px
+-4px;
+	color:
+#224624;
+	font-size:
+10px;
+	font-weight:
+bold;
+}
+
+#ipboard_body
+.rte_fontsize
+{
+	min-width:
+50px;
+}
+
+#ipboard_body
+.rte_font
+{
+	min-width:
+85px;
+}
+
+#ipboard_body
+.rte_special
+{
+	min-width:
+90px;
+}
+
+#ipboard_body
+.ipb_palette
+{
+	padding:
+4px;
+	background-color:
+#eef3f8;
+	border-width:
+1px
+2px
+2px
+1px;
+	border-style:
+solid;
+	border-color:
+#dbe0e4;
+	font-size:
+11px;
+
+}
+
+	#ipboard_body
+.ipb_palette
+label
+{
+		display:
+block;
+		font-weight:
+bold;
+		clear:
+both;
+		width:
+auto
+!important;
+		float:
+none
+!important;
+		text-align:
+left
+!important;
+	}
+	
+	#ipboard_body
+.ipb_palette
+input
+{
+		clear:
+both;
+		width:
+96%;
+		margin-bottom:
+5px;
+		font-size:
+11px;
+		margin-right:
+6px;
+	}
+	
+	#ipboard_body
+.ipb_palette
+input[type="submit"],
+
+	#ipboard_body
+.input_submit.emoticons
+{
+		background-color:
+#e1e1e1;
+		border:
+1px
+solid
+#e1e1e1;
+		margin:
+5px
+auto
+5px
+auto;
+		text-align:
+center;
+		padding:
+2px;
+		color:
+#224624;
+		font-size:
+11px;
+		display:
+block;
+		width:
+auto
+!important;
+	}
+	
+	#ipboard_body
+.ipb_palette.extended
+{
+		min-width:
+250px;
+		max-width:
+320px;
+	}
+	
+	#ipboard_body
+.ipb_palette
+pre
+{
+		padding:
+5px
+7px
+10px
+7px;
+	}
+
+#ipboard_body
+ul.fontsizes
+li
+{
+	padding:
+0.3em
+0px
+!important;
+}
+
+#ipboard_body
+.ipb_palette
+table.rte_colors
+{
+	border-collapse:
+separate;
+	background-color:
+#fff;
+	border-spacing:
+1px;
+}
+
+#ipboard_body
+table.rte_colors
+td
+{
+	padding:
+6px;
+	border:
+1px
+solid
+#777;
+	margin:
+1px;
+	font-size:
+1px;
+	cursor:
+pointer;
+	height:
+18px;
+}
+
+#ipboard_body
+.rte_control
+{
+	cursor:
+pointer;
+	border:
+1px
+solid
+#e4ebf2;
+background-color:
+#dddddd;
+}		
+
+#ipboard_body
+.rte_hover
+{
+	background-color:
+#d5dde5;
+}
+
+#ipboard_body
+.rte_selected
+{
+	background-color:
+#d5dde5;
+	border:
+1px
+solid
+#aeb9c5;
+}
+/*
+Inline
+CSS
+*/
+		
+/*
+CSS:
+ipb_styles*/
+/************************************************************************/
+/*
+IP.Board
+3
+CSS
+-
+By
+Rikki
+Tissier
+-
+(c)2008
+Invision
+Power
+Services	*/
+/************************************************************************/
+/*
+ipb_styles.css														*/
+/************************************************************************/
+/*
+	[
+color
+]
+	[
+font
+]
+	[
+borders
+]
+	[
+padding
+]
+	[
+margin
+]
+	[
+sizing
+]
+	[
+other
+]
+*/
+
+/************************************************************************/
+/*
+RESET
+(Thanks
+to
+YUI)
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td
+{
+margin:0;
+padding:0px;
+}
+table
+{	border-collapse:collapse;
+border-spacing:0;
+}
+fieldset,img
+{
+border:0;
+border-collapse:
+collapse;
+}
+address,caption,cite,code,dfn,th,var
+{
+font-style:normal;
+font-weight:normal;
+}
+ol,ul
+{
+list-style:none;
+}
+caption,th
+{
+text-align:left;
+padding:
+0
+0
+0
+4px;
+}
+h1,h2,h3,h4,h5,h6
+{
+font-size:100%;	font-weight:normal;
+}
+q:before,q:after
+{
+content:'';}
+abbr,acronym
+{
+border:0;
+}
+hr
+{
+display:
+none;
+}
+address{
+display:
+inline;
+}
+
+/************************************************************************/
+/*
+ELEMENT
+STYLES
+*/
+
+body
+{
+	background:
+#fff;
+	color:
+#383838;
+	font:
+normal
+12px
+arial,
+verdana,
+tahoma,
+sans-serif;
+	position:
+relative;
+}
+
+h3,
+h4,
+h5,
+h6,
+strong
+{
+font-weight:
+bold;
+}
+em
+{
+font-style:
+italic;
+}
+.input_radio,
+.input_check
+{
+vertical-align:
+middle;
+/*horizontal-align:
+middle;*/
+margin-left:
+5px;}
+
+img
+{
+vertical-align:
+middle;
+/*horizontal-align:
+middle;*/
+margin-left:
+-1px;}
+legend
+{
+display:
+none;
+}
+table
+{
+width:
+100%;
+}
+td
+{
+padding:
+3px;
+}
+
+h2
+{
+	font-size:
+1.1em;
+	color:
+#156a00;
+	/*font-weight:
+normal;*/
+	font-weight:
+bold;
+	margin:
+0
+0
+5px
+5px;
+	clear:
+both;
+}
+
+body
+h3
+{
+	font-weight:
+bold;
+	font-size:
+1.1em;
+	padding:
+5px
+8px
+3px
+8px;
+	color:
+#444444;/*#ddffdd;*/
+}
+
+	h3
+img
+{
+		margin-top:
+-2px;
+	}
+	
+	h3
+a
+{
+		text-decoration:
+none;
+	}
+	
+a
+{
+	color:
+#333333;
+text-decoration:
+underline;
+
+/*font-weight:
+bold;*/
+}
+
+	a:hover
+{
+		text-decoration:
+none;
+		/*color:
+#1b6111;
+font-weight:
+bold;*/
+color:
+#183a68;
+		text-decoration:
+none;
+	}
+
+/************************************************************************/
+/*
+COLORS
+*/
+
+.row1,
+.row1
+td,
+.post_block.row1
+{
+	background-color:
+#ffffff;
+/*
+main:
+color
+"Тестовый
+форум"
+*/
+	border:
+1px
+solid
+#9cced5;
+	margin:
+1px
+!important;/*main:
+"Помогите
+определиться"*/
+}
+
+	.row1
+.altrow,
+.row1.altrow,
+	.personal_info,
+.general_box
+{
+		background-color:
+#f3f9f9;
+/*
+main:
+color
+picture
+and
+"3
+тем
+2
+ответов"
+*/
+		border:
+1px
+solid
+#9cced5;
+	}
+	
+.row2,
+.row2
+td,
+.post_block.row2,
+.message
+{
+	background-color:
+#f3f9f9;
+	border:
+1px
+solid
+#9ecdd5;
+	margin:
+1px
+!important;/*main:
+"Помогите
+определиться"*/
+}
+
+	.row2
+.altrow,
+.row2.altrow,
+	ul.post_controls,
+	ul.topic_moderation
+{/*main:
+"Какие
+кому
+нравятся
+страны?"*/
+		background-color:
+#f8fcfd;
+/*
+Slightly
+darker
+than
+row2
+*/
+		border:
+1px
+solid
+#cee0dd;
+		margin:
+1px
+!important;
+	}
+
+ul.topic_moderation{
+	border:
+none;
+	max-height:
+8px;
+height:
+4px;/*bug
+4*/
+}
+
+.moderated,
+body
+.moderated
+td,
+.moderated
+td.altrow,
+.post_block.moderated,
+body
+td.moderated,
+body
+td.moderated
+{
+	background-color:
+#FFFFCC;
+/*#F2E4E7;*/
+/*#eefaff;*/
+/*
+Light
+red
+*/
+}
+
+	.moderated,
+.moderated
+a
+{
+		color:
+#12210a;
+/*#01537b;*/
+	}
+
+body
+.maintitle
+{
+	background:
+#5fbd5f
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+left
+50%;
+/*	background:
+#5fbd5f
+url(public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+left
+50%;*/
+	color:
+#fff;
+
+	margin-top:
+0;
+}
+
+	body
+.maintitle
+a
+{
+		color:
+#fff;
+	}
+
+/*
+Bar
+*/
+.bar
+{
+	background:
+/*#96d97a*/
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;
+/*	background:
+#96d97a
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;*/
+}
+	
+	.altbar
+{
+		background:
+#cccccc;
+/*96d97a;*/
+
+		color:
+#269900;
+	}
+
+/*
+Table
+column
+headers
+*/
+.header
+{
+	background:
+#e9fff0;
+/*url(/public/style_images/navitel-icq/gradient_grey.png)
+repeat-x
+50%;*/
+	color:#5ea69b;
+	font-size:
+11px;
+	border:
+1px
+solid
+#ffffff;
+	/*main:
+text
+"forum,
+statistics.."*/
+}
+
+	body
+.ipb_table
+.header
+a,
+	body
+.topic_options
+a
+{
+		color:
+#269900;
+	}
+
+/*
+General
+block
+*/
+.general_box
+{
+	background-color:
+#ffffff;/*block
+"Последние
+темы"*/
+	border:
+1px
+solid
+#69b17e;/*#577c1c;*/
+	/*border-bottom:
+2px
+solid
+#cccccc;*/
+	
+}
+
+	.general_box
+h3
+{/*block
+"Последние
+темы"*/
+		background:
+#a2c0bb;/*3eb22d;*/
+		color:
+#ffffff;
+	}
+
+
+
+
+
+
+
+
+.general_box
+p
+{/*block
+"Последние
+темы"*/
+		padding:
+7px
+15px
+10px
+15px;
+	}
+
+
+/*
+Post
+background
+*/
+.post_block
+{
+	background:
+#f8f8f8;
+	border-bottom:
+6px
+solid
+#93daa0;
+}
+
+.post_block
+h3
+{
+	background:
+#cee0dd;
+}
+
+/*
+Post
+screen
+background
+*/
+div.post_form
+fieldset
+{
+	background-color:
+#f2f5f8;
+}
+
+/*
+Dates
+*/
+.date,
+.poll_question
+.votes
+{/*01
+сен
+2009*/
+font-family:
+tahoma;
+	color:
+#408240;
+	font-size:
+0.9em;
+	/*font-weight:
+bold;*/
+}
+
+/*
+"No
+Messages"
+message
+*/
+.no_messages
+{
+	background-color:
+#f2f5f8;
+	color:
+#1d3d26;
+	padding:
+15px
+30px;
+}
+
+/*
+Tab
+bars
+*/
+.tab_bar
+{
+	background-color:
+#ffffff;/*#96d97a;
+bug12*/
+	color:
+#4a6f46;
+}
+
+	.tab_bar
+li.active
+{
+		background-color:
+#5fbd5f;
+/*display:
+inline;*/
+margin-top:
+10px;
+	}
+	
+	.tab_bar.no_title.mini
+{
+		border-bottom:
+1px
+solid
+#5fbd5f;
+		border-top:
+1px
+solid
+#5fbd5f;
+	}
+	
+/*
+Filter
+&
+moderation
+bars
+*/
+.filter_bar
+{
+	background-color:
+#60bf60;
+	color:
+#e9f1f0;
+}
+	
+	.filter_bar
+a,
+.filter_bar
+label
+{
+		color:
+#e9f1f0;
+	}
+	
+.moderation_bar
+{
+	background:
+#e9f1f0;
+}
+
+/*
+Comments
+*/
+.comment_wrap
+.comment.by_author,
+.comment_wrap
+.comment.by_author.row1
+{
+	background:
+#f2f8f5;
+	border-top:
+1px
+solid
+#397f2c;
+	border-bottom:
+1px
+solid
+#397f2c;
+}
+
+.comment_wrap
+.comment.row1
+{
+	border-top:
+1px
+solid
+#dddddd;
+	border-bottom:
+1px
+solid
+#dddddd;
+}
+
+/*
+Topic
+prefix
+*/
+.topic_prefix
+{
+/*	background-color:
+#daede2;*/
+	color:
+#397f2c;
+}
+
+/*
+Toggle
+for
+the
+sidebar
+*/
+.sidebar_toggle
+{
+	background-color:
+#ffffff;
+	/*border:
+1px
+solid
+#587c1d;padding:
+-2px
+-2px
+-4px
+-4px;*/
+}
+
+/*
+Menu
+popups
+*/
+.ipbmenu_content,
+.ipb_autocomplete
+{
+	background-color:
+#eff8f6;
+	border:
+1px
+solid
+#dddddd;
+}
+
+	.ipbmenu_content
+li,
+.ipb_autocomplete
+li
+{
+		border-bottom:
+1px
+solid
+#dddddd;
+	}
+	
+		.ipb_autocomplete
+li.active
+{
+			background:
+#dddddd;
+		}
+		
+/*
+Forms
+*/
+.input_submit
+{
+	background-color:
+#68cb4c;
+	color:
+#ffffff;
+	font-size:
+0.9em;
+	border-color:
+#bafeaa
+#5a7e24
+#5a7e24
+#bafeaa;
+}
+
+	.input_submit:hover
+{
+		background:
+#4eba30;
+	}
+	
+	.input_submit.alt
+{/*buttons*/
+	background-color:
+#e9f1f0;
+/*#60cc46;*/
+	color:
+#666666;
+	border-color:
+#999999
+#666666
+#666666
+#999999;		
+	}
+	
+		.input_submit.alt:hover
+{
+		background-color:
+#7c8583;
+		color:
+#ffffff;
+		border-color:#999999
+#666666
+#666666
+#999999;
+		}
+	
+body#ipboard_body
+fieldset.submit,
+body#ipboard_body
+p.submit
+{
+	background-color:
+#ebf4f4;
+}
+
+/************************************************************************/
+/*
+HEADER
+*/
+
+h1,
+#content_jump
+{
+	text-indent:
+-9999px;
+	height:
+0px;
+	width:
+0px;
+}
+
+#header
+{
+	/*position:
+relative;*/
+}
+
+#branding
+{
+	background:
+#ffffff
+url(/public/style_images/navitel-icq/branding_bg.png)
+repeat-x
+top;
+/*	background:
+#ffffff
+url(/public/style_images/navitel-icq/branding_bg.png)
+repeat-x
+top;*/
+	/*min-height:
+10px;*/
+
+
+
+
+
+
+
+
+height:
+70px;
+}
+
+#branding
+img
+{
+	/*position:
+absolute;
+top:
+3px;*/
+
+
+
+
+
+
+
+
+margin-top:
+12px;
+}
+
+#admin_bar
+{
+	background:
+#60bf60
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;
+/*	background:
+#60bf60
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;*/
+	color:
+#0c682f;
+	font-size:
+0.9em;
+	padding:
+7px;
+	height:
+14px;
+}
+
+	#admin_bar
+li
+{
+		color:
+#767676;
+		padding:
+0
+3px
+0
+5px;
+	}
+	
+		#admin_bar
+li.active,
+#admin_bar
+li.active
+a
+{
+			color:
+#004b7f;
+		}
+	
+/*Slogan*/
+
+#slogan
+{
+/*	height:
+40px;
+*/
+	font-size:1.5em;
+	padding:
+0
+0
+0
+250px;
+/*	font-weight:
+bold;*/
+	color:
+#223322;
+/*	margin-top:
+15px;
+	white-space:
+nowrap;
+*/
+}
+
+#user_navigation
+{/*user-block*/
+	background:
+#f3f3f3;
+	font-size:
+0.9em;
+	border-left:
+1px
+solid
+#CFCECC;
+	/*-moz-border-radius:
+0
+0
+6px
+6px;
+	-webkit-border-bottom-left-radius:
+6px;
+	-webkit-border-bottom-right-radius:
+6px;*/
+	position:
+absolute;
+/*position:
+relative;*/
+	top:
+32px;
+	right:
+0px;
+	float:
+right;
+	z-index:
+9999;
+/*color:
+#ff0000;*/
+}
+
+	#user_navigation
+.photo
+{
+		border:
+1px
+solid
+#999999;
+		margin:
+6px
+10px
+6px
+6px;
+		float:
+left;
+	}
+	
+	#user_info
+{
+		margin-left:
+60px;
+		margin-right:
+15px;
+	}
+	
+	#user_navigation
+p
+{
+		color:
+#d9e3ed;
+		margin-top:
+6px;
+		white-space:
+nowrap;
+	}
+	
+		#user_navigation
+p
+a
+{
+			color:
+#13220c;
+		}
+		
+	#user_navigation
+#new_msg_count
+{
+		background-color:
+#3353c8;
+		font-weight:
+bold;
+		font-size:
+0.9em;
+		border:
+1px
+solid
+#587c1d;
+		padding:
+2px
+6px;
+		top:
+0px;
+		left:
+45px;
+		position:
+absolute;
+	}
+		
+		#user_navigation
+ul
+{
+			font-size:
+0.9em;
+			margin-top:
+4px;
+		}
+			#user_navigation
+ul
+a
+{
+				color:
+#13220c;/*
+text
+logout
+help*/
+			}
+			
+			#user_navigation
+ul#user_other
+{	
+				margin-left:
+5px;
+			}
+			
+			#user_navigation
+ul#user_other
+li
+{
+				float:
+left;
+				padding:
+0
+4px;
+			}
+	
+	#user_navigation
+ul#user_link_menucontent
+{
+		background:
+#ffffff;/*bg
+list*/
+		border:
+1px
+solid
+#999999;
+		margin-top:
+0px;
+		width:
+170px;		
+		float:
+right;
+		z-index:
+10000;
+	}
+
+		#user_navigation
+ul#user_link_menucontent
+li
+{
+			padding:
+1px;
+			float:
+none;
+		}
+
+		#user_navigation
+ul#user_link_menucontent
+a
+{
+			color:
+#454945;/*text
+list*/
+			text-decoration:
+none;
+			padding:
+5px
+5px
+5px
+15px;
+			display:
+block;
+		}
+
+			#user_navigation
+ul#user_link_menucontent
+a:hover
+{
+				background:
+#90938f;
+/*list
+hover*/
+			}
+			
+	#user_navigation
+#user_link
+{
+		background:
+#ffffff
+/*url(/public/style_images/navitel-icq/th_bg.png)
+repeat-x
+50%*/;
+		border:
+1px
+solid
+#999999;/*bg
+admin*/
+		padding:
+3px
+20px
+3px
+10px;
+		margin:
+6px
+0
+0px
+8px;
+		min-width:
+150px;
+		-moz-outline:
+0px;
+		position:
+relative;
+		display:
+block;
+		overflow:
+hidden;
+	}
+
+		#user_navigation
+#user_link
+img
+{
+			position:
+relative;
+margin-left:
+2px;
+		}
+
+	#user_navigation.not_logged_in
+{
+		font-size:
+0.9em;
+		padding:
+24px
+25px;
+top:4px;
+	}
+
+		#user_navigation.not_logged_in
+a
+{
+			margin:
+0
+6px;
+		}
+
+/*
+Navigation
+*/
+#primary_nav
+{
+	background:
+#7ebd42
+url(/public/style_images/navitel-icq/primarynav_bg.png);
+/*	background:
+#7ebd42
+url(/public/style_images/navitel-icq/primarynav_bg.png);*/
+	font-size:
+0.9em;
+	border-bottom:
+1px
+solid
+#69b17e;
+	padding-left:
+10px;
+	height:
+31px;	
+}
+
+	#primary_nav
+ul
+li,
+#primary_nav
+ul
+li
+a
+{
+		color:
+#ecffe5;
+		text-decoration:
+none;
+	}
+	
+	#primary_nav
+ul
+li
+{/*menu*/
+		font-size:
+1.0em;
+		font-weight:
+bold;
+		padding:
+10px
+9px;
+		margin-left:
+6px;
+	}
+	
+		#primary_nav
+ul
+li.active
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/tab_left.png)
+no-repeat
+top
+left;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/tab_left.png)
+no-repeat
+top
+left;*/
+			font-size:
+1.05em;
+			font-weight:
+bold;
+			padding:
+0px;			
+			margin:
+0px;
+			position:
+relative;		
+		}
+		
+		#primary_nav
+ul
+li.active
+a
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/tab_right.png)
+no-repeat
+top
+right;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/tab_right.png)
+no-repeat
+top
+right;*/
+			font-size:
+0.95em;
+			font-weight:
+bold;
+			padding:
+10px
+10px
+10px
+5px;
+			margin-left:
+5px;
+			display:
+block;	
+		}
+		
+	#primary_nav
+ul
+li
+a
+{
+		color:
+#ecffe5;
+		text-decoration:
+none;
+	}
+		
+/**/
+		
+#search
+{
+	color:
+#556b85;
+	font-size:
+0.95em;
+	margin:
+5px
+6px
+auto
+auto;	
+	position:
+relative;
+	right:
+0px;
+	float:
+right;
+}
+
+	#search
+.submit_input
+{/*btn
+search*/
+		background:
+#54af54;
+		border:
+1px
+solid
+#44a048;
+		padding:
+1px
+5px;
+	}
+
+	#search
+input#main_search
+{
+		background:
+#fff
+url(/public/style_images/navitel-icq/search_icon.png)
+no-repeat
+left;
+/*		background:
+#fff
+url(/public/style_images/navitel-icq/search_icon.png)
+no-repeat
+left;*/
+		border:
+1px
+solid
+#286907;
+		padding:
+2px
+3px
+2px
+18px;
+		margin-left:
+5px;
+margin-right:
+5px;
+	}
+
+	#search
+a
+{
+		color:
+#ffffff;
+		text-decoration:
+underline;
+		margin:
+5px
+5px;
+	}
+
+	#search
+label,
+	#search
+input,
+	#search
+#adv_search
+{
+		float:
+left;
+	}
+
+#secondary_nav
+{/*"Invision
+Power
+Board"*/
+	color:
+#878787;
+	font-size:
+0.95em;
+	padding:
+10px
+8px
+10px
+10px;
+	clear:
+both;
+}
+
+	#secondary_nav
+li
+{
+		padding-right:
+5px;
+		float:
+left;
+	}
+
+		#secondary_nav
+#section_links
+li
+{
+			padding:
+0
+5px;
+		}
+
+	#secondary_nav
+a
+{/*"Просмотр
+новых
+публикаций"*/
+		color:
+#13220c;
+		text-decoration:
+underline;
+	}
+
+#rss_menu
+{
+	background-color:
+#ffdfbe;
+	border:
+1px
+solid
+#ff7600;
+	padding:
+1px;
+	width:
+200px;
+	display:
+block;	
+	z-index:
+500;
+}
+
+	#secondary_nav
+#section_links
+#rss_menu
+li
+{
+		padding:
+0;
+		display:
+block;
+		float:
+none;
+	}
+
+	#rss_menu
+a
+{
+		display:
+block;
+		padding:
+3px;
+		color:
+#ff7600;
+	}
+
+		#rss_menu
+a:hover
+{
+			background-color:
+#ff7600;
+			color:
+#fff;
+		}
+		
+#pm_notification
+{
+	background:
+url(/public/style_images/navitel-icq/trans_bg.png);
+/*	background:
+url(/public/style_images/navitel-icq/trans_bg.png);*/
+	color:
+#515151;
+	padding:
+0;
+	margin:
+0
+20%;
+	width:
+60%;
+	position:
+absolute;
+	z-index:
+2000;
+}
+
+	#pm_notification
+#pm_wrap
+{
+		background:
+#ffe8c7;
+		padding:
+18px
+0
+30px
+0;
+		margin:
+0
+6px
+6px
+6px;
+	}
+
+	#pm_notification
+.photo
+{
+		float:
+left;
+		margin:
+0
+15px;
+	}
+
+	#pm_notification
+h2
+{
+		font-size:
+1.5em;
+		clear:
+none;
+		margin:
+0px
+0
+0
+85px;
+		color:
+#1d3d26;
+	}
+
+	#pm_notification
+p
+{
+		margin:
+10px
+auto
+0
+95px;
+	}
+
+	#pm_notification
+.ok_thanks
+{
+		text-align:
+center;
+		padding:
+6px;
+		clear:
+both;
+	}
+
+/************************************************************************/
+/*
+FOOTER
+*/
+#board_footer
+{
+	color:
+#606060;
+	font-size:
+0.95em;
+	border-top:
+1px
+solid
+#69b17e;
+	padding:
+8px
+8px
+15px
+8px;
+	margin:
+10px
+5px
+20px
+5px;	
+	top:
+20px;
+	clear:
+both;
+}
+
+	#board_footer
+ul#utility_links
+li
+{
+		float:
+left;
+		padding-right:
+8px;
+	}
+
+	#board_footer
+p
+{
+		text-align:
+right;
+	}
+
+	#board_footer
+a
+{
+		color:
+#606060;
+	}
+	
+#footer_utilities
+{
+	background:
+#4eba30
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;
+/*	background:
+#4eba30
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;*/
+	color:
+#fff;
+	font-size:
+0.9em;
+	padding:
+2px
+15px
+2px
+15px;
+	margin:
+0
+5px
+0
+5px;
+}
+	#footer_utilities
+a:hover
+{
+		text-decoration:
+underline
+!important;
+	}
+
+	#footer_utilities
+form
+{
+		margin:
+3px
+5px
+0
+5px;
+	}
+
+	#footer_utilities
+ul
+{
+		/*padding:
+2px
+0;*/
+		margin:
+8px
+0
+0
+0;
+	}
+		#footer_utilities
+ul
+li:first-child
+{
+			color:
+#ffffff;/*text
+date*/
+		}
+
+		#footer_utilities
+li
+{
+			float:
+right;
+			padding:
+0
+8px
+4px
+8px;
+		}
+
+/************************************************************************/
+/*
+GENERAL
+CONTENT
+*/
+#content
+{
+	padding:
+5px
+10px
+0px
+10px;
+	clear:
+both;
+}
+
+#ajax_loading
+{
+	background-color:
+#3d7399;
+	color:
+#fff;
+	text-align:
+center;
+	padding:
+5px;
+	width:
+8%;
+	top:
+0px;
+	left:
+46%;
+	-moz-border-radius:
+0
+0
+5px
+5px;
+	-webkit-border-bottom-left-radius:
+5px;
+	-webkit-border-bottom-right-radius:
+5px;
+	z-index:
+10000;
+	position:
+fixed;
+}
+
+#ipboard_body.redirector
+{
+	width:
+500px;
+	margin:
+150px
+auto
+0
+auto;
+}
+	
+.topic_options,
+.generic_bar,
+.tab_filters
+{
+	color:
+#269900;
+	font-size:
+0.95em;
+	font-weight:
+bold;
+	height:
+26px;
+
+/*33px*/
+}
+	.generic_bar,
+.tab_filters
+{
+		background:
+#b1b1b1;
+	}
+	
+	.generic_bar
+{
+		display:
+none;
+	}
+	
+	.tab_filters
+{
+		background:
+#5fbd5f
+url(/public/style_images/navitel-icq/th_bg.png)
+repeat-x
+top;
+/*		background:
+#5fbd5f
+url(/public/style_images/navitel-icq/th_bg.png)
+repeat-x
+top;*/
+		color:
+#fff;
+	}
+	
+	.topic_options
+{
+		background:
+#d7ffda;
+	}
+	
+	.topic_options
+li
+{
+		padding:
+10px;
+		float:
+right;
+	}
+	
+	.topic_options
+a
+{
+		text-decoration:
+none;
+	}
+	
+.general_box
+h3
+{/*main:
+"Последние
+темы"*/
+	font-size:
+1.0em;
+	border:
+0;
+	padding:0px
+4px;
+	margin:
+1px
+1px
+1px
+1px;
+}
+
+#index_stats
+.general_box
+{
+	margin-bottom:
+10px;
+	overflow:
+hidden;
+}
+
+.general_box.alt
+{
+	padding:
+0px;
+}
+
+.general_box.alt
+h3
+{
+	margin:
+1px
+0px
+0px
+0px;
+}
+
+.general_box
+a
+{
+	text-decoration:
+none;
+}
+
+	.general_box
+.block_list
+{
+		font-size:
+0.95em;
+		padding-top:
+0px;
+		margin:
+0;
+	}		
+		.general_box
+.block_list
+li
+{
+			padding:
+6px;
+			margin:
+0
+1px;
+/*main:
+"Какие
+кому
+нравятся
+страны?"*/
+		}
+
+.progress_bar
+{
+	background-color:
+#fff;
+	border:
+1px
+solid
+#dddddd;
+}
+
+	.progress_bar
+span
+{
+		background:
+#6cc56e
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+left
+50%;
+/*		background:
+#6cc56e
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+left
+50%;*/
+		color:
+#fff;
+		font-size:
+0em;
+		font-weight:
+bold;
+		text-align:
+center;
+		text-indent:
+-2000em;
+/*
+Safari
+fix
+*/
+		height:
+10px;
+		display:
+block;
+		overflow:
+hidden;
+	}
+
+	.progress_bar.limit
+span
+{
+		background:
+#b82929
+url(/public/style_images/navitel-icq/progressbar_warning.png)
+repeat-x
+center;
+/*		background:
+#b82929
+url(/public/style_images/navitel-icq/progressbar_warning.png)
+repeat-x
+center;*/
+	}
+
+	.progress_bar
+span
+span
+{
+		display:
+none;
+	}
+
+.progress_bar.user_warn
+{	
+	margin:
+0
+auto;
+	width:
+80%;
+}
+
+	.progress_bar.user_warn
+span
+{
+		height:
+6px;
+	}
+
+.progress_bar.topic_poll
+{
+	border:
+1px
+solid
+#bbbbbb;
+	margin-top:
+2px;
+	width:
+40%;
+}
+
+img.resized
+{
+	display:
+block;
+}
+
+.resized_img
+img
+{
+	border-style:
+solid;
+	border-color:
+#777;
+	border-width:
+3px
+3px
+6px
+3px;
+	margin-bottom:
+5px;
+}
+
+.resized_img
+span
+{
+	background:
+#777;
+	color:
+#fff;
+	padding:
+4px
+8px;
+	font-size:
+11px;
+}
+
+.resized_img
+{
+	clear:
+right;
+}
+
+li.rating
+a
+{
+	-moz-outline:
+0;
+}
+
+.antispam_img
+{
+	margin-left:
+215px;
+	margin-bottom:
+3px;
+}
+
+.tagList
+{
+	list-style-type:
+none;
+	margin:
+0;
+	padding:
+0;
+}
+	.tagList
+li
+{
+display:
+inline;
+}
+	li.level1
+	{
+font-size:
+12px;
+}
+	li.level2	{
+font-size:
+13px;
+}
+	li.level3	{
+font-size:
+14px;
+}
+	li.level4
+	{
+font-size:
+16px;
+}
+	li.level5	{
+font-size:
+18px;
+}
+	li.level6
+	{
+font-size:
+20px;
+}
+	
+span.error
+{
+	color:
+#cf4400;
+	font-weight:
+bold;
+	clear:
+both;
+}
+
+.maintitle
+.desc
+{
+	font-size:
+0.75em;
+	color:
+#e2f8ff;
+}
+
+/************************************************************************/
+/*
+GENERIC
+REPEATED
+STYLES
+*/
+/*
+Inline
+lists
+*/
+#admin_bar
+ul,
+#admin_bar
+li,
+#stat_links
+li,
+
+.tab_filters
+ul,
+.tab_filters
+li,
+fieldset.with_subhead
+span.desc,
+fieldset.with_subhead
+label,
+.user_controls
+li
+{
+	display:
+inline;
+}
+
+/*
+Floats
+*/
+.right
+{
+float:
+right;
+}
+.left
+{
+float:
+left;
+}
+
+/*
+Visibility
+*/
+.hide
+{
+display:
+none;
+}
+
+/*
+Bullets
+*/
+.bullets
+ul,
+.bullets
+ol,
+ul.bullets,
+ol.bullets
+{
+	list-style:
+disc;
+	margin-left:
+30px;
+	line-height:
+150%;
+	list-style-image:
+none;
+}
+
+/*
+Rounded
+corners
+*/
+#user_navigation
+#new_msg_count,
+.message,
+.popupWrapper,
+.poll_question
+h4,
+.reputation,
+.rounded
+{
+	-moz-border-radius:
+1px;
+	-webkit-border-radius:
+1px;
+}
+
+/*
+Center
+*/
+.short
+{
+	text-align:
+center;
+}
+
+/*
+Description
+*/
+.desc,
+p.posted_info,
+.warn_panel
+strong
+{
+	font-size:
+0.95em;
+	margin-top:
+4px;
+	color:
+#606060;
+}
+
+/*
+Cancel
+*/
+.cancel
+{
+	color:
+#cf4400;
+	font-size:
+1.1em;
+	font-weight:
+bold;
+}
+	
+/*
+Maintitle
+*/
+body
+.maintitle
+{
+	font-size:
+12px;
+	font-weight:
+bold;
+	border-bottom:
+1px
+solid
+#fff;
+	/*-moz-border-radius:
+5px
+5px
+0
+0;
+	-webkit-border-top-left-radius:
+5px;
+	-webkit-border-top-right-radius:
+5px;*/
+	padding:
+7px
+!important;
+	margin:
+0
+!important;
+	overflow:
+hidden;
+}
+
+/*
+Photo
+*/
+.photo
+{
+	border:
+1px
+solid
+#d8d8d8;
+}
+
+/*
+Moderation
+*/
+em.moderated
+{
+	background:
+transparent;
+	font-size:
+0.9em;
+	font-weight:
+bold;
+	margin-top:
+8px;
+	display:
+block;
+	clear:
+both;
+}
+
+/*
+Positive/Negative
+*/
+.positive
+{
+	color:
+#7f9db9;
+}
+.negative
+{
+	color:
+#c7172b;
+}
+
+/*
+Clickable
+*/
+.clickable
+{
+	cursor:
+pointer;
+}
+
+/*
+Clear
+*/
+.clear
+{
+	clear:
+both;
+}
+
+	.clearfix,
+.stats_list
+{
+		overflow:
+auto;
+	}
+
+/*
+Block
+wrap
+*/
+.block_wrap
+{
+	margin-bottom:
+10px;
+	padding:
+1px
+1px
+1px
+1px;	
+	border:
+1px
+solid
+#69b17e;
+}
+
+/*
+White
+links
+*/
+#admin_bar
+a,
+#stat_links
+a,
+#primary_nav
+ul
+li.active,
+
+#primary_nav
+ul
+li
+a:hover,
+
+#primary_nav
+ul
+li.active
+a,
+/*#user_navigation.not_logged_in,
+#user_navigation.not_logged_in
+a,
+#user_navigation#user_link,
+#user_navigation
+#new_msg_count,
+#user_navigation
+ul,
+
+#user_navigation
+ul#user_link_menucontent,
+*/
+#user_navigation
+ul#user_link_menucontent
+a:hover,
+#search
+.submit_input,
+.message.user_status
+#update_status,
+table.ipb_table
+th
+a,
+.topic_buttons
+li
+a,
+.topic_buttons
+li
+span,
+.message.user_status
+#update_status,
+.tab_bar
+li.active,
+.tab_bar
+li.active
+a,
+.members
+li.positive
+a,
+.members
+li.negative
+a,
+#footer_utilities
+a,
+a.input_submit:hover
+{
+	color:
+#fff;
+	text-decoration:
+none;
+	
+}
+
+/*
+Search
+highlighting
+*/
+.searchlite
+{
+	background-color:
+#9dddf2;
+	color:
+green;
+	font-size:14px;
+}
+
+/*
+Users
+posting
+*/
+.activeuserposting
+{
+	font-style:
+italic;
+}
+	
+/************************************************************************/
+/*
+COLUMN
+WIDTHS
+FOR
+TABLES
+*/
+.col_f_icon,
+.col_f_picon,
+.col_c_icon,
+.col_m_status,
+.col_r_icon
+{
+	width:
+3%;
+padding:
+2px;
+}
+.col_m_replies
+{
+	width:
+5%;
+padding:
+2px;
+}
+.col_m_to,
+.col_m_from
+{
+	width:15%;
+padding:
+2px;
+}
+.col_f_topic,
+.col_m_subject
+{
+	width:
+49%;
+padding:
+2px;
+}
+.col_f_views,
+.col_f_starter,
+.col_r_total,
+.col_r_comments
+{
+	width:
+10%;
+padding:
+2px;
+}
+.col_f_post,
+.col_m_date,
+.col_r_updated,
+.col_r_section
+{
+	width:
+25%;
+padding:
+2px;
+}
+/*
+.col_c_forum
+
+.col_c_icon,
+.col_f_icon,
+
+.col_f_topic,
+.col_f_starter,
+.col_c_post,
+.col_f_post,
+.col_c_stats,
+.col_f_views,
+.col_f_mod
+
+
+{
+	background:#e9fff0;
+}
+*/
+
+.col_c_stats
+{
+	width:
+15%;
+
+	padding:
+2px;
+	color:#6bb3a8;
+}
+.col_c_post
+{
+	width:
+30%;
+
+	padding:
+2px;
+	color:#6bb3a8;
+}
+.col_c_forum
+{
+	width:
+55%;
+
+	padding:
+2px;
+	color:#6bb3a8;
+
+}
+.col_mod,
+.col_f_mod,
+.col_r_mod
+{
+	width:
+3%;
+padding:
+2px;
+}
+.col_r_title
+{
+	width:
+26%;
+padding:
+2px;
+}
+
+/************************************************************************/
+/*
+TABLE
+STYLES
+*/
+
+table.ipb_table
+{
+	line-height:
+100%;
+
+	border-bottom:
+4px
+solid
+#93da9f;
+}
+	
+	table.ipb_table
+a
+{
+		text-decoration:
+underline;
+/*none;*/
+	}
+	
+		table.ipb_table
+a:hover,
+		body
+table.ipb_table
+th
+a
+{
+			text-decoration:
+underline;
+		}
+		
+	table.ipb_table
+caption
+span.desc
+{
+		font-size:
+0.8em;
+	}
+		
+	table.ipb_table
+h4,
+	table.ipb_table
+.topic_title
+{/*main:
+text
+"Форум"*/
+		font-size:
+1.0em;
+font-family:
+sans-serif;
+		display:
+inline;
+width:
+100px;/*position:
+relative;*/
+	}
+
+	table.ipb_table
+th
+a{
+	
+
+
+
+/*font-weight:
+none;*/
+
+
+
+
+
+
+
+
+
+
+
+
+font-weight:
+normal;
+
+
+
+
+
+
+
+
+	}
+
+	table.ipb_table
+tr
+td
+{
+
+		/*border-bottom:
+1px
+solid
+#e6fdec;*/
+		padding:
+5px
+5px
+5px
+9px;
+		border-bottom:
+1px
+solid
+#9ecdd5;
+
+		/*border-bottom:
+2px
+solid
+#fff;*/
+		margin:
+1px
+!important;
+/*text-align:
+bottom;*/
+	}
+
+/*table.ipb_table
+tr
+td
+ul{
+
+		margin-top:-5px;
+	}
+table.ipb_table
+tr
+td
+ul:hover{
+
+		margin-top:-5px;
+	}*/
+		table.ipb_table
+tr
+.stats
+{
+			text-align:
+left;
+		}
+
+		body
+table.ipb_table
+tr
+td
+p
+{
+			/*display:
+inline;*/
+			font-size:
+0.95em;/*main:
+text
+"Тестовый
+форум"*/
+		}
+/*		body
+table.ipb_table
+tr
+td
+p.posted
+info
+{
+			display:
+inline;
+			font-size:
+0.95em;
+main:
+text
+"Тестовый
+форум"
+		}*/
+		
+	table.ipb_table
+th,
+	div#current_calendar
+ol#week_view
+li.month_bar
+{
+		font-size:
+0.95em;/*main:
+text
+"Статистика,
+Последнее
+сообщение"*/
+		font-weight:
+bold;
+		padding:
+6px;
+	}
+	
+	table.ipb_table
+ol.subforums
+{
+		padding-top:
+6px;
+		margin-top:
+5px;
+	}
+		
+		table.ipb_table
+ol.subforums
+li
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/bullet_black.png)
+no-repeat
+3px
+4px;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/bullet_black.png)
+no-repeat
+3px
+4px;*/
+			color:
+#3e6020;
+			font-size:
+0.95em;
+			padding:
+0
+4px
+0
+15px;			
+			float:
+left;
+		}
+		
+		table.ipb_table
+ol.subforums
+li.newposts
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/bullet_green.png)
+no-repeat
+0px
+0px;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/bullet_green.png)
+no-repeat
+0px
+0px;*/
+			color:
+#3e6020;
+			font-size:
+0.9em;
+			padding:
+0
+4px
+0
+14px;			
+			float:
+left;
+		}
+		
+	table.ipb_table
+tr.announcement
+td
+{
+		font-weight:
+bold;
+		font-size:
+1.0em;
+	}
+	
+	table.ipb_table
+tr.subhead
+th
+{
+		font-weight:
+bold;
+		font-size:
+0.9em;
+		padding:
+6px;
+color:
+#000000;
+padding:
+5px
+6px
+5px
+12px;
+	}
+	
+	table.ipb_table
+ul
+li
+{
+		font-size:
+0.95em;/*main:
+text
+"3
+тем
+2
+ответов"*/
+
+
+		margin-bottom:
+2px;
+
+		white-space:
+nowrap;
+	}
+	
+/************************************************************************/
+/*
+FORM
+STYLES
+*/
+
+body#ipboard_body
+fieldset.submit,
+body#ipboard_body
+p.submit
+{
+	padding:
+15px
+6px
+15px
+6px;
+	text-align:
+center;
+}
+
+.input_text
+{
+	background:
+#fff
+url(/public/style_images/navitel-icq/input_text.png)
+repeat-x;
+/*	background:
+#fff
+url(/public/style_images/navitel-icq/input_text.png)
+repeat-x;*/
+	font-size:
+1.0em;
+	font-family:
+arial,
+verdana,
+tahoma,
+sans-serif;
+	border:
+1px
+solid
+#888888;
+	padding:
+2px;
+
+	margin:
+5px
+8px
+5px
+8px;
+}
+
+	.input_text.error
+{
+		background-color:
+#fbd59f;
+	}
+	.input_text.accept
+{
+		background-color:
+#ffe8c7;
+	}
+
+.input_text.email,
+.input_text.password
+{
+	width:
+18em;
+}
+
+.input_submit
+{
+	font-weight:
+bold;
+	font-size:
+0.95em;
+	text-decoration:
+none;
+	border-width:
+1px;
+	border-style:
+solid;
+	padding:
+2px
+7px;
+	cursor:
+pointer;
+}
+	
+	.input_submit.alt
+{
+		text-decoration:
+none;
+	}		
+
+p.field
+{
+	padding:
+15px;
+}
+
+li.field
+{
+	padding:
+5px;
+	margin-left:
+27px;
+}
+
+	li.field
+label,
+	li.field
+span.desc
+{
+		display:
+block;
+	}
+	
+li.field.error
+{
+	color:
+#cc5b00;
+}
+
+	li.field.error
+label
+{
+		font-weight:
+bold;
+	}
+
+/*
+div.post_form
+li.field.checkbox
+label
+{
+	align:
+left;
+
+}
+*/
+
+li.field.checkbox
+{/*position:
+relative;*/
+	margin-left:
+0;
+/*
+align:
+left;
+*/
+	/*white-space:
+nowrap;*/
+}
+
+li.field.checkbox
+.input_check,
+li.field.checkbox
+.input_radio
+{
+	margin-right:
+10px;
+	vertical-align:
+middle;
+}
+
+	li.field.checkbox
+label
+{
+
+		display:
+inline;
+		position:
+relative;
+		/*width:
+auto;*/
+font-size:
+0.9em;
+		float:
+none;
+	}
+
+	li.field.checkbox
+span.desc
+{
+		padding-left:
+27px;
+		margin-left:
+auto;
+		display:
+block;
+font-size:
+0.8em;
+	}
+	
+/************************************************************************/
+/*
+MESSAGE
+STYLES
+*/
+
+.message
+{
+	background:
+#e2f8ff
+url(/public/style_images/navitel-icq/information.png)
+no-repeat
+8px
+5px;
+/*	background:
+#e2f8ff
+url(/public/style_images/navitel-icq/information.png)
+no-repeat
+8px
+5px;*/
+	padding:
+5px
+5px
+5px
+30px;
+	border:
+1px
+solid
+#ebf4f4;
+	color:
+#3e4934;
+	line-height:
+150%;
+	font-size:
+0.95em;
+}
+
+	.message
+h3
+{
+		padding:
+0;
+		color:
+#323232;
+	}
+	
+	.message.error
+{
+		background-color:
+#ffe8d3;
+		background-image:
+url(/public/style_images/navitel-icq/exclamation.png)/*no-repeat*/;
+/*		background-image:
+url(/public/style_images/navitel-icq/exclamation.png)
+no-repeat;*/
+		border-color:
+#ffd5b6;
+		color:
+#281b1b;
+		font-size:
+0.95em;
+	}
+	
+	.message.error.usercp
+{
+		background-image:
+none;
+		padding:
+4px;
+		float:
+right;
+	}
+	
+	.message.unspecific
+{
+		background-color:
+#e2f8ff;
+		border-color:
+#ebf4f4;
+		color:
+#3d6605;
+		margin:
+0
+0
+10px
+0;
+		clear:
+both;
+	}
+	
+	.message.user_status
+{
+		background:
+#e2f8ff;
+		color:
+#3f660b;
+		font-size:
+0.9em;
+		border:
+1px
+solid
+#ebf4f4;
+		padding:
+5px
+5px
+5px
+15px;
+		margin-bottom:
+10px;
+	}
+	
+		.message.user_status.in_profile
+{
+			font-size:
+1.1em;
+			position:
+relative;
+			padding-left:
+15px;
+			overflow:
+auto;
+		}
+		
+	.message.user_status
+#update_status
+{
+		background:
+#6cc56e;
+		font-size:
+0.9em;
+		font-weight:
+bold;
+		padding:
+3px
+8px;
+		margin-left:
+10px;
+	}
+	
+	.message.user_status
+.cancel
+{
+		font-size:
+0.75em;
+	}
+	
+/************************************************************************/
+/*
+MENU
+&
+POPUP
+STYLES
+*/
+
+.ipbmenu_content,
+.ipb_autocomplete
+{
+	font-size:
+0.9em;
+	min-width:
+85px;
+	padding:
+5px;
+	z-index:
+2000;
+}
+	
+	.ipbmenu_content
+li,
+.ipb_autocomplete
+li
+{
+		padding:
+5px;
+	}
+	
+	.ipbmenu_content
+li:last-child
+{
+		border-bottom:
+0;
+		padding-bottom:
+0px;
+	}
+	
+	.ipbmenu_content
+li:first-child
+{
+		padding-top:
+0px;
+	}
+	
+	.ipbmenu_content
+a
+{
+		text-decoration:
+none;
+	}
+
+.popupWrapper
+{
+	background:
+url(/public/style_images/navitel-icq/trans_bg.png);
+/*	background:
+url(/public/style_images/navitel-icq/trans_bg.png);*/
+	color:
+#fff;
+}
+
+	.popupInner
+{
+		background:
+#fff;
+		color:
+#000;
+		border:
+3px
+solid
+#b1b1b1;
+		-moz-border-radius:
+4px;
+		-webkit-border-radius:
+4px;
+		margin:
+6px;
+		width:
+500px;
+		overflow:
+auto;
+	}
+	
+		.popupInner
+h3
+{
+			background-color:
+#dae4ed;
+			font-size:
+1em;
+			border:
+0;
+			padding-left:
+24px;
+		}
+		
+.popupClose
+{
+	position:
+absolute;
+	left:
+12px;
+	top:
+12px;
+}
+
+.popup_footer
+{
+	padding:
+15px;
+	position:
+absolute;
+	bottom:
+0px;
+	right:
+0px;
+}
+
+.popup_body
+{
+	padding:
+10px;
+}
+
+.stem
+{
+	width:
+31px;
+	height:
+16px;
+	position:
+absolute;
+}
+
+	.stem.topleft
+{
+		background-image:
+url(/public/style_images/navitel-icq/stems/topleft.png);
+/*		background-image:
+url(/public/style_images/navitel-icq/stems/topleft.png);*/
+	}
+	.stem.topright
+{
+		background-image:
+url(/public/style_images/navitel-icq/stems/topright.png);
+/*		background-image:
+url(/public/style_images/navitel-icq/stems/topright.png);*/
+	}
+	.stem.bottomleft
+{
+		background-image:
+url(/public/style_images/navitel-icq/stems/bottomleft.png);
+/*		background-image:
+url(/public/style_images/navitel-icq/stems/bottomleft.png);*/
+	}
+	.stem.bottomright
+{
+		background-image:
+url(/public/style_images/navitel-icq/stems/bottomright.png);
+/*		background-image:
+url(/public/style_images/navitel-icq/stems/bottomright.png);*/
+	}
+	
+.modal
+{
+	background-color:
+#3e3e3e;
+}
+
+.userpopup
+{
+	padding-bottom:
+25px;
+	overflow:
+hidden;
+	position:
+relative;
+}
+
+	.userpopup
+.info
+{
+		position:
+relative;
+	}
+	
+	.userpopup
+h3
+{
+		font-size:
+1.1em;
+	}
+	
+	.userpopup
+>
+div
+{
+		padding:
+8px;
+	}
+	
+	.userpopup
+{
+		font-size:
+0.9em;
+	}
+	
+		.userpopup
+dl
+{
+			border-bottom:
+1px
+solid
+#ebf4f4;
+			padding-bottom:
+10px;
+			margin-bottom:
+4px;
+		}
+		
+	.userpopup
+.photo
+{
+		top:
+0px;
+		right:
+0px;
+		position:
+absolute;
+	}
+	
+	.userpopup
+.user_controls
+{
+		left:
+10px;
+		position:
+absolute;
+	}
+	
+	.userpopup
+.reputation
+{
+		right:
+4px;
+		position:
+absolute;
+	}
+	
+.info
+dt
+{
+	float:
+left;
+}
+
+.info
+dt
+{
+	font-weight:
+bold;
+	padding:
+3px
+6px;
+	clear:
+both;
+	width:
+30%;
+}
+
+.info
+dd
+{
+	padding:
+3px
+6px;
+	width:
+60%;
+	margin-left:
+35%;
+}
+
+/************************************************************************/
+/*
+TOPIC/POST
+BUTTONS
+STYLES
+*/
+
+.topic_controls
+{
+	min-height:
+40px;
+}
+
+.topic_buttons
+li
+{
+	background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left.png)
+no-repeat
+top
+left;
+/*	background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left.png)
+no-repeat
+top
+left;*/
+	padding:
+0;
+	margin:
+0px
+10px
+10px
+0px;
+	float:
+right;
+}
+	
+	.topic_buttons
+li
+a,
+	.topic_buttons
+li
+span
+{
+		font-size:
+0.9em;
+		display:
+block;
+		margin:
+auto
+0px
+auto
+6px;
+		-moz-outline:
+0;
+	}
+	
+	.topic_buttons
+li
+span
+{
+		padding:
+8px
+12px
+7px
+3px;
+	}
+	
+	.topic_buttons
+li
+a
+{
+		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right.png)
+no-repeat
+top
+right;
+/*		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right.png)
+no-repeat
+top
+right;*/
+		padding:
+7px
+12px
+6px
+3px;
+	}
+	
+		.topic_buttons
+li
+a
+img,
+		.topic_buttons
+li
+span
+img
+{
+			margin:
+-1px
+5px
+1px
+0;
+		}
+		
+		.topic_buttons
+li
+a
+img.arrow
+{
+margin-right:
+-3px;
+}
+	
+	.topic_buttons
+li:hover
+{
+		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left_hover.png)
+no-repeat
+top
+left;
+/*		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left_hover.png)
+no-repeat
+top
+left;*/
+	}
+		.topic_buttons
+li:hover
+a
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right_hover.png)
+no-repeat
+top
+right;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right_hover.png)
+no-repeat
+top
+right;*/
+		}	
+	.topic_buttons
+li.disabled
+{
+		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left_disabled.png)
+no-repeat
+top
+left;
+/*		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left_disabled.png)
+no-repeat
+top
+left;*/
+	}
+		.topic_buttons
+li.disabled
+span
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right_disabled.png)
+no-repeat
+top
+right;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right_disabled.png)
+no-repeat
+top
+right;*/
+			color:
+#8f8e8e;
+		}	
+	.topic_buttons
+li.closed
+{
+		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left_closed.png)
+no-repeat
+top
+left;
+/*		background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_left_closed.png)
+no-repeat
+top
+left;*/
+	}
+		.topic_buttons
+li.closed
+span,
+		.topic_buttons
+li.closed
+a
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right_closed.png)
+no-repeat
+top
+right;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/topic_button_right_closed.png)
+no-repeat
+top
+right;*/
+		}
+	
+ul.post_controls
+{
+	background-color:
+#cee0dd;
+	background:
+/*inherit
+*/url(/public/style_images/navitel-icq/gradient_bg.png)
+50%
+repeat-x;
+/*	background:
+inherit
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;*/
+	font-size:
+0.85em;
+	text-align:
+right;
+	padding:
+6px
+4px
+28px
+4px;
+	clear:
+both;
+}
+
+		ul.post_controls
+li
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/post_button_left.png)
+no-repeat
+top
+left;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/post_button_left.png)
+no-repeat
+top
+left;*/
+			padding:
+0;
+			margin:
+0
+0
+2px
+0;
+			float:
+right;
+		}
+			ul.post_controls
+li.report,
+			ul.post_controls
+li.top,
+			ul.post_controls.left
+li
+{
+				float:
+left;
+			}
+
+		ul.post_controls
+a
+{	
+			background:
+transparent
+url(/public/style_images/navitel-icq/post_button_right.png)
+no-repeat
+top
+right;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/post_button_right.png)
+no-repeat
+top
+right;*/
+			text-decoration:
+none;
+			padding:
+6px
+4px
+3px
+4px;
+			margin-left:
+2px;
+			display:
+block;
+		}
+
+		ul.post_controls
+a
+img
+{
+			margin-top:
+-2px;
+		}
+
+		ul.post_controls
+a:hover
+{
+			color:
+#125d00;
+		}
+
+		/*
+Selected
+button
+*/
+		ul.post_controls
+li.selected
+{
+			background:
+transparent
+url(/public/style_images/navitel-icq/post_button_left_selected.png)
+no-repeat
+top
+left;
+/*			background:
+transparent
+url(/public/style_images/navitel-icq/post_button_left_selected.png)
+no-repeat
+top
+left;*/
+		}
+
+			ul.post_controls
+li.selected
+a
+{
+				background:
+transparent
+url(/public/style_images/navitel-icq/post_button_right_selected.png)
+no-repeat
+top
+right;
+/*				background:
+transparent
+url(/public/style_images/navitel-icq/post_button_right_selected.png)
+no-repeat
+top
+right;*/
+				color:
+#fff;
+			}
+
+body
+.topic_buttons
+li
+a:hover,
+body
+ul.post_controls
+a:hover
+{
+	text-decoration:
+none;
+}
+
+/************************************************************************/
+/*
+PAGINATION
+STYLES
+*/
+
+span.pagination.no_pages
+{
+	color:
+#acacac;
+	font-size:
+0.9em;
+	padding:
+10px
+10px
+5px
+10px;	
+	height:
+15px;
+	display:
+block;
+}
+
+	ul.pagination.top
+{
+		padding:
+0
+0
+5px
+0;
+		margin-bottom:
+15px;
+		height:
+18px;
+	}
+
+	ul.pagination.bottom
+{
+		padding:
+5px
+0
+0
+0;
+		margin-top:
+15px;
+		height:
+18px;
+	}
+
+ul.pagination
+a,
+ul.pagination
+li.active,
+
+ul.pagination
+li.pagejump,
+ul.pagination
+li.total
+{
+	text-decoration:
+none;
+	padding:
+1px
+4px;
+	display:
+block;
+}
+
+ul.pagination
+li
+{
+	background:
+#fff;
+	font-size:
+0.9em;
+	border:
+1px
+solid
+#cfcfcf;	
+	margin:
+0
+2px
+0
+2px;
+	float:
+left;
+}
+
+	ul.pagination
+li.total,
+	ul.pagination
+li.active
+{
+		background:
+none;
+		border:
+0;
+		margin-left:
+0px;
+	}
+
+	ul.pagination
+li.active
+{
+		color:
+#397f2c;
+		font-size:
+1em;
+		font-weight:
+bold;
+	}
+
+ul.mini_pagination
+{
+	font-size:
+0.75em;
+	display:
+inline;
+	margin-left:
+7px;
+}
+
+	ul.mini_pagination
+li
+a
+{
+		border:
+1px
+solid
+#d3d3d3;
+		padding:
+1px
+3px;
+	}
+
+	ul.mini_pagination
+li
+{
+		display:
+inline;
+		margin:
+0px
+2px;
+	}
+
+/************************************************************************/
+/*
+MODERATION
+&
+FILTER
+STYLES
+*/
+
+.moderation_bar
+{
+	text-align:
+right;
+	padding:
+6px
+35px
+6px
+10px;
+	margin:
+1px
+0
+0
+0;
+}
+
+	.moderation_bar.with_action
+{
+		background-image:
+url(/public/style_images/navitel-icq/topic_mod_arrow.png);
+/*		background-image:
+url(/public/style_images/navitel-icq/topic_mod_arrow.png);*/
+		background-repeat:
+no-repeat;
+		background-position:
+right
+center;
+	}
+	
+#topic_mod_2
+{
+	-moz-border-radius-topleft:
+0px;
+	-moz-border-radius-topright:
+0px;
+	-webkit-border-top-left-radius:
+0px;
+	-webkit-border-top-right-radius:
+0px;
+	padding-top:
+10px;
+	margin-top:
+-10px;
+}
+
+#topic_mod
+p
+{
+	padding:
+7px;
+	font-size:
+0.9em;
+}
+
+#topic_mod
+#forum_mod_options_menucontent
+{
+	text-align:
+left;
+}
+
+.filter_bar
+{
+	font-size:
+0.9em;
+	text-align:
+center;
+	margin:
+1px
+0
+0
+0;
+	padding:
+6px;
+}
+
+	.filter_bar
+select
+{
+		margin-right:
+10px;
+	}
+	
+	.filter_bar
+span.clickable
+{
+		display:
+block;
+	}
+	
+/************************************************************************/
+/*
+TAB
+BAR
+STYLES
+*/
+
+.tab_bar
+{
+	font-size:
+0.92em;
+	-moz-border-radius:
+4px
+4px
+0
+0;
+	-webkit-border-top-left-radius:
+4px;
+	-webkit-border-top-right-radius:
+4px;
+	/*padding:
+7px
+15px
+20px
+15px;
+*/
+
+	padding:
+7px
+15px
+0px
+15px;
+}
+
+	.tab_bar.no_title
+{
+		background-image:
+url(/public/style_images/navitel-icq/th_bg.png);
+/*		background-image:
+url(/public/style_images/navitel-icq/th_bg.png);*/
+		/*background-repeat:
+repeat-x;
+		background-position:
+bottom;*/
+		background-position:center
+center;
+		padding:
+7px
+15px
+30px
+15px;
+	}
+
+/*	.tab_bar.no_title
+li.active{
+display:
+inline;
+background-position:
+center;
+	}*/
+		
+		.tab_bar.no_title.mini
+{
+			background:
+transparent;
+			padding:
+5px
+15px
+25px
+15px;
+		}
+		
+	.tab_bar
+li
+{
+		float:
+left;
+		padding:
+5px
+10px;
+		text-decoration:
+underline;
+	}
+
+		.tab_bar
+li
+a
+{
+			color:
+#3e6020;
+			text-decoration:
+none;
+			margin-bottom:
+15px;
+		}
+		
+		.tab_bar
+li.active
+{
+			text-decoration:
+none;
+			font-weight:
+bold;
+			font-size:
+1.0em;
+			/*-moz-border-radius:
+4px
+4px
+0
+0;
+			-webkit-border-top-left-radius:
+4px;
+			-webkit-border-top-right-radius:
+4px;*/
+			padding:
+5px
+10px;
+			margin:
+0px
+0px
+0px
+0px;
+			position:
+relative;
+display:
+inline;
+background-position:
+center;
+		}
+		
+.tab_filters
+{
+	padding:
+0
+10px;
+}
+
+	.tab_filters
+ul
+{
+		padding-top:
+10px;
+	}
+
+	.tab_filters
+a
+{
+		color:
+#ecffe5;
+		text-decoration:
+none;
+		font-weight:
+normal;
+	}
+
+	.tab_filters
+li
+{
+		color:
+#ecffe5;
+		padding:
+0
+4px;
+	}
+
+		.tab_filters
+li.active,
+		.tab_filters
+li.active
+a
+{
+			font-weight:
+bold;
+			color:
+#fff;
+		}
+		
+/************************************************************************/
+/*
+AUTHOR
+INFO
+(&
+RELATED)
+STYLES
+*/
+
+.author_info
+{
+	text-align:
+left;	
+	font-size:
+0.9em;
+	border-right:
+1px
+solid
+#dddddd;
+	margin:
+15px
+-5px
+10px
+0px;
+	width:
+225px;
+	float:
+left;
+}
+
+	.author_info.no_rep
+{
+		margin-bottom:
+15px;
+	}
+	
+	.author_info
+li.avatar,
+.author_info
+li.group_icon,
+.author_info
+li.title
+{
+		text-align:
+center;
+	}
+	
+	.author_info
+ul.user_fields
+li
+{
+		clear:
+both;
+		font-size:
+0.9em;
+		color:
+#718a96;
+		padding-bottom:
+2px;
+		overflow:
+hidden;
+	}
+	
+	.author_info
+ul.user_fields
+li
+span
+{
+		display:
+block;
+		float:
+left;
+	}
+	
+	.author_info
+ul.user_fields
+li
+span.ft
+{
+		width:
+38%;
+		text-align:
+right;
+		font-weight:
+bold;
+		padding:
+0
+0
+0
+8px;
+	}
+	
+	.author_info
+ul.user_fields
+li
+span.fc
+{
+		padding:
+0
+8px
+0
+8px;
+		max-width:
+50%;
+	}
+	
+	/*.author_info
+dl
+{
+		font-size:
+0.9em;
+		margin:
+8px
+8px
+15px
+8px;
+	}
+	
+	.author_info
+dt,
+	.author_info
+dd
+{
+		display:
+inline-block;
+		color:
+#718a96;
+		vertical-align:
+top;
+	}
+	
+	.author_info
+dt
+{
+		font-weight:
+bold;	
+		text-align:
+right;
+		clear:
+both;
+	}
+	
+	.author_info
+dd
+{
+		text-align:
+left;
+		background:
+red;
+	}*/
+	
+	.author_info
+.title
+{
+		margin-top:
+4px;
+	}	
+	
+.user_controls
+{
+	text-align:
+center;
+	margin:
+6px
+0;
+}
+
+	.user_controls
+li
+{
+		margin:
+0
+2px;
+		display:
+inline;
+	}
+		
+		.user_controls
+li
+a
+{
+			display:
+inline-block;
+			background-color:
+#ffffff;
+			-moz-border-radius:
+4px;
+			-webkit-border-radius:
+4px;
+			padding:
+3px;
+			color:
+#666666;/*#269900;*/
+		}
+	
+.warn_panel
+{
+	text-align:
+left;
+	padding:
+6px;
+	margin:
+0
+10px;
+background-color:
+#fafafa;
+}
+	.warn_panel
+.warn_link
+{
+		/*padding-left:
+10%;*/
+		text-decoration:
+none;
+	}
+
+	.warn_panel
+.warn_edit
+{
+		float:
+right;
+margin-right:
+10px;
+	}
+
+	.warn_panel
+.warn_edit.up
+{
+		float:
+right;
+margin-right:
+10px;
+
+/*vertical-align:
+none;
+position:
+relative;
+right:
+10px;
+margin-right:
+15px;*/
+	}
+	
+.rating_mode.user_warn
+{
+	margin:
+0
+auto;
+	width:
+80%;
+	font-size:
+0.9em;
+}
+
+	.rating_mode
+.warn_edit.down
+{
+		float:
+none;
+		margin-right:
+3px;
+	}
+	
+	.rating_mode
+.warn_edit.up
+{
+		float:
+none;
+		margin-left:
+2px;
+	}
+
+	
+/************************************************************************/
+/*
+BOARD
+INDEX
+STYLES
+*/
+
+a.toggle
+{	
+	background:
+url(/public/style_images/navitel-icq/cat_minimize.png)
+no-repeat;
+/*	background:
+url(/public/style_images/navitel-icq/cat_minimize.png)
+no-repeat;*/
+	text-indent:
+-3000em;
+	padding-bottom:
+2px;
+	width:
+25px;
+	height:
+100%;
+	display:
+block;
+	-moz-outline:
+0;
+}
+
+#latest_news
+{
+	color:
+#269900;
+	font-size:
+0.9em;
+	border:
+1px
+solid
+#dddddd;
+	padding:
+10px;
+	margin:
+0
+4px
+6px;
+}
+
+	#latest_news
+a
+{
+		text-decoration:
+none;
+	}
+
+div#categories
+{
+	width:
+76%;
+}
+
+	div#categories.no_sidebar
+{
+		width:
+100%;
+		float:
+none;
+	}
+
+#index_stats
+{
+	padding-bottom:
+25px;
+	margin-bottom:
+20px;
+	margin-top:
+25px;
+	width:
+22%;
+}
+
+.sidebar_toggle
+{
+	text-align:
+right;	
+	padding:
+1px
+1px
+1px
+1px;
+	height:
+17px;
+	right:
+5px;
+	position:
+absolute;
+	-moz-outline:
+0;
+}
+
+	#open_sidebar.sidebar_toggle
+{
+		right:
+0;
+		-moz-border-radius-top-right:
+0;
+		-moz-border-radius-bottom-right:
+0;
+		-webkit-border-top-right-radius:
+0;
+		-webkit-border-bottom-right-radius:
+0;
+	}
+
+.category_block
+h3.collapsed
+{
+	border-bottom:
+8px
+solid
+#dddddd;
+}
+
+	.category_block
+h3.collapsed
+a.toggle
+{
+		background-image:
+url(/public/style_images/navitel-icq/cat_maximize.png);
+/*		background-image:
+url(/public/style_images/navitel-icq/cat_maximize.png);*/
+		/*padding-bottom:
+6px;*/
+	}
+
+.statistics
+{	
+	/*background-color:e9f1f0;*/
+	padding:
+1px;
+	margin:
+10px
+0px
+0
+0px;
+	min-height:
+120px;
+}
+
+	.statistics
+h2
+{
+		font-size:
+0.95em;
+		font-weight:
+bold;
+		color:
+#286022;
+		border-top:
+5px;
+	}
+		
+		.statistics
+h2
+span
+{
+			font-size:
+0.9em;
+			font-weight:
+normal;
+			color:
+#656565;
+margin-left:
+10px;
+		}
+		
+	.statistics
+#active_users,
+.statistics
+#forum_active_users
+{
+		border-top:
+0;
+		padding-top:
+0;
+	}
+	
+	body
+#topic_stats.statistics
+{
+		min-height:
+50px;
+	}
+
+body
+.stats_list
+{
+	border-top:
+1px
+solid
+#ebf4f4;
+	margin-left:
+10px;
+	margin-bottom:
+10px;
+	margin-top:
+10px;
+	padding:
+10px
+5px
+0
+0;
+	float:
+left;
+	width:
+60%;
+	line-height:
+140%;
+	overflow:
+hidden;
+}
+
+	.stats_list
+li,
+	.active_users
+li
+{
+		float:
+left;
+		font-size:
+0.9em;
+		padding:
+0
+5px
+0
+0;
+		margin-top:
+4px;
+	}
+	
+	.stats_list
+ul,
+.stats_list
+p
+{
+		margin-left:
+15px;
+	}
+	
+	.stats_list
+span.desc
+{
+		font-weight:
+normal;
+	}
+	
+.active_users
+span.name
+{
+	font-size:
+0.9em;
+	padding:
+0
+5px
+0
+0;
+	margin-top:
+4px;
+}
+
+.active_users
+p
+{
+	margin-left:
+15px;
+}
+
+#stats
+{
+	background-color:
+#f3f9f9;
+	border:
+1px
+solid
+#9cced5;
+	padding-top:
+10px;
+	padding-left:
+10px;
+	width:
+33%;
+	float:
+right;
+}
+	#stats
+dl
+{
+		margin-left:
+10px;
+	}
+	
+	#stats
+dt,
+	#stats
+dd
+{
+		border-top:
+1px
+solid
+#b0d2bb;
+		font-size:
+0.95em;
+		padding:
+2px
+5px;
+		float:
+left;
+		width:
+45%;
+	}
+	
+	#stats
+dt
+{
+		font-weight:
+bold;
+		clear:
+both;
+	}
+	
+	#stats
+.extra
+{
+		color:
+#408240;
+		font-size:
+0.9em;
+		font-family:
+Tahoma;
+}
+	
+#stat_links
+{	
+	color:
+#69727b;
+	font-size:
+0.95em;
+	text-align:
+center
+!important;
+	margin-top:
+25px;
+}
+
+	#stat_links
+li
+{
+		padding:
+2px
+6px;
+	}
+
+.friend_list
+ul
+li,
+#top_posters
+li
+{
+	text-align:
+center;
+	padding:
+8px
+0
+0
+0;
+	margin:
+5px
+0
+0
+0;
+	min-width:
+80px;
+	height:
+70px;
+	float:
+left;
+}
+
+	.friend_list
+ul
+li
+span.name,
+	#top_posters
+li
+span.name
+{
+		font-size:
+0.9em;
+	}
+.friend_list
+h3,
+.comments
+h3
+{
+	color:
+#ffffff;
+}	
+#hook_watched_items
+ul
+li
+{/*"У
+вас
+ещё
+нет
+подписок"*/
+	padding:
+5px;
+	font-size:
+0.95em;
+}
+
+	body#ipboard_body
+#hook_watched_items
+fieldset.submit
+{
+		padding:
+8px;
+	}
+
+/************************************************************************/
+/*
+FORUM
+VIEW
+(&
+RELATED)
+STYLES
+*/
+
+ul.topic_moderation
+{
+	margin-top:
+-2px;
+	z-index:
+300;
+}
+	
+	ul.topic_moderation
+li
+{
+		float:
+left;
+	}
+	
+	ul.topic_moderation
+li
+a
+{
+		padding:
+0
+3px;
+		display:
+block;
+		float:
+left;
+	}
+
+span.mini_rate
+{
+	margin-right:
+12px;
+	display:
+inline-block;
+}
+
+img.mini_rate
+{
+	margin-right:
+-5px;
+}
+
+.topic_prefix
+{
+	font-size:
+0.9em;
+	font-weight:
+bold;
+	-moz-border-radius:
+3px;
+	-webkit-border-radius:
+3px;
+	padding:
+0px
+4px;	
+	float:
+left;
+	display:
+block;
+}
+
+#forum_legend
+{
+	width:
+38%;
+	background:
+#f9fbfb;
+	border:
+1px
+solid
+#cecece;
+}
+
+	#forum_legend
+dl
+{
+		font-size:
+0.9em;
+		margin-top:
+15px;
+	}
+
+		#forum_legend
+dt,
+		#forum_legend
+dd
+{
+			font-size:
+0.9em;
+			border-top:
+1px
+solid
+#dddddd;
+			padding:
+6px
+2px;
+			height:
+20px;
+			float:
+left;
+		}
+
+		#forum_legend
+dt
+{
+			text-align:
+center;
+			width:
+9%;
+		}
+
+		#forum_legend
+dd
+{
+			width:
+38%;
+			max-width:
+200px;
+		}
+
+.message.forum_rules
+{
+	margin-bottom:
+20px;
+}
+
+.rules
+{
+	line-height:
+150%;
+}
+
+#forum_table
+.maintitle
+.main_forum_title
+{
+	float:
+left;
+}
+
+#forum_table
+.maintitle
+.desc
+{
+	float:
+right;
+}
+
+	#forum_table
+.maintitle
+.desc
+a
+{
+		color:
+#eeffee;
+	}
+
+#filter_form
+input.input_submit
+{
+	margin-left:
+4px;
+}
+
+/************************************************************************/
+/*
+TOPIC
+VIEW
+(&
+RELATED)
+STYLES
+*/
+
+ul.topic_jump
+{
+	font-size:
+0.9em;
+	padding-top:
+4px;
+	margin:
+0px
+auto
+15px
+auto;
+}
+
+ul.topic_jump
+li
+{
+	padding:
+1px
+7px;
+	float:
+left;
+}
+	ul.topic_jump
+li
+a
+{
+		text-decoration:
+none;
+	}
+
+	ul.topic_jump
+li.previous
+{
+		border-right:
+1px
+solid
+#8f8f8f;
+	}
+
+	ul.topic_jump
+li.next
+{
+		border-left:
+1px
+solid
+#8f8f8f;
+	}
+	
+/*#ipboard_body
+.post_block
+h3,*/
+.poll
+h3
+{
+	background:
+#8fcc77
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;
+/*	background:
+#8fcc77
+url(/public/style_images/navitel-icq/gradient_bg.png)
+repeat-x
+50%;*/
+}
+
+body
+.ip
+{
+	color:
+#475769;
+	font-style:
+italic;
+	font-weight:
+normal;
+	font-size:
+11px;
+	padding-top:
+4px;
+	margin-right:
+10px;
+	margin-left:
+15px;
+}
+
+span.post_id
+{
+	font-size:
+11px;	
+	font-weight:
+normal;
+	padding-top:
+4px;
+	display:
+block;
+	float:
+right;
+}
+
+input.post_mod
+{
+	float:
+right;
+	margin:
+0px
+6px
+0
+15px;
+}
+
+.signature
+{
+	color:
+#8e8e8e;
+	font-size:
+11px;
+	border-top:
+1px
+solid
+#dddddd;
+	padding:
+8px;
+	margin:
+10px
+10px
+0
+6px;
+}
+
+.post_block
+{
+	margin:
+0
+0
+1px
+0;
+	position:
+relative;
+}
+
+	.post_block.no_sidebar
+{
+		background-image:
+none;
+	}
+	
+	.post_block
+h3
+{
+		padding:
+8px;
+	}
+	
+	.post_block
+address
+{
+		font-weight:
+bold;
+	}
+	
+	.post_wrap
+{
+		top:
+0px;
+	}
+	
+	.post_block.topic_summary
+h3
+{
+		padding:
+4px;
+	}
+	
+	.post_block.topic_summary
+.posted_info
+{
+		margin-left:
+10px;
+	}
+	
+	.post_block.topic_summary
+.post_body
+.post
+{
+		padding:
+3px
+5px
+15px;
+		margin-top:
+-15px;
+	}
+	
+	.post_block.with_rep
+.post_body
+{
+		margin-bottom:
+25px;
+	}
+	
+	
+.post_body
+{
+	margin-left:
+235px;
+	line-height:
+100%;
+}
+
+	.post_block.no_sidebar
+.post_body
+{
+		margin-left:
+0px;
+	}
+	
+	.post_body
+.post
+{
+		margin-top:
+3px;
+		padding:
+10px;
+		line-height:
+150%;
+	}
+	
+.post_ignore
+{	
+	background:
+#f8fcfd;
+	color:
+#777;
+	font-size:
+0.9em;
+	padding:
+15px;	
+}
+
+	.post_ignore
+.reputation
+{
+		text-align:
+center;
+		padding:
+2px
+6px;
+		float:
+none;
+		display:
+inline;
+	}
+
+.rep_bar
+{
+	background:
+#cee0dd;
+	font-size:
+0.9em;
+	-moz-border-radius-topleft:
+5px;
+	-webkit-border-top-left-radius:
+5px;
+	padding:
+0
+10px;
+	right:
+0;
+	bottom:
+32px;
+	position:
+absolute;
+}
+	
+/*	.post_block.rep_highlight
+.rep_bar
+{
+		max-width:
+140px;
+	}*/
+
+	.rep_bar
+ul
+{
+		margin-top:
+8px;
+		float:
+left;
+	}
+	
+		.rep_bar
+ul
+li
+{
+			float:
+left;
+		}
+		
+p.rep_highlight
+{
+	float:
+right;
+	display:
+inline-block;
+	margin:
+5px
+10px
+10px
+10px;
+	background:
+#d7ffda;
+	color:
+#269900;
+	padding:
+5px;
+	-moz-border-radius:
+5px;
+	-webkit-border-radius:
+5px;
+	font-size:
+0.9em;
+	font-weight:
+bold;
+	text-align:
+center;
+}
+
+	p.rep_highlight
+img
+{
+		margin-bottom:
+4px;
+	}
+	
+p.posted_info
+{
+	padding:
+5px
+5px
+7px
+7px;
+	margin-left:
+-3px;
+	margin-bottom:
+-10px;
+}
+
+	p.posted_info
+strong.event
+{
+		color:
+#1d3d26;
+		font-size:
+1.1em;
+	}
+
+p.edit
+{
+	background-color:
+#f3f3f3;
+	color:
+#515151;
+	font-size:
+0.9em;
+	line-height:
+120%;
+	padding:
+10px;
+	margin-top:
+10px;
+}
+
+div.threaded_view
+ul
+ul
+{
+	margin-left:
+-25px;
+}
+
+div.threaded_view
+ul
+li
+{
+	padding:
+0px
+0
+0px
+25px;
+}
+
+	div.threaded_view
+{
+		line-height:
+140%;
+		padding:
+5px
+0
+15px
+0;
+	}
+	
+	div.threaded_view
+.post_title
+{
+		font-style:
+italic;
+	}
+
+.topic_share
+{
+	font-size:
+0.9em;
+	padding:
+3px;
+	margin-top:
+4px;color:
+#777777;
+}
+
+	.topic_share
+li
+{
+		float:
+left;
+		margin:
+0
+5px;
+	}
+
+.poll
+{
+	border-bottom:
+7px
+solid
+#5fbd5f;
+	margin-bottom:
+5px;
+}
+
+.poll
+fieldset
+{
+	padding:
+9px;
+}
+
+.poll_question
+{
+	padding:
+10px;
+	margin:
+10px
+10px
+10px
+20px;
+}
+
+	.poll_question
+h4
+{
+		background-color:
+#ebf4f4;
+		margin:
+0
+-7px;
+		padding:
+5px;
+	}
+
+	.poll_question
+ol
+{
+		padding:
+8px;
+
+		margin-left:
+-7px;
+		margin-right:
+-7px;
+		background-color:
+#f8fcfd;
+	}
+	
+	.poll_question
+li
+{
+		font-size:
+0.9em;
+		margin:
+6px
+0;
+	}
+	
+	.poll_question
+.votes
+{
+		margin-left:
+5px;
+	}
+	
+.snapback
+{
+
+	margin-right:
+5px;
+	padding:
+1px
+0
+1px
+1px;
+}
+
+.topic
+.main_topic_title
+{
+	float:
+left;
+}
+
+.maintitle
+.rating
+{
+	font-size:
+11px;
+	margin:
+4px
+0
+0
+15px;
+	float:
+right;
+}
+
+	.maintitle
+.rating
+img
+{
+		margin-top:
+-2px;
+	}
+	
+/************************************************************************/
+/*
+POSTING
+FORM
+(&
+RELATED)
+STYLES
+*/
+
+div.post_form
+label
+{
+	text-align:
+right;
+	padding-right:
+15px;
+padding-top:
+4px;
+	width:
+275px;
+
+	float:
+left;
+	clear:
+both;
+}
+
+	div.post_form
+span.desc,
+	fieldset#poll_wrap
+span.desc
+{
+		margin-left:
+290px;
+		display:
+block;
+		clear:
+both;
+	}
+
+	div.post_form
+.checkbox
+input.input_check,
+	#mod_form
+.checkbox
+input.input_check
+{
+		margin-left:
+315px;
+	}
+	
+	div.post_form
+.antispam_img
+{
+		margin-left:
+290px;
+	}
+	
+	div.post_form
+.captcha
+.input_text
+{
+		float:
+left;
+	}
+	
+	div.post_form
+fieldset
+{
+		padding-bottom:
+15px;
+	}
+
+	div.post_form
+h3
+{
+		margin-bottom:
+10px;
+	}
+	
+fieldset.with_subhead
+{
+	margin-bottom:
+0;
+	padding-bottom:
+0;
+}
+
+	fieldset.with_subhead
+h4
+{
+		text-align:
+right;	
+		margin-top:
+6px;
+		width:
+300px;
+		float:
+left;
+	}
+
+	fieldset.with_subhead
+ul
+{
+		border-bottom:
+1px
+solid
+#dddddd;
+		padding-bottom:
+6px;
+		margin:
+0
+15px
+6px
+320px;
+	}
+
+	fieldset.with_subhead
+span.desc,
+	fieldset.with_subhead
+label
+{
+		margin:
+0;
+		width:
+auto;
+	}
+
+	fieldset.with_subhead
+#post_icons
+{
+		border:
+0;
+		margin-left:
+326px;
+	}
+
+	fieldset.with_subhead
+#post_icons
+li
+{
+		margin-right:
+15px;
+		margin-bottom:
+6px;
+		float:
+left;
+	}
+
+	fieldset.with_subhead
+.checkbox
+input.input_check
+{
+		margin-left:
+0px;
+	}
+
+#toggle_post_options
+{
+	background:
+transparent
+url(/public/style_images/navitel-icq/add.png)
+no-repeat;
+/*	background:
+transparent
+url(/public/style_images/navitel-icq/add.png)
+no-repeat;*/
+	font-size:
+0.9em;
+	padding:
+2px
+0
+2px
+22px;
+	margin:
+15px;
+	display:
+block;
+}
+
+.post_form
+#poll_wrap
+.question
+{
+	margin-bottom:
+10px;
+}
+
+	.post_form
+#poll_wrap
+.question
+.wrap
+{
+		background-color:
+#ffffff;
+		padding:
+10px;
+		margin-left:
+290px;
+		margin-right:
+12px;
+	}
+
+		.post_form
+#poll_wrap
+.question
+.wrap
+ol
+{
+			margin-left:
+25px;
+			margin-top:
+16px;
+			list-style:
+decimal;
+		}
+			.post_form
+#poll_wrap
+.question
+.wrap
+ol
+li
+{
+				margin:
+5px;
+			}
+
+	.post_form
+#poll_wrap
+.question
+.wrap
+input.input_check,
+	.post_form
+#poll_wrap
+.question
+.wrap
+label,
+	.post_form
+#poll_wrap
+.question
+.wrap
+span.desc
+{
+		text-align:
+left;
+		margin-left:
+0;
+		display:
+inline;
+		width:
+auto;
+		clear:
+none;
+		float:
+none;
+	}
+	
+	.post_form
+#poll_wrap
+.question
+ul.post_controls
+{
+		text-align:
+left;
+	}
+	
+.post_form
+.question_title
+{
+	font-weight:
+bold;
+}
+
+.post_form
+#poll_form
+.topic_buttons
+{
+	margin-left:
+315px;
+}
+
+	.post_form
+#poll_form
+.topic_buttons
+li,
+	.post_form
+#poll_form
+.post_controls
+li
+{
+		float:
+left;
+	}
+
+.post_form
+#poll_form
+#poll_stats.desc
+{
+	margin-left:
+320px;
+	margin-bottom:
+8px;
+}
+
+/************************************************************************/
+/*
+ATTACHMENT
+MANAGER
+(&
+RELATED)
+STYLES
+*/
+
+.swfupload
+{
+	position:
+absolute;
+	z-index:
+1;
+}
+	
+#attachments
+{
+	margin:
+15px;
+}
+
+	#attachments
+li
+{
+		background-color:
+#94e36d;
+		border:
+1px
+solid
+#dddddd;
+		padding:
+6px
+20px
+6px
+42px;
+		margin-bottom:
+10px;
+		position:
+relative;
+	}
+	
+		#attachments
+li
+p.info
+{
+			color:
+#69727b;
+			font-size:
+0.9em;
+			width:
+300px;
+		}
+	
+		#attachments
+li
+.links,
+#attachments
+li.error
+.links,
+#attachments.traditional
+.progress_bar
+{
+			display:
+none;
+		}
+			
+			#attachments
+li.complete
+.links
+{
+				font-size:
+0.9em;
+				margin-right:
+15px;
+				right:
+0px;
+				top:
+12px;
+				display:
+block;
+				position:
+absolute;
+			}
+			
+		#attachments
+li
+.progress_bar
+{
+			margin-right:
+15px;
+			width:
+200px;
+			right:
+0px;
+			top:
+15px;
+			position:
+absolute;
+		}
+	
+		#attachments
+li.complete,
+#attachments
+li.in_progress,
+#attachments
+li.error
+{
+			background-repeat:
+no-repeat;
+			background-position:
+12px
+12px;
+		}
+	
+		#attachments
+li.in_progress
+{
+			background-image:
+url(/public/style_images/navitel-icq/loading.gif);
+/*			background-image:
+url(/public/style_images/navitel-icq/loading.gif);*/
+		}
+	
+		#attachments
+li.error
+{
+			background-image:
+url(/public/style_images/navitel-icq/exclamation.png)/*no-repeat*/;
+/*			background-image:
+url(/public/style_images/navitel-icq/exclamation.png)
+no-repeat;*/
+			background-color:
+#e8caca;
+			border:
+1px
+solid
+#ddafaf;
+		}
+		
+			#attachments
+li.error
+.info
+{
+				color:
+#8f2d2d;
+			}
+	
+		#attachments
+li.complete
+{
+			background-image:
+url(/public/style_images/navitel-icq/accept.png);
+/*			background-image:
+url(/public/style_images/navitel-icq/accept.png);*/
+		}
+		
+		#attachments
+li
+.thumb_img
+{
+			left:
+6px;
+			top:
+6px;
+			width:
+30px;
+			height:
+30px;
+			overflow:
+hidden;
+			position:
+absolute;
+		}
+		
+fieldset.attachments
+.input_submit,
+fieldset.attachments
+.swfupload,
+fieldset.attachments
+.input_upload
+{
+	margin-left:
+15px;
+}
+
+div.post_form
+fieldset.attachments
+span.desc
+{
+	margin:
+0
+0
+0
+15px;
+	display:
+inline;
+	clear:
+none;
+}
+
+#attach_wrap
+{
+	background:
+#f1f4f4;
+	padding:
+6px;
+	margin-top:
+8px;
+}
+
+	#attach_wrap
+h4
+{
+		font-size:
+0.95em;/*main
+menu*/
+		font-weight:
+bold;
+	}
+	
+	#attach_wrap
+li
+{
+		margin:
+5px
+6px;
+		float:
+left;
+	}
+		
+		#attach_wrap
+.desc.info
+{
+			margin-left:
+24px;
+		}
+
+
+/************************************************************************/
+/*
+COMMENTS
+(&
+RELATED)
+STYLES
+*/
+
+#comment_list
+{
+	margin-top:
+10px;
+}
+
+#comment_innerwrap
+.no-form
+{
+	margin-top:
+4px;
+}
+
+.comment_wrap
+.comment
+{
+	line-height:
+150%;
+	padding:
+5px;
+	margin:
+8px;
+}
+
+	.comment_wrap
+.comment
+.photo
+{
+		float:
+left;
+		margin:
+0
+10px
+10px
+0;
+	}
+	
+	.comment_wrap
+.comment
+h4,
+	.comment_wrap
+.posted_date,
+	.comment_wrap
+.comment
+.comment_content
+{
+		margin-left:
+65px;
+	}
+
+	.comment_wrap
+.posted_date
+{
+		display:
+block;
+	}
+	
+	.comment_wrap
+.comment
+h4
+{
+		font-size:
+1.1em;
+		margin-bottom:
+-3px;
+		clear:
+none
+!important;
+	}
+
+		.comment_wrap
+.comment
+h4
+a
+{
+			text-decoration:
+none;
+		}
+	
+	.comment_wrap
+.comment
+.comment_content
+{
+		padding:
+10px
+5px;
+	}
+
+.comment_options
+{
+	float:
+right;
+}
+
+	.comment_options
+li
+{
+		font-size:
+0.9em;
+		font-weight:
+bold;
+		margin:
+0
+5px;
+		float:
+left;
+	}
+	
+/************************************************************************/
+/*
+REPUTATION
+STYLES
+*/
+
+.reputation
+/*.post_block
+.rep_highlight*/
+{
+	font-weight:
+bold;
+	padding:
+3px
+8px;
+	margin:
+6px;
+	display:
+block;
+	float:
+right;
+}
+
+	.reputation.positive,
+.members
+li.positive
+{
+		background:
+#7f9db9;
+		color:
+#fff;
+	}
+	
+	.reputation.negative,
+.members
+li.negative
+{
+		background:
+#b82929;
+		color:
+#fff;
+	}
+	
+	.reputation.zero
+{
+		/*background:
+#e2f8ff;*/
+font-size:
+0.9em;
+		color:
+#366633;
+/*border:
+1px
+solid
+#ebf4f4;*/
+	}
+	
+/*body
+.post_block
+.rep_highlight
+{	
+	font-size:
+1.1em;
+	float:
+left;
+}*/
+	
+	
+/************************************************************************/
+/*
+LIGHTBOX
+STYLES
+*/
+
+#lightbox{	position:
+absolute;	left:
+0;
+width:
+100%;
+z-index:
+16000
+!important;
+text-align:
+center;
+line-height:
+0;}
+#lightbox
+img{
+width:
+auto;
+height:
+auto;}
+#lightbox
+a
+img{
+border:
+none;
+}
+#outerImageContainer{
+position:
+relative;
+background-color:
+#fff;
+width:
+250px;
+height:
+250px;
+margin:
+0
+auto;
+}
+#imageContainer{
+padding:
+10px;
+}
+#loading{
+position:
+absolute;
+top:
+40%;
+left:
+0%;
+height:
+25%;
+width:
+100%;
+text-align:
+center;
+line-height:
+0;
+}
+#hoverNav{
+position:
+absolute;
+top:
+0;
+left:
+0;
+height:
+100%;
+width:
+100%;
+z-index:
+10;
+}
+#imageContainer>#hoverNav{
+left:
+0;}
+#hoverNav
+a{
+outline:
+none;}
+#prevLink,
+#nextLink{
+width:
+49%;
+height:
+100%;
+background-image:
+url(data:image/gif;base64,AAAA);
+/*
+Trick
+IE
+into
+showing
+hover
+*/
+display:
+block;
+}
+#prevLink
+{
+left:
+0;
+float:
+left;}
+#nextLink
+{
+right:
+0;
+float:
+right;}
+#prevLink:hover,
+#prevLink:visited:hover
+{
+background:
+url(/public/style_images/navitel-icq/lightbox/prevlabel.gif)
+left
+15%
+no-repeat;
+}
+#nextLink:hover,
+#nextLink:visited:hover
+{
+background:
+url(/public/style_images/navitel-icq/lightbox/nextlabel.gif)
+right
+15%
+no-repeat;
+}
+#imageDataContainer{
+font:
+10px
+Verdana,
+Helvetica,
+sans-serif;
+background-color:
+#fff;
+margin:
+0
+auto;
+line-height:
+1.4em;
+overflow:
+auto;
+width:
+100%	;
+}
+#imageData{	padding:0
+10px;
+color:
+#666;
+}
+#imageData
+#imageDetails{
+width:
+70%;
+float:
+left;
+text-align:
+left;
+}	
+#imageData
+#caption{
+font-weight:
+bold;	}
+#imageData
+#numberDisplay{
+display:
+block;
+clear:
+left;
+padding-bottom:
+1.0em;	}			
+#imageData
+#bottomNavClose{
+width:
+76px;
+float:
+right;
+
+padding-bottom:
+0.75em;
+outline:
+none;}
+#overlay{
+position:
+absolute;
+top:
+0;
+left:
+0;
+z-index:
+15000
+!important;
+width:
+100%;
+height:
+500px;
+background-color:
+#000;
+}
+
+/************************************************************************/
+/*
+
+BBCODE
+STYLES
+*/
+/*
+	NOTE:
+These
+selectors
+style
+bbcodes
+throughout
+IPB.
+It
+is
+recommended
+that
+you
+DO
+NOT
+change
+these
+
+	styles
+if
+you
+are
+creating
+a
+skin
+since
+it
+may
+interfere
+with
+user
+expectation
+	of
+what
+certain
+BBCodes
+look
+like
+(quote
+boxes
+are
+an
+exception
+to
+this).
+*/
+
+strong.bbc				{	font-weight:
+bold
+!important;
+}
+em.bbc
+					{	font-style:
+italic
+!important;
+}
+span.bbc_underline
+		{
+	text-decoration:
+underline
+!important;
+}
+div.bbc_center
+			{	text-align:
+center;
+}
+div.bbc_left
+			{	text-align:
+left;
+}
+div.bbc_right
+			{	text-align:
+right;
+}
+div.bbc_indent
+			{	margin-left:
+50px;
+}
+del.bbc
+				{	text-decoration:
+line-through
+!important;
+}
+ul.bbc
+					{	list-style:
+disc
+outside;
+margin-left:
+30px;
+}
+	ul.bbc
+ul.bbc
+			{	list-style-type:
+circle;
+}
+		ul.bbc
+ul.bbc
+ul.bbc
+	{	list-style-type:
+square;
+}
+ul.bbcol.decimal
+				{
+margin-left:
+30px;
+list-style-type:
+decimal;
+}
+	ul.bbcol.lower-alpha		{
+margin-left:
+30px;
+list-style-type:
+lower-alpha;
+}
+	ul.bbcol.upper-alpha		{
+margin-left:
+30px;
+list-style-type:
+upper-alpha;
+}
+	ul.bbcol.lower-roman		{
+margin-left:
+30px;
+list-style-type:
+lower-roman;
+}
+	ul.bbcol.upper-roman		{
+margin-left:
+30px;
+list-style-type:
+upper-roman;
+}
+hr.bbc
+					{
+	display:
+block;
+border-top:
+2px
+solid
+#777;
+}
+div.bbc_spoiler
+		{	
+}
+div.bbc_spoiler
+span	{
+	font-weight:
+bold;
+}
+div.bbc_spoiler_wrapper	{
+	border:
+1px
+inset
+#777;
+padding:
+4px;
+}
+div.bbc_spoiler_content	{
+	
+}
+input.bbc_spoiler_show	{
+	width:
+45px;
+font-size:
+.7em;
+margin:
+0px;
+padding:
+0px;
+}
+pre.prettyprint
+		{
+padding:
+5px;
+background:
+#f8f8f8;
+border:
+1px
+solid
+#c9c9c9;
+overflow:
+auto;
+margin-left:
+10px;
+font-size:
+11px;
+line-height:
+110%;
+}
+
+/*
+Quote
+boxes
+*/
+p.citation
+{
+	background:
+#d3e9dc
+url(/public/style_images/navitel-icq/citation_bg.png)
+no-repeat
+right;
+	color:
+#2b3730;
+	font-size:
+0.9em;
+	font-weight:
+bold;
+	border-width:
+1px
+1px
+0
+3px;
+	border-style:
+solid;
+	border-color:
+#6fa987;
+	padding:
+5px
+8px;
+}
+
+	div.blockquote
+{
+		background:
+#f3f9f6;
+		font-size:
+0.9em;
+		border-width:
+1px
+1px
+1px
+3px;
+		border-style:
+solid;
+		border-color:
+#6fa987;
+		margin:
+0px;
+		margin-top:
+0px;
+	}
+
+		div.blockquote
+p.citation
+{
+			background-color:
+#e5d2e9;
+			color:
+#413544;
+			border-color:
+#ae7eb9;
+		}
+		
+		div.blockquote
+div.blockquote
+{
+			background:
+#f9f5fa;
+			font-size:
+1em;
+			border-color:
+#ae7eb9;
+			margin:
+-0px
+15px
+0px
+15px;
+		}
+
+			div.blockquote
+div.blockquote
+p.citation
+{
+				background-color:
+#e9e7d1;
+				color:
+#474534;
+				border-color:
+#b2ab72;
+			}
+
+			div.blockquote
+div.blockquote
+div.blockquote
+{
+				background:
+#f9f8f3;
+				border-color:
+#b2ab72;
+			}
+			
+			div.blockquote
+p.citation
+{
+				margin:
+6px
+15px
+0
+15px;
+				font-size:
+1em;
+			}
+
+div.quote
+{
+	padding:
+12px;
+}
+
+
+div.quote
+p.blockquote
+{
+	margin-left:
+-12px;
+}
+
+cite
+{
+	display:
+block;
+	font-weight:
+bold;
+}
+
+	blockquote
+cite
+{
+		font-size:
+1em;
+	}
+
+/************************************************************************/
+/*
+
+HELP
+&
+PORTAL
+STYLES
+*/
+	
+#help_topics
+{
+	border:
+1px
+solid
+#587c1d;
+}
+
+#help_topics
+li
+{
+font-size:
+0.9em;
+	background-image:
+url(/public/style_images/navitel-icq/help.png);
+	background-repeat:
+no-repeat;
+	background-position:
+9px
+12px;
+	padding:
+5px
+30px;
+	margin-bottom:
+2px;
+}
+
+	#help_topics
+li
+h3
+{
+		padding:
+2px
+0
+0
+0;
+	}
+
+.help_doc
+{
+	padding:
+10px;
+	border:
+1px
+solid
+#dddddd;
+}
+	#help_topics
+.help_doc
+ul,
+	#help_topics
+.help_doc
+ol
+{
+		padding:
+8px
+0;
+	}
+
+	#help_topics
+.help_doc
+li
+{
+		background:
+none;
+		padding:
+2px;
+	}
+
+#index_stats.portal
+{
+	margin-top:
+0px;
+}
+	
+#portal_articles
+{
+	width:
+76%;
+	margin-right:
+2%;
+}
+
+#portal_active_users
+ul,
+#portal_active_users
+li
+{
+	float:
+left;
+	padding:
+3px;
+}
+
+#portal_active_users
+ul
+{
+	margin-bottom:
+15px;
+}
+/*
+Inline
+CSS
+*/
+		
+/*
+CSS:
+ipb_print*/
+*
+{
+	font-family:
+Georgia,
+"Times
+New
+Roman",
+serif;
+}
+
+html
+#content
+{
+	font-size:
+10pt;
+	direction:
+rtl;
+}
+
+#admin_bar,
+#header,
+#footer_utilities,
+#utility_links,
+.post_mod,
+.author_info,
+.rep_bar,
+.post_controls,
+.top,
+#content_jump,
+.topic_buttons,
+.topic_options,
+h1,
+.post_id,
+h3
+img,
+.ip,
+hr,
+.moderation_bar,
+.topic_jump,
+.topic_share,
+#fast_reply,
+#reputation_filter,
+.statistics
+{
+	display:
+none;
+}
+
+#breadcrumb
+{
+	display:
+block
+!important;
+}
+	#breadcrumb
+li
+{
+		float:
+left;
+	}
+
+.post_block
+{
+	margin-bottom:
+25pt;
+	border-top:
+2pt
+solid
+gray;
+	line-height:
+60%;
+
+	padding-top:
+10px;
+}
+
+.posted_info
+{
+	color:
+gray
+!important;
+	font-size:
+8pt
+!important;
+	text-decoration:
+none
+!important;
+	border-bottom:
+1pt
+solid
+lightgray;
+	padding-bottom:
+3px;
+}
+
+.post_block
+h3
+{
+	display:
+inline
+!important;
+	margin:
+0px
+!important;
+	padding:
+0px
+!important;
+}
+
+.post_block
+h3
+a
+{
+	color:
+black
+!important;
+	text-decoration:
+none
+!important;
+	font-style:
+normal
+!important;
+}
+
+	.post_block
+.post_body
+a:after
+{
+	
+
+
+
+content:
+"
+("
+attr(href)
+")
+";
+	}
+
+.post_body
+{
+	margin-left:
+10pt;
+	line-height:
+100%;
+	margin-top:
+15pt;
+}
+
+h1,
+h2,
+h3
+{
+	font-weight:
+bold;
+}
+
+#copyright
+{
+	text-align:
+center;
+	color:
+gray;
+	font-size:
+9pt;
+}
+var
+isRTL	=
+false;
+	var
+rtlIe	=
+'';
+	var
+rtlFull	=
+'';
+//<![CDATA[
+		/*
+----
+URLs
+----
+*/
+		ipb.vars['base_url']
+			=
+'http://forum.navitel.ru/index.php?';
+		ipb.vars['board_url']			=
+'http://forum.navitel.ru';
+		ipb.vars['loading_img']
+		=
+'http://forum.navitel.ru/public/style_images/navitel-icq/loading.gif';
+		ipb.vars['active_app']			=
+'forums';
+		ipb.vars['upload_url']			=
+'http://forum.navitel.ru/uploads';
+		/*
+----
+Member
+----
+*/
+		ipb.vars['member_id']			=
+parseInt(
+0
+),
+		ipb.vars['is_supmod']			=
+parseInt(
+0
+),
+		ipb.vars['is_admin']			=
+parseInt(
+0
+),
+		ipb.vars['secure_hash']
+		=
+'880ea6a14ea49e853634fbdc5015a024';
+		ipb.vars['session_id']			=
+'bbf8c4ba03363926adab0011e14fd31e';
+		ipb.vars['can_befriend']		=
+true;
+		/*
+----
+cookies
+-----
+*/
+		ipb.vars['cookie_id']
+			=
+'';
+		ipb.vars['cookie_domain']
+		=
+'';
+		ipb.vars['cookie_path']			=
+'/';
+		/*
+----
+Rate
+imgs
+----
+*/
+		ipb.vars['rate_img_on']			=
+'http://forum.navitel.ru/public/style_images/navitel-icq/bullet_star.png';
+		ipb.vars['rate_img_off']		=
+'http://forum.navitel.ru/public/style_images/navitel-icq/bullet_star_off.png';
+		ipb.vars['rate_img_rated']		=
+'http://forum.navitel.ru/public/style_images/navitel-icq/bullet_star_rated.png';
+		/*
+----
+Uploads
+----
+*/
+		ipb.vars['swfupload_swf']		=
+'http://forum.navitel.ru/public/js/3rd_party/swfupload/swfupload.swf';
+		ipb.vars['swfupload_enabled']	=
+true;
+		ipb.vars['use_swf_upload']		=
+(
+''
+==
+'flash'
+)
+?
+true
+:
+false;
+		ipb.vars['swfupload_debug']		=
+false;
+/*
+SKINNOTE:
+Turn
+off
+for
+production
+*/
+		/*
+----
+other
+----
+*/
+		ipb.vars['use_live_search']
+	=
+0;
+		ipb.vars['live_search_limit']
+	=
+4;
+		ipb.vars['highlight_color']		=
+"#ade57a";
+		ipb.vars['charset']				=
+"UTF-8";
+		ipb.vars['use_rte']				=
+1;
+		ipb.vars['image_resize']		=
+50;
+		ipb.vars['seo_enabled']			=
+0;
+		
+		/*
+Templates/Language
+*/
+		ipb.templates['ajax_loading']
+	=
+"<div
+id='ajax_loading'>"
++
+ipb.lang['loading']
++
+"</div>";
+		ipb.templates['close_popup']	=
+"<img
+src='http://forum.navitel.ru/public/style_images/navitel-icq/close_popup.png'
+alt='x'
+/>";
+		ipb.templates['rss_shell']		=
+new
+Template("<ul
+id='rss_menu'>#{items}</ul>");
+		ipb.templates['rss_item']		=
+new
+Template("<li><a
+href='#{url}'
+title='#{title}'>#{title}</a></li>");
+		ipb.templates['resized_img']	=
+new
+Template("<span>Уменьшено
+на
+#{percent}%
+(#{width}
+x
+#{height})
+-
+Нажмите
+для
+увеличения</span>");
+		ipb.templates['m_add_friend']	=
+new
+Template("<a
+href='http://forum.navitel.ru/index.php?app=members&amp;module=profile&amp;section=friends&amp;do=add&amp;member_id=#{id}'
+title='Добавить
+в
+друзья'><img
+src='http://forum.navitel.ru/public/style_images/navitel-icq/user_add.png'
+alt='Добавить
+в
+друзья'
+/></a>");
+		ipb.templates['m_rem_friend']	=
+new
+Template("<a
+href='http://forum.navitel.ru/index.php?app=members&amp;module=profile&amp;section=friends&amp;do=remove&amp;member_id=#{id}'
+title='Удалить
+из
+друзей'><img
+src='http://forum.navitel.ru/public/style_images/navitel-icq/user_delete.png'
+alt='Удалить
+из
+друзей'
+/></a>");
+		ipb.templates['autocomplete_wrap']
+=
+new
+Template("<ul
+id='#{id}'
+class='ipb_autocomplete'
+style='width:
+250px;'></ul>");
+		ipb.templates['autocomplete_item']
+=
+new
+Template("<li
+id='#{id}'><img
+src='#{img}'
+alt=''
+width='#{img_w}'
+height='#{img_h}'
+/>&nbsp;&nbsp;#{itemvalue}</li>");
+		ipb.templates['page_jump']		=
+new
+Template("<div
+id='#{id}_wrap'
+class='ipbmenu_content'><h3
+class='bar'>Перейти
+к
+странице</h3><input
+type='text'
+class='input_text'
+id='#{id}_input'
+size='8'
+/>
+<input
+type='submit'
+value='ОК'
+class='input_submit
+add_folder'
+id='#{id}_submit'
+/></div>");
+	//]]>
+Loader.boot();
+Форум
+Навител
+Навигатор:
+Первоапрельская
+шутка
+от
+Навитела
+-
+Форум
+Навител
+Навигатор
+Перейти
+к
+содержимому
+Ты
+на
+правильном
+пути!
+Вход
+/
+Регистрация
+Помощь
+Поиск
+Расширенный
+ФОРУМ
+НАВИТЕЛ:
+ГЛАВНАЯ
+Обсуждения
+PDA-версия
+Пользователи
+Календарь
+Галерея
+Форум
+Навител
+Навигатор
+>
+Клуб
+Навител
+>
+Беседка:
+кофе
+и
+сигареты
+ПРАВИЛА
+ФОРУМА
+НАВИТЕЛ
+НАВИГАТОР
+Просмотр
+новых
+публикаций
+//<![CDATA[
+	ipb.topic.inSection
+=
+'topicview';
+	ipb.topic.topic_id
+
+=
+15025;
+	ipb.topic.forum_id
+
+=
+4;
+	ipb.topic.start_id
+
+=
+0;
+	//
+Editor
+JS:
+Only
+needs
+to
+be
+done
+once
+per
+page
+	ipb.editor_values.get('templates')['link']
+=
+new
+Template("<label
+for='#{id}_url'>URL</label><input
+type='text'
+class='input_text'
+id='#{id}_url'
+value='http://'
+tabindex='10'
+/><label
+for='#{id}_urltext'>Текст
+ссылки</label><input
+type='text'
+class='input_text
+_select'
+id='#{id}_urltext'
+value='Моя
+ссылка'
+tabindex='11'
+/><input
+type='submit'
+class='input_submit'
+value='Вставить
+ссылку'
+tabindex='12'
+/>");
+ipb.editor_values.get('templates')['image']
+=
+new
+Template("<label
+for='#{id}_img'>URL
+для
+изображения</label><input
+type='text'
+class='input_text'
+id='#{id}_img'
+value='http://'
+tabindex='10'
+/><input
+type='submit'
+class='input_submit'
+value='Вставить
+изображение'
+tabindex='11'
+/>");
+ipb.editor_values.get('templates')['email']
+=
+new
+Template("<label
+for='#{id}_email'>Адрес
+электронной
+почты</label><input
+type='text'
+class='input_text'
+id='#{id}_email'
+tabindex='10'
+/><label
+for='#{id}_emailtext'>Текст
+ссылки</label><input
+type='text'
+class='input_text
+_select'
+id='#{id}_emailtext'
+value='Пишите
+мне'
+tabindex='11'
+/><input
+type='submit'
+class='input_submit'
+value='Вставить
+e-mail'
+tabindex='12'
+/>");
+ipb.editor_values.get('templates')['media']
+=
+new
+Template("<label
+for='#{id}_media'>Медиа
+URL</label><input
+type='text'
+class='input_text'
+id='#{id}_media'
+value='http://'
+tabindex='10'
+/><input
+type='submit'
+class='input_submit'
+value='добавить
+медиа'
+tabindex='11'
+/>");
+ipb.editor_values.get('templates')['generic']
+=
+new
+Template("<div
+class='rte_title'>#{title}</div><strong>Пример</strong><pre>#{example}</pre><label
+for='#{id}_option'
+class='optional'>#{option_text}</label><input
+type='text'
+class='input_text
+optional'
+id='#{id}_option'
+tabindex='10'
+/><label
+for='#{id}_text'>#{value_text}</label><input
+type='text'
+class='input_text
+_select'
+id='#{id}_text'
+tabindex='11'
+/><input
+type='submit'
+class='input_submit'
+value='Добавить'
+tabindex='12'
+/>");
+ipb.editor_values.get('templates')['togglesource']
+=
+new
+Template("<fieldset
+id='#{id}_ts_controls'
+class='submit'
+style='text-align:
+left'><input
+type='button'
+class='input_submit'
+value='Обновить'
+id='#{id}_ts_update'
+/>&nbsp;&nbsp;&nbsp;
+<a
+href='#'
+id='#{id}_ts_cancel'
+class='cancel'>Отключить
+редактирование
+кода</a></fieldset>");
+	
+ipb.editor_values.get('templates')['toolbar']
+=
+new
+Template("<ul
+id='#{id}_toolbar_#{toolbarid}'
+class='toolbar'
+style='display:
+none'>#{content}</ul>");
+ipb.editor_values.get('templates')['button']
+=
+new
+Template("<li><span
+id='#{id}_cmd_custom_#{cmd}'
+class='rte_control
+rte_button
+specialitem'
+title='#{title}'><img
+src='http://forum.navitel.ru/public/style_images/navitel-icq/rte_icons/#{img}'
+alt='Иконка'
+/></span></li>");
+ipb.editor_values.get('templates')['menu_item']
+=
+new
+Template("<li
+id='#{id}_cmd_custom_#{cmd}'
+class='specialitem
+clickable'>#{title}</li>");
+ipb.editor_values.get('templates')['togglesource']
+=
+new
+Template("<fieldset
+id='#{id}_ts_controls'
+class='submit'
+style='text-align:
+left'><input
+type='button'
+class='input_submit'
+value='Обновить'
+id='#{id}_ts_update'
+/>&nbsp;&nbsp;&nbsp;
+<a
+href='#'
+id='#{id}_ts_cancel'
+class='cancel'>Отключить
+редактирование
+кода</a></fieldset>");
+ipb.editor_values.get('templates')['emoticons_showall']
+=
+new
+Template("<input
+class='input_submit
+emoticons'
+type='button'
+id='#{id}_all_emoticons'
+value='Показать
+все
+смайлики'
+/>");
+ipb.editor_values.get('templates')['emoticon_wrapper']
+=
+new
+Template("<h4><span></span></h4><div
+id='#{id}_emoticon_holder'
+class='emoticon_holder'></div>");
+
+//
+Add
+smilies
+into
+the
+mix
+ipb.editor_values.set(
+'show_emoticon_link',
+false
+);
+
+ipb.editor_values.set(
+'bbcodes',
+$H({"snapback":{"id":"1","title":"\u0412\u043e\u0437\u0432\u0440\u0430\u0442
+\u043a
+\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044e","desc":"\u0414\u0430\u043d\u043d\u044b\u0439
+\u0442\u0435\u0433
+\u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u0435\u0442
+\u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0439
+\u044f\u0440\u043b\u044b\u0447\u043e\u043a
+\u0441\u0441\u044b\u043b\u043a\u0438,
+\u0441
+\u043f\u043e\u043c\u043e\u0449\u044c\u044e
+\u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e
+\u043c\u043e\u0436\u043d\u043e
+\u043f\u0435\u0440\u0435\u0439\u0442\u0438
+\u043d\u0435\u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u043e
+\u043a
+\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044e
+-
+\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f
+\u043f\u0440\u0438
+\u0446\u0438\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438
+\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439
+\u0444\u043e\u0440\u0443\u043c\u0430.
+\u041f\u043e
+\u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e
+\u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f
+\u0432
+\u0442\u043e\u043c
+\u0436\u0435
+\u0441\u0430\u043c\u043e\u043c
+\u043e\u043a\u043d\u0435.","tag":"snapback","useoption":"0","example":"[snapback]100[\/snapback]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"topic":{"id":"5","title":"\u0421\u0441\u044b\u043b\u043a\u0430
+\u043d\u0430
+\u0442\u0435\u043c\u0443","desc":"\u0414\u0430\u043d\u043d\u044b\u0439
+\u0442\u0435\u0433
+\u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442
+\u043b\u0435\u0433\u043a\u043e
+\u0441\u043e\u0437\u0434\u0430\u0442\u044c
+\u0441\u0441\u044b\u043b\u043a\u0443
+\u043d\u0430
+\u0442\u0435\u043c\u0443","tag":"topic","useoption":"1","example":"[topic=1]\u0416\u043c\u0438
+\u0441\u044e\u0434\u0430![\/topic]","switch_option":"0","menu_option_text":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+ID
+\u0442\u0435\u043c\u044b","menu_content_text":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435
+\u0434\u043b\u044f
+\u0434\u0430\u043d\u043d\u043e\u0439
+\u0441\u0441\u044b\u043b\u043a\u0438","single_tag":"0","optional_option":"0","image":""},"post":{"id":"6","title":"\u0421\u0441\u044b\u043b\u043a\u0430
+\u043d\u0430
+\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435","desc":"\u0414\u0430\u043d\u043d\u044b\u0439
+\u0442\u0435\u0433
+\u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442
+\u043b\u0435\u0433\u043a\u043e
+\u0441\u043e\u0437\u0434\u0430\u0442\u044c
+\u0441\u0441\u044b\u043b\u043a\u0443
+\u043d\u0430
+\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435","tag":"post","useoption":"1","example":"[post=1]\u0416\u043c\u0438
+\u0441\u044e\u0434\u0430![\/post]","switch_option":"0","menu_option_text":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+ID
+\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","menu_content_text":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435
+\u0434\u043b\u044f
+\u0434\u0430\u043d\u043d\u043e\u0439
+\u0441\u0441\u044b\u043b\u043a\u0438","single_tag":"0","optional_option":"0","image":""},"spoiler":{"id":"7","title":"\u0421\u043a\u0440\u044b\u0442\u044b\u0439
+\u0442\u0435\u043a\u0441\u0442","desc":"\u0422\u0435\u0433
+\u0441\u043a\u0440\u044b\u0442\u043e\u0433\u043e
+\u0442\u0435\u043a\u0441\u0442\u0430","tag":"spoiler","useoption":"0","example":"[spoiler]\u0421\u043a\u0440\u044b\u0442\u044b\u0439
+\u0442\u0435\u043a\u0441\u0442[\/spoiler]","switch_option":"0","menu_option_text":"","menu_content_text":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+\u0442\u0435\u043a\u0441\u0442,
+\u043a\u043e\u0442\u043e\u0440\u044b\u0439
+\u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e
+\u0441\u043a\u0440\u044b\u0442\u044c","single_tag":"0","optional_option":"0","image":""},"acronym":{"id":"8","title":"\u0421\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0435","desc":"\u041f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442
+\u0432\u0432\u0435\u0441\u0442\u0438
+\u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0435,
+\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435
+\u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e
+\u0431\u0443\u0434\u0435\u0442
+\u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u0442\u044c\u0441\u044f
+\u043f\u0440\u0438
+\u043d\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0438
+\u0443\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044f
+\u043c\u044b\u0448\u0438
+\u043d\u0430
+\u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0435","tag":"acronym","useoption":"1","example":"[acronym='Laugh
+Out
+Loud']lol[\/acronym]","switch_option":"0","menu_option_text":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+\u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435
+\u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u044f
+(\u043d\u0430\u043f\u0440.:
+Laugh
+Out
+Loud)","menu_content_text":"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+\u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0435
+(\u043d\u0430\u043f\u0440.:
+lol)","single_tag":"0","optional_option":"0","image":""},"extract":{"id":"9","title":"\u0412\u044b\u0434\u0435\u0440\u0436\u043a\u0430
+\u0438\u0437
+\u0431\u043b\u043e\u0433\u0430","desc":"\u0422\u0435\u0433
+\u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442
+\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c
+\u0447\u0430\u0441\u0442\u044c
+\u0442\u0435\u043a\u0441\u0442\u0430
+\u0437\u0430\u043f\u0438\u0441\u0438,
+\u043a\u043e\u0442\u043e\u0440\u044b\u0439
+\u0431\u0443\u0434\u0435\u0442
+\u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u0442\u044c\u0441\u044f
+\u043d\u0430
+\u0433\u043b\u0430\u0432\u043d\u043e\u0439
+\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435
+\u0431\u043b\u043e\u0433\u0430
+\u0438
+\u0432
+RSS.","tag":"extract","useoption":"0","example":"[extract]\u042d\u0442\u043e
+\u043f\u0440\u0438\u043c\u0435\u0440![\/extract]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"blog":{"id":"10","title":"\u0421\u0441\u044b\u043b\u043a\u0430
+\u043d\u0430
+\u0431\u043b\u043e\u0433","desc":"\u0414\u0430\u043d\u043d\u044b\u0439
+\u0442\u0435\u0433
+\u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442
+\u043b\u0435\u0433\u043a\u043e
+\u0441\u043e\u0437\u0434\u0430\u0442\u044c
+\u0441\u0441\u044b\u043b\u043a\u0443
+\u043d\u0430
+\u0431\u043b\u043e\u0433","tag":"blog","useoption":"1","example":"[blog=100]\u041d\u0430\u0436\u043c\u0438
+\u043c\u0435\u043d\u044f![\/blog]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"entry":{"id":"11","title":"\u0421\u0441\u044b\u043b\u043a\u0430
+\u043d\u0430
+\u0437\u0430\u043f\u0438\u0441\u044c
+\u0431\u043b\u043e\u0433\u0430","desc":"\u0414\u0430\u043d\u043d\u044b\u0439
+\u0442\u0435\u0433
+\u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442
+\u043b\u0435\u0433\u043a\u043e
+\u0441\u043e\u0437\u0434\u0430\u0442\u044c
+\u0441\u0441\u044b\u043b\u043a\u0443
+\u043d\u0430
+\u0437\u0430\u043f\u0438\u0441\u044c
+\u0432
+\u0431\u043b\u043e\u0433\u0435","tag":"entry","useoption":"1","example":"[entry=100]\u041d\u0430\u0436\u043c\u0438
+\u043c\u0435\u043d\u044f![\/entry]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"hr":{"id":"15","title":"\u0413\u043e\u0440\u0438\u0437\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f
+\u0447\u0435\u0440\u0442\u0430","desc":"\u0414\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442
+\u0433\u043e\u0440\u0438\u0437\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0443\u044e
+\u0447\u0435\u0440\u0442\u0443
+\u0434\u043b\u044f
+\u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u044f
+\u0442\u0435\u043a\u0441\u0442\u0430","tag":"hr","useoption":"0","example":"[hr]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"1","optional_option":"0","image":""},"code":{"id":"16","title":"\u041a\u043e\u0434","desc":"\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435
+\u0434\u0430\u043d\u043d\u044b\u0439
+\u0412\u0412-\u043a\u043e\u0434
+\u0434\u043b\u044f
+\u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f
+\u043f\u043e\u043b\u044f
+\u0441
+\u043a\u043e\u0434\u043e\u043c","tag":"code","useoption":"0","example":"[code]$text
+=
+'Some
+long
+code
+here';[\/code]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"php":{"id":"17","title":"PHP
+\u043a\u043e\u0434","desc":"\u041e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435
+PHP
+\u043a\u043e\u0434\u0430
+\u0441
+\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c
+\u0438
+\u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u043e\u0439
+\u0441\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441\u0430","tag":"php","useoption":"0","example":"[php]$variable
+=
+true;\n\nprint_r($variable);[\/php]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"html":{"id":"18","title":"HTML
+\u043a\u043e\u0434","desc":"\u041e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435
+HTML
+\u0440\u0430\u0437\u043c\u0435\u0442\u043a\u0438
+\u0441
+\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c
+\u0438
+\u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u043e\u0439
+\u0441\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441\u0430","tag":"html","useoption":"0","example":"[html]<body
+onload=\"doSomething();\">\n
+<div
+class='outer'>\n
+
+<p>\u041f\u0440\u0438\u0432\u0435\u0442,
+\u041c\u0438\u0440!<\/p>\n
+<\/div>\n<\/body>[\/html]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"sql":{"id":"19","title":"SQL
+\u043a\u043e\u0434","desc":"\u041e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435
+SQL
+\u043a\u043e\u0434\u0430
+\u0441
+\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c
+\u0438
+\u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u043e\u0439
+\u0441\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441\u0430","tag":"sql","useoption":"0","example":"[sql]SELECT
+p.*,
+t.*
+FROM
+posts
+p
+LEFT
+JOIN
+topics
+t
+ON
+t.tid=p.topic_id
+WHERE
+t.tid=7[\/sql]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"xml":{"id":"20","title":"XML
+\u043a\u043e\u0434","desc":"\u041e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435
+XML
+\u0440\u0430\u0437\u043c\u0435\u0442\u043a\u0438
+\u0441
+\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c
+\u0438
+\u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u043e\u0439
+\u0441\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441\u0430","tag":"xml","useoption":"0","example":"[xml]<outer>\n
+<inner>\n
+
+<tag
+param='1'>Test<\/tag>\n
+<\/inner>\n<\/outer>[\/xml]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","image":""},"member":{"id":"34","title":"\u0421\u0441\u044b\u043b\u043a\u0430
+\u043d\u0430
+\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f","desc":"\u041f\u043e
+\u0434\u0430\u043d\u043d\u043e\u043c\u0443
+\u0438\u043c\u0435\u043d\u0438
+\u0441\u043e\u0437\u0434\u0430\u0435\u0442
+\u0441\u0441\u044b\u043b\u043a\u0443
+\u043d\u0430
+\u043f\u0440\u043e\u0444\u0438\u043b\u044c
+\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f","tag":"member","useoption":"1","example":"[member=admin]
+\u0437\u0430\u0432\u0435\u0434\u0443\u0435\u0442
+\u044d\u0442\u0438\u043c
+\u0441\u0430\u0439\u0442\u043e\u043c.","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"1","optional_option":"0","image":""}})
+);
+	ipb.vars['emoticon_url']
+=
+"http://forum.navitel.ru/public/style_emoticons/default";
+	//Search
+Setup
+	ipb.vars['search_type']			=
+'forum';
+	ipb.vars['search_type_id']		=
+4;
+	ipb.vars['search_type_2']		=
+'topic';
+	ipb.vars['search_type_id_2']	=
+15025;
+//]]>
+Страница
+1
+из
+1
+Вы
+не
+можете
+создать
+новую
+тему
+Вы
+не
+можете
+ответить
+в
+тему
+Первоапрельская
+шутка
+от
+Навитела
+О
+версии
+9169
+#1
+Полукруг
+Группа:
+Пользователи
+Сообщений:
+48
+Регистрация:
+27-Январь
+10
+Город
+Москва
+Отправлено
+01
+Апрель
+2010
+-
+21:32
+Значицца
+так.
+Предыстория.
+Во
+второй
+половине
+марта
+сломался
+мой
+КПК
+(отказал
+модуль
+GPS).
+Отвёз
+в
+гарантийку.
+Прошла
+неделя.
+Сделали.
+Ремонт
+заключался
+в
+замене
+материнской
+платы.
+Сабо
+самой,
+старый
+Навител
+на
+обновлённый
+КПК
+вставать
+отказался.
+Это
+означает,
+что
+служба
+поддержки
+по
+моему
+сигналу
+должна
+аннулировать
+старую
+регистрацию,
+чтобы
+я
+мог
+зарегистрировать
+программу
+на
+новом
+устройстве.
+Сажусь
+за
+комп,
+начинаю
+нажимать
+на
+кнопки.
+Пишу
+письмо
+турецкому
+царю
+салтану:
+_________________________________
+"Здравствуйте.
+После
+ремонта
+КПК
+изменился
+серийный
+номер
+устройства
+(старый
+номер
+ххххх,
+новый
+yyyyy).
+Соответственно,
+прежняя
+регистрация
+не
+действует.
+Можно
+ли
+отменить
+старую
+регистрацию,
+чтобы
+я
+смог
+зарегистрировать
+программу
+заново?Лицензионный
+ключ
+следующий:
+*****.Фотографию
+установочного
+диска
+прилагаю.
+С
+уважением,
+Полукруг".
+_________________________________
+Довольно
+быстро
+получаю
+ответ:
+"Здравствуйте,
+"Полукруг"!
+Пожалуйста,
+уточните
+полную
+версию
+программы
+Navitel
+Navigator,установленную
+на
+Вашем
+устройстве(запустите
+программу
+в
+демо-режиме,далее
+перейдите
+в
+Меню\Информация\О
+программе)".
+_________________________________
+Перезапускаю,
+получаю
+номер.
+Отписываю:
+"Сейчас
+установлена
+новая
+версия
+3.2.6.9169
+для
+Pocket
+PC
+ххххх".
+_________________________________
+Через
+полчаса
+в
+почтовом
+ящике
+обнаруживается
+новый
+вежливый
+ответ
+с
+уточнением:
+"Пожалуйста,
+уточните
+версию
+ОС
+Windows
+Mobile,
+установленную
+на
+Вашем
+устройстве
+на
+текущий
+момент".
+_________________________________
+Уточняю.
+Отписываю
+ответ.
+Подходим
+к
+кульминационному
+моменту,
+потерпите
+чуть-чуть.
+"Windows
+Mobile
+6
+Classic
+OC
+CE
+5.2.1239
+(Сборка
+17746.0.2.4)".
+_________________________________
+И
+вот
+оно,
+самое
+интересное.
+Думаю,
+для
+всех
+пользователей
+Навитела.
+Комментировать
+не
+буду.
+Тут
+и
+без
+комментариев
+все
+хорошо
+разбираются
+в
+версиях,
+сборках
+и
+платформах.
+Замечу
+лишь,
+что
+до
+ремонта
+пользовался
+версией
+9169,
+и
+работала
+она
+не
+хуже
+прошлогодней
+3594.
+А
+точнее,
+так
+же
+плохо.
+Но
+сейчас
+не
+об
+этом.
+Текст
+последнего
+письма
+привожу
+с
+заголовком,
+чтобы
+кое-кто
+кое
+о
+чём
+догадался.
+navitel.su
+#90981]
+Перерегистрация
+программы‏
+От:
+
+www-data
+(www-data@support.cnt.local)
+от
+имени
+support
+via
+RT
+(support@navitel.su)
+Отправлено:
+1
+апреля
+2010
+г.
+16:19:17
+Кому:
+
+ХХХ
+Здравствуйте,
+"Полукруг"!
+На
+данный
+момент
+версия
+программы
+Navitel
+Navigator
+3.2.6.9169
+недоступна
+для
+устройств
+с
+ОС
+WM
+6.0
+в
+связи
+с
+техническими
+особенностями
+данной
+ОС
+.
+Пожалуйста,
+переустановите
+программу
+Navitel
+Navigator
+до
+версии
+3.2.6.3594
+и
+уточните
+серийный
+номер,
+который
+будет
+прописан
+в
+окне
+"Незарегистрированная
+версия
+программы"
+при
+запуске
+программы
+на
+Вашем
+устройстве.
+Сообщение
+отредактировал
+Полукруг:
+01
+Апрель
+2010
+-
+21:34
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_192807').show();
+					
+					if(
+$('toggle_post_192807')
+)
+					{
+						$('toggle_post_192807').show();
+					}
+Страница
+1
+из
+1
+Вы
+не
+можете
+создать
+новую
+тему
+Вы
+не
+можете
+ответить
+в
+тему
+Другие
+ответы
+в
+этой
+теме
+#2
+Artem_bke
+Группа:
+Старожилы
+форума
+Сообщений:
+38
+Регистрация:
+24-Февраль
+09
+Город
+Бирск-МСК
+Отправлено
+02
+Апрель
+2010
+-
+08:49
+Ну
+и
+что
+тут
+такого
+исключительного?
+Вот
+что
+мне
+ответили,
+когда
+хотел
+перейти
+на
+9169
+с
+3594
+и
+у
+меня
+слетел
+ключ:
+"Обновление
+3.2.6.9169
+рекомендуется
+устанавливать,
+если
+у
+Вас
+ОС
+WM
+6.5
+или
+КПК
+марки
+Asus
+P535.
+В
+остальном,
+функционал
+программы
+в
+версии
+3.2.6.9169
+в
+сравнении
+с
+3.2.6.3594
+не
+изменился
+и
+обновление
+устанавливать
+не
+нужно."
+На
+повторную
+просьбу
+дать
+новый
+ключ
+на
+9169
+ответили
+так:
+"Если
+после
+установки
+версии
+программы
+3.2.6.9169
+серийный
+номер
+поменялся,
+но
+остался
+5-ти
+значным,
+то
+Вам
+следует
+установить
+версию
+программы
+3.2.6.3594."
+Странный
+народ
+работает
+в
+Навителе
+-
+выпускает
+новую
+версию
+программы,
+но
+переходить
+на
+нее
+не
+дает
+-
+"вам
+это
+не
+нужно"!
+S2
++
+Навител
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_192861').show();
+					
+					if(
+$('toggle_post_192861')
+)
+					{
+						$('toggle_post_192861').show();
+					}
+#3
+Экстремал
+Группа:
+Старожилы
+форума
+Сообщений:
+872
+Регистрация:
+05-Апрель
+09
+Город
+Москва
+Отправлено
+02
+Апрель
+2010
+-
+09:15
+У
+АСУСА
+был
+баг
+-
+его
+исправили,
+что
+непонятного?
+Какой
+смысл
+в
+переходе
+если
+у
+тебя
+не
+асус?
+Прога
+
+-
+ТА
+ЖЕ!
+Sony-Erricsson
+X-Peria
+X-1,
+WM
+6.1
+-
+экран
+3.0",
+Micro
+SDHC
+2
+Гб.
+Планшет
+Биллайн
+М2
+(проц
+600,
+оперативка
+256,
+память
+160
+(своб
+120),
+
+Micro
+SDHC
+-
+(class
+6)
+16
+Гб.
+Андроид
+2.1
+-
+экран
+7"
+батарея
+-
+3400А
+:)
+Лицензия
+СГ
+-
+Регион+Россия,
+Навител
+3.5.0.1109
+карты:
+Q2-2010
+(Россия)
+Яндекс-карты
+мобайл
+http://www.advita.ru/ONos1.php
+Дорогие
+друзья!
+Пройдите
+по
+ссылке
+и
+прочтите
+мою
+просьбу,
+пожалуйста.
+Это
+сайт,
+где
+собирают
+деньги
+на
+донорские
+клетки
+костного
+мозга!!!
+Прошу
+скопировать
+это
+сообщение
+на
+разные
+форумы
+в
+интернете.
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_192870').show();
+					
+					if(
+$('toggle_post_192870')
+)
+					{
+						$('toggle_post_192870').show();
+					}
+#4
+Полукруг
+Группа:
+Пользователи
+Сообщений:
+48
+Регистрация:
+27-Январь
+10
+Город
+Москва
+Отправлено
+02
+Апрель
+2010
+-
+09:26
+Начинаю
+переустанавливать.
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_192872').show();
+					
+					if(
+$('toggle_post_192872')
+)
+					{
+						$('toggle_post_192872').show();
+					}
+#5
+Kuzia
+Группа:
+Старожилы
+форума
+Сообщений:
+1
+475
+Регистрация:
+07-Август
+08
+Отправлено
+02
+Апрель
+2010
+-
+09:43
+Экстремал
+(02
+Апрель
+2010
+-
+09:15):
+У
+АСУСА
+был
+баг
+-
+его
+исправили,
+что
+непонятного?
+Какой
+смысл
+в
+переходе
+если
+у
+тебя
+не
+асус?
+Прога
+
+-
+ТА
+ЖЕ!
+Прога
+-
+другая.
+По
+крайней
+мере
+исправлены
+баги
+с
+автовозвратом
+и
+с
+буквой
+Ё
+(может
+и
+что-нибудь
+другое
+тоже
+исправлено,
+эти
+два
+для
+меня
+критичны
+были).
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_192876').show();
+					
+					if(
+$('toggle_post_192876')
+)
+					{
+						$('toggle_post_192876').show();
+					}
+#6
+akmes
+Группа:
+Гуру
+Сообщений:
+4
+233
+Регистрация:
+12-Апрель
+08
+Город
+Саратов
+Отправлено
+02
+Апрель
+2010
+-
+14:24
+Подписи
+улиц
+явно
+иначе
+Samsung
+Galaxy
+Note
+II,
+Navitel
+9.6.2519
+для
+Android.
+Европа
+2016Q1
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_192926').show();
+					
+					if(
+$('toggle_post_192926')
+)
+					{
+						$('toggle_post_192926').show();
+					}
+#7
+Юрбас
+Группа:
+Гуру
+Сообщений:
+4
+171
+Регистрация:
+22-Август
+08
+Город
+3201200010800100002
+Отправлено
+03
+Апрель
+2010
+-
+08:22
+Яка
+ж
+так
+сама,
+коли
+шкіри
+від
+першой
+нє
+підходят
+до
+другой?
+Где
+начало
+того
+конца,
+которым
+кончается
+начало?
+Шелезяка
+моя:
+ASUS
+MyPal
+A696,
+ПЗУ
+V03.0735.00
+RUS
+0419
+Win
+Mobile
+6
+Classic
+ОС
+СЕ
+5.2.1239
+(Сборка
+17746.0.2.4)
+ASUS
+Nexus
+7
+(2013,
+LTE,
+32
+GB)
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_193069').show();
+					
+					if(
+$('toggle_post_193069')
+)
+					{
+						$('toggle_post_193069').show();
+					}
+#8
+Экстремал
+Группа:
+Старожилы
+форума
+Сообщений:
+872
+Регистрация:
+05-Апрель
+09
+Город
+Москва
+Отправлено
+03
+Апрель
+2010
+-
+09:06
+Другие
+буквы-
+это
+карты,
+а
+не
+прога.
+Шрифты
+компануются
+в
+картах.
+Они
+встанут
+на
+прошлую.
+3.2.6
+Насчёт
+возврата
+не
+скажу
+-
+не
+видел
+такой
+проблемы.
+Sony-Erricsson
+X-Peria
+X-1,
+WM
+6.1
+-
+экран
+3.0",
+Micro
+SDHC
+2
+Гб.
+Планшет
+Биллайн
+М2
+(проц
+600,
+оперативка
+256,
+память
+160
+(своб
+120),
+
+Micro
+SDHC
+-
+(class
+6)
+16
+Гб.
+Андроид
+2.1
+-
+экран
+7"
+батарея
+-
+3400А
+:)
+Лицензия
+СГ
+-
+Регион+Россия,
+Навител
+3.5.0.1109
+карты:
+Q2-2010
+(Россия)
+Яндекс-карты
+мобайл
+http://www.advita.ru/ONos1.php
+Дорогие
+друзья!
+Пройдите
+по
+ссылке
+и
+прочтите
+мою
+просьбу,
+пожалуйста.
+Это
+сайт,
+где
+собирают
+деньги
+на
+донорские
+клетки
+костного
+мозга!!!
+Прошу
+скопировать
+это
+сообщение
+на
+разные
+форумы
+в
+интернете.
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_193073').show();
+					
+					if(
+$('toggle_post_193073')
+)
+					{
+						$('toggle_post_193073').show();
+					}
+#9
+Yurych
+Группа:
+Гуру
+Сообщений:
+18
+462
+Регистрация:
+17-Март
+08
+Город
+Perm
+Отправлено
+03
+Апрель
+2010
+-
+12:43
+Экстремал
+(03
+Апрель
+2010
+-
+09:06):
+Другие
+буквы-
+это
+карты,
+а
+не
+прога.
+Шрифты
+компануются
+в
+картах.
+Они
+встанут
+на
+прошлую.
+3.2.6
+В
+карте
+нет
+никакой
+информации
+о
+шрифтах.
+Шрифты
+заложены
+в
+скинах.
+Наверх
+Цитата
+Ответить
+//
+Show
+multiquote
+for
+JS
+browsers
+					$('multiq_193116').show();
+					
+					if(
+$('toggle_post_193116')
+)
+					{
+						$('toggle_post_193116').show();
+					}
+//<![CDATA[
+function
+trim(string)
+{
+
+
+
+
+return
+string.replace(/(^\s+)|(\s+$)/g,
+"");
+}
+
+function
+ritsu_tree_flow(obj,
+tag_name,
+class_name)
+{
+
+
+
+
+rows
+=
+obj.getElementsByTagName(tag_name);
+
+
+
+
+for(
+var
+i
+=
+0,
+row;
+row
+=
+rows[i];
+i++
+)
+if
+(trim(row.className)
+==
+class_name)
+return
+row;
+
+
+
+
+return
+null;
+}
+
+function
+ritsu_put_to_editor(string){
+
+
+
+
+if(
+!in_use
+)
+{
+
+
+
+
+
+
+
+
+if(
+$('fast-reply_toolbar_1')
+){
+$('fast-reply_toolbar_1').show();
+}
+
+
+
+
+
+
+
+
+if(
+$('fast-reply_toolbar_2')
+){
+$('fast-reply_toolbar_2').show();
+}
+
+
+
+
+
+
+
+
+$('fast-reply_textarea').removeClassName('unloaded_editor').value
+=
+'';
+
+
+
+
+
+
+
+
+ipb.editors[
+'fast-reply'
+]
+=
+new
+ipb.editor(
+'fast-reply',
+USE_RTE
+);
+
+
+
+
+
+
+
+
+$(
+ipb.editors['fast-reply']
+).resize_to(
+250
+);
+
+
+
+
+
+
+
+
+in_use
+=
+1;
+
+
+
+
+}
+
+
+
+
+if(USE_RTE)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+var
+text
+=
+ipb.editors[
+'fast-reply'
+].editor_get_contents();
+
+
+
+
+
+
+
+
+if(text
+==
+"\n<br>\n")
+
+
+
+
+
+
+
+
+
+
+
+
+ipb.editors[
+'fast-reply'
+].editor_set_content(string);
+
+
+
+
+
+
+
+
+else
+
+
+
+
+
+
+
+
+
+
+
+
+ipb.editors[
+'fast-reply'
+].editor_set_content(text
++
+'<br
+/>'
++
+string);
+
+
+
+
+}
+else
+
+
+
+
+
+
+
+
+document.getElementById("fast-reply_textarea").value
++=
+string;
+}
+
+function
+ritsu_parse_post(anchor,
+grab_data)
+{
+
+
+
+
+var
+post_data
+=
+new
+Array();
+
+
+
+
+
+while(anchor.parentNode
+&&
+(trim(anchor.className)
+!=
+"post_wrap"))
+anchor
+=
+anchor.parentNode;
+
+
+
+
+if(
+!anchor.parentNode
+){
+return;
+}
+
+
+
+
+var
+post
+=
+anchor.parentNode;
+
+
+
+
+
+post_data["id"]
+=
+post.id.replace(
+/post_id_/,
+''
+);
+
+
+
+
+if(
+!post_data["id"]
+){
+return;
+}
+
+
+
+
+
+if(grab_data
+==
+true)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+
+rows
+=
+post.getElementsByTagName('a');
+
+
+
+
+
+
+
+
+for(
+var
+i
+=
+0,
+row;
+row
+=
+rows[i];
+i++
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if
+(trim(row.className)
+==
+'url
+fn')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+post_data["author"]
+=
+row.innerHTML.replace(/<\/?[^>]+(>|$)/g,
+"");
+
+
+
+
+
+
+
+
+
+rows
+=
+post.getElementsByTagName('abbr');
+
+
+
+
+
+
+
+
+for(
+var
+i
+=
+0,
+row;
+row
+=
+rows[i];
+i++
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if
+(trim(row.className)
+==
+'published')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+post_data["date"]
+=
+row.innerHTML.replace(/<\/?[^>]+(>|$)/g,
+"");
+
+
+
+
+
+}
+
+
+
+
+
+return
+post_data;
+}
+
+function
+ritsu_info(anchor)
+{
+
+
+
+
+post_data
+=
+ritsu_parse_post(anchor,
+false);
+
+
+
+
+post
+=
+document.getElementById("post_id_"+post_data["id"]);
+
+
+
+
+
+rows
+=
+post.getElementsByTagName('div');
+
+
+
+
+for(
+var
+i
+=
+0,
+row;
+row
+=
+rows[i];
+i++
+)
+
+
+
+
+
+
+
+
+if
+(trim(row.className)
+==
+'hidden_author_block')
+
+
+
+
+
+
+
+
+
+
+
+
+if(row.style.display
+!=
+"none")
+row.style.display
+=
+"none";
+else
+row.style.display
+=
+"";
+}
+
+
+function
+ritsu_nick(anchor)
+{
+
+
+
+
+post_data
+=
+ritsu_parse_post(anchor,
+true);
+
+
+
+
+
+if(USE_RTE)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+code
+=
+"<b>"+post_data["author"]+"</b>,
+";
+
+
+
+
+}
+else
+{
+
+
+
+
+
+
+
+
+code
+=
+"[b]"+post_data["author"]+"[/b],
+";
+
+
+
+
+}
+
+
+
+
+
+ritsu_put_to_editor(code);
+}
+
+function
+getSelText()
+{
+
+
+
+
+var
+txt
+=
+'';
+
+
+
+
+if
+(window.getSelection)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+txt
+=
+window.getSelection();
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+else
+if
+(document.getSelection)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+txt
+=
+document.getSelection();
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+else
+if
+(document.selection)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+txt
+=
+document.selection.createRange().text;
+
+
+
+
+}
+
+
+
+
+else
+return
+txt;
+}
+
+function
+insert_quote(id)
+{
+
+
+
+
+ritsu_quote(document.getElementById('multiq_'
++
+id));
+}
+
+function
+ritsu_quote(anchor)
+{
+
+
+
+
+post_data
+=
+ritsu_parse_post(anchor,
+true);
+
+
+
+
+post
+=
+document.getElementById("post_id_"+post_data["id"]);
+
+
+
+
+
+rows
+=
+post.getElementsByTagName('div');
+
+
+
+
+for(
+var
+i
+=
+0,
+row;
+row
+=
+rows[i];
+i++
+)
+
+
+
+
+
+
+
+
+
+
+
+
+if
+(trim(row.className)
+==
+'post
+entry-content')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prm_2
+=
+row;
+
+
+
+
+
+var
+txt
+=
+'';
+
+
+
+
+
+if
+(window.getSelection)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+
+
+
+
+//Safari
+
+
+
+
+
+
+
+
+
+
+
+
+txt
+=
+window.getSelection();
+
+
+
+
+}
+
+
+
+
+else
+if
+(document.getSelection)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+
+
+
+
+//Firefox
+
+
+
+
+
+
+
+
+
+
+
+
+txt
+=
+document.getSelection();
+
+
+
+
+}
+
+
+
+
+else
+if
+(document.selection)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+
+
+
+
+txt
+=
+document.selection.createRange().text;
+
+
+
+
+}
+
+
+
+
+
+if(txt
+==
+''){
+
+
+
+
+
+
+
+
+if
+(document.selection)
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var
+range
+=
+document.body.createTextRange();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+range.moveToElementText(prm_2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+range.select();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+txt
+=
+document.getSelection();
+
+
+
+
+
+
+
+
+}
+else
+if
+(window.getSelection)
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var
+range
+=
+document.createRange();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+range.selectNode(prm_2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.getSelection().addRange(range);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+txt
+=
+window.getSelection();
+
+
+
+
+
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+if(USE_RTE)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+code
+=
+"[quote
+name='"+post_data["author"]+"'
+date='"+post_data["date"]+"'
+post='"+post_data["id"]+"']<br
+/>"+txt+"<br
+/>[/quote]<br
+/>";
+
+
+
+
+}
+else
+{
+
+
+
+
+
+
+
+
+code
+=
+"[quote
+name='"+post_data["author"]+"'
+date='"+post_data["date"]+"'
+post='"+post_data["id"]+"']\n"+txt+"\n[/quote]\n";
+
+
+
+
+}
+
+
+
+
+
+ritsu_put_to_editor(code);
+
+
+
+
+
+var
+sel;
+
+
+
+
+if
+(document.selection
+&&
+document.selection.empty)
+
+
+
+
+
+
+document.selection.empty()
+;
+
+
+
+
+else
+if(window.getSelection)
+
+
+
+
+{
+
+
+
+
+
+
+sel=window.getSelection();
+
+
+
+
+
+
+if(sel
+&&
+sel.removeAllRanges)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sel.removeAllRanges()
+;
+
+
+
+
+}
+}
+//]]>
+Поиск
+по
+теме
+Главная
+Новости,
+объявления,
+правила
+|--
+ПРАВИЛА
+ФОРУМА
+НАВИТЕЛ
+|--
+Новости,
+объявления
+Техническая
+Поддержка
+по
+Navitel
+Navigator
+|--
+FAQ
+по
+Навител
+Навигатор
+|--
+Техническая
+поддержка
+по
+Navitel
+Navigator
+ANDROID
+|----
+Техническая
+поддержка
+Навител,
+версия
+для
+Android-устройств
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+|--
+Техническая
+поддержка
+по
+Navitel
+Navigator
+iPhone
+|----
+Техническая
+поддержка
+Навител,
+версия
+для
+iPHONE
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+|--
+Техническая
+поддержка
+по
+Navitel
+Navigator
+WINDOWS
+MOBILE
+(WM)
+/
+Phone
+|----
+Техническая
+поддержка
+Навител,
+ВЕРСИЯ
+ДЛЯ
+КПК
+И
+КОММУНИКАТОРОВ
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+|--
+Техническая
+поддержка
+по
+Navitel
+Navigator
+WinCE
+|----
+Техническая
+поддержка
+Навител,
+ВЕРСИЯ
+ДЛЯ
+АВТОМОБИЛЬНЫХ
+НАВИГАТОРОВ
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+|--
+Техническая
+поддержка
+по
+Navitel
+Navigator
+BlackBerry
+|----
+Техническая
+поддержка
+Навител,
+версия
+для
+BlackBerry
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+|--
+Техническая
+поддержка
+по
+Navitel
+Navigator
+BADA
+|----
+Техническая
+поддержка
+Навител,
+версия
+для
+BADA
+|----
+БАГ-РЕПОРТЫ
+по
+Навител
+Навигатор
+BADA
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+|--
+Техническая
+поддержка
+по
+Navitel
+Navigator
+SYMBIAN
+|----
+Техническая
+поддержка
+Навител,
+версия
+для
+SYMBIAN-смартфонов
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+|--
+Техническая
+поддержка
+по
+Navitel.Maps:
+JAVA
+|----
+Техническая
+поддержка
+Navitel.Maps,
+версия
+JAVA
+|----
+БАГ-РЕПОРТЫ
+по
+Navitel.Maps,
+версия
+JAVA
+|----
+Обсуждения,
+комментарии
+и
+пожелания
+Техподдержка
+по
+навигаторам
+Navitel
+|--
+Техподдержка
+по
+навигаторам
+Navitel
+с
+поддержкой
+сервиса
+Навител.Пробки
+с
+помощью
+встроенного
+GSM/GPRS
+модуля
+|--
+Техподдержка
+по
+навигаторам
+Navitel
+с
+поддержкой
+сервиса
+Навител.Пробки
+через
+Bluetooth
+|--
+Техподдержка
+по
+навигаторам
+Navitel
+без
+поддержки
+сервиса
+Навител.Пробки
+|--
+Техподдержка
+по
+навигаторам
+Navitel
+NX3100
+и
+Navitel
+NX3110
+|--
+Техподдержка
+по
+навигаторам
+Navitel
+c
+ОС
+Android
+|--
+Техподдержка
+по
+навигаторам
+Navitel
+E100,
+E500,
+G500,
+N400,
+N500
+Техническая
+поддержка
+по
+NaviTAG
+|--
+FAQ
+по
+NAVITAG
+Обсуждение
+навигационного
+оборудования
+|--
+ОБСУЖДЕНИЕ:
+смартфоны,
+коммуникаторы
+и
+КПК
+|--
+ОБСУЖДЕНИЕ:
+Автомобильные
+навигаторы
+ОБСУЖДЕНИЕ
+ВСЕХ
+КАРТ
+для
+Навитела
+|--
+Обмен
+неофициальными
+картами
+|----
+СБОРНИК
+ССЫЛОК
+НА
+НЕОФИЦИАЛЬНЫЕ
+КАРТЫ
+|--
+ОБСУЖДЕНИЕ:
+Карта
+России
+от
+АО
+"ЦНТ"
+|--
+ОБСУЖДЕНИЕ:
+Карта
+Новой
+Каледонии
+от
+АО
+"ЦНТ"
+|--
+ОБСУЖДЕНИЕ:
+карты
+Западной
+Европы
+от
+АО
+"ЦНТ"
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Финляндии
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Швеции
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Дании
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Норвегии
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Италии
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Гибралтара
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Германии
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Франции
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Ватикана
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Бельгии
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Андорры
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Австрии
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Лихтенштейна
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Люксембурга
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Мальты
+|----
+ОБСУЖДЕНИЕ:
+Карта
+
+Монако
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Нидерландов
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Португалии
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Сан-Марино
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Испании
+|----
+ОБСУЖДЕНИЕ:
+Карта
+Швейцарии
+|--
+ОБСУЖДЕНИЕ:
+Карты
+Южной
+Азии
+от
+АО
+"ЦНТ"
+|--
+ОБСУЖДЕНИЕ:
+Карты
+Закавказья
+от
+АО
+"ЦНТ"
+|--
+ОБСУЖДЕНИЕ:
+Карта
+Турции
+от
+АО
+"ЦНТ"
+|--
+ОБСУЖДЕНИЕ:
+Карта
+Ирана
+от
+АО
+"ЦНТ"
+Сервисы
+Навител
+|--
+Навител.
+Пробки
+|--
+Навител.События
+|--
+Навител.
+SMS
+|--
+Информация
+о
+закрытых
+дорогах
+|--
+Web-сервис
+НАВИТЕЛ.ПРОБКИ
+ONLINE
+Инструментарий
+Навител
+|--
+Редактор
+GPSMapEdit
+|--
+Обмен
+опытом
+создания
+и
+редактирования
+карт.
+|--
+SPEEDCAM,
+Редактор
+SpeedCamEdit
+|--
+Творческая
+лаборатория
+Клуб
+Навител
+|--
+Беседка:
+кофе
+и
+сигареты
+|--
+АВТО-МОТО
+|--
+Статьи,
+интервью
+|--
+КОНКУРСЫ:
+Ударим
+автопробегом
+по
+бездорожью!
+|--
+Путешествия
+с
+Навител
+|--
+FUN:
+Игры
+и
+Юмор
+|--
+Голосования
+←
+Предыдущая
+тема
+Беседка:
+кофе
+и
+сигареты
+Следующая
+тема
+→
+Страница
+1
+из
+1
+Вы
+не
+можете
+создать
+новую
+тему
+Вы
+не
+можете
+ответить
+в
+тему
+3
+человек
+читают
+эту
+тему
+0
+пользователей,
+3
+гостей,
+0
+скрытых
+пользователей
+//<![CDATA[
+		Event.observe(
+window,
+'load',
+function(e){
+prettyPrint()
+});
+	//]]>
+Внешний
+вид
+Стиль:
+IP.Board
+Lo-Fi
+navitel2
+Язык:
+Русский
+(RU)
+Статистика
+работы
+системы
+Сейчас:
+17
+Дек
+2016
+02:06
+Наверх
+К
+списку
+форумов
+Очистить
+cookies
+Отметить
+все
+сообщения
+прочитанными
+Форум
+IP.Board
+©
+2016
+IPS,
+Inc
+.

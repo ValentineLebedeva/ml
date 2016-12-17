@@ -1,0 +1,1197 @@
+Êðàòêîå
+ñîäåðæàíèå
+ïîâåñòè
+Ïóøêèíà
+«Âûñòðåë» —
+Áðèôëè
+if(document.fonts){var
+fonts=[new
+FontFace('Lava
+Regular','url(https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-028330-009486-001181-cb0d6a82974088eba3861966aed035f6.woff2)'),new
+FontFace('Lava
+Bold','url(https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-028330-009486-001185-eb48b438a4052855d3492aa23b9fc535.woff2)',{weight:'bold'}),new
+FontFace('Lava
+Regular
+Italic','url(https://s3-eu-west-1.amazonaws.com/fonts-ireland.typotheque.com/WF-028330-009486-001182-9efadb1f4ffe98ac6df6ee7b17b043e3.woff2)',{style:'italic'})];fonts.forEach(function(font){font.load().then(function(){document.fonts.add(font);});});}else{var
+typotheque_css=document.createElement('link');typotheque_css.rel="stylesheet";typotheque_css.href="https://fonts.typotheque.com/WF-028330-009486.css";document.getElementsByTagName('head')[0].appendChild(typotheque_css);}
+function
+inject(url,callback){o=document.createElement('script');o.charset='utf-8';o.async=true;o.src=url;if(callback){o.addEventListener('load',function(e){callback(null,e);},false);}document.getElementsByTagName('head')[0].appendChild(o);}function
+getAppVersion(){var
+v=null;uagent=navigator.userAgent.match(/Briefly\s*(Android|Offline)[\/
+]*([\d\.]+)/i);if(uagent){v=uagent[2];}else
+if(location.search){var
+regex=new
+RegExp("[\\?&]androidav=([^&#]*)"),res=regex.exec(location.search);if(res){v=res[1];}}if(v){return
+parseFloat(v);}else{return
+false;}}var
+appv=getAppVersion();if(appv){if(appv>=2)document.documentElement.className='noheader';if(appv>=3)document.documentElement.className+='
+nofooter';}var
+vpw=document.documentElement.clientWidth;var
+parcel={'title':null,'text':null};window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new
+Date;ga('create','UA-253409-3','briefly.ru');ga('set','dimension1','Ý.
+Ë.
+Áåçíîñîâ');ga('require','displayfeatures');ga('send','pageview');ga(function(){if(!window.history.replaceState){return;}var
+cleanSearch=window.location.search.replace(/utm_[^&]+&?/g,'').replace(/&$/,'').replace(/^\?$/,'');window.history.replaceState({},'',window.location.pathname+cleanSearch);});if(!appv){(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:"ca-pub-1973285029681551",enable_page_level_ads:true});}
+Ïåðåéòè
+ê
+òåêñòó
+ïåðåñêàçà
+Ðåêëàìà
+Áðèôëè
+Íîâèíêè
+Øêîëüíîå
+Çàðóáåæíîå
+Íîí-ôèêøí
+Âñå
+àâòîðû
+Êóëüòóðû
+×òî
+äîáàâèòü?
+Ñëó÷àéíîå
+Íîâèíêè
+Øêîëüíîå
+Çàðóáåæíîå
+Íîí-ôèêøí
+Âñå
+àâòîðû
+Êóëüòóðû
+×òî
+äîáàâèòü?
+Ñëó÷àéíîå
+var
+foreheadIns=document.getElementById('forehead_ins');if(foreheadIns&&!appv&&window.innerWidth>=320){foreheadIns.className='adsbygoogle';try{window.adsbygoogle.push({});}catch(err){console.log(err);}}var
+h_space=document.getElementById('h-space'),h_bg=document.getElementById('h-bg'),lastScrollY=0,currentMode=h_bg.className,newMode='';function
+redrawHeader(){lastScrollY=window.scrollY;if(lastScrollY>h_space.offsetTop){newMode='fixed';}else{newMode='absolute';}if(currentMode!=newMode){currentMode=newMode;h_bg.className=currentMode;if(newMode=='fixed'){h_bg.addEventListener('touchmove',function(e){e.preventDefault();},false);}}}window.addEventListener('scroll',redrawHeader,false);window.addEventListener('resize',redrawHeader,false);window.addEventListener('load',redrawHeader,false);var
+solidSearch=document.getElementById('h-search');function
+showSolidSearch(){solidSearch.className='expanded';}function
+hideSolidSearch(){solidSearch.className='collapsed';}function
+switchSolidSearch(){if(solidSearch.className=='collapsed'){showSolidSearch();}else{hideSolidSearch();}hideMicroMenu();}document.getElementById('h-search-q').addEventListener('focus',showSolidSearch,false);document.getElementById('h-search').addEventListener('click',function(event){event.stopPropagation();},false);var
+microMenu=document.getElementById('h-micromenu');function
+showMicroMenu(){microMenu.className='expanded';}function
+hideMicroMenu(){microMenu.className='collapsed';}function
+switchMicroMenu(){if(microMenu.className=='collapsed'){showMicroMenu();}else{hideMicroMenu();}hideSolidSearch();hideMicroSearch();}document.getElementById('h-micromenu-icon').addEventListener('click',switchMicroMenu,false);document.getElementById('h-micromenu').addEventListener('click',function(event){event.stopPropagation();},false);var
+microSearch=document.getElementById('h-microsearch');function
+showMicroSearch(){microSearch.className='expanded';document.getElementById('h-microsearch-q').focus();}function
+hideMicroSearch(){microSearch.className='collapsed';}function
+switchMicroSearch(){if(document.getElementById('h-microsearch').className=='collapsed'){showMicroSearch();}else{hideMicroSearch();}hideMicroMenu();}document.getElementById('h-microsearch-icon').addEventListener('click',switchMicroSearch,false);document.getElementById('h-microsearch').addEventListener('click',function(event){event.stopPropagation();},false);document.documentElement.addEventListener('click',function(){hideMicroMenu();hideMicroSearch();hideSolidSearch();},false);function
+showSuggests(q,elementId){var
+q=q?q:'';var
+box=document.getElementById(elementId);if(q){var
+xmlhttp=new
+XMLHttpRequest();xmlhttp.onreadystatechange=function(){if(xmlhttp.readyState==4&&xmlhttp.status==200){var
+response=xmlhttp.responseText;if(response=='not
+found'||response=='empty
+string'){box.innerHTML='';}else{objects=JSON.parse(xmlhttp.responseText);var
+html='<ul>';for(var
+i
+in
+objects){html+='<li
+class="'+objects[i].class+'">';html+='<a
+href="'+objects[i].path+'">';html+=objects[i].name;if(objects[i].author)html+='
+<span>'+objects[i].author+'</span>';html+='</a>';html+='</li>';}html+='</ul>';box.innerHTML=html;}}};var
+url='/suggests.php?q='+encodeURIComponent(q);console.log(url);xmlhttp.open('GET',url,true);xmlhttp.send();}else{box.innerHTML='';}}document.getElementById('h-search-q').addEventListener('input',function(){showSuggests(document.getElementById('h-search-q').value,'h-search-suggests');},false);document.getElementById('h-microsearch-q').addEventListener('input',function(){showSuggests(document.getElementById('h-microsearch-q').value,'h-microsearch-suggests');},false);var
+header=document.getElementById('h-bg'),headerHeight=48,treshold=0,lastScroll=0,lastScrollUp=0;
+À.
+Ñ.
+Ïóøêèí
+1799−1837
+Áèîãðàôèÿ
+1820
+Ðóñëàí
+è Ëþäìèëà
+1821
+Êàâêàçñêèé
+ïëåííèê
+1822
+Áðàòüÿ
+ðàçáîéíèêè
+1822
+Ïåñíü
+î Âåùåì
+Îëåãå
+1824
+Áàõ÷èñàðàéñêèé
+ôîíòàí
+1824
+Öûãàíû
+1825
+Áîðèñ
+Ãîäóíîâ
+1829
+Ïîëòàâà
+1830
+Áàðûøíÿ-êðåñòüÿíêà
+1830
+Âûñòðåë
+1830
+Ãðîáîâùèê
+1830
+Åâãåíèé
+Îíåãèí
+1830
+Êàìåííûé
+ãîñòü
+1830
+Ìåòåëü
+1830
+Ìîöàðò
+è Ñàëüåðè
+1830
+Ïèð âî âðåìÿ
+÷óìû
+1830
+Ñêóïîé
+ðûöàðü
+1830
+Ñòàíöèîííûé
+ñìîòðèòåëü
+1833
+Àíäæåëî
+1833
+Äóáðîâñêèé
+1833
+Ìåäíûé
+âñàäíèê
+1833
+Ïèêîâàÿ
+äàìà
+1834
+Èñòîðèÿ
+Ïóãà÷¸âà
+1836
+Êàïèòàíñêàÿ
+äî÷êà
+1837
+Àðàï
+Ïåòðà
+Âåëèêîãî
+Íåò
+íóæíîãî
+ïåðåñêàçà?
+Ñîîáùèòå
+íàì
+èëè
+íàïèøèòå
+åãî
+ñàìè
+.
+Ñïàñèáî.
+Ðóññêàÿ
+ëèòåðàòóðà
+XIX
+âåêà
+›
+À.
+Ñ.
+Ïóøêèí
+Âûñòðåë
+1830
+Êðàòêîå
+ñîäåðæàíèå
+ïîâåñòè
+×èòàåòñÿ
+çà
+6 ìèíóò
+Îðèãèíàë
+—
+40 ìèí
+Àðìåéñêèé
+ïîëê
+ðàñêâàðòèðîâàí
+â ìåñòå÷êå
+***.
+Æèçíü
+ïðîõîäèò
+ïî çàâåä¸ííîìó
+â àðìèè
+ðàñïîðÿäêó,
+è ãàðíèçîííóþ
+ñêóêó
+ðàññåèâàåò
+òîëüêî
+çíàêîìñòâî
+îôèöåðîâ
+ñ íåêèì
+÷åëîâåêîì
+ïî èìåíè
+Ñèëüâèî,
+ïðîæèâàþùèì
+â ýòîì
+ìåñòå÷êå.
+Îí ñòàðøå
+áîëüøèíñòâà
+îôèöåðîâ
+ïîëêà,
+óãðþì,
+îáëàäàåò
+êðóòûì
+íðàâîì
+è çëûì
+ÿçûêîì.
+Â åãî
+æèçíè
+åñòü
+êàêàÿ-òî
+òàéíà,
+êîòîðóþ
+Ñèëüâèî
+íèêîìó
+íå îòêðûâàåò.
+Èçâåñòíî,
+÷òî
+Ñèëüâèî
+ñëóæèë
+êîãäà-òî
+â ãóñàðñêîì
+ïîëêó,
+íî ïðè÷èíà
+åãî
+îòñòàâêè
+íèêîìó
+íå âåäîìà,
+òàê æå
+êàê
+è ïðè÷èíà
+ïðîæèâàíèÿ
+â ýòîì
+çàõîëóñòüå.
+Íåèçâåñòíû
+íè äîõîäû
+åãî,
+íè ñîñòîÿíèå,
+íî îí äåðæèò
+îòêðûòûé
+ñòîë
+äëÿ
+îôèöåðîâ
+ïîëêà,
+è çà îáåäàìè
+øàìïàíñêîå
+ëü¸òñÿ
+ðåêîé.
+Çà ýòî
+åìó
+âñå
+ãîòîâû
+ïðîñòèòü.
+Òàèíñòâåííîñòü
+ôèãóðû
+Ñèëüâèî
+îòòåíÿåò
+åãî
+ïî÷òè
+ñâåðõúåñòåñòâåííîå
+èñêóññòâî
+â ñòðåëüáå
+èç ïèñòîëåòà.
+Îí íå ïðèíèìàåò
+ó÷àñòèÿ
+â ðàçãîâîðàõ
+îôèöåðîâ
+î ïîåäèíêàõ,
+à íà ðàññïðîñû,
+ñëó÷àëîñü ëè
+åìó
+äðàòüñÿ,
+îòâå÷àåò
+ñóõî,
+÷òî
+äîâîäèëîñü.
+Ìåæäó
+ñîáîé
+îôèöåðû
+ïîëàãàþò,
+÷òî
+íà ñîâåñòè
+Ñèëüâèî
+ëåæèò
+êàêàÿ-íèáóäü
+íåñ÷àñòíàÿ
+æåðòâà
+åãî
+íå÷åëîâå÷åñêîãî
+èñêóññòâà.
+Îäíàæäû
+íåñêîëüêî
+îôèöåðîâ
+ïî îáûêíîâåíèþ
+ñîáðàëèñü
+ó Ñèëüâèî.
+Èçðÿäíî
+âûïèâ,
+íà÷àëè
+êàðòî÷íóþ
+èãðó
+è ïîïðîñèëè
+Ñèëüâèî
+ïðîìåòàòü
+áàíê.
+Â èãðå
+îí êàê
+îáû÷íî
+ìîë÷àë
+è áåç
+ñëîâ
+èñïðàâëÿë
+îøèáêè
+ïîíò¸ðîâ
+â çàïèñÿõ.
+Îäíîìó
+ìîëîäîìó
+îôèöåðó,
+íåäàâíî
+ïîñòóïèâøåìó
+â ïîëê
+è íå çíàâøåìó
+ïðèâû÷åê
+Ñèëüâèî,
+ïîêàçàëîñü,
+÷òî
+òîò
+îøèáñÿ.
+Âçáåø¸ííûé
+ìîë÷àëèâûì
+óïîðñòâîì
+Ñèëüâèî,
+îôèöåð
+çàïóñòèë
+åìó
+â ãîëîâó
+øàíäàëîì,
+Ñèëüâèî,
+áëåäíûé
+îò çëîñòè,
+ïîïðîñèë
+îôèöåðà
+óäàëèòüñÿ.
+Âñå
+ñ÷èòàëè
+ïîåäèíîê
+íåèçáåæíûì
+è íå ñîìíåâàëèñü
+â åãî
+èñõîäå,
+íî Ñèëüâèî
+íå âûçâàë
+îôèöåðà,
+è ýòî
+îáñòîÿòåëüñòâî
+èñïîðòèëî
+åãî
+ðåïóòàöèþ
+â ãëàçàõ
+îôèöåðîâ,
+íî ïîñòåïåííî
+âñå
+âîøëî
+â îáû÷íîå
+ðóñëî
+è èíöèäåíò
+çàáûëñÿ.
+Ëèøü
+îäèí
+îôèöåð,
+êîòîðîìó
+Ñèëüâèî
+ñèìïàòèçèðîâàë
+áîëåå
+äðóãèõ,
+íå ìîã
+ïðèìèðèòüñÿ
+ñ ìûñëüþ,
+÷òî
+Ñèëüâèî
+íå ñìûë
+îñêîðáëåíèÿ.
+Áëàãîäàðÿ
+ðåêëàìå
+Áðèôëè
+áåñïëàòåí
+Îäíàæäû
+â ïîëêîâîé
+êàíöåëÿðèè,
+êóäà
+ïðèõîäèëà
+ïî÷òà,
+Ñèëüâèî
+ïîëó÷èë
+ïàêåò,
+ñîäåðæàíèå
+êîòîðîãî
+åãî
+ñèëüíî
+âçâîëíîâàëî.
+Îí îáúÿâèë
+ñîáðàâøèìñÿ
+îôèöåðàì
+î ñâî¸ì
+íåîæèäàííîì
+îòúåçäå
+è ïðèãëàñèë
+âñåõ
+íà ïðîùàëüíûé
+îáåä.
+Ïîçäíèì
+âå÷åðîì,
+êîãäà
+âñå
+ïîêèäàëè
+äîì
+Ñèëüâèî,
+õîçÿèí
+ïîïðîñèë
+íàèáîëåå
+ñèìïàòè÷íîãî
+åìó
+îôèöåðà
+çàäåðæàòüñÿ
+è îòêðûë
+åìó
+ñâîþ
+òàéíó.
+Íåñêîëüêî
+ëåò
+òîìó
+íàçàä
+Ñèëüâèî
+ïîëó÷èë
+ïîù¸÷èíó,
+è îáèä÷èê
+åãî
+æèâ
+äî ñèõ
+ïîð.
+Ñëó÷èëîñü
+ýòî
+åù¸
+â ãîäû
+åãî
+ñëóæáû,
+êîãäà
+Ñèëüâèî
+îòëè÷àëñÿ
+áóéíûì
+íðàâîì.
+Îí ïåðâåíñòâîâàë
+â ïîëêó
+è íàñëàæäàëñÿ
+ýòèì
+ïîëîæåíèåì
+äî òåõ
+ïîð,
+ïîêà
+â ïîëê
+íå îïðåäåëèëñÿ
+«ìîëîäîé
+÷åëîâåê
+áîãàòîé
+è çíàòíîé
+ôàìèëèè».
+Ýòî
+áûë
+áëèñòàòåëüíåéøèé
+ñ÷àñòëèâåö,
+êîòîðîìó
+âñåãäà
+è âî âñåì
+ñêàçî÷íî
+âåçëî.
+Ïîíà÷àëó
+îí ïûòàëñÿ
+äîáèòüñÿ
+äðóæáû
+è ðàñïîëîæåíèÿ
+Ñèëüâèî,
+íî,
+íå ïðåóñïåâ
+â ýòîì,
+îòäàëèëñÿ
+îò íåãî
+áåç
+ñîæàëåíèÿ.
+Ïåðâåíñòâî
+Ñèëüâèî
+ïîêîëåáàëîñü,
+è îí âîçíåíàâèäåë
+ýòîãî
+ëþáèìöà
+ôîðòóíû.
+Îäíàæäû
+íà áàëó
+ó îäíîãî
+ïîëüñêîãî
+ïîìåùèêà
+îíè
+ïîâçäîðèëè,
+è Ñèëüâèî
+ïîëó÷èë
+ïîù¸÷èíó
+îò ñâîåãî
+âðàãà.
+Íà ðàññâåòå
+áûëà
+äóýëü,
+íà êîòîðóþ
+îáèä÷èê
+Ñèëüâèî
+ÿâèëñÿ
+ñ ôóðàæêîé,
+ïîëíîé
+ñïåëûìè
+÷åðåøíÿìè.
+Ïî æðåáèþ
+åìó
+äîñòàëñÿ
+ïåðâûé
+âûñòðåë,
+ñäåëàâ
+åãî
+è ïðîñòðåëèâ
+íà Ñèëüâèî
+ôóðàæêó,
+îí ñïîêîéíî
+ñòîÿë
+ïîä
+äóëîì
+åãî
+ïèñòîëåòà
+è ñ óäîâîëüñòâèåì
+ëàêîìèëñÿ
+÷åðåøíÿìè,
+âûïë¸âûâàÿ
+êîñòî÷êè,
+êîòîðûå
+èíîãäà
+äîëåòàëè
+äî åãî
+ïðîòèâíèêà.
+Åãî
+ðàâíîäóøèå
+è íåâîçìóòèìîñòü
+âçáåñèëè
+Ñèëüâèî,
+è îí îòêàçàëñÿ
+ñòðåëÿòü.
+Ïðîòèâíèê
+åãî
+ðàâíîäóøíî
+ñêàçàë,
+÷òî
+Ñèëüâèî
+âïðàâå
+áóäåò
+âîñïîëüçîâàòüñÿ
+ñâîèì
+âûñòðåëîì,
+êîãäà
+åìó
+áóäåò
+óãîäíî.
+Âñêîðå
+Ñèëüâèî
+âûøåë
+â îòñòàâêó
+è óäàëèëñÿ
+â ýòî
+ìåñòå÷êî,
+íî íå ïðîõîäèëî
+äíÿ,
+÷òîáû
+îí íå ìå÷òàë
+î ìùåíèè.
+È âîò
+íàêîíåö
+åãî
+÷àñ
+íàñòàë.
+Åìó
+äîíîñÿò,
+«÷òî
+èçâåñòíàÿ
+îñîáà
+ñêîðî
+äîëæíà
+âñòóïèòü
+â çàêîííûé
+áðàê
+ñ ìîëîäîé
+è ïðåêðàñíîé
+äåâóøêîé».
+È Ñèëüâèî
+ðåøèë
+ïîñìîòðåòü,
+«òàê ëè
+ðàâíîäóøíî
+ïðèìåò
+îí ñìåðòü
+ïåðåä
+ñâîåé
+ñâàäüáîé,
+êàê
+íåêîãäà
+æäàë
+åå çà ÷åðåøíÿìè!».
+Äðóçüÿ
+ïðîñòèëèñü,
+è Ñèëüâèî
+óåõàë.
+×åðåç
+íåñêîëüêî
+ëåò
+îáñòîÿòåëüñòâà
+ïðèíóäèëè
+îôèöåðà
+âûéòè
+â îòñòàâêó
+è ïîñåëèòüñÿ
+â ñâîåé
+áåäíîé
+äåðåâåíüêå,
+ãäå
+îí óìèðàë
+îò ñêóêè,
+ïîêà
+â ñîñåäíåå
+èìåíèå
+íå ïðèåõàë
+ñ ìîëîäîé
+æåíîé
+ãðàô
+Á***. Ðàññêàç÷èê
+îòïðàâëÿåòñÿ
+ê íèì
+ñ âèçèòîì.
+Ãðàô
+è ãðàôèíÿ
+î÷àðîâàëè
+åãî
+ñâîèì
+ñâåòñêèì
+îáðàùåíèåì.
+Íà ñòåíå
+ãîñòèíîé
+âíèìàíèå
+ðàññêàç÷èêà
+ïðèâëåêàåò
+êàðòèíà,
+ïðîñòðåëåííàÿ
+«äâóìÿ
+ïóëÿìè,
+âñàæåííûìè
+îäíà
+â äðóãóþ».
+Îí ïîõâàëèë
+óäà÷íûé
+âûñòðåë
+è ðàññêàçàë,
+÷òî
+çíàë
+â ñâîåé
+æèçíè
+÷åëîâåêà,
+÷ü¸
+èñêóññòâî
+â ñòðåëüáå
+áûëî
+ïîèñòèíå
+èçóìèòåëüíî.
+Íà âîïðîñ
+ãðàôà,
+êàê
+çâàëè
+ýòîãî
+ñòðåëêà,
+ðàññêàç÷èê
+íàçâàë
+Ñèëüâèî.
+Ïðè
+ýòîì
+èìåíè
+ãðàô
+è ãðàôèíÿ
+ïðèøëè
+â ñìóùåíèå.
+Ãðàô
+äîïûòûâàåòñÿ,
+íå ðàññêàçûâàë ëè
+Ñèëüâèî
+ñâîåìó
+äðóãó
+îá îäíîé
+ñòðàííîé
+èñòîðèè,
+è ðàññêàç÷èê
+äîãàäûâàåòñÿ,
+÷òî
+ãðàô
+è åñòü
+òîò
+ñàìûé
+äàâíèé
+îáèä÷èê
+åãî
+äðóãà.
+Îêàçûâàåòñÿ,
+ýòà
+èñòîðèÿ
+èìåëà
+ïðîäîëæåíèå,
+à ïðîñòðåëåííàÿ
+êàðòèíà —
+ñâîåîáðàçíûé
+ïàìÿòíèê
+èõ ïîñëåäíåé
+âñòðå÷å.
+Ñëó÷èëîñü
+ýòî
+ïÿòü
+ëåò
+íàçàä
+â ýòîì
+ñàìîì
+äîìå,
+ãäå
+ãðàô
+è ãðàôèíÿ
+ïðîâîäèëè
+ñâîé
+ìåäîâûé
+ìåñÿö.
+Îäíàæäû
+ãðàôó
+äîëîæèëè,
+÷òî
+åãî
+äîæèäàåòñÿ
+íåêèé
+÷åëîâåê,
+íå ïîæåëàâøèé
+íàçâàòü
+ñâîåãî
+èìåíè.
+Âîéäÿ
+â ãîñòèíóþ,
+ãðàô
+çàñòàë
+òàì
+Ñèëüâèî,
+êîòîðîãî
+íå ñðàçó
+óçíàë
+è êîòîðûé
+íàïîìíèë
+îá îñòàâøåìñÿ
+çà íèì
+âûñòðåëå
+è ñêàçàë,
+÷òî
+ïðèåõàë
+ðàçðÿäèòü
+ñâîé
+ïèñòîëåò.
+Ñ ìèíóòû
+íà ìèíóòó
+ìîãëà
+âîéòè
+ãðàôèíÿ.
+Ãðàô
+íåðâíè÷àë
+è òîðîïèëñÿ,
+Ñèëüâèî
+ìåäëèë
+è íàêîíåö
+ïðèíóäèë
+ãðàôà
+âíîâü
+òÿíóòü
+æðåáèé.
+È âíîâü
+ãðàôó
+äîñòàëñÿ
+ïåðâûé
+âûñòðåë.
+Ïðîòèâó
+âñåõ
+ïðàâèë
+îí âûñòðåëèë
+è ïðîñòðåëèë
+âèñåâøóþ
+íà ñòåíå
+êàðòèíó.
+Â ýòî
+ìãíîâåíèå
+âáåæàëà
+ïåðåïóãàííàÿ
+ãðàôèíÿ.
+Ìóæ
+ñòàë
+óâåðÿòü åå,
+÷òî
+îíè
+ïðîñòî
+øóòÿò
+ñî ñòàðûì
+äðóãîì.
+Íî ïðîèñõîäÿùåå
+ñëèøêîì
+íå ïîõîäèëî
+íà øóòêó.
+Ãðàôèíÿ
+áûëà
+íà ãðàíè
+îáìîðîêà,
+è âçáåø¸ííûé
+ãðàô
+çàêðè÷àë
+Ñèëüâèî,
+÷òîáû
+òîò
+ñêîðåå
+ñòðåëÿë,
+íî Ñèëüâèî
+îòâåòèë,
+÷òî
+îí íå áóäåò
+ýòîãî
+äåëàòü,
+÷òî
+îí âèäåë
+ãëàâíîå —
+ñòðàõ
+è ñìÿòåíèå
+ãðàôà,
+è ñ íåãî
+äîâîëüíî.
+Îñòàëüíîå —
+äåëî
+ñîâåñòè
+ñàìîãî
+ãðàôà.
+Îí ïîâåðíóëñÿ
+è ïîø¸ë
+ê âûõîäó,
+íî ó ñàìîé
+äâåðè
+îñòàíîâèëñÿ è,
+ïî÷òè
+íå öåëÿñü,
+âûñòðåëèë
+è ïîïàë
+òî÷íî
+â ïðîñòðåëåííîå
+ãðàôîì
+ìåñòî
+íà êàðòèíå.
+Ñ Ñèëüâèî
+ðàññêàç÷èê
+áîëüøå
+íå âñòðå÷àëñÿ,
+íî ñëûøàë,
+÷òî
+îí ïîãèá,
+ó÷àñòâóÿ
+â âîññòàíèè
+ãðåêîâ
+ïîä
+ïðåäâîäèòåëüñòâîì
+Àëåêñàíäðà
+Èïñèëàíòè.
+Ïåðåñêàçàë
+Ý.
+Ë.
+Áåçíîñîâ
+.
+Èñòî÷íèê:
+Âñå
+øåäåâðû
+ìèðîâîé
+ëèòåðàòóðû
+â êðàòêîì
+èçëîæåíèè.
+Ñþæåòû
+è õàðàêòåðû.
+Ðóññêàÿ
+ëèòåðàòóðà
+XIX âåêà /
+Ðåä.
+è ñîñò.
+Â. È. Íîâèêîâ. —
+Ì. :
+Îëèìï :
+ACT,
+1996. —
+832 ñ.
+Íà îáëîæêå:
+Êàäð
+èç
+ôèëüìà
+«Âûñòðåë»
+(1966
+ãîä).
+Îöåíèòå
+ïåðåñêàç:
+PDRTJS_settings_8287926={"id":"8287926","unique_id":"2068","title":"Âûñòðåë","permalink":"http://briefly.ru/pushkin/vystrel/"};
+function
+sharePopup(link,network){ga('send','social',network,'share','/pushkin/vystrel/');ga('send','event','Social
+Share',network,'/pushkin/vystrel/');var
+width=640;var
+height=480;var
+left=(screen.width-width)/2;var
+top=(screen.height-height)/2;var
+popupParams='scrollbars=0,
+resizable=1,
+menubar=0,
+left='+left+',
+top='+top+',
+width='+width+',
+height='+height+',
+toolbar=0,
+status=0';popup=window.open(link,'_blank',popupParams);return
+false;}
+Ðàññêàçàòü
+äðóçüÿì
+67
+Íàøëè
+îïå÷àòêó?
+Âûäåëèòå
+å¸
+è íàæìèòå
+Ctrl+Enter
+.
+if(vpw>=768&&!appv){slot_w=160;slot_h=600;slot_id='5732877032';slot_pub=1973285029681551;if(vpw>1300){slot_w=300;slot_h=600;if(Math.random()<.5||true){slot_id='6111640238';}else{slot_pub='1154951643410219';slot_id='3436324358';}}var
+ins=document.getElementById('adtop');var
+cover=document.getElementById('cover');insmr=(document.getElementById('content').offsetWidth-document.getElementById('summary-box').offsetWidth)/2;ins.style.width=slot_w+'px';ins.style.height=slot_h+'px';document.getElementById('adtr').style.marginRight='-'+insmr+'px';document.getElementById('adtr').style.display='block';ins.setAttribute('data-ad-slot',slot_id);ins.setAttribute('data-ad-client','ca-pub-'+slot_pub);ins.className='adsbygoogle';(adsbygoogle=window.adsbygoogle||[]).push({});if(vpw>1300&&document.getElementById('summary-box').offsetHeight>2000){(function(w,d,n,s,t){w[n]=w[n]||[];w[n].push(function(){Ya.Direct.insertInto(88109,"yandex_ad",{stat_id:9,ad_format:"direct",font_size:1,font_family:"arial",type:"vertical",border_type:"block",limit:3,title_font_size:1,links_underline:false,site_bg_color:"FFFFFF",header_bg_color:"FFFFFF",bg_color:"FFFFFF",border_color:"FFFFFF",title_color:"000000",url_color:"43A047",text_color:"373534",hover_color:"C4161C",no_sitelinks:true});});t=d.getElementsByTagName("script")[0];s=d.createElement("script");s.src="//an.yandex.ru/system/context.js";s.type="text/javascript";s.async=true;t.parentNode.insertBefore(s,t);})(window,document,"yandex_context_callbacks");}}
+Ýêðàíèçàöèÿ
+«Âûñòðåë».
+1966 ãîä.
+Äðóãèå
+ïåðåñêàçû
+Âîïðîñû
+è
+êîììåíòàðèè
+×òî
+îñòàëîñü
+íåïîíÿòíûì?
+Íàøëè
+íåòî÷íîñòü?
+Êàê
+íàì
+óëó÷øèòü
+ïåðåñêàç?
+Ïèøèòå,
+âñ¸
+÷èòàåì.
+var
+disqus_shortname='briefly-ru';var
+disqus_identifier=2068;var
+disqus_url='http://briefly.ru/pushkin/vystrel/';
+parcel['title']='Âûñòðåë';parcel['title']=parcel['title'].replace(/&#(\d+);/g,function(match,dec){return
+String.fromCharCode(dec);});parcel['text']=document.getElementById('text').innerHTML.replace(/<\/(p|blockquote|h\d+|div)>/g,'\n\n').replace(/<span
+class="teller-space">[^<]*<\/span>\s*/g,'\n\n').replace(/\n{3,}/g,'\n\n').replace(/(<br>|&nbsp\;)/g,'
+').replace(/<.+?>/g,'').replace(/\u00a0/g,'
+').replace(/&#(\d+);/g,function(match,dec){return
+String.fromCharCode(dec);}).trim();if(vpw>1000&&!appv&&false){inject('/static/js/orphus.js');document.getElementById('orphus_tip').className='loaded';}function
+loadInArticle(){var
+ins=document.getElementById("in_article_ins");var
+w=document.getElementById('content2').offsetWidth+32;if(ins&&w<=600){slot_id='9599043038';slot_pub='1973285029681551';slot_w='auto';if(slot_id){document.getElementById('in_article').style.display="block";ins.className='adsbygoogle';ins.setAttribute('data-ad-slot',slot_id);ins.setAttribute('data-ad-client','ca-pub-'+slot_pub);if(slot_w=='auto'){ins.setAttribute('data-ad-format','auto');}else{ins.style.width=slot_w+'px';ins.style.height=slot_h+'px';}try{window.adsbygoogle.push({});}catch(err){console.log(err);}}}}function
+loadAdBottom(){var
+ins=document.getElementById("adbottom");var
+slot_id='';if(document.getElementById('summary-box').offsetHeight>2000){if(ins.offsetWidth){if(ins.offsetWidth>=336){slot_w=336;slot_h=280;slot_id='3167339437';}else
+if(ins.offsetWidth>=300){slot_w=300;slot_h=250;slot_id='2722365038';}else
+if(ins.offsetWidth>=160){slot_w=160;slot_h=600;slot_id='9044440233';};}}if(slot_id){document.getElementById("adpusher").style.height=(document.getElementById("summary-box").offsetHeight-document.getElementById("adtr").offsetHeight-slot_h-475)+'px';ins.className='adsbygoogle';ins.setAttribute('data-ad-slot',slot_id);ins.setAttribute('data-ad-client','ca-pub-1973285029681551');ins.style.width=slot_w+'px';ins.style.height=slot_h+'px';try{window.adsbygoogle.push({});}catch(err){console.log(err);}}}function
+loadAdContent2(){var
+ins=document.getElementById('ad-content2-ins');var
+w=document.getElementById('content2').offsetWidth+32;document.getElementById('ad-content2').style.display='block';var
+slot_id='';var
+slot_pub=1973285029681551;var
+slot_w=0;var
+slot_h=0;if(w>=728){slot_w=728;slot_h=90;slot_id='9792316279';}else
+if(w>=336){slot_id='7993182630';slot_w=336;slot_h=280;}else
+if(w>=300){slot_w=300;slot_h=600;if(Math.random()<.5||true){slot_id='4367869838';}else{slot_pub='1154951643410219';slot_id='5266972238';}}if(slot_id){ins.className='adsbygoogle';ins.setAttribute('data-ad-slot',slot_id);ins.setAttribute('data-ad-client','ca-pub-'+slot_pub);ins.style.width=slot_w+'px';ins.style.height=slot_h+'px';try{(adsbygoogle=window.adsbygoogle||[]).push({});}catch(e){console.log(e);}}}var
+additionsInitiated=false;function
+getBtmDistance(){var
+D=document;var
+h=Math.max(Math.max(D.body.scrollHeight,D.documentElement.scrollHeight),Math.max(D.body.offsetHeight,D.documentElement.offsetHeight),Math.max(D.body.clientHeight,D.documentElement.clientHeight));var
+wh=window.innerHeight||document.documentElement.clientHeight;var
+sy=document.body.scrollTop||document.documentElement.scrollTop;return
+btmh=h-(wh+sy);};window.addEventListener('load',loadAdditions,false);document.addEventListener('scroll',loadAdditions2,false);loadAdditions2();var
+article=document.getElementById('text');var
+readingIndicator=document.getElementById('reading-indicator');var
+readingIndicatorProgress=document.getElementById('reading-indicator-progress');var
+startReadingFired=false;var
+startReadingTime=null;var
+endReadingFired=false;var
+endReadingTime=null;var
+readingTime=0;var
+readingPercent=0;function
+trackArticleReading(){var
+rect=article.getBoundingClientRect();if(rect.top>=0&&rect.top<=window.innerHeight&&!startReadingFired){startReadingFired=true;startReadingTime=new
+Date().getTime();console.log('start
+of
+the
+article
+is
+visible');ga('send','event','Reading','Start','http://briefly.ru/pushkin/vystrel/',0,{nonInteraction:true});}if(rect.bottom>=0&&rect.bottom<=window.innerHeight&&!endReadingFired&&startReadingFired){endReadingFired=true;endReadingTime=new
+Date().getTime();readingTime=endReadingTime-startReadingTime;if(readingTime>0){console.log('end
+of
+the
+article
+is
+visible');console.log('Reading
+time:
+'+readingTime);ga('send','event','Reading','End','http://briefly.ru/pushkin/vystrel/',1);ga('send','timing','Reading','http://briefly.ru/pushkin/vystrel/',readingTime);readingIndicator.className='hidden';document.removeEventListener('scroll',trackArticleReading,false);document.removeEventListener('load',trackArticleReading,false);}}readingPercent=(Math.max(0,(0-(rect.top-window.innerHeight)))/rect.height)*100;if(startReadingFired&&readingPercent<100){readingIndicator.className='';readingIndicatorProgress.style.width=readingPercent+'%';}}trackArticleReading();document.addEventListener('scroll',trackArticleReading,false);document.addEventListener('load',trackArticleReading,false);function
+loadAdditions(){if(!appv){loadInArticle();loadAdBottom();loadAdContent2();if(Math.random()>=0.5){inject('https://tube.buzzoola.com/new/build/buzzlibrary.js');}else{(function(a,b,c,d,e,f,g,h){g=b.createElement(c);g.src=d;g.type="application/javascript";g.async=!0;h=b.getElementsByTagName(c)[0];h.parentNode.insertBefore(g,h);a[f]=[];a[e]=function(){a[f].push(Array.prototype.slice.apply(arguments));}})(window,document,"script",(document.location.protocol==="https:"?"https:":"http:")+"//cdn01.nativeroll.tv/js/seedr-player.min.js","SeedrPlayer","seedrInit");SeedrPlayer(document.getElementsByClassName("js-mediator-article")[0],50,{gid:"569fc4fe64225d2e368b456f"});}}inject('https://polldaddy.com/js/rating/rating.js',function(){window.PDRTJS_8287926.callback=(function(){var
+cached_function=window.PDRTJS_8287926.callback;return
+function(){var
+result=cached_function.apply(this,arguments);ga('send','event','Rating','rate','http://briefly/pushkin/vystrel/');return
+result;};})();});o=document.createElement('script');o.charset='utf-8';o.async=true;if(Math.random()>=0.5){o.src="https://likemore-go.imgsmail.ru/widget.js";o.id="my-widget-script";o.dataset.uid="dedd13f6d67e05024eea56b59602de75";}else{o.src="https://relap.io/api/v6/head.js?token=5p7mMrYybOkUZ8rP";}document.getElementById('recommended').appendChild(o);}function
+loadAdditions2(){if(!additionsInitiated&&getBtmDistance()<5000){additionsInitiated=true;document.removeEventListener('scroll',loadAdditions2,false);var
+index;var
+frames=document.querySelectorAll("iframe[data-src]");for(index=0;index<frames.length;++index){frames[index].src=frames[index].dataset.src}inject('https://moe.video/js/replacer.js',function(){MoeVideo.Replacer({pin:36852411})});window.VK={Share:{count:function(index,count){console.log('VK
+shares:
+'+count);if(count>=10){document.getElementById('vk_share_cnt').innerHTML=count;}}}};inject('https://vk.com/share.php?act=count&index=0&url=http://briefly.ru/pushkin/vystrel/');inject('//a.disquscdn.com/embed.js');}}
+{"@context":
+"http://schema.org","@type":
+"BreadcrumbList","itemListElement":
+[{"@type":
+"ListItem","position":
+1,"item":
+{"@id":
+"https://briefly.ru/school/","name":
+"Øêîëüíîå"}},{"@type":
+"ListItem","position":
+2,"item":
+{"@id":
+"https://briefly.ru/school/6class/","name":
+"6
+êëàññ"}},{"@type":
+"ListItem","position":
+3,"item":
+{"@id":
+"https://briefly.ru/pushkin/","name":
+"Ïóøêèí"}}]}
+{"@context":
+"http://schema.org","@type":
+"Article","headline":
+"Êðàòêîå
+ñîäåðæàíèå
+ïîâåñòè
+Ïóøêèíà
+&#171;Âûñòðåë&#187;","author":
+"Ý.
+Ë.
+Áåçíîñîâ","mainEntityOfPage":{"@type":
+"WebPage","@id":
+"https://briefly.ru/pushkin/vystrel/"},"image":
+{"@type":
+"ImageObject","url":
+"https://briefly.ru/static/films/526.jpg","width":
+2400,"height":
+1280},"publisher":
+{"@type":
+"Organization","name":
+"Áðèôëè","logo":
+{"@type":
+"ImageObject","url":
+"https://briefly.ru/static/ui/logo_redbg.png","width":
+178,"height":
+60}},"datePublished":
+"2007-01-01T00:00:00+0300","dateModified":
+"2013-03-31T06:38:54+0300","aggregateRating":
+{"@type":
+"AggregateRating","ratingValue":
+"9","ratingCount":
+"2622","bestRating":
+"10","worstRating":
+"2"}}
+Áðèôëè
+Î ïðîåêòå
+·
+×òî
+äîáàâèòü?
+Íàïèñàòü
+ïåðåñêàç
+Ïðåäëîæèòü
+èäåþ
+Åæåìåñÿ÷íàÿ
+ðàññûëêà
+ñ íîâûìè
+ïåðåñêàçàìè.
+Ðàñøèðÿåò
+ëèòåðàòóðíûé
+êðóãîçîð.
+Áåç
+ñïàìà.
+Ïðèëîæåíèå
+äëÿ
+Àíäðîèäà
+Ïèøèòå
+ïèñüìà:
+alexey@briefly.ru
+Àëåêñåé
+Ñêðèïíèê
+window.addEventListener('load',function(){if('serviceWorker'in
+navigator){navigator.serviceWorker.register('/sw.js?4').then(function(reg){console.log("ServiceWorker
+registered:");console.dir(reg);}).catch(function(error){console.log("Failed
+to
+register
+ServiceWorker:");console.dir(error);});window.addEventListener('beforeinstallprompt',function(e){e.userChoice.then(function(choiceResult){console.log(choiceResult.outcome);if(choiceResult.outcome=='dismissed'){console.log('User
+cancelled
+home
+screen
+install');ga('send','event','Web
+App
+Install
+Banner','dismissed','test');}else{console.log('User
+added
+to
+home
+screen');ga('send','event','Web
+App
+Install
+Banner','accepted','test');}});});}else{console.log("The
+current
+browser
+doesn't
+support
+service
+workers");}});function
+trackFooter(id,title,action){var
+e=document.getElementById(id);action=typeof
+action!=='undefined'?action:'click';if(e){e.addEventListener(action,function(){ga('send','event','Footer',action,title);},false);}}trackFooter('f_logo_link','Ëîãîòèï');trackFooter('f_about','Î
+ïðîåêòå');trackFooter('f_wanted','×òî
+äîáàâèòü?');trackFooter('f_wiki','Äîáàâèòü
+ïåðåñêàç');trackFooter('f_ideas','Ïîäåëèòüñÿ
+èäååé');trackFooter('f_vkontakte','Vkontakte');trackFooter('f_facebook','Facebook');trackFooter('f_odnoklassniki','Odnoklassniki');trackFooter('f_telegram','Telegram');trackFooter('f_twitter','Twitter');trackFooter('f_rss','RSS');trackFooter('f_subscribe','Subscription','submit');trackFooter('f_android_link','Android
+App');trackFooter('f_mail_link','Email');var
+ua=navigator.userAgent.toLowerCase();var
+isAndroid=ua.indexOf("android")>-1;if(isAndroid){var
+androidversion=parseFloat(ua.slice(ua.indexOf("android")+8));}if(!appv&&isAndroid&&false){inject('/static/js/smartbanner.js?6',function(){new
+SmartBanner({daysHidden:1,daysReminder:7,appStoreLanguage:'ru',title:'Áðèôëè
+Android',author:'Áåñïëàòíîå
+ïðèëî-',button:'Îòêðûòü',store:{android:'æåíèå
+â
+Google
+Play'},});});}
+try{Android.sendParcel(JSON.stringify(parcel));Android.sendData(parcel['title'],parcel['text']);}catch(e){}
+{
+
+"@context"
+:
+"http://schema.org",
+
+"@type"
+:
+"WebSite",
+
+"name"
+:
+"Áðèôëè",
+
+"alternateName"
+:
+"Áðèôëè.ðó",
+
+"url"
+:
+"http://briefly.ru"}

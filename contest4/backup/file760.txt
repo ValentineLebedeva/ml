@@ -1,0 +1,4821 @@
+Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+-
+Загальні
+обговорення
+-
+Головна
+//<![CDATA[
+			jsDebug			=
+0;
+/*
+Must
+come
+before
+JS
+includes
+*/
+			DISABLE_AJAX	=
+parseInt(0);
+/*
+Disables
+ajax
+requests
+where
+text
+is
+sent
+to
+the
+DB;
+helpful
+for
+charset
+issues
+*/
+			inACP			=
+false;
+			var
+isRTL		=
+false;
+			var
+rtlIe		=
+'';
+			var
+rtlFull		=
+'';
+		//]]>
+img.bbc_img
+{
+max-width:
+100%
+!important;
+}
+//<![CDATA[
+		/*
+----
+URLs
+----
+*/
+		ipb.vars['base_url']
+			=
+'http://uapolitics.com/index.php?s=c71f9caf96cf0b2c5ad1680cb113d913&';
+		ipb.vars['board_url']			=
+'http://uapolitics.com';
+		ipb.vars['img_url']
+			=
+"http://uapolitics.com/public/style_images/pravda";
+		ipb.vars['loading_img']
+		=
+'http://uapolitics.com/public/style_images/pravda/loading.gif';
+		ipb.vars['active_app']			=
+'forums';
+		ipb.vars['upload_url']			=
+'http://uapolitics.com/uploads';
+		/*
+----
+Member
+----
+*/
+		ipb.vars['member_id']			=
+parseInt(
+0
+);
+		ipb.vars['is_supmod']			=
+parseInt(
+0
+);
+		ipb.vars['is_admin']			=
+parseInt(
+0
+);
+		ipb.vars['secure_hash']
+		=
+'880ea6a14ea49e853634fbdc5015a024';
+		ipb.vars['session_id']			=
+'c71f9caf96cf0b2c5ad1680cb113d913';
+		ipb.vars['twitter_id']			=
+0;
+		ipb.vars['fb_uid']				=
+0;
+		ipb.vars['auto_dst']			=
+parseInt(
+0
+);
+		ipb.vars['dst_in_use']			=
+parseInt(
+
+);
+		ipb.vars['is_touch']			=
+false;
+		ipb.vars['member_group']		=
+{"g_mem_info":"0"}
+		/*
+----
+cookies
+-----
+*/
+		ipb.vars['cookie_id']
+			=
+'';
+		ipb.vars['cookie_domain']
+		=
+'';
+		ipb.vars['cookie_path']			=
+'/';
+		/*
+----
+Rate
+imgs
+----
+*/
+		ipb.vars['rate_img_on']			=
+'http://uapolitics.com/public/style_images/pravda/star.png';
+		ipb.vars['rate_img_off']		=
+'http://uapolitics.com/public/style_images/pravda/star_off.png';
+		ipb.vars['rate_img_rated']		=
+'http://uapolitics.com/public/style_images/pravda/star_rated.png';
+		/*
+----
+Uploads
+----
+*/
+		ipb.vars['swfupload_swf']		=
+'http://uapolitics.com/public/js/3rd_party/swfupload/swfupload.swf';
+		ipb.vars['swfupload_enabled']	=
+true;
+		ipb.vars['use_swf_upload']		=
+(
+''
+==
+'flash'
+)
+?
+true
+:
+false;
+		ipb.vars['swfupload_debug']		=
+false;
+		/*
+----
+other
+----
+*/
+		ipb.vars['highlight_color']
+
+
+
+
+=
+"#ade57a";
+		ipb.vars['charset']				=
+"UTF-8";
+		ipb.vars['time_offset']			=
+"2";
+		ipb.vars['time_adjust']			=
+"-9";
+		ipb.vars['hour_format']			=
+"24";
+		ipb.vars['seo_enabled']			=
+1;
+		
+		ipb.vars['seo_params']			=
+{"start":"-","end":"\/","varBlock":"?","varPage":"page-","varSep":"&","varJoin":"="};
+		
+		/*
+Templates/Language
+*/
+		ipb.templates['inlineMsg']		=
+"";
+		ipb.templates['ajax_loading']
+	=
+"<div
+id='ajax_loading'><img
+src='http://uapolitics.com/public/style_images/pravda/ajax_loading.gif'
+alt='"
++
+ipb.lang['loading']
++
+"'
+/></div>";
+		ipb.templates['close_popup']	=
+"<img
+src='http://uapolitics.com/public/style_images/pravda/close_popup.png'
+alt='x'
+/>";
+		ipb.templates['rss_shell']		=
+new
+Template("<ul
+id='rss_menu'
+class='ipbmenu_content'>#{items}</ul>");
+		ipb.templates['rss_item']		=
+new
+Template("<li><a
+href='#{url}'
+title='#{title}'>#{title}</a></li>");
+		
+		ipb.templates['autocomplete_wrap']
+=
+new
+Template("<ul
+id='#{id}'
+class='ipb_autocomplete'
+style='width:
+250px;'></ul>");
+		ipb.templates['autocomplete_item']
+=
+new
+Template("<li
+id='#{id}'
+data-url='#{url}'><img
+src='#{img}'
+alt=''
+class='ipsUserPhoto
+ipsUserPhoto_mini'
+/>&nbsp;&nbsp;#{itemvalue}</li>");
+		ipb.templates['page_jump']		=
+new
+Template("<div
+id='#{id}_wrap'
+class='ipbmenu_content'><h3
+class='bar'>Перейти
+до
+сторінки</h3><p
+class='ipsPad'><input
+type='text'
+class='input_text'
+id='#{id}_input'
+size='8'
+/>
+<input
+type='submit'
+value='ОК'
+class='input_submit
+add_folder'
+id='#{id}_submit'
+/></p></div>");
+		ipb.templates['global_notify']
+	=
+new
+Template("<div
+class='popupWrapper'><div
+class='popupInner'><div
+class='ipsPad'>#{message}
+#{close}</div></div></div>");
+		
+		
+		ipb.templates['header_menu']
+	=
+new
+Template("<div
+id='#{id}'
+class='ipsHeaderMenu
+boxShadow'></div>");
+		
+		Loader.boot();
+	//]]>
+jwplayer.key="zKJN5iPNSI1TwqU1fyfcEgWTb/9FqNUeLsXlyg==";
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+ga('create',
+'UA-37672524-10',
+'uapolitics.com');
+
+
+ga('send',
+'pageview');
+Перейти
+до
+вмісту
+Увійти
+Реєстрація
+Нові
+публікації
+Форуми
+Користувачі
+Календар
+Блоги
+Галерея
+Чат
+Больше
+Головна
+→
+Запеклі
+Політичні
+Баталії
+→
+Загальні
+обговорення
+→
+Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Вимкнений
+JavaScript
+У
+Вас
+вимкнений
+JavaScript.
+Через
+це
+деякі
+можливості
+системи
+функціонувати
+не
+будуть.
+Будьте
+ласкаві,
+увімкніть
+JavaScript
+для
+отримання
+доступу
+до
+усіх
+функцій.
+(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+//<![CDATA[
+	ipb.topic.inSection
+
+
+
+=
+'topicview';
+	ipb.topic.topic_id
+
+
+
+
+=
+9649;
+	ipb.topic.forum_id
+
+
+
+
+=
+2;
+	ipb.topic.redirectPost
+=
+1;
+	ipb.topic.start_id
+
+
+
+
+=
+0;
+	ipb.topic.page_id
+
+
+
+
+
+=
+0;
+	ipb.topic.topPid
+
+
+
+
+
+
+=
+0;
+	ipb.topic.counts
+
+
+
+
+
+
+=
+{
+postTotal:
+31,
+							
+
+curStart:
+
+ipb.topic.start_id,
+							
+
+perPage:
+
+
+30
+};
+	//Search
+Setup
+	ipb.vars['search_type']			=
+'forum';
+	ipb.vars['search_type_id']		=
+2;
+	ipb.vars['search_type_2']		=
+'topic';
+	ipb.vars['search_type_id_2']	=
+9649;
+	
+	
+	//
+Delete
+stuff
+set
+up
+	ipb.topic.deleteUrls['hardDelete']
+=
+new
+Template(
+ipb.vars['base_url']
++
+"app=forums&module=moderate&section=moderate&do=04&f=2&t=9649&page=&auth_key=880ea6a14ea49e853634fbdc5015a024&p=#{pid}"
+);
+	ipb.topic.deleteUrls['softDelete']
+=
+new
+Template(
+ipb.vars['base_url']
++
+"app=forums&module=moderate&section=moderate&do=postchoice&tact=sdelete&t=9649&f=2&auth_key=880ea6a14ea49e853634fbdc5015a024&selectedpids[#{pid}]=#{pid}&pid=#{pid}"
+);
+	
+	
+	ipb.topic.modPerms	
+
+=
+[];
+	
+	
+	ipb.templates['post_moderation']
+=
+new
+Template("<div
+id='comment_moderate_box'
+class='ipsFloatingAction'
+style='display:
+none'><span
+class='desc'><span
+id='comment_count'>#{count}</span>
+повідомлень:
+
+</span><select
+id='tactInPopup'
+class='input_select'><option
+value='approve'>Підтвердити</option><option
+value='delete'>Сховати</option><option
+value='sundelete'>Показати</option><option
+value='deletedo'>Видалити</option><option
+value='merge'>Об'єднати</option><option
+value='split'>Розділити</option><option
+value='move'>Перенести</option></select>&nbsp;&nbsp;<input
+type='button'
+class='input_submit'
+id='submitModAction'
+value='Ок'
+/></div>");
+	
+//]]>
+1
+Голосів
+Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Автор
+Ганс
+,
+29
+лип
+2014
+18:33
+Сторінка
+1
+з
+2
+ipb.global.registerPageJump(
+'0918910001',
+{
+url:
+"http://uapolitics.com/topic/9649-rasskazyvaiu-kak-ugomonili-rumynomoldavan-blo/",
+stKey:
+'st',
+perPage:
+30,
+totalPages:
+2,
+anchor:
+''
+}
+);
+1
+2
+›
+Авторизуйтеся
+для
+відповіді
+в
+темі
+Повідомлень
+у
+темі:
+30
+#1
+Ганс
+ :
+29
+липень
+2014
+-
+18:33
+Ганс
+Юзер
+Супербан
+555
+Популярний
+допис!
+В
+общем,
+понаблюдали
+за
+ними
+и
+за
+их
+логистикой,
+разведали
+обстановку,
+выяснили,
+что
+вся
+эта
+хуйня
+организуется
+из
+села
+Волока.
+Село
+широко
+известно
+в
+мире,
+благодаря
+бизнесу,
+связанному
+со
+свадебными
+нарядами.
+Миллиардеров
+там
+-
+шо
+шахтёров
+в
+Стаканове.
+Из
+Волоки
+в
+мир
+ведут
+всего
+две
+дороги
+http://maps.yandex.u...9826&z=13&l=map
+Вот
+их
+враз
+перекрыли
+славные
+правосеки,
+свободовцы
+и
+прочие
+карпатские
+гамадрилы.
+Сказали
+так:
+хуй
+в
+вашу
+Волоку
+проедет
+хоть
+один
+бус
+с
+сырьём
+и
+хуй
+выедет
+хоть
+одно
+свадебное
+платье.
+А
+также
+продукты
+и
+пр.пр.пр.
+Исключение
+сделали
+только
+для
+"гуманитарных"
+случаев
+типа
+"ребёнка
+в
+больницу"
+или
+надутую
+молдаванку
+в
+роддом.
+Тут
+же
+свадебные
+генералы
+взяли
+в
+руки
+трубы:
+приехали
+краны,
+грузовики,
+дороги
+за
+полчаса
+очистили
+от
+рагулятины
+и
+мусора,
+подмели
+веничками,
+весь
+триппер
+на
+обочинах
+собрали
+в
+мешки
+и
+вывезли.
+Только
+после
+этого
+Волоку
+разблокировали.
+И
+напоследок
+предупредили,
+мол
+вы
+больше
+так
+не
+шутите,
+у
+вас
+в
+селе
+настолько
+дохуя
+3-4
+этажных
+особняков
+по
+500-600
+кв.м.,
+шо
+с
+вас
+давно
+пора
+взять
+военный
+налог
+90%.
+Один
+хер
+вы
+ни
+копейки
+со
+всех
+своих
+миллиардов
+в
+бюджет
+не
+платите.
+А
+Неньке
+сейчас
+туго.
+В
+общем,
+не
+с
+вашей
+тугой
+мошной
+ситуацию
+раскачивать.
+Ливаруцыя
+-
+дело
+бедных.
+А
+бабло
+любит
+покой.
+Если
+ещё
+раз...
+не
+дай
+Бог...
+ Поняли?
+Вот
+так-то.
+До
+праци...
+Вйо!
+ipb.global.registerReputation(
+'rep_post_230289',
+{
+domLikeStripId:
+'like_post_230289',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230289'
+},
+parseInt('33')
+);
+Наверх
+(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+var
+pid
+=
+parseInt(230289);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230289')
+)
+	{
+		$('multiq_230289').show();
+	}
+	
+	if(
+$('toggle_post_230289')
+)
+	{
+		$('toggle_post_230289').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230289]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#2
+Citizen
+UA
+ :
+29
+липень
+2014
+-
+18:36
+Citizen
+UA
+Оптимист
+Клуб
+26 672
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Асиметричный
+ответ,
+однако
+0
+ipb.global.registerReputation(
+'rep_post_230294',
+{
+domLikeStripId:
+'like_post_230294',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230294'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230294);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230294')
+)
+	{
+		$('multiq_230294').show();
+	}
+	
+	if(
+$('toggle_post_230294')
+)
+	{
+		$('toggle_post_230294').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230294]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#3
+хозяин
+ :
+29
+липень
+2014
+-
+18:38
+хозяин
+Справжній
+Фан
+Рада
+Модераторів
+80 202
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Бугога!!!!
+0
+ipb.global.registerReputation(
+'rep_post_230296',
+{
+domLikeStripId:
+'like_post_230296',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230296'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230296);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230296')
+)
+	{
+		$('multiq_230296').show();
+	}
+	
+	if(
+$('toggle_post_230296')
+)
+	{
+		$('toggle_post_230296').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230296]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#4
+Газда
+ :
+29
+липень
+2014
+-
+18:39
+Газда
+Юзер
+Форумчанин
+3 526
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Ганс
+,
+не
+забувай,
+що
+матюки
+роблять
+з
+тебе
+москаля.
+0
+ipb.global.registerReputation(
+'rep_post_230301',
+{
+domLikeStripId:
+'like_post_230301',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230301'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230301);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230301')
+)
+	{
+		$('multiq_230301').show();
+	}
+	
+	if(
+$('toggle_post_230301')
+)
+	{
+		$('toggle_post_230301').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230301]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#5
+Merche
+ :
+29
+липень
+2014
+-
+18:40
+Merche
+Юзер
+Форумчанин
+2 477
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+вчаться
+потроху
+з
+людьми
+говорити...
+))
+1
+ipb.global.registerReputation(
+'rep_post_230305',
+{
+domLikeStripId:
+'like_post_230305',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230305'
+},
+parseInt('1')
+);
+Наверх
+var
+pid
+=
+parseInt(230305);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230305')
+)
+	{
+		$('multiq_230305').show();
+	}
+	
+	if(
+$('toggle_post_230305')
+)
+	{
+		$('toggle_post_230305').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230305]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#6
+YUGRED
+ :
+29
+липень
+2014
+-
+18:46
+YUGRED
+Постійний
+Клуб
+15 147
+Січеслав
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Ганс
+,
+не
+забувай,
+що
+матюки
+роблять
+з
+тебе
+москаля.
+Мурзік
+Васильович
+і
+Свирид
+Опанасович
+з
+тією
+тезою
+не
+погодяться.
+Навпаки,
+наразі
+досліджують
+фєномен
+"українського
+бойового
+суржика"
+3
+ipb.global.registerReputation(
+'rep_post_230312',
+{
+domLikeStripId:
+'like_post_230312',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230312'
+},
+parseInt('3')
+);
+Ceterum
+censeo
+Catsapstan
+esse
+delendam!
+Наверх
+var
+pid
+=
+parseInt(230312);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230312')
+)
+	{
+		$('multiq_230312').show();
+	}
+	
+	if(
+$('toggle_post_230312')
+)
+	{
+		$('toggle_post_230312').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230312]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#7
+BOBAH
+ :
+29
+липень
+2014
+-
+18:48
+BOBAH
+Новачок
+Форумчанин
+467
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+хаха
+0
+ipb.global.registerReputation(
+'rep_post_230315',
+{
+domLikeStripId:
+'like_post_230315',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230315'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230315);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230315')
+)
+	{
+		$('multiq_230315').show();
+	}
+	
+	if(
+$('toggle_post_230315')
+)
+	{
+		$('toggle_post_230315').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230315]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#8
+Ганс
+ :
+29
+липень
+2014
+-
+18:53
+Ганс
+Юзер
+Супербан
+555
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Ганс
+,
+не
+забувай,
+що
+матюки
+роблять
+з
+тебе
+москаля.
+У
+кличному
+відмінку
+однини
+треба
+казати:
+Гансе,
+а
+не
+Ганс.
+А
+москаля
+з
+мене
+навіщо
+робити?
+50
+років
+тому
+вже
+зробили.
+ipb.global.registerReputation(
+'rep_post_230333',
+{
+domLikeStripId:
+'like_post_230333',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230333'
+},
+parseInt('1')
+);
+Наверх
+var
+pid
+=
+parseInt(230333);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230333')
+)
+	{
+		$('multiq_230333').show();
+	}
+	
+	if(
+$('toggle_post_230333')
+)
+	{
+		$('toggle_post_230333').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230333]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#9
+Лірник
+ :
+29
+липень
+2014
+-
+18:58
+Лірник
+Новачок
+Рада
+Модераторів
+93
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+0
+ipb.global.registerReputation(
+'rep_post_230343',
+{
+domLikeStripId:
+'like_post_230343',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230343'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230343);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230343')
+)
+	{
+		$('multiq_230343').show();
+	}
+	
+	if(
+$('toggle_post_230343')
+)
+	{
+		$('toggle_post_230343').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230343]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#10
+Газда
+ :
+29
+липень
+2014
+-
+19:01
+Газда
+Юзер
+Форумчанин
+3 526
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+У
+кличному
+відмінку
+однини
+треба
+казати:
+Гансе,
+а
+не
+Ганс
+Гансе,
+це
+не
+я
+так
+написав.
+Це
+двигун
+форуму
+так вставляє
+нік,
+якщо
+на
+відповідну
+пимпочку
+натиснути.
+выяснили,
+что
+вся
+эта
+хуйня
+организуется
+из
+села
+Волока
+А
+скажи
+менi,
+шо
+там
+у
+тому
+селi,
+сепари
+якись
+живуть,
+чи
+шо?
+Мо,
+хочуть
+до
+Романiа
+Маре
+податися?
+0
+ipb.global.registerReputation(
+'rep_post_230352',
+{
+domLikeStripId:
+'like_post_230352',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230352'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230352);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230352')
+)
+	{
+		$('multiq_230352').show();
+	}
+	
+	if(
+$('toggle_post_230352')
+)
+	{
+		$('toggle_post_230352').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230352]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#11
+Лісостеп
+ :
+29
+липень
+2014
+-
+19:02
+Лісостеп
+Юзер
+Форумчанин
+773
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+А
+налог
+таки
+треба
+зібрати
+з
+них
+на
+війну
+0
+ipb.global.registerReputation(
+'rep_post_230356',
+{
+domLikeStripId:
+'like_post_230356',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230356'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230356);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230356')
+)
+	{
+		$('multiq_230356').show();
+	}
+	
+	if(
+$('toggle_post_230356')
+)
+	{
+		$('toggle_post_230356').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230356]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#12
+Ведмедик
+ :
+29
+липень
+2014
+-
+19:03
+Ведмедик
+Юзер
+Форумчанин
+4 269
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+У
+кличному
+відмінку
+однини
+треба
+казати:
+Гансе,
+а
+не
+Ганс.
+А
+москаля
+з
+мене
+навіщо
+робити?
+50
+років
+тому
+вже
+зробили.
+куди
+котиться
+світ,
+Україна
+бореться
+з
+москалями,
+москалі
+борються
+з
+алкоголізмом,
+хтось
+зробив
+Ганса
+москалем..
+1
+ipb.global.registerReputation(
+'rep_post_230357',
+{
+domLikeStripId:
+'like_post_230357',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230357'
+},
+parseInt('1')
+);
+Наверх
+var
+pid
+=
+parseInt(230357);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230357')
+)
+	{
+		$('multiq_230357').show();
+	}
+	
+	if(
+$('toggle_post_230357')
+)
+	{
+		$('toggle_post_230357').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230357]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#13
+consul
+ :
+29
+липень
+2014
+-
+19:04
+consul
+Адепт
+Рада
+Модераторів
+65 594
+подножие
+Эйяфьядлайёкюдля
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+капец...
+москаль
+ганс
+учить
+хохла
+про
+кличний
+відмінок
+однини...
+1
+ipb.global.registerReputation(
+'rep_post_230360',
+{
+domLikeStripId:
+'like_post_230360',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230360'
+},
+parseInt('1')
+);
+Наверх
+var
+pid
+=
+parseInt(230360);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230360')
+)
+	{
+		$('multiq_230360').show();
+	}
+	
+	if(
+$('toggle_post_230360')
+)
+	{
+		$('toggle_post_230360').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230360]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#14
+Газда
+ :
+29
+липень
+2014
+-
+19:09
+Газда
+Юзер
+Форумчанин
+3 526
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+капец...
+москаль
+ганс
+учить
+хохла
+про
+кличний
+відмінок
+однини...
+Ганс
+це потомствений
+філолог
+української
+мови.
+За
+це
+я
+його
+поважаю,
+б/п.
+Нам,
+рагулям,
+до
+нього
+що
+до
+Мiсяця.
+0
+ipb.global.registerReputation(
+'rep_post_230380',
+{
+domLikeStripId:
+'like_post_230380',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230380'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230380);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230380')
+)
+	{
+		$('multiq_230380').show();
+	}
+	
+	if(
+$('toggle_post_230380')
+)
+	{
+		$('toggle_post_230380').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230380]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#15
+consul
+ :
+29
+липень
+2014
+-
+19:10
+consul
+Адепт
+Рада
+Модераторів
+65 594
+подножие
+Эйяфьядлайёкюдля
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+ну
+то
+ви
+рагулі,
+а
+ми,
+жидобандрівці,
+ме
+менш
+освічені
+0
+ipb.global.registerReputation(
+'rep_post_230384',
+{
+domLikeStripId:
+'like_post_230384',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230384'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230384);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230384')
+)
+	{
+		$('multiq_230384').show();
+	}
+	
+	if(
+$('toggle_post_230384')
+)
+	{
+		$('toggle_post_230384').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230384]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#16
+Газда
+ :
+29
+липень
+2014
+-
+19:12
+Газда
+Юзер
+Форумчанин
+3 526
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+ну
+то
+ви
+рагулі,
+а
+ми,
+жидобандрівці,
+ме
+менш
+освічені
+0
+ipb.global.registerReputation(
+'rep_post_230391',
+{
+domLikeStripId:
+'like_post_230391',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230391'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230391);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230391')
+)
+	{
+		$('multiq_230391').show();
+	}
+	
+	if(
+$('toggle_post_230391')
+)
+	{
+		$('toggle_post_230391').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230391]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#17
+consul
+ :
+29
+липень
+2014
+-
+19:14
+consul
+Адепт
+Рада
+Модераторів
+65 594
+подножие
+Эйяфьядлайёкюдля
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+0
+ipb.global.registerReputation(
+'rep_post_230396',
+{
+domLikeStripId:
+'like_post_230396',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230396'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230396);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230396')
+)
+	{
+		$('multiq_230396').show();
+	}
+	
+	if(
+$('toggle_post_230396')
+)
+	{
+		$('toggle_post_230396').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230396]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#18
+Ведмедик
+ :
+29
+липень
+2014
+-
+19:49
+Ведмедик
+Юзер
+Форумчанин
+4 269
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Сказали
+так
+Щось
+колега
+Ганс
+недоговорює
+А
+чому
+згадався
+анекдот,
+зовсім
+не
+розумію
+Девочка
+с
+розовым
+бантиком
+пришла
+в
+цирк.
+На
+арене
+танцующие
+крокодильчики...
+Крокодильчики
+танцуют
+бальные
+танцы,
+вальсы,
+польки,
+а
+глазки
+у
+них
+грустные.
+И
+вот
+один
+крокодильчик
+приближается
+в
+процессе
+к
+девочке,
+видит
+в
+ее
+глазах
+немой
+вопрос
+и
+говорит:
+-
+А
+знаешь
+как
+нас
+тут
+#издят!!!
+Девочка
+о##eла.
+Сидит
+в
+шоке.
+А
+на
+арене
+летающие
+бегемотики...
+Бегемотики
+летают
+по
+всему
+цирку,
+выписывают
+фигуры
+высшего
+пилотажа,
+петля
+Нестерова...
+И
+тут
+один
+бегемотик
+подлетает
+к
+девочке,
+трепыхается,
+смотрит
+на
+нее
+печальным
+взглядом.
+Девочка
+у
+него
+спрашивает:
+-
+Вас
+тоже
+#издят?
+-
+Нас
+нет,
+но
+видела
+бы
+ты
+как
+#издят
+крокодильчиков...
+2
+ipb.global.registerReputation(
+'rep_post_230495',
+{
+domLikeStripId:
+'like_post_230495',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230495'
+},
+parseInt('2')
+);
+Наверх
+var
+pid
+=
+parseInt(230495);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230495')
+)
+	{
+		$('multiq_230495').show();
+	}
+	
+	if(
+$('toggle_post_230495')
+)
+	{
+		$('toggle_post_230495').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230495]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#19
+Бусинка
+ :
+29
+липень
+2014
+-
+19:54
+Бусинка
+vmv
+Клуб
+11 718
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+браво!!!
+0
+ipb.global.registerReputation(
+'rep_post_230511',
+{
+domLikeStripId:
+'like_post_230511',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230511'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230511);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230511')
+)
+	{
+		$('multiq_230511').show();
+	}
+	
+	if(
+$('toggle_post_230511')
+)
+	{
+		$('toggle_post_230511').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230511]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#20
+honey
+flower
+ :
+29
+липень
+2014
+-
+20:13
+honey
+flower
+☼‿☼
+)>(///)<(
+Клуб
+9 118
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Мурзік
+Васильович
+і
+Свирид
+Опанасович
+з
+тією
+тезою
+не
+погодяться.
+Навпаки,
+наразі
+досліджують
+фєномен
+"українського
+бойового
+суржика"
+отИменно
+Щось
+колега
+Ганс
+недоговорює
+А
+чому
+згадався
+анекдот,
+зовсім
+не
+розумію
+Девочка
+с
+розовым
+бантиком
+пришла
+в
+цирк.
+На
+арене
+танцующие
+крокодильчики...
+отето
+настоящий
+анігдод
+пра 
+глаза
+2
+ipb.global.registerReputation(
+'rep_post_230567',
+{
+domLikeStripId:
+'like_post_230567',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230567'
+},
+parseInt('2')
+);
+Наверх
+var
+pid
+=
+parseInt(230567);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230567')
+)
+	{
+		$('multiq_230567').show();
+	}
+	
+	if(
+$('toggle_post_230567')
+)
+	{
+		$('toggle_post_230567').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230567]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#21
+consul
+ :
+29
+липень
+2014
+-
+20:14
+consul
+Адепт
+Рада
+Модераторів
+65 594
+подножие
+Эйяфьядлайёкюдля
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+отето
+настоящий
+анігдод
+пра 
+глаза
+0
+ipb.global.registerReputation(
+'rep_post_230571',
+{
+domLikeStripId:
+'like_post_230571',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230571'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230571);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230571')
+)
+	{
+		$('multiq_230571').show();
+	}
+	
+	if(
+$('toggle_post_230571')
+)
+	{
+		$('toggle_post_230571').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230571]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#22
+Ганс
+ :
+29
+липень
+2014
+-
+20:22
+Ганс
+Юзер
+Супербан
+555
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+А
+скажи
+менi,
+шо
+там
+у
+тому
+селi,
+сепари
+якись
+живуть,
+чи
+шо?
+Мо,
+хочуть
+до
+Романiа
+Маре
+податися?
+Прямо
+за
+об'їзною
+Чернівців
+починається
+суцільний
+румунський
+анклав,
+аж
+до
+самого
+кордону.
+Історично
+так
+склалося,
+що
+ті
+румуни
+недолюблюють
+все
+українське.
+Неабияку
+роль
+у
+тому
+грає
+Московська
+церква.
+Це
+справді
+ворожий
+і
+надзвичайно
+дієвий
+інструмент
+впливу
+на
+свідомість
+румунів.
+Чи
+багато
+церков
+можуть
+похвалитися
+тим,
+що
+у
+них
+правив
+службу
+сам
+Кирило?
+Тут
+-
+можуть.
+Румуни
+відгрохали
+церковну
+дзвінницю,
+яка
+лише
+на
+кілька
+метрів
+нижча
+від
+Київської
+Софії.
+(фото)
+І
+це
+не
+в
+столиці
+держави,
+і
+не
+в
+обласному
+центрі.
+І
+навіть
+не
+в
+районному
+центрі.
+Єнаковєчя
+вони
+всі
+люблять
+та
+шанують
+досі.
+90%
+голосів
+від
+них
+він
+мав
+завжди,
+тому
+такі
+результати
+усіх
+виборів.
+Румуни
+завжди
+цінували
+свій
+інтерес
+понад
+усе.
+Тому
+їхні
+колгоспи
+були
+бідні,
+але
+маєтки
+вражали
+ще
+за
+радянських
+часів.
+Вони
+ще
+тоді
+зрозуміли,
+що
+краще
+тримати
+три
+ корови
+та
+десять
+свиней
+і
+купити
+собі
+липову
+інвалідність
+,
+а
+не
+працювати
+за
+трудодні.
+На
+Буковині
+мєнти,
+середній
+медперсонал,
+касири
+у
+банках,
+вохра,
+вахтери,
+сторожа
+на
+будівництві
+-
+це
+виключно
+румунська
+царина.
+Де
+не
+треба
+вгрівати
+лоба
+і
+можна
+мати
+вільний
+час
+і
+зайву
+копійчину.
+Вони
+ж
+свого
+часу
+почали
+возити
+торби
+у
+Югославію,
+розбестили
+своїми
+хабарами
+медицину,
+освіту,
+суди
+і
+все
+чиновництво.
+Потім
+таким
+же
+чином
+пішов
+бізнес.
+Без
+непотрібного
+формалізму
+та
+податків.
+ipb.global.registerReputation(
+'rep_post_230594',
+{
+domLikeStripId:
+'like_post_230594',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230594'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230594);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230594')
+)
+	{
+		$('multiq_230594').show();
+	}
+	
+	if(
+$('toggle_post_230594')
+)
+	{
+		$('toggle_post_230594').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230594]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#23
+Турчинофф
+ :
+29
+липень
+2014
+-
+20:25
+Турчинофф
+Ветеран
+Клуб
+47 208
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+круто
+йопт
+0
+ipb.global.registerReputation(
+'rep_post_230601',
+{
+domLikeStripId:
+'like_post_230601',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230601'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230601);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230601')
+)
+	{
+		$('multiq_230601').show();
+	}
+	
+	if(
+$('toggle_post_230601')
+)
+	{
+		$('toggle_post_230601').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230601]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#24
+wtf
+ :
+29
+липень
+2014
+-
+20:35
+wtf
+Серйозний
+Клуб
+7 970
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Это
+там
+пару
+лет
+назад
+семейство
+черножопое
+назвало
+своего
+то
+ли
+пятого
+то
+ли
+шестого
+ребенка
+Янукович.
+Был
+даже
+об
+этом
+сюжет
+на
+ТВ.
+0
+ipb.global.registerReputation(
+'rep_post_230619',
+{
+domLikeStripId:
+'like_post_230619',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230619'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230619);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230619')
+)
+	{
+		$('multiq_230619').show();
+	}
+	
+	if(
+$('toggle_post_230619')
+)
+	{
+		$('toggle_post_230619').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230619]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#25
+consul
+ :
+29
+липень
+2014
+-
+20:36
+consul
+Адепт
+Рада
+Модераторів
+65 594
+подножие
+Эйяфьядлайёкюдля
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+и
+шо
+теперь
+они
+этого
+ребенка
+на
+ато
+переименуют?
+0
+ipb.global.registerReputation(
+'rep_post_230621',
+{
+domLikeStripId:
+'like_post_230621',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230621'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230621);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230621')
+)
+	{
+		$('multiq_230621').show();
+	}
+	
+	if(
+$('toggle_post_230621')
+)
+	{
+		$('toggle_post_230621').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230621]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#26
+tom_cat
+ :
+29
+липень
+2014
+-
+20:40
+tom_cat
+Юзер
+Форумчанин
+881
+Івано-Франківськ
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Это
+там
+пару
+лет
+назад
+семейство
+черножопое
+назвало
+своего
+то
+ли
+пятого
+то
+ли
+шестого
+ребенка
+Янукович.
+Был
+даже
+об
+этом
+сюжет
+на
+ТВ.
+Ні,
+то
+в
+циганській
+сім"ї
+на
+Закарпатті
+ніби
+0
+ipb.global.registerReputation(
+'rep_post_230642',
+{
+domLikeStripId:
+'like_post_230642',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230642'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230642);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230642')
+)
+	{
+		$('multiq_230642').show();
+	}
+	
+	if(
+$('toggle_post_230642')
+)
+	{
+		$('toggle_post_230642').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230642]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#27
+сержант
+Вудс
+ :
+29
+липень
+2014
+-
+20:53
+сержант
+Вудс
+Серйозний
+Клуб
+8 111
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Розшифруйте
+детальніше.
+Ну,
+що
+у
+Волоці
+живуть
+опуєвші
+румуни,
+я
+зрозумів.
+Але
+що
+хотіли
+"місцеві
+правосєкі"
+та
+хто
+такі
+"свадєбниє
+гєнерали"???
+0
+ipb.global.registerReputation(
+'rep_post_230672',
+{
+domLikeStripId:
+'like_post_230672',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230672'
+},
+parseInt('0')
+);
+-Ето
+наше
+пііівооооо
+(москалі
+про
+бражку)
+Наверх
+var
+pid
+=
+parseInt(230672);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230672')
+)
+	{
+		$('multiq_230672').show();
+	}
+	
+	if(
+$('toggle_post_230672')
+)
+	{
+		$('toggle_post_230672').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230672]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#28
+Ганс
+ :
+29
+липень
+2014
+-
+20:59
+Ганс
+Юзер
+Супербан
+555
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Есть
+у
+них
+тут
+духовный
+вождь,
+некто
+отец
+Лонгин,
+в
+миру
+Михай
+Жар.
+Личный
+друг
+Енаковечя,
+Герой
+Украины
+(Ющенко
+дал,
+развели
+его,
+как
+лошка).
+Михай
+-
+это
+типа
+местный
+Лозинский,
+но
+раз
+в
+50-100
+круче
+и
+с
+намного
+более
+качественной
+"легендой".
+А
+по
+факту
+-
+мафиози.
+Прославился
+тем,
+что
+усыновил
+200
+или
+более
+детей.
+Ну,
+альтруист,
+подвижник,
+мать
+Тереза,
+тока
+с
+яйцами.
+Официальная
+пропаганда
+умалчивает,
+что
+на
+всех
+усыновлённых
+детей
+ловкий
+румын
+получает
+из
+бюджета
+компенсацию.
+При
+Юще
+это
+было
+более
+двух
+тысяч
+грн
+за
+одного.
+А
+их
+2
+сотни,
+напомню.
+Труд
+ухаживающих
+монашек
+бесплатен.
+Поддержка
+Бати
+-
+любая.
+Было
+как-то:
+новоназначенный
+губернатор
+Мойша
+Папиев,
+тоже
+близкий
+друг
+Енаковечя
+и
+тоже
+мафиози,
+где-то
+в
+чём-то
+не
+наехал
+на
+Жара,
+а
+просто
+пересёкся
+с
+ним
+в
+каких-то
+потоковых
+вопросах.
+Короче,
+сунулся
+в
+схему,
+где
+Жар
+качает
+бабло,
+но
+сам
+этого
+не
+знал.
+Жар
+возмутился
+и
+как-то
+гнусно
+отозвался
+о
+Мойше.
+А
+Мойша
+обиделся:
+я
+тут
+такой
+крутой,
+губернатор,
+министр,
+депутат,
+рыгоанал,
+друг
+Бати,
+жопой
+гвоздик
+гну,
+а
+меня
+какой-то
+поп
+ебёт
+на
+ровном
+месте,
+как
+школяра.
+ Приказал
+гнуть
+линию
+дальше.
+Жар
+берёт
+трубу,
+набирает
+Батю,
+через
+20
+минут
+сам
+Папиев
+сосёт
+хуй
+у
+Жара.
+До
+сих
+пор
+этот
+поп
+на
+Буковине
+чувствует
+себя
+если
+не
+круче
+Патриарха
+Кирилла
+в
+Загорске,
+пардон,
+в
+Сергиевом
+Посаде,
+то
+по
+крайней
+мере
+на
+равных.
+Ну
+хоть
+такой
+штришок:
+мой
+друг
+из
+Германии
+пригнал
+этой
+банде
+несколько
+автомобилей,
+которые
+никто
+даже
+не
+оформлял
+на
+таможне
+и
+в
+ГАИ.
+Просто
+повесили
+какие-то
+левые
+номера
+и
+катаются.
+ipb.global.registerReputation(
+'rep_post_230683',
+{
+domLikeStripId:
+'like_post_230683',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230683'
+},
+parseInt('0')
+);
+Наверх
+var
+pid
+=
+parseInt(230683);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230683')
+)
+	{
+		$('multiq_230683').show();
+	}
+	
+	if(
+$('toggle_post_230683')
+)
+	{
+		$('toggle_post_230683').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230683]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#29
+сержант
+Вудс
+ :
+29
+липень
+2014
+-
+21:13
+сержант
+Вудс
+Серйозний
+Клуб
+8 111
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+та,
+блін,
+хто
+перекривав
+дороги
+та
+хто
+їх
+розблокував!?!?!
+0
+ipb.global.registerReputation(
+'rep_post_230705',
+{
+domLikeStripId:
+'like_post_230705',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230705'
+},
+parseInt('0')
+);
+-Ето
+наше
+пііівооооо
+(москалі
+про
+бражку)
+Наверх
+var
+pid
+=
+parseInt(230705);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230705')
+)
+	{
+		$('multiq_230705').show();
+	}
+	
+	if(
+$('toggle_post_230705')
+)
+	{
+		$('toggle_post_230705').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230705]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+#30
+Reader
+ :
+29
+липень
+2014
+-
+21:31
+Reader
+Юзер
+Форумчанин
+2 947
+Re: Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Налог
+стопудов
+с
+этих
+упырей.
+1
+ipb.global.registerReputation(
+'rep_post_230774',
+{
+domLikeStripId:
+'like_post_230774',
+app:
+'forums',
+type:
+'pid',
+typeid:
+'230774'
+},
+parseInt('1')
+);
+The
+impossible
+we
+do
+immediately,
+miracles
+take
+a
+little
+longer.
+Наверх
+var
+pid
+=
+parseInt(230774);
+if
+(
+pid
+>
+ipb.topic.topPid
+){
+	ipb.topic.topPid
+=
+pid;
+}
+
+	//
+Show
+multiquote
+for
+JS
+browsers
+	if
+(
+$('multiq_230774')
+)
+	{
+		$('multiq_230774').show();
+	}
+	
+	if(
+$('toggle_post_230774')
+)
+	{
+		$('toggle_post_230774').show();
+	}
+	
+	//
+Add
+perm
+data
+	ipb.topic.deletePerms[230774]
+=
+{
+'canDelete'
+:
+0,
+'canSoftDelete'
+:
+0
+};
+Сторінка
+1
+з
+2
+ipb.global.registerPageJump(
+'0918910001',
+{
+url:
+"http://uapolitics.com/topic/9649-rasskazyvaiu-kak-ugomonili-rumynomoldavan-blo/",
+stKey:
+'st',
+perPage:
+30,
+totalPages:
+2,
+anchor:
+''
+}
+);
+1
+2
+›
+Назад
+у
+Загальні
+обговорення
+window.fbAsyncInit
+=
+function()
+{
+	FB.init({
+		appId
+
+
+
+
+
+:
+'',
+		xfbml
+
+
+
+
+
+:
+true,
+		version
+
+
+
+:
+'v2.1'
+	});
+};
+(function(d,
+s,
+id){
+	var
+js,
+fjs
+=
+d.getElementsByTagName(s)[0];
+	if
+(d.getElementById(id))
+{return;}
+	js
+=
+d.createElement(s);
+js.id
+=
+id;
+	js.src
+=
+"//connect.facebook.net/ru_RU/sdk.js";
+	fjs.parentNode.insertBefore(js,
+fjs);
+	}(document,
+'script',
+'facebook-jssdk'));
+{lang:
+'uk'}
+ipb.sharelinks.url
+
+
+=
+"http://uapolitics.com/topic/9649-rasskazyvaiu-kak-ugomonili-rumynomoldavan-blo/";
+		ipb.sharelinks.title
+=
+"Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг";
+		ipb.sharelinks.bname
+=
+"Головна";
+Кількість
+відвідувачів,
+що
+читають
+цю
+тему:
+0
+0
+користувачів,
+0
+гостей,
+0
+анонімних
+//<![CDATA[
+		Event.observe(
+window,
+'load',
+function(e){
+prettyPrint()
+});
+	//]]>
+Ответить
+цитируемым
+сообщениям
+Очистити
+(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+Головна
+→
+Запеклі
+Політичні
+Баталії
+→
+Загальні
+обговорення
+→
+Рассказываю,
+как
+угомонили
+румыномолдаван
+-
+блокувальныкив
+дориг
+Конфіденційність
+Змінити
+стиль
+Правда
+№1
+Правда
+№2
+Ретро
+Правда
+Mobile
+Червоний-Базовий
+Cиній-Базовий
+Допомога
+Community
+Forum
+Software
+by
+IP.Board
+Русификация
+от
+IBResource
+//<![CDATA[
+	//
+Lightbox
+Configuration
+	LightboxOptions
+=
+Object.extend({
+	
+
+
+
+fileLoadingImage:
+
+
+
+
+
+
+
+'http://uapolitics.com/public/style_images/pravda/lightbox/loading.gif',
+	
+
+
+
+fileBottomNavCloseImage:
+'http://uapolitics.com/public/style_images/pravda/lightbox/closelabel.gif',
+	
+
+
+
+overlayOpacity:
+0.8,
+
+
+//
+controls
+transparency
+of
+shadow
+overlay
+	
+
+
+
+animate:
+true,
+
+
+
+
+
+
+
+
+//
+toggles
+resizing
+animations
+	
+
+
+
+resizeSpeed:
+10,
+
+
+
+
+
+
+
+//
+controls
+the
+speed
+of
+the
+image
+resizing
+animations
+(1=slowest
+and
+10=fastest)
+	
+
+
+
+borderSize:
+10,
+
+
+
+
+
+
+
+
+//if
+you
+adjust
+the
+padding
+in
+the
+CSS,
+you
+will
+need
+to
+update
+this
+variable
+		//
+When
+grouping
+images
+this
+is
+used
+to
+write:
+Image
+#
+of
+#.
+		//
+Change
+it
+for
+non-english
+localization
+		labelImage:
+"Зображення",
+		labelOf:
+"з
+"
+	},
+window.LightboxOptions
+||
+{});
+/*
+Watch
+for
+a
+lightbox
+image
+and
+set
+up
+our
+downloadbutton
+watcher
+*/
+document.observe('click',
+(function(event){
+
+
+
+
+var
+target
+=
+event.findElement('a[rel*="lightbox"]')
+||
+event.findElement('area[rel*="lightbox"]')
+||
+event.findElement('span[rel*="lightbox"]');
+
+
+
+
+if
+(target)
+{
+
+
+
+
+
+
+
+
+event.stop();
+
+
+
+
+
+
+
+
+gbl_addDownloadButton();
+
+
+
+
+}
+}).bind(this));
+var
+_to
+
+
+
+=
+'';
+var
+_last
+
+=
+'';
+function
+gbl_addDownloadButton()
+{
+	if
+(
+typeof(
+ipsLightbox.lightboxImage
+)
+!=
+'undefined'
+&&
+ipsLightbox.lightboxImage.src
+)
+	{
+		if
+(
+_last
+!=
+ipsLightbox.lightboxImage.src
+)
+		{
+			if
+(
+!
+$('gbl_d')
+)
+			{
+				$('bottomNav').insert(
+{
+top:
+"<div
+id='gbl_d'
+style='text-align:right;padding-bottom:4px;'></div>"
+}
+);
+			}
+			
+			$('gbl_d').update(
+"<a
+href='"+
+ipsLightbox.lightboxImage.src
++
+"'
+target='_blank'><img
+src='http://uapolitics.com/public/style_images/pravda/lightbox/download-icon.png'
+/></a>"
+);
+			
+			_last
+=
+ipsLightbox.lightboxImage.src;
+		}
+	}
+	
+	/*
+Check
+for
+init
+and
+then
+keep
+checking
+for
+new
+image
+*/
+	_to
+=
+setTimeout(
+"gbl_addDownloadButton()",
+1000
+);
+}
+//]]>
+Увійти
+У
+вас
+ще
+немає
+аккаунта?
+Зареєструйтесь
+зараз!
+Ім'я
+або
+e-mail:
+Пароль
+Я
+забув
+свій
+пароль
+Запам'ятати
+мене
+Це
+не
+рекомендується
+для
+публічних
+комп'ютерів
+Увійти
+анонімно
+Не
+додавати
+мене
+в
+список
+активних
+користувачів
+Конфіденційність
+if(
+$('primary_nav')
+){	ipb.global.activateMainMenu();
+}

@@ -1,0 +1,863 @@
+МОРОЖЕНОЕ
+48
+копеек***
+пломбир
+брикет
+420
+мл
+.div1
+{
+				max-width:
+980px;
+				min-width:
+980px;
+				
+			}
+			.div2
+{
+				max-width:
+980px;
+				min-width:
+980px;
+				
+			}
+			.menu
+{
+				font-size:
+14px;
+				font-family:
+times;
+				color:
+white;
+				text-decoration:
+none;
+			}
+			.menuEdge
+{
+				font-size:
+0px;
+				width:
+5px;
+				height:
+27px;
+			}
+			.head
+{
+				font-family:
+times;
+				font-size:
+22px;
+			}
+			.red
+{
+				color:
+#cc0000;
+			}
+			.text
+{
+				font-size:
+14px;
+				font-family:
+times;
+			}
+			.textv
+{
+				font-size:
+14px;
+				font-family:
+verdana;
+				line-height:
+22px;
+			}
+			.date
+{
+				font-size:
+13px;
+				font-family:
+times;
+			}
+			.sostav
+{
+				font-size:
+13px;
+				font-family:
+times;
+			}
+			.textCo
+{
+				font-size:
+12px;
+				font-family:
+times;
+			}
+			.textHC
+{
+				font-size:
+11px;
+				font-family:
+tahoma;
+			}
+			.value
+{
+				font-family:
+Verdana;
+				font-size:
+11px;
+			}
+var
+code=48298;
+		jQuery().ready(function
+($)
+{
+			$(".vote").mouseover(function
+()
+{
+				$(this).css({'cursor':
+'pointer',
+'background-color':
+'#e3e3e3'});
+			});
+			$(".vote").mouseout(function
+()
+{
+				$(this).css({'cursor':
+'default',
+'background-color':
+'white'});
+			});
+			$(".vote").click(function
+()
+{
+				s=$(this).prop('id');
+				if
+(s=='y')
+{
+					$.post('vote.php',
+{'tovar':
+code,
+'sign':
+1},
+function(data)
+{
+						if
+(data==1)
+{
+							old=$("#vy").text()/1;
+							$("#vy").text(old+1);
+						}
+					});
+				}
+				else
+{
+					$.post('vote.php',
+{'tovar':
+code,
+'sign':
+0},
+function(data)
+{
+						if
+(data==1)
+{
+							old=$("#vn").text()/1;
+							$("#vn").text(old+1);
+						}
+					});
+				}
+			});
+			document.getElementById("cName").value="";
+			document.getElementById("commText").value="";
+			document.getElementById("cAge").value="";
+		});
+		var
+menu="";
+		function
+textOver(item)
+{
+	
+		item.style.cursor="pointer";
+	
+		item.style.textDecoration="underline";
+	
+		item.style.color="black";
+		}
+		function
+textOut(item)
+{
+			
+item.style.cursor="default";
+	
+		item.style.textDecoration="none";
+	
+		item.style.color="white";
+		}
+		var
+catalog="market";
+		var
+catitem="48298";
+		var
+prop="";
+		var
+propitem="";
+		var
+city="msk";
+VK.init({apiId:
+1979638,
+onlyWidgets:
+true});
+msk.tomall.ru
+|
+Магазины
+|
+Скидки
+|
+Новости
+|
+Каталоги
+|
+О
+проекте
+|
+Статьи
+Москва
+tomall.ru
+→
+Каталоги
+→
+Каталог
+сети
+магазинов
+Дикси
+в
+Москве
+→
+МОРОЖЕНОЕ
+48
+копеек***
+пломбир
+брикет
+420
+мл
+МОРОЖЕНОЕ
+48
+копеек***
+пломбир
+брикет
+420
+мл
+Гипермаркет:
+Дикси
+Реализация:
+c
+23-07-2013
+по
+29-07-2013
+Обычная
+цена:
+56.9
+руб.
+Цена
+со
+скидкой:
+37.9
+руб.
+Скидка
+составила:
+33%
+Изготовитель:
+-
+Импортер:
+-
+Рубрика:
+Сладкое
+и
+хлебобулочные
+изделия
+ГОСТ
+/
+ТУ:
+-
+Состав:
+-
+Калорийность:
+-
+100гр.
+содержит:
+-
+Вес,
+объем:
+420
+мл
+Цена
+за
+1
+литр;
+со
+скидкой:
+90.24
+руб.
+<!--
+google_ad_client
+=
+"ca-pub-9126713086566676";
+/*
+TovarB
+*/
+google_ad_slot
+=
+"1438154365";
+google_ad_width
+=
+728;
+google_ad_height
+=
+90;
+//-->
+Продукт
+МОРОЖЕНОЕ
+48
+копеек***
+пломбир
+брикет
+420
+мл
+Вы
+можете
+купить
+в
+супермаркете
+Дикси
+по
+выгодной
+цене
+в
+период
+действия
+акции
+с
+23-07-2013
+по
+29-07-2013.
+Также
+Вы
+сможете
+сравнить
+продукт
+с
+аналогичными
+позициями
+от
+других
+магазинов
+в
+общем
+каталоге
+,
+где
+представлены
+предложения
+от
+ведущих
+магазинов
+Москвы.
+Этот
+список
+актуальных
+скидок
+позволяет
+быстро
+и
+комфортно
+находить
+самые
+оптимальные
+для
+Вас
+варианты.
+С
+помощью
+элементов
+поиска
+и
+сортировки
+можно
+получать
+информативные
+карты
+продуктов
+со
+скидками.
+Например,
+набрав
+в
+поиске
+рис,
+Вы
+получите
+актуальный
+срез
+по
+товару.
+Ниже
+также
+публикуется
+информация
+по
+схожим
+товарам
+в
+хронологическом
+порядке.
+Т.е.
+можно
+прикинуть
+насколько
+текущая
+цена
+находится
+в
+соответствии
+с
+временной
+зависимостью
+1
+0
+//<![CDATA[
+yandex_partner_id
+=
+62899;
+yandex_stat_id=8;
+yandex_site_bg_color
+=
+'FFFFFF';
+yandex_site_charset
+=
+'windows-1251';
+yandex_ad_format
+=
+'direct';
+yandex_font_size
+=
+0.9;
+yandex_direct_type
+=
+'horizontal';
+yandex_direct_limit
+=
+3;
+yandex_direct_header_bg_color
+=
+'e3e3e3';
+yandex_direct_title_color
+=
+'0066cc';
+yandex_direct_url_color
+=
+'0066cc';
+yandex_direct_all_color
+=
+'0000CC';
+yandex_direct_text_color
+=
+'000000';
+yandex_direct_hover_color
+=
+'cc0000';
+yandex_direct_favicon
+=
+true;
+document.write('<sc'+'ript
+type="text/javascript"
+src="http://an.yandex.ru/system/context.js"></sc'+'ript>');
+//]]>
+Похожие
+предложения
+в
+разные
+периоды
+времени:
+Продукт
+цена
+без
+скидки
+цена
+со
+скидкой
+скидка
+дата
+реализации
+магазин
+МОРОЖЕНОЕ
+48
+копеек***
+пломбир
+брикет
+420
+мл
+56.9
+руб.
+37.9
+руб.
+33%
+c
+2013-07-23
+по
+2013-07-29
+Дикси
+МОРОЖЕНОЕ
+48
+копеек***
+пломбир
+брикет
+420
+мл
+56.9
+руб.
+37.9
+руб.
+33%
+c
+2013-07-02
+по
+2013-07-08
+Дикси
+Мороженое
+Эскимо
+11
+КОПЕЕК
+Пломбир
+в
+вафельном
+стакане
+80
+г
+-
+18.99
+руб.
+-
+c
+2013-06-13
+по
+2013-06-26
+metro
+Мороженое
+
+48
+копеек
+
+Шоколадное
+с
+шоколадным
+соусом
+Пломбир
+
+Брикет
+с
+шоколадной
+крошкой
+420
+мл
+49.9
+руб.
+39.9
+руб.
+20%
+c
+2013-05-23
+по
+2013-05-29
+billa
+МОРОЖЕНОЕ
+Черное
+золото
+/Талосто/
+шоколадный
+пломбир
+с
+кусочками
+шоколада
+брикет
+220
+г
+63.9
+руб.
+48.9
+руб.
+23%
+c
+2013-05-14
+по
+2013-05-20
+Дикси
+МОРОЖЕНОЕ
+48
+копеек
+пломбир
+брикет
+420
+мл
+55.90
+руб.
+39.90
+руб.
+29%
+c
+2013-01-22
+по
+2013-01-28
+Дикси
+МОРОЖЕНОЕ
+Юбилейное
+пломбир
+брикет
+на
+вафле
+80
+г
+20.90
+руб.
+14.90
+руб.
+29%
+c
+2013-01-08
+по
+2013-01-14
+Дикси
+МОРОЖЕНОЕ
+48
+копеек
+пломбир
+брикет
+420
+мл
+46.90
+руб.
+33.90
+руб.
+28%
+c
+2012-12-04
+по
+2012-12-10
+Дикси
+МОРОЖЕНОЕ
+Юбилейное
+пломбир
+брикет
+в
+вафлях,
+80г
+20.90
+руб.
+12.90
+руб.
+38%
+c
+2012-10-09
+по
+2012-10-15
+Дикси
+МОРОЖЕНОЕ
+48
+копеек
+пломбир
+брикет,
+420мл
+51.90
+руб.
+42.90
+руб.
+17%
+c
+2012-10-02
+по
+2012-10-08
+Дикси
+МОРОЖЕНОЕ
+48
+копеек
+пломбир
+брикет,
+350мл
+55.90
+руб.
+33.90
+руб.
+39%
+c
+2012-09-04
+по
+2012-09-10
+Дикси
+Мороженое
+эскимо
+пломбир
+48
+КОПЕЕК
+65
+г
+-
+16.00
+руб.
+-
+c
+2012-08-23
+по
+2012-09-05
+metro
+МОРОЖЕНОЕ
+Юбилейное
+пломбир
+брикет
+на
+вафле,
+80г
+20.90
+руб.
+14.90
+руб.
+28%
+c
+2012-07-31
+по
+2012-08-06
+Дикси
+Мороженое
+ЩЕРБЕТ
+сливочно-фруктовое,
+80
+г.
+Мороженное
+ФЙСБЕРРИ
+Ленинградское
+сливочный
+брикет,
+80
+г.
+Мороженое
+ФИЛЕВСКИЙ
+БРИКЕТ
+ванильный
+пломбир
+на
+вафлях,
+80
+г.
+Мороженое
+ФИЛЕВСКИЙ
+СТАКАНЧИК
+пломбир
+с
+шоколадом,
+80
+г.
+-
+14.9
+руб.
+-
+c
+2012-07-19
+по
+2012-07-25
+Карусель
+Отзывы
+и
+комментарии
+о
+товаре.
+Оставить
+свой
+через
+сайт:
+через
+Вконтакте:
+Оставить
+сообщение:
+500
+символов
+Имя:
+Возраст:
+VK.Widgets.Comments("vk_comments",
+{limit:
+10,
+width:
+"500",
+pageUrl:
+"http://msk.tomall.ru/allmarket/"+catitem},catitem);
+			VK.Observer.subscribe('widgets.comments.new_comment',
+function()
+{
+
+
+
+
+
+
+
+
+
+
+
+		$.post("http://tomall.ru/js/commVkCount.php",
+{
+"cat":
+catalog,
+"catitem":
+catitem,
+"city":
+city,
+"sign":
+1
+});
+			});
+			VK.Observer.subscribe('widgets.comments.delete_comment',
+function()
+{
+
+
+
+
+
+
+
+
+
+
+
+		$.post("http://tomall.ru/js/commVkCount.php",
+{
+"cat":
+catalog,
+"catitem":
+catitem,
+"city":
+city,
+"sign":
+-1
+});
+			});
+<!--
+document.write("<a
+href='http://www.liveinternet.ru/click'
+"+
+"target=_blank><img
+src='http://counter.yadro.ru/hit?t26.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"'
+alt=''
+title='LiveInternet:
+показано
+число
+посетителей
+за"+
+"
+сегодня'
+"+
+"border='0'
+width='88'
+height='15'><\/a>")
+//-->

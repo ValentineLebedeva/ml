@@ -1,0 +1,1735 @@
+чем
+пахнет
+огонь
+от
+зажигалки!!?
+он
+пахнет
+палёными
+волосами
+из
+носа)))))))
+-
+Клевые
+статусы
+
+-
+Статусы
+-
+Фото,
+юмор,
+приколы,
+статусы
+и
+многое
+другое!
+window.ulb
+=
+{photoPage:
+"Перейти
+на
+страницу
+с
+фотографией.",closeBtn:
+"Закрыть",
+error:
+"Запрошенный
+контент
+не
+может
+быть
+загружен.
+Пожалуйста,
+попробуйте
+позже.",
+next:
+"Вперед",
+prev:
+"Предыдущий",
+btnPlay:
+"Начать
+слайдшоу",
+btnToggle:
+"Изменить
+размер"}
+.UhideBlock{display:none;
+}
+new
+Image().src
+=
+"//counter.yadro.ru/hit;noadsru?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random();
+//<!--
+	function
+uSocialLogin(t)
+{
+		var
+params
+=
+{
+'vkontakte':{
+'width':790,
+'height':400
+},
+'ok':{
+'width':560,
+'height':310
+},
+'facebook':{
+'width':950,
+'height':520
+},
+'yandex':{
+'width':870,
+'height':515
+},
+'google':{
+'width':700,
+'height':600
+},
+'twitter':{
+'width':800,
+'height':400
+}
+};
+		var
+ref
+=
+escape(location.protocol
++
+'//'
++
+('glistof.net'
+||
+location.hostname)
++
+location.pathname
++
+((location.hash
+?
+(
+location.search
+?
+location.search
++
+'&'
+:
+'?'
+)
++
+'rnd='
++
+Date.now()
++
+location.hash
+:
+(
+location.search
+||
+''
+))));
+		//
+var
+ref
+=
+escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return
+false;
+	}
+//-->
+var
+advideo_playlist_id=999;
+Суббота,
+17
+Дек
+16,
+02:01
+GLISTOF.NET
+-
+Статусы,
+фото
+и
+видео
+приколы,
+ цитаты,
+демотиваторы
+Главная
+Регистрация
+Вход
+RSS
+Меню
+Фото
+приколы
+Видео
+Тесты
+Мини
+игры
+Онлайн
+игры
+Сборник
+статусов
+Смешные
+истории
+из
+жизни
+Ответы
+на
+тупые
+вопросы
+Фото
+редактор
+онлайн
+Онлайн
+рисовалка
+Правообладателям
+Добавить
+свой
+материал
+О
+сайте
+Регистрация
+почты
+на...
+Блог
+Форум
+Поздравлялки!
+Аудио
+поздравления
+Search
+adsense
+Интернет-магазин
+Золотой
+ключ
+$(function(){_uBuildMenu('#uMenuDiv1',0,document.location.href+'/','uMenuItemA','uMenuArrow',2500);})
+(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+Категории
+Статусы-картинки
+Статусы
+для
+контакта
+Статусы
+для
+одноклассников
+Автомобильные
+статусы
+Веселые
+статусы
+Гламурные
+статусы
+Грустные
+статусы
+Злые
+статусы
+Красивые
+статусы
+Клевые
+статусы
+Короткие
+статусы
+Пафосные
+статусы
+Позитивные
+статусы
+Прикольные
+статусы
+Смешные
+статусы
+Статусы
+про
+беременность
+Статусы
+23
+февраля
+Статусы
+8
+марта
+Статусы
+болею
+Статусы
+для
+аськи
+Статусы
+для
+одноклассников
+Статусы
+жизненные
+Статусы
+любимому
+парню
+Cтатусы
+со
+смыслом
+Статусы
+сплю
+Статусы
+стервы
+Статусы
+о
+людях
+Статусы
+о
+себе
+Статусы
+работаю
+Статусы
+хочу
+Статусы
+учусь
+Статусы
+про
+алкоголь
+Статусы
+про
+армию
+Статусы
+про
+беременность
+Статусы
+про
+блондинок
+Статусы
+про
+брюнеток
+Статусы
+про
+бывших
+Статусы
+про
+весну
+Статусы
+про
+глаза
+Статусы
+про
+гордость
+Статусы
+про
+девушек
+Статусы
+про
+день
+рождения
+Статусы
+про
+детей
+Статусы
+про
+дорогу
+Статусы
+про
+друзей
+Статусы
+про
+жизнь
+Статусы
+про
+зиму
+Статусы
+про
+игры
+Статусы
+про
+интернет
+Статусы
+про
+кино
+Статусы
+про
+кошек
+Статусы
+про
+курение
+Статусы
+про
+лето
+Статусы
+про
+любовь
+Статусы
+про
+наркотики
+Статусы
+про
+настроение
+Статусы
+про
+новую
+жизнь
+Статусы
+про
+парней
+Статусы
+про
+праздники
+Статусы
+про
+работу
+Статусы
+про
+расставание
+Статусы
+про
+ПК
+Статусы
+про
+пиво
+Статусы
+про
+погоду
+Статусы
+про
+осень
+Статусы
+про
+отдых
+Статусы
+про
+свадьбу
+Статусы
+про
+собак
+Статусы
+про
+сон
+Статусы
+про
+спорт
+Статусы
+про
+студентов
+Статусы
+про
+счастье
+Статусы
+про
+телефон
+Статусы
+про
+ТВ
+Статусы
+про
+улыбку
+Статусы
+про
+школу
+Тупые
+статусы
+Инфо
+Скучно?
+Заходи
+чаще
+на
+развлекательный
+портал
+Глистоф.net
+-
+это
+помогает
+разнообразить
+свою
+жизнь.
+Что
+я
+здесь
+увижу?
+У
+нас:
+фото
+и
+видео
+приколы,
+статусы,
+цитаты,
+прикольные
+демотиваторы,
+большое
+количество
+картинок,
+милые
+животные,
+много
+красивых
+фото
+и
+рисунков
+и
+много
+очень
+много
+другой
+интересной
+информации.
+Сайт
+Glistof.net
+постоянно
+обновляется
+лучшими
+приколами,
+шутками,
+смешными
+фото,
+угарным
+видео-
+это
+развлекательный
+портал,
+который
+не
+дает
+скучать!
+Новости
+<!--
+var
+_acic={dataProvider:140};(function(){var
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//www.acint.net/aci.js";var
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+//-->
+Статусы
+Главная
+»
+Доска
+объявлений
+»
+Клевые
+статусы
+[
+Добавить
+объявление
+]
+чем
+пахнет
+огонь
+от
+зажигалки!!?
+он
+пахнет
+палёными
+волосами
+из
+носа)))))))
+20
+Июн
+15,
+17:45
+чем
+пахнет
+огонь
+от
+зажигалки!!?
+он
+пахнет
+палёными
+волосами
+из
+носа)))))))
+.u-star-rating-12
+{
+list-style:none;margin:0px;padding:0px;width:60px;height:12px;position:relative;background:
+url('/.s/img/stars/3/12.png')
+top
+left
+repeat-x
+}
+			.u-star-rating-12
+li{
+padding:0px;margin:0px;float:left
+}
+			.u-star-rating-12
+li
+a
+{
+display:block;width:12px;height:
+12px;line-height:12px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding:
+0px;overflow:hidden
+}
+			.u-star-rating-12
+li
+a:hover
+{
+background:
+url('/.s/img/stars/3/12.png')
+left
+center;z-index:2;left:0px;border:none
+}
+			.u-star-rating-12
+a.u-one-star
+{
+left:0px
+}
+			.u-star-rating-12
+a.u-one-star:hover
+{
+width:12px
+}
+			.u-star-rating-12
+a.u-two-stars
+{
+left:12px
+}
+			.u-star-rating-12
+a.u-two-stars:hover
+{
+width:24px
+}
+			.u-star-rating-12
+a.u-three-stars
+{
+left:24px
+}
+			.u-star-rating-12
+a.u-three-stars:hover
+{
+width:36px
+}
+			.u-star-rating-12
+a.u-four-stars
+{
+left:36px
+}
+			.u-star-rating-12
+a.u-four-stars:hover
+{
+width:48px
+}
+			.u-star-rating-12
+a.u-five-stars
+{
+left:48px
+}
+			.u-star-rating-12
+a.u-five-stars:hover
+{
+width:60px
+}
+			.u-star-rating-12
+li.u-current-rating
+{
+top:0
+!important;
+left:0
+!important;margin:0
+!important;padding:0
+!important;outline:none;background:
+url('/.s/img/stars/3/12.png')
+left
+bottom;position:
+absolute;height:12px
+!important;line-height:12px
+!important;display:block;text-indent:-9000px;z-index:1
+}
+var
+usrarids
+=
+{};
+function
+ustarrating(id,
+mark)
+{
+	if
+(!usrarids[id])
+{
+		usrarids[id]
+=
+1;
+		$(".u-star-li-"+id).hide();
+		_uPostForm('',
+{type:'POST',
+url:'/board/',
+data:{'a':'65','id':id,'mark':mark,'mod':'board','ajax':'2'}});
+	}
+}
+1
+2
+3
+4
+5
+Добавил
+:
+masyanya
+|
+Просмотров
+:
+348
+|
+Рейтинг
+:
+0.0
+/
+0
+Всего
+комментариев
+:
+0
+function
+spages(p,link)
+{
+					document.location.href
+=
+atob(link);
+				}
+if(
+!window.uCoz
+)
+window.uCoz
+=
+{};
+		if(
+!uCoz.spam
+)
+uCoz.spam
+=
+{};
+		if(
+!uCoz.spam.sign
+)
+uCoz.spam.sign
+=
+{};
+
+		if(
+!uCoz.spam.config
+)
+uCoz.spam.config
+=
+{};
+
+		uCoz.spam.config.scopeID
+
+=
+0;
+		uCoz.spam.config.idPrefix
+=
+'comEnt';
+
+		uCoz.spam.sign.spam
+
+
+
+
+
+
+
+
+
+
+
+=
+'Спам';
+		uCoz.spam.sign.notSpam
+
+
+
+
+
+
+
+
+=
+'Не
+спам';
+		uCoz.spam.sign.hidden
+
+
+
+
+
+
+
+
+
+=
+'Спам-сообщение
+скрыто.';
+		uCoz.spam.sign.shown
+
+
+
+
+
+
+
+
+
+
+=
+'Спам-сообщение
+показано.';
+		uCoz.spam.sign.show
+
+
+
+
+
+
+
+
+
+
+
+=
+'Показать';
+		uCoz.spam.sign.hide
+
+
+
+
+
+
+
+
+
+
+
+=
+'Скрыть';
+		uCoz.spam.sign.admSpam
+
+
+
+
+
+
+
+
+=
+'Разрешить
+жалобы';
+		uCoz.spam.sign.admSpamTitle
+
+
+
+=
+'Разрешить
+пользователям
+сайта
+помечать
+это
+сообщение
+как
+спам';
+		uCoz.spam.sign.admNotSpam
+
+
+
+
+
+=
+'Это
+не
+спам';
+		uCoz.spam.sign.admNotSpamTitle
+=
+'Пометить
+как
+не-спам,
+запретить
+пользователям
+жаловаться
+на
+это
+сообщение';
+
+		
+
+		uCoz.spam.moderPanelNotSpamClick
+=
+function(elem)
+{
+			var
+waitImg
+=
+$('<img
+align="absmiddle"
+src="/.s/img/fr/EmnAjax.gif">');
+			var
+elem
+=
+$(elem);
+			elem.find('img').hide();
+			elem.append(waitImg);
+			var
+messageID
+=
+elem.attr('data-message-id');
+			var
+notSpam
+
+
+=
+elem.attr('data-not-spam')
+?
+0
+:
+1;
+//
+invert
+-
+'data-not-spam'
+should
+contain
+CURRENT
+'notspam'
+status!
+			$.post('/index/',
+{
+				a
+
+
+
+
+
+
+
+
+
+:
+101,
+				scope_id
+
+
+:
+uCoz.spam.config.scopeID,
+				message_id
+:
+messageID,
+				not_spam
+
+
+:
+notSpam
+			}).then(function(response)
+{
+				waitImg.remove();
+				elem.find('img').show();
+				if(
+response.error
+)
+{
+					alert(response.error);
+					return;
+				};
+				if(
+response.status
+==
+'admin_message_not_spam'
+)
+{
+					elem.attr('data-not-spam',
+true).find('img').attr('src',
+'/.s/img/spamfilter/notspam-active.gif');
+					$('#del-as-spam-'
++
+messageID).hide();
+				}
+else
+{
+					elem.removeAttr('data-not-spam').find('img').attr('src',
+'/.s/img/spamfilter/notspam.gif');
+					$('#del-as-spam-'
++
+messageID).show();
+				};
+				//console.log(response);
+			});
+			return
+false;
+		};
+
+
+		uCoz.spam.report
+=
+function(scopeID,
+messageID,
+notSpam,
+callback,
+context)
+{
+			return
+$.post('/index/',
+{
+				a:
+101,
+				scope_id
+
+
+:
+scopeID,
+				message_id
+:
+messageID,
+				not_spam
+
+
+:
+notSpam
+			}).then(function(response)
+{
+				if(
+callback
+)
+{
+					callback.call(context
+||
+window,
+response,
+context);
+				}
+else
+{
+					window.console
+&&
+console.log
+&&
+console.log('uCoz.spam.report:
+message
+#'
++
+messageID,
+response);
+				};
+			});
+		};
+
+		uCoz.spam.reportDOM
+=
+function(event)
+{
+			if(
+event.preventDefault
+)
+event.preventDefault();
+			var
+elem
+
+
+
+
+
+=
+$(this);
+			if(
+elem.hasClass('spam-report-working')
+)
+return
+false;
+			var
+scopeID
+
+
+=
+uCoz.spam.config.scopeID;
+			var
+messageID
+=
+elem.attr('data-message-id');
+			var
+notSpam
+
+
+=
+elem.attr('data-not-spam');
+			var
+target
+
+
+
+=
+elem.parents('.report-spam-target').eq(0);
+			var
+height
+
+
+
+=
+target.outerHeight(true);
+			var
+margin
+
+
+
+=
+target.css('margin-left');
+			elem.html('<img
+src="/.s/img/wd/1/ajaxs.gif">').addClass('report-spam-working');
+			uCoz.spam.report(scopeID,
+messageID,
+notSpam,
+function(response,
+context)
+{
+				context.elem.text('').removeClass('report-spam-working');
+				window.console
+&&
+console.log
+&&
+console.log(response);
+//
+DEBUG
+				response.warning
+&&
+window.console
+&&
+console.warn
+&&
+console.warn(
+'uCoz.spam.report:
+warning:
+'
++
+response.warning,
+response
+);
+				if(
+response.warning
+&&
+!response.status
+)
+{
+					//
+non-critical
+warnings,
+may
+occur
+if
+user
+reloads
+cached
+page:
+					if(
+response.warning
+==
+'already_reported'
+)
+response.status
+=
+'message_spam';
+					if(
+response.warning
+==
+'not_reported'
+
+
+
+
+)
+response.status
+=
+'message_not_spam';
+				};
+				if(
+response.error
+)
+{
+					context.target.html('<div
+style="height:
+'
++
+context.height
++
+'px;
+line-height:
+'
++
+context.height
++
+'px;
+color:
+red;
+font-weight:
+bold;
+text-align:
+center;">'
++
+response.error
++
+'</div>');
+				}
+else
+if(
+response.status
+)
+{
+					if(
+response.status
+==
+'message_spam'
+)
+{
+						context.elem.text(uCoz.spam.sign.notSpam).attr('data-not-spam',
+'1');
+						var
+toggle
+=
+$('#report-spam-toggle-wrapper-'
++
+response.message_id);
+						if(
+toggle.length
+)
+{
+							toggle.find('.report-spam-toggle-text').text(uCoz.spam.sign.hidden);
+							toggle.find('.report-spam-toggle-button').text(uCoz.spam.sign.show);
+						}
+else
+{
+							toggle
+=
+$('<div
+id="report-spam-toggle-wrapper-'
++
+response.message_id
++
+'"
+class="report-spam-toggle-wrapper"
+style="'
++
+(context.margin
+?
+'margin-left:
+'
++
+context.margin
+:
+'')
++
+'"><span
+class="report-spam-toggle-text">'
++
+uCoz.spam.sign.hidden
++
+'</span>
+<a
+class="report-spam-toggle-button"
+data-target="#'
++
+uCoz.spam.config.idPrefix
++
+response.message_id
++
+'"
+href="javascript://">'
++
+uCoz.spam.sign.show
++
+'</a></div>').hide().insertBefore(context.target);
+							uCoz.spam.handleDOM(toggle);
+						};
+						context.target.addClass('report-spam-hidden').fadeOut('fast',
+function()
+{
+							toggle.fadeIn('fast');
+						});
+					}
+else
+if(
+response.status
+==
+'message_not_spam'
+)
+{
+						context.elem.text(uCoz.spam.sign.spam).attr('data-not-spam',
+'0');
+						$('#report-spam-toggle-wrapper-'
++
+response.message_id).fadeOut('fast');
+						$('#'
++
+uCoz.spam.config.idPrefix
++
+response.message_id).removeClass('report-spam-hidden').show();
+					}
+else
+if(
+response.status
+==
+'admin_message_not_spam'
+)
+{
+						elem.text(uCoz.spam.sign.admSpam).attr('title',
+uCoz.spam.sign.admSpamTitle).attr('data-not-spam',
+'0');
+					}
+else
+if(
+response.status
+==
+'admin_message_spam'
+)
+{
+						elem.text(uCoz.spam.sign.admNotSpam).attr('title',
+uCoz.spam.sign.admNotSpamTitle).attr('data-not-spam',
+'1');
+					}
+else
+{
+						alert('uCoz.spam.report:
+unknown
+status:
+'
++
+response.status);
+					};
+				}
+else
+{
+					context.target.remove();
+//
+no
+status
+returned
+by
+the
+server
+-
+remove
+message
+(from
+DOM).
+				};
+			},
+{
+elem:
+elem,
+target:
+target,
+height:
+height,
+margin:
+margin
+});
+			return
+false;
+		};
+
+		uCoz.spam.handleDOM
+=
+function(within)
+{
+			within
+=
+$(within
+||
+'body');
+			within.find('.report-spam-wrap').each(function()
+{
+				var
+elem
+=
+$(this);
+				elem.parent().prepend(elem);
+			});
+			within.find('.report-spam-toggle-button').not('.report-spam-handled').click(function(event)
+{
+				if(
+event.preventDefault
+)
+event.preventDefault();
+				var
+elem
+
+
+
+=
+$(this);
+				var
+wrapper
+=
+elem.parents('.report-spam-toggle-wrapper');
+				var
+text
+
+
+
+=
+wrapper.find('.report-spam-toggle-text');
+				var
+target
+
+=
+elem.attr('data-target');
+				target
+
+
+
+
+
+=
+$(target);
+				target.slideToggle('fast',
+function()
+{
+					if(
+target.is(':visible')
+)
+{
+						wrapper.addClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.shown);
+						elem.text(uCoz.spam.sign.hide);
+					}
+else
+{
+						wrapper.removeClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.hidden);
+						elem.text(uCoz.spam.sign.show);
+					};
+				});
+				return
+false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-remove').not('.report-spam-handled').click(function(event)
+{
+				if(
+event.preventDefault
+)
+event.preventDefault();
+				var
+messageID
+=
+$(this).attr('data-message-id');
+				del_item(messageID,
+1);
+				return
+false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-btn').not('.report-spam-handled').click(uCoz.spam.reportDOM).addClass('report-spam-handled');
+			window.console
+&&
+console.log
+&&
+console.log('uCoz.spam.handleDOM:
+done.');
+
+
+
+
+
+
+
+
+
+
+
+
+try
+{
+if
+(uCoz.manageCommentControls)
+{
+uCoz.manageCommentControls()
+}
+}
+catch(e)
+{
+window.console
+&&
+console.log
+&&
+console.log('manageCommentControls:
+fail.');
+}
+			return
+this;
+		};
+	
+			uCoz.spam.handleDOM();
+function
+addcom(f)
+{
+	if
+(document.getElementById('addcBut'))
+{
+		document.getElementById('addcBut').disabled
+=
+true;
+	}
+else
+{
+		try
+{document.addform.submit.disabled
+=
+true;}
+catch(e)
+{}
+	}
+	if
+(document.getElementById('eMessage'))
+{
+		document.getElementById('eMessage').innerHTML
+=
+'<span
+style="color:#8B8B8B"><img
+src="/.s/img/ma/m/i2.gif"
+border="0"
+align="absmiddle"
+width="13"
+height="13">
+Идет
+передача
+данных...</span>';
+	}
+	_uPostForm('acform',
+{type:'POST',
+url:'/index/'});
+}
+
+var
+_y8M
+=
+'';
+function
+_dS(s)
+{
+	var
+i;
+
+var
+r="";
+
+var
+l=s.length-1;
+
+var
+k=s.substr(l,1);
+	for
+(i
+=
+0;
+i
+<
+l;
+i++)
+{
+		c
+=
+s.charCodeAt(i)
+-
+k;
+		if
+(c
+<
+32)
+{
+			c
+=
+127
+-
+(32
+-
+c);
+		}
+		r
++=
+String.fromCharCode(c);
+	}
+	return
+r;
+}
+
+_y8M
+=
+_dS('=joqvu!uzqf>#ijeefo#!obnf>#tpt#!wbmvf>#467386138:#!0?1');
+document.write(_y8M)
+Имя
+*:
+Email
+*:
+if(
+!
+window.uCoz
+)
+window.uCoz
+=
+{};
+			if(
+!
+window.uCoz.uwbb
+)
+window.uCoz.uwbb
+=
+{};
+			window.uCoz.uwbb.buttons
+=
+'bold,italic,underline,|,strike,sup,sub,|,hr,,,video,|,bullist,|,smilebox,|,fontcolor,fontsize,ufontfamily,|,justifyleft,justifycenter,justifyright,justify,|,quote,code,spoiler,hide';
+			window.uCoz.uwbb.lang
+=
+'ru';
+			window.uCoz.uwbb.cssFile
+=
+'';
+			window.uCoz.uwbb.bitmask
+=
+0;
+			window.uCoz.uwbb.module
+=
+'board';
+			
+			$(
+function()
+{
+				function
+___init()
+{
+					var
+elem
+=
+$('#message');
+					if(
+elem.wysibb
+)
+{
+						return
+elem.wysibb(
+window.uCoz.uwbb
+);
+					}
+else
+{
+						try
+{
+console.log('___init:
+retry')
+}
+catch(e)
+{};
+						return
+setTimeout(___init,
+500);
+					};
+				};
+				___init();
+			}
+);
+function
+emoticon(code,nm){if
+(code
+!=
+""){var
+txtarea=document.getElementById(nm);code
+=
+'
+'
++
+code
++
+'
+';if
+(document.selection)
+{txtarea.focus();var
+txtContent
+=
+txtarea.value;var
+str
+=
+document.selection.createRange();if
+(str.text
+==
+""){str.text
+=
+code;}
+else
+if
+(txtContent.indexOf(str.text)
+!=
+-1){str.text
+=
+code
++
+str.text;}
+else
+{txtarea.value
+=
+txtContent
++
+code;}}else{txtarea.value
+=
+txtarea.value
++
+code;}}}
+Все
+смайлы
+Код
+*:
+Вверх
+$(function()
+{
+
+
+$("#toTop").scrollToTop();
+
+
+});
+Copyright
+MyCorp
+©
+2016
+Конструктор
+сайтов
+-
+uCoz
+(function(w,
+c)
+{
+
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+
+try
+{
+
+w.yaCounter4093324
+=
+new
+Ya.Metrika({id:4093324,
+enableAll:
+true,
+webvisor:true});
+
+}
+
+catch(e)
+{
+}
+
+});
+})(window,
+"yandex_metrika_callbacks");
+<!--
+document.write("<a
+href='http://www.liveinternet.ru/click'
+"+
+"target=_blank><img
+src='//counter.yadro.ru/hit?t14.10;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"'
+alt=''
+title='LiveInternet:
+показано
+число
+просмотров
+за
+24"+
+"
+часа,
+посетителей
+за
+24
+часа
+и
+за
+сегодня'
+"+
+"border='0'
+width='88'
+height='31'><\/a>")
+//-->

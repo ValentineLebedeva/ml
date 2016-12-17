@@ -1,0 +1,764 @@
+Мороженое
+48
+копеек
+клубника
+ваниль
+499г
+var
+baseDir
+=
+'http://shop.zaopr.ru/';
+			var
+static_token
+=
+'5ce7f518b1357c854f153551ce783f18';
+			var
+token
+=
+'d8575095bc52b0dca2ad9eb942d69833';
+			var
+priceDisplayPrecision
+=
+2;
+			var
+priceDisplayMethod
+=
+0;
+			var
+roundMode
+=
+2;
+Добро
+пожаловать,
+Вход
+Корзина:
+1666
+товар
+товара
+123
+637,89
+руб
+(пусто)
+Ваша
+учетная
+запись
+Главная
+Алкоголь
+и
+табачные
+изделия
+Бакалея
+Безалкогольные
+напитки
+и
+соки
+Бытовая
+химия
+Галантерея
+Детское
+и
+диетическое
+питание
+Замороженные
+продукты
+Кондитерские
+изделия
+Консервация
+Косметика
+и
+гигиена
+Кулинария
+Куличи
+Молочная
+гастрономия
+Мясная
+гастрономия
+Овощи
+и
+фрукты
+Пиво
+и
+слабоалкогольные
+напитки
+Пресса
+и
+мультимедиа
+Рыбная
+гастрономия
+Товары
+для
+детей
+Товары
+для
+детей
+и
+школьников
+Товары
+для
+животных
+Товары
+для
+праздников
+и
+отдыха
+Хлеб,
+выпечка,
+торты
+Хозяйственные
+товары
+Цветы
+Обратная
+связь
+$(document).ready(
+		function()
+		{
+			$('#dock').Fisheye(
+				{
+					maxWidth:
+50,
+					items:
+'a',
+					itemsText:
+'span',
+					container:
+'.dock-container',
+					itemWidth:
+40,
+					proximity:
+90,
+					halign
+:
+'center'
+				}
+			)
+		}
+	);
+//
+<![CDATA[
+		
+		function
+tryToCloseInstantSearch()
+{
+			if
+($('#old_center_column').length
+>
+0)
+			{
+				$('#center_column').remove();
+				$('#old_center_column').attr('id',
+'center_column');
+				$('#center_column').show();
+				return
+false;
+			}
+		}
+		
+		instantSearchQueries
+=
+new
+Array();
+		function
+stopInstantSearchQueries(){
+			for(i=0;i<instantSearchQueries.length;i++)
+{
+				instantSearchQueries[i].abort();
+			}
+			instantSearchQueries
+=
+new
+Array();
+		}
+		
+		$("#search_query_top").keyup(function(){
+			if($(this).val().length
+>
+0){
+				stopInstantSearchQueries();
+				instantSearchQuery
+=
+$.ajax({
+				url:
+'http://shop.zaopr.ru/search.php',
+				data:
+'instantSearch=1&id_lang=6&q='+$(this).val(),
+				dataType:
+'html',
+				success:
+function(data){
+					if($("#search_query_top").val().length
+>
+0)
+					{
+						tryToCloseInstantSearch();
+						$('#center_column').attr('id',
+'old_center_column');
+						$('#old_center_column').after('<div
+id="center_column">'+data+'</div>');
+						$('#old_center_column').hide();
+						$("#instant_search_results
+a.close").click(function()
+{
+							$("#search_query_top").val('');
+							return
+tryToCloseInstantSearch();
+						});
+						return
+false;
+					}
+					else
+						tryToCloseInstantSearch();
+					}
+				});
+				instantSearchQueries.push(instantSearchQuery);
+			}
+			else
+				tryToCloseInstantSearch();
+		});
+	//
+]]>
+//
+<![CDATA[
+	
+		$('document').ready(
+function()
+{
+			$("#search_query_top")
+				.autocomplete(
+					'http://shop.zaopr.ru/search.php',
+{
+						minChars:
+3,
+						max:
+10,
+						width:
+500,
+						selectFirst:
+false,
+						scroll:
+false,
+						dataType:
+"json",
+						formatItem:
+function(data,
+i,
+max,
+value,
+term)
+{
+							return
+value;
+						},
+						parse:
+function(data)
+{
+							var
+mytab
+=
+new
+Array();
+							for
+(var
+i
+=
+0;
+i
+<
+data.length;
+i++)
+								mytab[mytab.length]
+=
+{
+data:
+data[i],
+value:
+data[i].cname
++
+'
+>
+'
++
+data[i].pname
+};
+							return
+mytab;
+						},
+						extraParams:
+{
+							ajaxSearch:
+1,
+							id_lang:
+6
+						}
+					}
+				)
+				.result(function(event,
+data,
+formatted)
+{
+					$('#search_query_top').val(data.pname);
+					value=
+data.product_link;
+				})
+		});
+	
+	//
+]]>
+//
+<![CDATA[
+
+//
+PrestaShop
+internal
+settings
+var
+currencySign
+=
+'руб';
+var
+currencyRate
+=
+'1';
+var
+currencyFormat
+=
+'2';
+var
+currencyBlank
+=
+'1';
+var
+taxRate
+=
+0;
+var
+jqZoomEnabled
+=
+false;
+
+//JS
+Hook
+var
+oosHookJsCodeFunctions
+=
+new
+Array();
+
+//
+Parameters
+var
+id_product
+=
+'1740';
+var
+productHasAttributes
+=
+false;
+var
+quantitiesDisplayAllowed
+=
+true;
+var
+quantityAvailable
+=
+9999;
+var
+allowBuyWhenOutOfStock
+=
+false;
+var
+availableNowValue
+=
+'В
+наличии
+на
+складе';
+var
+availableLaterValue
+=
+'Будет
+доступно
+позже';
+var
+productPriceTaxExcluded
+=
+109.2
+-
+0.000000;
+var
+reduction_percent
+=
+0;
+var
+reduction_price
+=
+0;
+var
+specific_price
+=
+0;
+var
+specific_currency
+=
+false;
+var
+group_reduction
+=
+'1';
+var
+default_eco_tax
+=
+0.000000;
+var
+ecotaxTax_rate
+=
+0;
+var
+currentDate
+=
+'2013-11-15
+19:25:31';
+var
+maxQuantityToAllowDisplayOfLastQuantityMessage
+=
+3;
+var
+noTaxForThisProduct
+=
+true;
+var
+displayPrice
+=
+0;
+var
+productReference
+=
+'001777';
+var
+productAvailableForOrder
+=
+'1';
+var
+productShowPrice
+=
+'1';
+var
+productUnitPriceRatio
+=
+'0.000000';
+var
+idDefaultImage
+=
+276;
+
+//
+Customizable
+field
+var
+img_ps_dir
+=
+'/img/';
+var
+customizationFields
+=
+new
+Array();
+		customizationFields[0]
+=
+new
+Array();
+	customizationFields[0][0]
+=
+'img0';
+	customizationFields[0][1]
+=
+0;
+
+//
+Images
+var
+img_prod_dir
+=
+'/img/p/';
+var
+combinationImages
+=
+new
+Array();
+
+
+combinationImages[0]
+=
+new
+Array();
+			combinationImages[0][0]
+=
+276;
+	
+//
+Translations
+var
+doesntExist
+=
+'Данная
+модификация
+отсутствует.
+Пожалуйста,
+выберите
+другую.';
+var
+doesntExistNoMore
+=
+'Этого
+товара
+нет
+на
+складе';
+var
+doesntExistNoMoreBut
+=
+'с
+указанными
+характеристиками,
+но
+есть
+с
+другими';
+var
+uploading_in_progress
+=
+'Пожалуйста
+подождите...';
+var
+fieldRequired
+=
+'Please
+fill
+in
+all
+required
+fields,
+then
+save
+the
+customization.';
+
+//]]>
+Главная
+>
+Замороженные
+продукты
+>
+Мороженное
+>
+Мороженое
+48
+копеек
+клубника
+ваниль
+499г
+Мороженое
+48
+копеек
+клубника
+ваниль
+499г
+Отправить
+другу
+Распечатать
+Увеличить
+109,20
+руб
+с
+НДС
+Артикул:
+001777
+Количество:
+Вы
+должны
+добавитьинимум
+1
+для
+приобретения
+данного
+товара.
+Наличие:
+В
+наличии
+на
+складе
+9999
+шт
+на
+складе
+шт
+на
+складе
+Внимание:
+последний
+на
+складе!
+30
+другие
+товары
+из
+этого
+раздела:
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое
+НЧ...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+Мороженое
+48...
+Просмотреть
+/*$('#productscategory_list').trigger('goto',
+[15-3]);*/
+Характеристики
+Комментарии
+(0)
+Страна
+происхождения
+Россия
+Упаковка
+пакет
+Способ
+хранения
+заморозка
+Срок
+годности
+18
+мес.
+$(function(){
+$('input[@type=radio].star').rating();
+});
+	$(function(){
+		$('.auto-submit-star').rating({
+			callback:
+function(value,
+link){
+			}
+		});
+	});
+	
+	//close
+
+comment
+form
+	function
+closeCommentForm(){
+		$('#sendComment').slideUp('fast');
+		$('input#addCommentButton').fadeIn('slow');
+	}
+На
+данный
+момент
+комментариев
+нет.
+Только
+зарегистрированные
+пользователи
+могут
+оставлять
+комментарии
+и
+оценки
+.
+Скидки
+Новые
+товары
+Лидеры
+продаж
+Наши
+магазины
+Обратная
+связь
+Terms
+and
+conditions
+of
+use
+About
+us
+Privacy
+policy
+Right
+of
+withdrawal
+Условия
+доставки
+Сайт
+ЗАО
+'ПР'
+Powered
+by
+PrestaShop
+™

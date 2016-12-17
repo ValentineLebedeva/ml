@@ -1,0 +1,177 @@
+МОСТ
+•
+Информация
+//
+<![CDATA[
+	var
+jump_page
+=
+'Введите
+номер
+страницы,
+на
+которую
+хотите
+перейти:';
+	var
+on_page
+=
+'';
+	var
+per_page
+=
+'';
+	var
+base_url
+=
+'';
+	var
+style_cookie
+=
+'phpBBstyle';
+	var
+style_cookie_settings
+=
+';
+path=/;
+domain=.sociomost.com';
+	var
+onload_functions
+=
+new
+Array();
+	var
+onunload_functions
+=
+new
+Array();
+
+	
+	/**
+	*
+Find
+a
+member
+	*/
+	function
+find_username(url)
+	{
+		popup(url,
+760,
+570,
+'_usersearch');
+		return
+false;
+	}
+
+	/**
+	*
+New
+function
+for
+handling
+multiple
+calls
+to
+window.onload
+and
+window.unload
+by
+pentapenguin
+	*/
+	window.onload
+=
+function()
+	{
+		for
+(var
+i
+=
+0;
+i
+<
+onload_functions.length;
+i++)
+		{
+			eval(onload_functions[i]);
+		}
+	}
+
+	window.onunload
+=
+function()
+	{
+		for
+(var
+i
+=
+0;
+i
+<
+onunload_functions.length;
+i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	}
+
+//
+]]>
+МОСТ
+Стройте
+мосты
+от
+человека
+к
+человеку.
+Разводные,
+разумеется.
+Пропустить
+Расширенный
+поиск
+Список
+форумов
+Изменить
+размер
+шрифта
+FAQ
+Пользователи
+Регистрация
+Вход
+Информация
+Запрошенной
+темы
+не
+существует.
+Список
+форумов
+Наша
+команда
+•
+Удалить
+cookies
+конференции
+•
+Часовой
+пояс:
+UTC
++
+3
+часа
+[
+Летнее
+время
+]
+Powered
+by
+phpBB
+©
+2000,
+2002,
+2005,
+2007
+phpBB
+Group
+Русская
+поддержка
+phpBB

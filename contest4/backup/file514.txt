@@ -1,0 +1,130 @@
+<!--
+	if
+(typeof
+YAHOO
+===
+'undefined')
+//
+Load
+ALL
+YUI
+Local
+	{
+		document.write('<script
+type="text/javascript"
+src="http://forums.drom.ru/clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=424"><\/script>');
+		document.write('<script
+type="text/javascript"
+src="http://forums.drom.ru/clientscript/yui/connection/connection-min.js?v=424"><\/script>');
+		var
+yuipath
+=
+'clientscript/yui';
+		var
+yuicombopath
+=
+'';
+		var
+remoteyui
+=
+false;
+	}
+	else	//
+Load
+Rest
+of
+YUI
+remotely
+(where
+possible)
+	{
+		var
+yuipath
+=
+'clientscript/yui';
+		var
+yuicombopath
+=
+'';
+		var
+remoteyui
+=
+true;
+		if
+(!yuicombopath)
+		{
+			document.write('<script
+type="text/javascript"
+src="http://forums.drom.ru/clientscript/yui/connection/connection-min.js"><\/script>');
+		}
+	}
+	var
+SESSIONURL
+=
+"s=7d7a10a8cb8197d6ac978ca7a192695e&";
+	var
+SECURITYTOKEN
+=
+"guest";
+	var
+IMGDIR_MISC
+=
+"images/misc";
+	var
+IMGDIR_BUTTON
+=
+"images/buttons";
+	var
+vb_disable_ajax
+=
+parseInt("0",
+10);
+	var
+SIMPLEVERSION
+=
+"424";
+	var
+BBURL
+=
+"http://forums.drom.ru";
+	var
+LOGGEDIN
+=
+0
+>
+0
+?
+true
+:
+false;
+	var
+THIS_SCRIPT
+=
+"showthread";
+	var
+RELPATH
+=
+"showthread.php?t=1151021063&amp;page=279";
+	var
+PATHS
+=
+{
+		forum
+:
+"",
+		cms
+
+
+:
+"",
+		blog
+
+:
+""
+	};
+	var
+AJAXBASEURL
+=
+"http://forums.drom.ru/";
+//
+-->

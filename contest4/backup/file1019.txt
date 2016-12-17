@@ -1,0 +1,854 @@
+Нужно
+ли
+сдавать
+экзамены,
+если
+прав
+лишили
+до
+вступления
+закона
+N
+196-ФЗ
+в
+силу
+{
+		"@context":
+"http://schema.org",
+		"@type":
+"Article",
+		"mainEntityOfPage":
+"http://www.moscow-faq.ruquestions/transport/auto/55871/155745",
+		"headline":
+"Нужно
+ли
+сдавать
+экзамены,
+если
+прав
+лишили
+до
+вступления
+закона
+N
+196-ФЗ
+в
+силу",
+		"datePublished":
+"2013-07-28T13:26:13",
+		"dateModified":
+"2013-07-28T13:26:13",
+		"description":
+"Нужно
+ли
+сдавать
+экзамены,
+если
+прав
+лишили
+до
+вступления
+закона
+N
+196-ФЗ
+в
+силу?
+Нет,
+сдавать
+экзамены
+в
+таком
+случае
+не
+придется.
+Дело
+в
+том,
+что
+новый
+закон
+имеет
+обратную
+силу
+лишь
+в
+случае
+послабления.
+Если
+новый
+закон
+ужесточает
+какие
+то
+...",
+		"author":
+{
+			"@type":
+"Person",
+			"name":
+"Эдуард
+Владимирович
+"
+		},
+		"publisher":
+{
+			"@type":
+"Organization",
+			"name":
+"Moscow-FAQ.ru",
+			"logo":
+{
+				"@type":
+"ImageObject",
+				"url":
+"http://www.moscow-faq.ru/face/front/images/logo_mobile.gif",
+				"width":
+100,
+				"height":
+21
+			}
+		},
+		"image":
+{
+			"@type":
+"ImageObject",
+			"url":
+"http://www.moscow-faq.ru/face/front/images/logos.gif",
+				"width":
+200,
+				"height":
+200
+		}
+		
+	}
+Войти
+на
+сайт
+Зарегистрироваться
+Вопросы-Ответы
+Все
+вопросы
+Все
+ответы
+Популярные
+Задать
+вопрос
+Статьи
+Все
+cтатьи
+Рейтинговые
+Все
+комментарии
+Консультанты
+Все
+Лучшие
+Заработайте
+на
+тратах
+Показать
+панель
+подсказок
+Скрыть
+панель
+подсказок
+Подсказка
+Для
+эффективного
+поиска
+ответа
+на
+Ваш
+вопрос,
+выберите
+вопросительное
+слово,
+например
+"Как"
+и
+соответственно
+этому
+вопросительному
+слову
+составьте
+свой
+вопрос.
+Если
+Ваш
+вопрос
+не
+содержит
+вопросительного
+слова,
+то
+выберите
+в
+списке
+-//-
+и
+просто
+напишите
+свой
+вопрос.
+Искать
+по
+ключевым
+словам
+→
+↪
+Как
+Где
+Сколько
+Кто
+Что
+Кому
+Чему
+Кем
+Чем
+Кого
+Чего
+О
+чём
+О
+ком
+Когда
+Почём
+Куда
+Откуда
+Почему
+Почему
+Чем
+Зачем
+Чье
+Чьих
+Чью
+Чьего
+За
+что
+Чей
+За
+кого
+За
+что
+Скольких
+Скольким
+Во
+сколько
+К
+какому
+Какой
+Какая
+Какие
+Какое
+Какую
+Каким
+Какими
+В
+каких
+Каков
+Какого
+Какому
+Каких
+↪
+Наши
+группы
+if
+(document.body.clientWidth
+>=
+910)
+{
+			(function(w,
+d,
+n,
+s,
+t)
+{
+				w[n]
+=
+w[n]
+||
+[];
+				w[n].push(function()
+{
+					Ya.Context.AdvManager.render({
+						blockId:
+"R-37048-1",
+						renderTo:
+"yandex_ad_R-37048-1",
+						async:
+true
+					});
+				});
+				t
+=
+d.getElementsByTagName("script")[0];
+				s
+=
+d.createElement("script");
+				s.type
+=
+"text/javascript";
+				s.src
+=
+"//an.yandex.ru/system/context.js";
+				s.async
+=
+true;
+				t.parentNode.insertBefore(s,
+t);
+			})(this,
+this.document,
+"yandexContextAsyncCallbacks");
+		}
+Все
+вопросы
+→
+Транспорт
+→
+Автотранспорт
+Нужно
+ли
+сдавать
+экзамены,
+если
+прав
+лишили
+до
+вступления
+закона
+N
+196-ФЗ
+в
+силу?
+Спрашивает
+
+					
+						даниил
+					  27
+июля
+2013
+Меня
+лишили
+прав
+за
+пьянку
+в
+2012
+году.
+Распространяется
+ли
+новый
+закон,
+который
+вступил
+в
+силу
+в
+2013
+году,
+на
+меня?
+if
+(document.body.clientWidth
+>=
+910)
+{
+			document.write('<ins
+class="adsbygoogle"
+style="display:inline-block;width:468px;height:60px"
+data-ad-client="ca-pub-1707071533026088"
+data-ad-slot="2672049056"></ins>');
+			(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+		}
+else
+{
+			document.write('<div
+id="yandex_ad_R-37048-2"></div>');
+			(function(w,
+d,
+n,
+s,
+t)
+{
+				w[n]
+=
+w[n]
+||
+[];
+				w[n].push(function()
+{
+					Ya.Context.AdvManager.render({
+						blockId:
+"R-37048-2",
+						renderTo:
+"yandex_ad_R-37048-2",
+						async:
+true
+					});
+				});
+				t
+=
+d.getElementsByTagName("script")[0];
+				s
+=
+d.createElement("script");
+				s.type
+=
+"text/javascript";
+				s.src
+=
+"//an.yandex.ru/system/context.js";
+				s.async
+=
+true;
+				t.parentNode.insertBefore(s,
+t);
+			})(this,
+this.document,
+"yandexContextAsyncCallbacks");
+		}
+Теги
+Все
+права
+,
+экзамены
+,
+закон
+,
+лишение
+Похожий
+Какие
+новые
+законы
+вступили
+в
+силу
+с
+1
+января
+2014
+года?
+Следить
+за
+ответами
+на
+вопрос
+Ответ
+Нужно
+ли
+сдавать
+экзамены,
+если
+прав
+лишили
+до
+вступления
+закона
+N
+196-ФЗ
+в
+силу?
+Нет,
+сдавать
+экзамены
+в
+таком
+случае
+не
+придется.
+Дело
+в
+том,
+что
+новый
+закон
+имеет
+обратную
+силу
+лишь
+в
+случае
+послабления.
+Если
+новый
+закон
+ужесточает
+какие
+то
+санкции
+которые
+ранее
+не
+предусматривались,
+то
+в
+этом
+случае,
+он
+не
+распостраняется
+на
+"ранее
+совершенные
+деяния".
+Нововеденные
+правила
+только
+будут
+предусмотренны
+для
+тех
+лиц,
+кто
+лишится
+прав
+после
+1
+сентября
+2013
+года
+когда
+новые
+поправки
+начнут
+действовать.
+Из
+нюансов,
+как
+сказано
+в
+предыдущем
+ответе,
+на
+пересмотр
+дела
+(если
+меньше
+0
+,
+16
+промилле)
+можно
+подать
+уже
+сейчас
+не
+дожидаясь
+1
+сентября.
+Так
+что,
+если
+есть
+желание
+-
+нарушайте!
+Пока
+есть
+время
+))).
+ Потом
+восстановится
+будет
+сложнее.
+if
+(document.body.clientWidth
+>=
+910)
+{
+		<!--
+Yandex.RTB
+R-A-37048-3
+-->
+		document.write('<div
+id="yandex_rtb_R-A-37048-3"></div>');
+		(function(w,
+d,
+n,
+s,
+t)
+{
+			w[n]
+=
+w[n]
+||
+[];
+			w[n].push(function()
+{
+				Ya.Context.AdvManager.render({
+					blockId:
+"R-A-37048-3",
+					renderTo:
+"yandex_rtb_R-A-37048-3",
+					async:
+true
+				});
+			});
+			t
+=
+d.getElementsByTagName("script")[0];
+			s
+=
+d.createElement("script");
+			s.type
+=
+"text/javascript";
+			s.src
+=
+"//an.yandex.ru/system/context.js";
+			s.async
+=
+true;
+			t.parentNode.insertBefore(s,
+t);
+		})(this,
+this.document,
+"yandexContextAsyncCallbacks");
+	}
+else
+{document.write('<ins
+class="adsbygoogle"
+style="display:inline-block;width:320px;height:100px"
+data-ad-client="ca-pub-1707071533026088"
+data-ad-slot="2532448256"></ins>');(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+	}
+Эдуард
+Владимирович
+28
+июля
+2013
+13:26
+Имеются
+знакомства
+с
+экспертом
+Другие
+ответы
+1
+Если
+прав
+лишили
+до
+вступления
+закона
+№
+196-ФЗ
+в
+силу,
+нужно
+ли
+заново
+сдавать
+экзамены
+?
+
+
+Вопрос
+в
+том,
+что
+делать
+тем
+водителям,
+которых
+за
+вождение
+в
+нетрезвом
+виде
+до
+принятия
+закона
+лишили
+ВУ
+(водительского
+удостоверения).
+Лишенные
+прав
+...
+Еще
+Кокошина
+Евгения
+27
+июля
+2013
+15:30
+Оказываю
+эту
+услугу
+Ответить
+Спросить
+←
+Показать
+все
+ответы
+Вы
+можете
+зарегистрироваться
+или
+войти
+через
+Facebook,
+Вконтакте
+или
+пароль.
+
+				
+				Прочитайте
+правила
+сайта
+и
+условия
+вознаграждения
+консультантов.
+О
+проекте
+Обратная
+связь
+©
+2007—2016
+"
+Moscow
+FAQ
+".
+Все
+права
+защищены.
+Разрешается
+републикация
+материалов
+сайта
+в
+Интернете
+с
+обязательным
+указанием
+прямой
+ссылки
+на
+сайт
+"
+Moscow
+FAQ
+"
+Загрузка
+Вход
+на
+сайт
+Войти
+через
+Facebook
+Войти
+через
+Вконтакте
+Войти
+по
+логину
+и
+паролю
+Логин
+Пароль
+Запомнить
+Забыли
+пароль?
+Войти
+Закрыть
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+	
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	
+
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+
+ga('create',
+'UA-754490-2',
+'auto');
+	
+
+ga('send',
+'pageview');
+(function
+(d,
+w,
+c)
+{
+			(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+				try
+{
+					w.yaCounter38526735
+=
+new
+Ya.Metrika({
+						id:38526735,
+						clickmap:true,
+						trackLinks:true,
+						accurateTrackBounce:true
+					});
+				}
+catch(e)
+{
+}
+			});
+
+			var
+n
+=
+d.getElementsByTagName("script")[0],
+				s
+=
+d.createElement("script"),
+				f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+			s.type
+=
+"text/javascript";
+			s.async
+=
+true;
+			s.src
+=
+"https://mc.yandex.ru/metrika/watch.js";
+
+			if
+(w.opera
+==
+"[object
+Opera]")
+{
+				d.addEventListener("DOMContentLoaded",
+f,
+false);
+			}
+else
+{
+f();
+}
+		})(document,
+window,
+"yandex_metrika_callbacks");
+{lang:
+'ru'}

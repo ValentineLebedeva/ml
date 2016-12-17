@@ -1,0 +1,950 @@
+Качаю
+пресс
+кашлем
+(((
+//
+define
+initial
+parameters
+					var
+initParams
+=
+{"siteURL":"http:\/\/pikabu.ru\/","imgURL":"http:\/\/cs.pikabu.ru","userID":0,"userName":"","userKarma":0,"sessionID":"s67qmip3ohjc8j662ehtrcftu09rtlq7","userBanTime":"","isUserBanned":false,"isStoryAnimPreview":true,"isCommAnimPreview":true,"isScrollTopBtn":true,"isAjaxLoadMode":true,"isExpandedMode":true,"isCommentsBranchesHidden":false,"scriptName":"story.php","privateKey":"M1k0RVc4","uniqueBufferID":"def5a6a3e5","registrationKey":"2bcba115c1","debugLocation":"","pickedDate":"2016-12-17","pageNumber":1,"environment":225,"developmentMode":false,"filter_name":"","upload_server_url":"http:\/\/u.pikabu.ru","max_comments_branch_depth":3};
+
+					/**
+					
+*
+Create
+old
+global
+vars
+for
+back
+compatibility
+					
+*/
+					var
+logined
+=
+initParams.userID
+>
+0
+?
+1
+:
+0,
+						uCarma
+=
+initParams.userKarma,
+						phpSelf
+=
+initParams.scriptName,
+						ppk
+=
+initParams.privateKey,
+						bid
+=
+initParams.uniqueBufferID,
+						site_url
+=
+initParams.siteURL,
+						img_url
+=
+initParams.imgURL,
+						tag_str
+=
+"",
+						developmentMode
+=
+initParams.developmentMode,
+						is_twitmode
+=
+initParams.isAjaxLoadMode
+?
+1
+:
+0,
+						is_scrollmode
+=
+initParams.isExpandedMode
+?
+1
+:
+0,
+						regKey
+=
+initParams.registrationKey,
+						sessID
+=
+initParams.sessionID,
+						picker_date
+=
+new
+Date(initParams.pickedDate),
+						pl
+=
+0,
+						page_num
+=
+initParams.pageNumber,
+						dev
+=
+initParams.developmentMode,
+						nextJS
+=
+{
+							mv:
+{
+								facebookWidget:
+false
+							},
+							adbix:
+0,
+							banned:
+initParams.isUserBanned,
+							bannedTime:
+initParams.userBanTime,
+							best:
+"",
+							listDate:
+"",
+							gif:
+{
+							
+
+
+
+background:
+true,
+							
+
+
+
+showComment:
+!initParams.isCommAnimPreview,
+							
+
+
+
+showStory:
+!initParams.isStoryAnimPreview
+							},
+							options:
+{
+							
+
+
+
+autoShowGif:
+initParams.isCommAnimPreview
+							},
+							filterName:
+initParams.filter_name,
+							user:
+{
+							
+
+
+
+id:
+initParams.userID,
+							
+
+
+
+name:
+initParams.userName
+							},
+							scrollToTop:
+initParams.isScrollTopBtn,
+							hideSaveMenu:
+initParams.isHideSaveMenu,
+							location:
+initParams.debugLocation
+						};
+$.ajaxSetup({headers:
+{"X-Csrf-Token"
+:
+initParams.sessionID}});
+					$.browser
+=
+{safari:
+false,
+opera:
+false};
+(function()
+{
+					var
+purl
+=
+window.location.href;
+					var
+url
+=
+'//ads.pubmatic.com/AdServer/js/pwt/155949/97';
+					var
+profileVersionId
+=
+'';
+					if(purl.indexOf('pwtv=')>0){
+						var
+regexp
+=
+/pwtv=(.*?)(&|$)/g;
+						var
+matches
+=
+regexp.exec(purl);
+						if(matches.length
+>=
+2
+&&
+matches[1].length
+>
+0){
+							profileVersionId
+=
+'/'+matches[1];
+						}
+					}
+					var
+wtads
+=
+document.createElement('script');
+					wtads.async
+=
+true;
+					wtads.type
+=
+'text/javascript';
+					wtads.src
+=
+url+profileVersionId+'/pwt.js';
+					var
+node
+=
+document.getElementsByTagName('script')[0];
+					node.parentNode.insertBefore(wtads,
+node);
+				})();
+Комментарии
+Горячее
+Лучшее
+Свежее
+Сообщества
+-4
+Качаю
+пресс
+кашлем
+(((
+[моё]
+4
+Комментария
+TernopiL
+1337
+дней
+назад
+Болезнь
+спорт
+facepalm
+Я
+очень
+грустный
+(
+свернуть
+0
+0
+0
+0
+Я
+уже
+с
+вами
+:)
+Твиты
+от
+@pikabu_vk
+Я
+уже
+с
+вами
+:)
+Подписаться
+на
+Пикабу:
+Я
+уже
+с
+вами
+:)
+4
+комментария,
+по
+актуальности
+Рейтингу
+Времени
+Актуальности
++1
+laptchik
+отправлено
+1336
+дней
+назад
+#
+показать
+комментарий
+нюхни
+алое,
+будешь
+чиханием
+качать)
+ответить
+редактировать
+удалить
+раскрыть
+ветвь
+0
++1
+pampur4e
+отправлено
+1336
+дней
+назад
+#
+показать
+комментарий
+поправляйся!)
+ответить
+редактировать
+удалить
+раскрыть
+ветвь
+0
++1
+delaput
+отправлено
+1336
+дней
+назад
+#
+показать
+комментарий
+Куевое
+чувство....Бро
+держись!!!!!
+ответить
+редактировать
+удалить
+раскрыть
+ветвь
+0
+0
+igrayvdoty
+отправлено
+1336
+дней
+назад
+#
+показать
+комментарий
+а
+я
+смехом)
+ответить
+редактировать
+удалить
+раскрыть
+ветвь
+0
+(function(w,
+d,
+n,
+s,
+t)
+{
+						w[n]
+=
+w[n]
+||
+[];
+						w[n].push(function()
+{
+							Ya.Direct.insertInto(
+								56459,
+								"yandex_ad_1481929212_22496",
+								{"site_charset":"windows-1251","stat_id":"4","ad_format":"direct","font_size":0.8,"font_family":"tahoma","type":"horizontal","border_type":"none","limit":1,"title_font_size":3,"site_bg_color":"FFFFFF","header_bg_color":"FFFFFF","bg_color":"FFFFFF","title_color":"217CB6","url_color":"777777","all_color":"777777","text_color":"444444","sitelinks_color":"777777","hover_color":"777777"}
+							);
+						});
+						t
+=
+d.documentElement.firstChild;
+						s
+=
+d.createElement("script");
+						s.type
+=
+"text/javascript";
+						s.src
+=
+"http://an.yandex.ru/system/context.js";
+						s.setAttribute("async",
+"true");
+						t.insertBefore(s,
+t.firstChild);
+					})(window,
+document,
+"yandex_context_callbacks");
+список
+тегов
+обсуждаемое
+[моё]
+FAQ
+реклама
+Авторизация
+Регистрация
+войти
+Неверный
+логин
+или
+пароль
+Восстановить
+пароль
+Через
+социальную
+сеть
+Логин
+Email
+Пароль
+Зарегистрироваться
+добавить
+пост
+Комментарий
+дня
+ТОП
+50
+Как
+спустить
+чужие
+миллионы
+на
+стриптизерш
+и
+машины
++1682
+iammansuka
+;
+12
+часов
+назад
+#
+"Мне
+просто
+не
+повезло,
+что
+это
+случилось
+со
+мной."
+-
+сказал
+чувак,
+который
+спустил
+2
+ляма
+баксов.
+(function(w,
+d,
+n,
+s,
+t)
+{
+							w[n]
+=
+w[n]
+||
+[];
+							w[n].push(function()
+{
+								Ya.Context.AdvManager.render({
+									blockId:
+"R-56459-35",
+									renderTo:
+"yandex_ad_R-56459-35",
+									async:
+true
+								});
+							});
+							t
+=
+d.getElementsByTagName("script")[0];
+							s
+=
+d.createElement("script");
+							s.type
+=
+"text/javascript";
+							s.src
+=
+"//an.yandex.ru/system/context.js";
+							s.async
+=
+true;
+							t.parentNode.insertBefore(s,
+t);
+						})(this,
+this.document,
+"yandexContextAsyncCallbacks");
+if
+(!("ab"
+in
+window))
+{
+window.ab
+=
+true;
+}
+						var
+result
+=
+document.getElementById("facebook_page_block");
+						if
+(window.ab
+==
+true)
+{
+							document.getElementById("facebook_page_block").style.display
+=
+"block";
+							result.innerHTML
+=
+'<a
+href="/community/guitar"
+target="_blank">\
+							
+
+
+
+<img
+src="http://cs.pikabu.ru/images/communities_v4/guitar.jpg"
+title="Лига
+гитаристов"
+alt="Лига
+гитаристов"
+\
+							
+
+
+
+style="border:
+none;
+width:
+300px;
+height:
+250px;
+background-color:
+white;">\
+							
+
+
+
+</a>';
+						}
+(function(w,
+d,
+n,
+s,
+t)
+{
+						w[n]
+=
+w[n]
+||
+[];
+						w[n].push(function()
+{
+							Ya.Direct.insertInto(
+								56459,
+								"yandex_ad_1481929212_83291",
+								{"site_charset":"windows-1251","stat_id":"3","ad_format":"direct","font_size":1,"font_family":"tahoma","type":"posterVertical","border_type":"block","limit":2,"title_font_size":3,"site_bg_color":"FFFFFF","header_bg_color":"FFFFFF","bg_color":"FFFFFF","title_color":"5190B8","url_color":"008900","text_color":"676767","sitelinks_color":"777777","hover_color":"5190B8","border_color":"D7D7D7","favicon":true,"no_sitelinks":false}
+							);
+						});
+						t
+=
+d.documentElement.firstChild;
+						s
+=
+d.createElement("script");
+						s.type
+=
+"text/javascript";
+						s.src
+=
+"http://an.yandex.ru/system/context.js";
+						s.setAttribute("async",
+"true");
+						t.insertBefore(s,
+t.firstChild);
+					})(window,
+document,
+"yandex_context_callbacks");
+Активные
+сообщества
+Наука
+|
+Science
+Истории
+из
+жизни
+Рукодельники
+Книжная
+лига
+Исследователи
+космоса
+Лига
+Художников
+Обмен
+подарками
+Истории
+об
+отношениях
+World
+of
+building
+|
+Сооружения
+Котомафия
+все
+сообщества
+создать
+Тенденции
+новогодний
+обмен
+подарками
+18
+долг
+8
+все
+теги
+объединение
+тегов
+(function(w,
+d,
+n,
+s,
+t)
+{
+							w[n]
+=
+w[n]
+||
+[];
+							w[n].push(function()
+{
+								Ya.Context.AdvManager.render({
+									blockId:
+"R-56459-21",
+									renderTo:
+"yandex_ad_R-56459-21",
+									async:
+true
+								});
+							});
+							t
+=
+d.getElementsByTagName("script")[0];
+							s
+=
+d.createElement("script");
+							s.type
+=
+"text/javascript";
+							s.src
+=
+"//an.yandex.ru/system/context.js";
+							s.async
+=
+true;
+							t.parentNode.insertBefore(s,
+t);
+						})(this,
+this.document,
+"yandexContextAsyncCallbacks");
+var
+_gaq
+=
+_gaq
+||
+[];
+
+
+_gaq.push(['_setAccount',
+'UA-28292940-1']);
+
+
+_gaq.push(['_setDomainName',
+'pikabu.ru']);
+
+
+_gaq.push(['_setAllowLinker',
+true]);
+
+
+_gaq.push(['_trackPageview']);
+
+
+
+(function()
+{
+
+
+
+
+var
+ga
+=
+document.createElement('script');
+ga.type
+=
+'text/javascript';
+ga.async
+=
+true;
+ga.src
+=
+('https:'
+==
+document.location.protocol
+?
+'https://'
+:
+'http://')
++
+'stats.g.doubleclick.net/dc.js';
+
+
+
+
+var
+s
+=
+document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga,
+s);
+
+
+})();
+Пожалуйста,
+войдите
+в
+аккаунт
+или
+зарегистрируйтесь
+RSS
+Мобильная
+версия
+Правила
+FAQ
+Бан
+Реклама
+Партнеры:
+BlackBears
+Хостинг:
+Fornex.com
+Вконтакте
+Facebook
+По
+вопросам
+работы
+сайта:
+admin@pikabu.ru
+Внести
+предложение
+Служба
+поддержки:
+support@pikabu.ru
+Сообщить
+об
+ошибке
+По
+вопросам
+рекламы
+:
+ads@pikabu.ru
+<!--
+								new
+Image().src
+=
+"//counter.yadro.ru/hit;Pikabu?r"+
+								escape(document.referrer)+((typeof(screen)=="undefined")?"":
+								";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+								screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+								";"+Math.random();//-->
+(function
+(d,
+w,
+c)
+{
+								
+
+
+
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+								
+
+
+
+
+
+
+
+try
+{
+								
+
+
+
+
+
+
+
+
+
+
+
+w.yaCounter174977
+=
+new
+Ya.Metrika({id:174977});
+								
+
+
+
+
+
+
+
+}
+catch(e)
+{
+}
+								
+
+
+
+});
+
+								
+
+
+
+var
+n
+=
+d.getElementsByTagName("script")[0],
+								
+
+
+
+
+
+
+
+s
+=
+d.createElement("script"),
+								
+
+
+
+
+
+
+
+f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+								
+
+
+
+s.type
+=
+"text/javascript";
+								
+
+
+
+s.async
+=
+true;
+								
+
+
+
+s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+								
+
+
+
+if
+(w.opera
+==
+"[object
+Opera]")
+{
+								
+
+
+
+
+
+
+
+d.addEventListener("DOMContentLoaded",
+f,
+false);
+								
+
+
+
+}
+else
+{
+f();
+}
+								})(document,
+window,
+"yandex_metrika_callbacks");
+(window.Image
+?
+(new
+Image())
+:
+document.createElement("img")).src
+=
+location.protocol
+									+
+"//vk.com/rtrg?r=y5YLGMdFGMussDQo9RKwt0ZXBhlVHz9Wk1keHFw1GGi6umhFgCHTD4vYUnpy9t2guau7nCXi4p4lZy6g4RVVeaj0ksWvpbGL8xl53mDcbKBtPgigBg/8OUM2g6lhNPstAMipZiDFYJpEV0LDXYgKucnNBBRu3QHNQbNNZnE/Zmg-";

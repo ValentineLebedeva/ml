@@ -1,0 +1,163 @@
+Sorry!
+Your
+access
+to
+BoardReader.com
+has
+been
+temporarily
+suspended.
+
+|
+BoardReader
+var
+_prum={id:"5167a746e6e53d1b42000000"};var
+PRUM_EPISODES=PRUM_EPISODES||{};PRUM_EPISODES.q=[];PRUM_EPISODES.mark=function(b,a){PRUM_EPISODES.q.push(["mark",b,a||new
+Date().getTime()])};PRUM_EPISODES.measure=function(b,a,b){PRUM_EPISODES.q.push(["measure",b,a,b||new
+Date().getTime()])};PRUM_EPISODES.done=function(a){PRUM_EPISODES.q.push(["done",a])};PRUM_EPISODES.mark("firstbyte");(function(){var
+b=document.getElementsByTagName("script")[0];var
+a=document.createElement("script");a.type="text/javascript";a.async=true;a.charset="UTF-8";a.src="//rum-static.pingdom.net/prum.min.js";b.parentNode.insertBefore(a,b)})();
+.captchaRefreshCustom
+{
+			text-align:
+center;
+width:
+100%;
+		}
+		.captchaCodeCustom
+{	
+			width:
+200px;
+		}
+		.banned_text_block
+{						
+			margin-top:
+50px;
+
+			width:650px;
+
+			height:250px;	
+		}
+		.banned_text
+{
+			text-align:
+center;
+font:
+bold
+14px
+tahoma;	margin:
+0
+		}
+Connecting
+Communities
+through
+Search
+<!--
+				ajax_runModule('name=my&amp;sView=getCaptcha&amp;cptchi=help_yourself','target=help_yourself');
+			//-->
+BoardReader
+has
+detected
+a
+BOT-LIKE
+activity
+in
+your
+requests.
+Please
+make
+sure
+javascript
+and
+cookies
+are
+enabled
+in
+your
+browser.
+Please
+note
+that
+your
+access
+to
+BoardReader.com
+has
+been
+temporarily
+suspended.
+If
+you
+believe
+this
+suspension
+is
+in
+error
+please
+CONTACT
+US
+.
+If
+you
+would
+like
+to
+gain
+permission
+to
+crawl
+BoardReader.com
+please
+CONTACT
+US
+.
+To
+continue
+using
+BoardReader
+please
+type
+the
+characters
+you
+see
+below
+©
+<!--
+var
+date
+=
+new
+Date();
+var
+yy
+=
+date.getYear();
+var
+year
+=
+(yy
+<
+1000)
+?
+yy
++
+1900
+:
+yy;
+
+document.write(year);
+
+//-->
+Boardreader.
+All
+Rights
+Reserved.
+_uacct
+=
+"UA-941490-1";
+			if(typeof(urchinTracker)
+==
+'function')
+			urchinTracker();

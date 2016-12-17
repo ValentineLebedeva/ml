@@ -1,0 +1,1466 @@
+Огонь
+из
+зажигалки
+пахнет
+палёными
+волосами
+из
+носа.
+img#wpstats{display:none}
+window.ulb
+=
+{photoPage:
+"Перейти
+на
+страницу
+с
+фотографией.",closeBtn:
+"Закрыть",
+error:
+"Запрошенный
+контент
+не
+может
+быть
+загружен.
+Пожалуйста,
+попробуйте
+позже.",
+next:
+"Вперед",
+prev:
+"Предыдущий",
+btnPlay:
+"Начать
+слайдшоу",
+btnToggle:
+"Изменить
+размер"}
+.UhideBlock{display:none;
+}
+new
+Image().src
+=
+"//counter.yadro.ru/hit;noadsuweb?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random();
+//<!--
+	function
+uSocialLogin(t)
+{
+		var
+params
+=
+{
+'vkontakte':{
+'width':790,
+'height':400
+},
+'ok':{
+'width':560,
+'height':310
+},
+'facebook':{
+'width':950,
+'height':520
+},
+'yandex':{
+'width':870,
+'height':515
+},
+'google':{
+'width':700,
+'height':600
+},
+'twitter':{
+'width':800,
+'height':400
+}
+};
+		var
+ref
+=
+escape(location.protocol
++
+'//'
++
+('muz4in.net'
+||
+location.hostname)
++
+location.pathname
++
+((location.hash
+?
+(
+location.search
+?
+location.search
++
+'&'
+:
+'?'
+)
++
+'rnd='
++
+Date.now()
++
+location.hash
+:
+(
+location.search
+||
+''
+))));
+		//
+var
+ref
+=
+escape(location.href);
+		window.open('/'+t+'?ref='+ref,'conwin','width='+params[t].width+',height='+params[t].height+',status=1,resizable=1,left='+parseInt((screen.availWidth/2)-(params[t].width/2))+',top='+parseInt((screen.availHeight/2)-(params[t].height/2)-20)+'screenX='+parseInt((screen.availWidth/2)-(params[t].width/2))+',screenY='+parseInt((screen.availHeight/2)-(params[t].height/2)-20));
+		return
+false;
+	}
+//-->
+var
+advideo_playlist_id=999;
+Главная
+Стена
+Картинки
+Секретики
+А
+вы...
+Путин
+покажет...
+Мобильное
+меню
+Новое
+Категории
+Категории
+Задумайся
+Юмор
+Женское
+Жизненное
+(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+Ещё
+разделы
+Смотреть
+фильмы
+онлайн
+HD
+Реклама
+в
+моём
+блоге
+Фото
+Форум
+Игры
+Опросы
+Тихое
+место
+ПОДПИСЫВАЙСЯ
+Картинки
+Форма
+входа
+Войти
+на
+сайт
+ОнЛайн
+Онлайн
+всего:
+31
+Гостей:
+31
+Пользователей:
+0
+Реклама
+(adsbygoogle
+=
+window.adsbygoogle
+||
+[]).push({});
+Белые
+буквы
+на
+черном
+фоне
+№9170
+Olechka
+23.04.2012,
+15:06
+(function()
+{
+
+if
+(window.pluso)if
+(typeof
+window.pluso.start
+==
+"function")
+return;
+
+var
+d
+=
+document,
+s
+=
+d.createElement('script'),
+g
+=
+'getElementsByTagName';
+
+s.type
+=
+'text/javascript';
+s.charset='UTF-8';
+s.async
+=
+true;
+
+s.src
+=
+('https:'
+==
+window.location.protocol
+?
+'https'
+:
+'http')
++
+'://share.pluso.ru/pluso-like.js';
+
+var
+h=d[g]('head')[0]
+||
+d[g]('body')[0];
+
+h.appendChild(s);
+
+})();
+Огонь
+из
+зажигалки
+пахнет
+палёными
+волосами
+из
+носа.
+Интересно
++7
+article
+img
+{width:
+auto!important;}
+Всего
+комментариев:
+0
+function
+spages(p,link)
+{
+					document.location.href
+=
+atob(link);
+				}
+if(
+!window.uCoz
+)
+window.uCoz
+=
+{};
+		if(
+!uCoz.spam
+)
+uCoz.spam
+=
+{};
+		if(
+!uCoz.spam.sign
+)
+uCoz.spam.sign
+=
+{};
+
+		if(
+!uCoz.spam.config
+)
+uCoz.spam.config
+=
+{};
+
+		uCoz.spam.config.scopeID
+
+=
+0;
+		uCoz.spam.config.idPrefix
+=
+'comEnt';
+
+		uCoz.spam.sign.spam
+
+
+
+
+
+
+
+
+
+
+
+=
+'Спам';
+		uCoz.spam.sign.notSpam
+
+
+
+
+
+
+
+
+=
+'Не
+спам';
+		uCoz.spam.sign.hidden
+
+
+
+
+
+
+
+
+
+=
+'Спам-сообщение
+скрыто.';
+		uCoz.spam.sign.shown
+
+
+
+
+
+
+
+
+
+
+=
+'Спам-сообщение
+показано.';
+		uCoz.spam.sign.show
+
+
+
+
+
+
+
+
+
+
+
+=
+'Показать';
+		uCoz.spam.sign.hide
+
+
+
+
+
+
+
+
+
+
+
+=
+'Скрыть';
+		uCoz.spam.sign.admSpam
+
+
+
+
+
+
+
+
+=
+'Разрешить
+жалобы';
+		uCoz.spam.sign.admSpamTitle
+
+
+
+=
+'Разрешить
+пользователям
+сайта
+помечать
+это
+сообщение
+как
+спам';
+		uCoz.spam.sign.admNotSpam
+
+
+
+
+
+=
+'Это
+не
+спам';
+		uCoz.spam.sign.admNotSpamTitle
+=
+'Пометить
+как
+не-спам,
+запретить
+пользователям
+жаловаться
+на
+это
+сообщение';
+
+		
+
+		uCoz.spam.moderPanelNotSpamClick
+=
+function(elem)
+{
+			var
+waitImg
+=
+$('<img
+align="absmiddle"
+src="/.s/img/fr/EmnAjax.gif">');
+			var
+elem
+=
+$(elem);
+			elem.find('img').hide();
+			elem.append(waitImg);
+			var
+messageID
+=
+elem.attr('data-message-id');
+			var
+notSpam
+
+
+=
+elem.attr('data-not-spam')
+?
+0
+:
+1;
+//
+invert
+-
+'data-not-spam'
+should
+contain
+CURRENT
+'notspam'
+status!
+			$.post('/index/',
+{
+				a
+
+
+
+
+
+
+
+
+
+:
+101,
+				scope_id
+
+
+:
+uCoz.spam.config.scopeID,
+				message_id
+:
+messageID,
+				not_spam
+
+
+:
+notSpam
+			}).then(function(response)
+{
+				waitImg.remove();
+				elem.find('img').show();
+				if(
+response.error
+)
+{
+					alert(response.error);
+					return;
+				};
+				if(
+response.status
+==
+'admin_message_not_spam'
+)
+{
+					elem.attr('data-not-spam',
+true).find('img').attr('src',
+'/.s/img/spamfilter/notspam-active.gif');
+					$('#del-as-spam-'
++
+messageID).hide();
+				}
+else
+{
+					elem.removeAttr('data-not-spam').find('img').attr('src',
+'/.s/img/spamfilter/notspam.gif');
+					$('#del-as-spam-'
++
+messageID).show();
+				};
+				//console.log(response);
+			});
+			return
+false;
+		};
+
+
+		uCoz.spam.report
+=
+function(scopeID,
+messageID,
+notSpam,
+callback,
+context)
+{
+			return
+$.post('/index/',
+{
+				a:
+101,
+				scope_id
+
+
+:
+scopeID,
+				message_id
+:
+messageID,
+				not_spam
+
+
+:
+notSpam
+			}).then(function(response)
+{
+				if(
+callback
+)
+{
+					callback.call(context
+||
+window,
+response,
+context);
+				}
+else
+{
+					window.console
+&&
+console.log
+&&
+console.log('uCoz.spam.report:
+message
+#'
++
+messageID,
+response);
+				};
+			});
+		};
+
+		uCoz.spam.reportDOM
+=
+function(event)
+{
+			if(
+event.preventDefault
+)
+event.preventDefault();
+			var
+elem
+
+
+
+
+
+=
+$(this);
+			if(
+elem.hasClass('spam-report-working')
+)
+return
+false;
+			var
+scopeID
+
+
+=
+uCoz.spam.config.scopeID;
+			var
+messageID
+=
+elem.attr('data-message-id');
+			var
+notSpam
+
+
+=
+elem.attr('data-not-spam');
+			var
+target
+
+
+
+=
+elem.parents('.report-spam-target').eq(0);
+			var
+height
+
+
+
+=
+target.outerHeight(true);
+			var
+margin
+
+
+
+=
+target.css('margin-left');
+			elem.html('<img
+src="/.s/img/wd/1/ajaxs.gif">').addClass('report-spam-working');
+			uCoz.spam.report(scopeID,
+messageID,
+notSpam,
+function(response,
+context)
+{
+				context.elem.text('').removeClass('report-spam-working');
+				window.console
+&&
+console.log
+&&
+console.log(response);
+//
+DEBUG
+				response.warning
+&&
+window.console
+&&
+console.warn
+&&
+console.warn(
+'uCoz.spam.report:
+warning:
+'
++
+response.warning,
+response
+);
+				if(
+response.warning
+&&
+!response.status
+)
+{
+					//
+non-critical
+warnings,
+may
+occur
+if
+user
+reloads
+cached
+page:
+					if(
+response.warning
+==
+'already_reported'
+)
+response.status
+=
+'message_spam';
+					if(
+response.warning
+==
+'not_reported'
+
+
+
+
+)
+response.status
+=
+'message_not_spam';
+				};
+				if(
+response.error
+)
+{
+					context.target.html('<div
+style="height:
+'
++
+context.height
++
+'px;
+line-height:
+'
++
+context.height
++
+'px;
+color:
+red;
+font-weight:
+bold;
+text-align:
+center;">'
++
+response.error
++
+'</div>');
+				}
+else
+if(
+response.status
+)
+{
+					if(
+response.status
+==
+'message_spam'
+)
+{
+						context.elem.text(uCoz.spam.sign.notSpam).attr('data-not-spam',
+'1');
+						var
+toggle
+=
+$('#report-spam-toggle-wrapper-'
++
+response.message_id);
+						if(
+toggle.length
+)
+{
+							toggle.find('.report-spam-toggle-text').text(uCoz.spam.sign.hidden);
+							toggle.find('.report-spam-toggle-button').text(uCoz.spam.sign.show);
+						}
+else
+{
+							toggle
+=
+$('<div
+id="report-spam-toggle-wrapper-'
++
+response.message_id
++
+'"
+class="report-spam-toggle-wrapper"
+style="'
++
+(context.margin
+?
+'margin-left:
+'
++
+context.margin
+:
+'')
++
+'"><span
+class="report-spam-toggle-text">'
++
+uCoz.spam.sign.hidden
++
+'</span>
+<a
+class="report-spam-toggle-button"
+data-target="#'
++
+uCoz.spam.config.idPrefix
++
+response.message_id
++
+'"
+href="javascript://">'
++
+uCoz.spam.sign.show
++
+'</a></div>').hide().insertBefore(context.target);
+							uCoz.spam.handleDOM(toggle);
+						};
+						context.target.addClass('report-spam-hidden').fadeOut('fast',
+function()
+{
+							toggle.fadeIn('fast');
+						});
+					}
+else
+if(
+response.status
+==
+'message_not_spam'
+)
+{
+						context.elem.text(uCoz.spam.sign.spam).attr('data-not-spam',
+'0');
+						$('#report-spam-toggle-wrapper-'
++
+response.message_id).fadeOut('fast');
+						$('#'
++
+uCoz.spam.config.idPrefix
++
+response.message_id).removeClass('report-spam-hidden').show();
+					}
+else
+if(
+response.status
+==
+'admin_message_not_spam'
+)
+{
+						elem.text(uCoz.spam.sign.admSpam).attr('title',
+uCoz.spam.sign.admSpamTitle).attr('data-not-spam',
+'0');
+					}
+else
+if(
+response.status
+==
+'admin_message_spam'
+)
+{
+						elem.text(uCoz.spam.sign.admNotSpam).attr('title',
+uCoz.spam.sign.admNotSpamTitle).attr('data-not-spam',
+'1');
+					}
+else
+{
+						alert('uCoz.spam.report:
+unknown
+status:
+'
++
+response.status);
+					};
+				}
+else
+{
+					context.target.remove();
+//
+no
+status
+returned
+by
+the
+server
+-
+remove
+message
+(from
+DOM).
+				};
+			},
+{
+elem:
+elem,
+target:
+target,
+height:
+height,
+margin:
+margin
+});
+			return
+false;
+		};
+
+		uCoz.spam.handleDOM
+=
+function(within)
+{
+			within
+=
+$(within
+||
+'body');
+			within.find('.report-spam-wrap').each(function()
+{
+				var
+elem
+=
+$(this);
+				elem.parent().prepend(elem);
+			});
+			within.find('.report-spam-toggle-button').not('.report-spam-handled').click(function(event)
+{
+				if(
+event.preventDefault
+)
+event.preventDefault();
+				var
+elem
+
+
+
+=
+$(this);
+				var
+wrapper
+=
+elem.parents('.report-spam-toggle-wrapper');
+				var
+text
+
+
+
+=
+wrapper.find('.report-spam-toggle-text');
+				var
+target
+
+=
+elem.attr('data-target');
+				target
+
+
+
+
+
+=
+$(target);
+				target.slideToggle('fast',
+function()
+{
+					if(
+target.is(':visible')
+)
+{
+						wrapper.addClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.shown);
+						elem.text(uCoz.spam.sign.hide);
+					}
+else
+{
+						wrapper.removeClass('report-spam-toggle-shown');
+						text.text(uCoz.spam.sign.hidden);
+						elem.text(uCoz.spam.sign.show);
+					};
+				});
+				return
+false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-remove').not('.report-spam-handled').click(function(event)
+{
+				if(
+event.preventDefault
+)
+event.preventDefault();
+				var
+messageID
+=
+$(this).attr('data-message-id');
+				del_item(messageID,
+1);
+				return
+false;
+			}).addClass('report-spam-handled');
+			within.find('.report-spam-btn').not('.report-spam-handled').click(uCoz.spam.reportDOM).addClass('report-spam-handled');
+			window.console
+&&
+console.log
+&&
+console.log('uCoz.spam.handleDOM:
+done.');
+
+
+
+
+
+
+
+
+
+
+
+
+try
+{
+if
+(uCoz.manageCommentControls)
+{
+uCoz.manageCommentControls()
+}
+}
+catch(e)
+{
+window.console
+&&
+console.log
+&&
+console.log('manageCommentControls:
+fail.');
+}
+			return
+this;
+		};
+	
+			uCoz.spam.handleDOM();
+function
+addcom(f)
+{
+	if
+(document.getElementById('addcBut'))
+{
+		document.getElementById('addcBut').disabled
+=
+true;
+	}
+else
+{
+		try
+{document.addform.submit.disabled
+=
+true;}
+catch(e)
+{}
+	}
+	if
+(document.getElementById('eMessage'))
+{
+		document.getElementById('eMessage').innerHTML
+=
+'<span
+style="color:#8B8B8B"><img
+src="/.s/img/ma/m/i2.gif"
+border="0"
+align="absmiddle"
+width="13"
+height="13">
+Идет
+передача
+данных...</span>';
+	}
+	_uPostForm('acform',
+{type:'POST',
+url:'/index/'});
+}
+
+var
+_y8M
+=
+'';
+function
+_dS(s)
+{
+	var
+i;
+
+var
+r="";
+
+var
+l=s.length-1;
+
+var
+k=s.substr(l,1);
+	for
+(i
+=
+0;
+i
+<
+l;
+i++)
+{
+		c
+=
+s.charCodeAt(i)
+-
+k;
+		if
+(c
+<
+32)
+{
+			c
+=
+127
+-
+(32
+-
+c);
+		}
+		r
++=
+String.fromCharCode(c);
+	}
+	return
+r;
+}
+
+_y8M
+=
+_dS('@mrtyx$x}tiA&lmhhir&$reqiA&wsw&$zepyiA&55<5=99:68&$3B4');
+document.write(_y8M)
+Имя
+*:
+Email:
+if(
+!
+window.uCoz
+)
+window.uCoz
+=
+{};
+			if(
+!
+window.uCoz.uwbb
+)
+window.uCoz.uwbb
+=
+{};
+			window.uCoz.uwbb.buttons
+=
+'bold,italic,underline,|,strike,sup,sub,|,hr,,,video,|,bullist,|,smilebox,|,fontcolor,fontsize,ufontfamily,|,justifyleft,justifycenter,justifyright,justify,|,quote,code,spoiler,hide';
+			window.uCoz.uwbb.lang
+=
+'ru';
+			window.uCoz.uwbb.cssFile
+=
+'';
+			window.uCoz.uwbb.bitmask
+=
+1;
+			window.uCoz.uwbb.module
+=
+'board';
+			
+			$(
+function()
+{
+				function
+___init()
+{
+					var
+elem
+=
+$('#message');
+					if(
+elem.wysibb
+)
+{
+						return
+elem.wysibb(
+window.uCoz.uwbb
+);
+					}
+else
+{
+						try
+{
+console.log('___init:
+retry')
+}
+catch(e)
+{};
+						return
+setTimeout(___init,
+500);
+					};
+				};
+				___init();
+			}
+);
+Код
+*:
+$(function()
+{
+				$('#captcha-question-board-com-add,
+#captcha-renew-board-com-add').click(
+function()
+{
+					$('#captcha-question-board-com-add').attr('src',
+'/secure/?f=board-com-add&skey=1483677619&rand='
++
+Math.random());
+					try
+{
+$('#captcha-answer-board-com-add').get(0).focus();
+}
+finally
+{};
+				}
+);
+			});
+Дизайн
+-
+scandi_max
+Предупреждение:
+Разделы
+сайта
+могут
+содержать
+материалы
+категории
+18+
+Для
+связи:
+muz4in.net@gmail.com
+Copyright
+Muz4in.Net
+©
+2009-2016
+All
+Rights
+Reserved.
+Хостинг
+от
+uWeb
+Список
+Войти
+Домой
+Поиск
+об
+Админчеге
+Счетчики
+var
+_tmr
+=
+_tmr
+||
+[];
+_tmr.push({id:
+"1669254",
+type:
+"pageView",
+start:
+(new
+Date()).getTime()});
+(function
+(d,
+w)
+{
+
+var
+ts
+=
+d.createElement("script");
+ts.type
+=
+"text/javascript";
+ts.async
+=
+true;
+
+ts.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//top-fwz1.mail.ru/js/code.js";
+
+var
+f
+=
+function
+()
+{var
+s
+=
+d.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(ts,
+s);};
+
+if
+(w.opera
+==
+"[object
+Opera]")
+{
+d.addEventListener("DOMContentLoaded",
+f,
+false);
+}
+else
+{
+f();
+}
+})(document,
+window);
+<!--
+document.write("<a
+href='http://www.liveinternet.ru/click'
+"+
+"target=_blank
+rel=_nofollow><img
+src='//counter.yadro.ru/hit?t14.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"'
+alt=''
+title='LiveInternet:
+показано
+число
+просмотров
+за
+24"+
+"
+часа,
+посетителей
+за
+24
+часа
+и
+за
+сегодня'
+"+
+"border='0'
+width='88'
+height='31'><\/a>")
+//-->
+var
+_wau
+=
+_wau
+||
+[];
+_wau.push(["small",
+"1n0lqphrzit1",
+"o1u"]);(function()
+{
+var
+s=document.createElement("script");
+s.async=true;
+s.src="http://widgets.amung.us/small.js";document.getElementsByTagName("head")[0].appendChild(s);})();
+(function(w,
+c)
+{
+
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+
+try
+{
+
+w.yaCounter4129528
+=
+new
+Ya.Metrika({id:4129528,
+
+trackLinks:true,
+
+trackHash:true});
+
+}
+
+catch(e)
+{
+}
+
+});
+})(window,
+"yandex_metrika_callbacks");
+$(document).ready(function(){
+$(".btn-slide").click(function(){
+$("#panel").slideToggle("slow");
+$(this).toggleClass("active");
+return
+false;
+});
+});
+Еще
+Прислать
+Об
+Авторстве
+Реклама
+Стать
+партнером
+Подписывайся
+VK
+Facebook
+Twitter
+Google+
+RSS
+(function(w,doc)
+{
+if
+(!w.__utlWdgt
+)
+{
+
+w.__utlWdgt
+=
+true;
+
+var
+d
+=
+doc,
+s
+=
+d.createElement('script'),
+g
+=
+'getElementsByTagName';
+
+s.type
+=
+'text/javascript';
+s.charset='UTF-8';
+s.async
+=
+true;
+
+s.src
+=
+('https:'
+==
+w.location.protocol
+?
+'https'
+:
+'http')
++
+'://w.uptolike.com/widgets/v1/uptolike.js';
+
+var
+h=d[g]('body')[0];
+
+h.appendChild(s);
+}})(window,document);

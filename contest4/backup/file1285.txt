@@ -1,0 +1,786 @@
+Немного
+юмора
+в
+ленту=)
+//
+define
+initial
+parameters
+					var
+initParams
+=
+{"siteURL":"http:\/\/pikabu.ru\/","imgURL":"http:\/\/cs.pikabu.ru","userID":0,"userName":"","userKarma":0,"sessionID":"ssrt2aajhch1ii496nipaabdep3122jh","userBanTime":"","isUserBanned":false,"isStoryAnimPreview":true,"isCommAnimPreview":true,"isScrollTopBtn":true,"isAjaxLoadMode":true,"isExpandedMode":true,"isCommentsBranchesHidden":false,"scriptName":"story.php","privateKey":"TVpmN2Nq","uniqueBufferID":"8ee8b0accf","registrationKey":"cdd0ef1260","debugLocation":"","pickedDate":"2016-12-17","pageNumber":1,"environment":225,"developmentMode":false,"filter_name":"","upload_server_url":"http:\/\/u.pikabu.ru","max_comments_branch_depth":3};
+
+					/**
+					
+*
+Create
+old
+global
+vars
+for
+back
+compatibility
+					
+*/
+					var
+logined
+=
+initParams.userID
+>
+0
+?
+1
+:
+0,
+						uCarma
+=
+initParams.userKarma,
+						phpSelf
+=
+initParams.scriptName,
+						ppk
+=
+initParams.privateKey,
+						bid
+=
+initParams.uniqueBufferID,
+						site_url
+=
+initParams.siteURL,
+						img_url
+=
+initParams.imgURL,
+						tag_str
+=
+"",
+						developmentMode
+=
+initParams.developmentMode,
+						is_twitmode
+=
+initParams.isAjaxLoadMode
+?
+1
+:
+0,
+						is_scrollmode
+=
+initParams.isExpandedMode
+?
+1
+:
+0,
+						regKey
+=
+initParams.registrationKey,
+						sessID
+=
+initParams.sessionID,
+						picker_date
+=
+new
+Date(initParams.pickedDate),
+						pl
+=
+0,
+						page_num
+=
+initParams.pageNumber,
+						dev
+=
+initParams.developmentMode,
+						nextJS
+=
+{
+							mv:
+{
+								facebookWidget:
+false
+							},
+							adbix:
+0,
+							banned:
+initParams.isUserBanned,
+							bannedTime:
+initParams.userBanTime,
+							best:
+"",
+							listDate:
+"",
+							gif:
+{
+							
+
+
+
+background:
+true,
+							
+
+
+
+showComment:
+!initParams.isCommAnimPreview,
+							
+
+
+
+showStory:
+!initParams.isStoryAnimPreview
+							},
+							options:
+{
+							
+
+
+
+autoShowGif:
+initParams.isCommAnimPreview
+							},
+							filterName:
+initParams.filter_name,
+							user:
+{
+							
+
+
+
+id:
+initParams.userID,
+							
+
+
+
+name:
+initParams.userName
+							},
+							scrollToTop:
+initParams.isScrollTopBtn,
+							hideSaveMenu:
+initParams.isHideSaveMenu,
+							location:
+initParams.debugLocation
+						};
+$.ajaxSetup({headers:
+{"X-Csrf-Token"
+:
+initParams.sessionID}});
+					$.browser
+=
+{safari:
+false,
+opera:
+false};
+(function()
+{
+					var
+purl
+=
+window.location.href;
+					var
+url
+=
+'//ads.pubmatic.com/AdServer/js/pwt/155949/97';
+					var
+profileVersionId
+=
+'';
+					if(purl.indexOf('pwtv=')>0){
+						var
+regexp
+=
+/pwtv=(.*?)(&|$)/g;
+						var
+matches
+=
+regexp.exec(purl);
+						if(matches.length
+>=
+2
+&&
+matches[1].length
+>
+0){
+							profileVersionId
+=
+'/'+matches[1];
+						}
+					}
+					var
+wtads
+=
+document.createElement('script');
+					wtads.async
+=
+true;
+					wtads.type
+=
+'text/javascript';
+					wtads.src
+=
+url+profileVersionId+'/pwt.js';
+					var
+node
+=
+document.getElementsByTagName('script')[0];
+					node.parentNode.insertBefore(wtads,
+node);
+				})();
+Комментарии
+Горячее
+Лучшее
+Свежее
+Сообщества
+Немного
+юмора
+в
+ленту=)
+3
+Комментария
+NivanSIA
+316
+дней
+назад
+анекдот
+юмор
+текст
+работа
+усы
+Нарисовал
+себе
+усы
+и
+пришел
+на
+работу,
+а
+женщины
+с
+нарисованными
+бровями
+сказали,
+что
+я
+дурак!
+Я
+в
+чем-то
+не
+прав?
+свернуть
+0
+0
+0
+0
+Я
+уже
+с
+вами
+:)
+Твиты
+от
+@pikabu_vk
+Я
+уже
+с
+вами
+:)
+Подписаться
+на
+Пикабу:
+Я
+уже
+с
+вами
+:)
+3
+комментария,
+по
+актуальности
+Рейтингу
+Времени
+Актуальности
++1
+Kapxapodon
+отправил
+316
+дней
+назад
+#
+показать
+комментарий
+не
+прав
+в
+том,
+что
+баяны
+постишь
+ответить
+редактировать
+удалить
+раскрыть
+ветвь
+0
+0
+Zhirafiki
+отправлено
+316
+дней
+назад
+#
+показать
+комментарий
+@moderator
+,
+ничего
+нового
+http://pikabu.ru/story/devushki_3887900#comments
+ответить
+редактировать
+удалить
+раскрыть
+ветвь
+0
+0
+oBAMchik
+отправил
+316
+дней
+назад
+#
+показать
+комментарий
+Иди
+нахуй
+с
+таким
+юмором.
+Ты
+такой
+смешной!)
+ответить
+редактировать
+удалить
+раскрыть
+ветвь
+0
+список
+тегов
+обсуждаемое
+[моё]
+FAQ
+реклама
+Авторизация
+Регистрация
+войти
+Неверный
+логин
+или
+пароль
+Восстановить
+пароль
+Через
+социальную
+сеть
+Логин
+Email
+Пароль
+Зарегистрироваться
+добавить
+пост
+Комментарий
+дня
+ТОП
+50
+Как
+спустить
+чужие
+миллионы
+на
+стриптизерш
+и
+машины
++1688
+iammansuka
+;
+12
+часов
+назад
+#
+"Мне
+просто
+не
+повезло,
+что
+это
+случилось
+со
+мной."
+-
+сказал
+чувак,
+который
+спустил
+2
+ляма
+баксов.
+(function(w,
+d,
+n,
+s,
+t)
+{
+						w[n]
+=
+w[n]
+||
+[];
+						w[n].push(function()
+{
+							Ya.Direct.insertInto(
+								56459,
+								"yandex_ad_1481929314_33988",
+								{"site_charset":"windows-1251","stat_id":"3","ad_format":"direct","font_size":1,"font_family":"tahoma","type":"posterVertical","border_type":"block","limit":2,"title_font_size":3,"site_bg_color":"FFFFFF","header_bg_color":"FFFFFF","bg_color":"FFFFFF","title_color":"5190B8","url_color":"008900","text_color":"676767","sitelinks_color":"777777","hover_color":"5190B8","border_color":"D7D7D7","favicon":true,"no_sitelinks":false}
+							);
+						});
+						t
+=
+d.documentElement.firstChild;
+						s
+=
+d.createElement("script");
+						s.type
+=
+"text/javascript";
+						s.src
+=
+"http://an.yandex.ru/system/context.js";
+						s.setAttribute("async",
+"true");
+						t.insertBefore(s,
+t.firstChild);
+					})(window,
+document,
+"yandex_context_callbacks");
+Активные
+сообщества
+Наука
+|
+Science
+Истории
+из
+жизни
+Рукодельники
+Книжная
+лига
+Исследователи
+космоса
+Лига
+Художников
+Обмен
+подарками
+Истории
+об
+отношениях
+World
+of
+building
+|
+Сооружения
+Котомафия
+все
+сообщества
+создать
+Тенденции
+новогодний
+обмен
+подарками
+19
+тайный
+Санта
+9
+долг
+8
+все
+теги
+объединение
+тегов
+var
+_gaq
+=
+_gaq
+||
+[];
+
+
+_gaq.push(['_setAccount',
+'UA-28292940-1']);
+
+
+_gaq.push(['_setDomainName',
+'pikabu.ru']);
+
+
+_gaq.push(['_setAllowLinker',
+true]);
+
+
+_gaq.push(['_trackPageview']);
+
+
+
+(function()
+{
+
+
+
+
+var
+ga
+=
+document.createElement('script');
+ga.type
+=
+'text/javascript';
+ga.async
+=
+true;
+ga.src
+=
+('https:'
+==
+document.location.protocol
+?
+'https://'
+:
+'http://')
++
+'stats.g.doubleclick.net/dc.js';
+
+
+
+
+var
+s
+=
+document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga,
+s);
+
+
+})();
+Пожалуйста,
+войдите
+в
+аккаунт
+или
+зарегистрируйтесь
+RSS
+Мобильная
+версия
+Правила
+FAQ
+Бан
+Реклама
+Партнеры:
+BlackBears
+Хостинг:
+Fornex.com
+Вконтакте
+Facebook
+По
+вопросам
+работы
+сайта:
+admin@pikabu.ru
+Внести
+предложение
+Служба
+поддержки:
+support@pikabu.ru
+Сообщить
+об
+ошибке
+По
+вопросам
+рекламы
+:
+ads@pikabu.ru
+<!--
+								new
+Image().src
+=
+"//counter.yadro.ru/hit;Pikabu?r"+
+								escape(document.referrer)+((typeof(screen)=="undefined")?"":
+								";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+								screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+								";"+Math.random();//-->
+(function
+(d,
+w,
+c)
+{
+								
+
+
+
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+								
+
+
+
+
+
+
+
+try
+{
+								
+
+
+
+
+
+
+
+
+
+
+
+w.yaCounter174977
+=
+new
+Ya.Metrika({id:174977});
+								
+
+
+
+
+
+
+
+}
+catch(e)
+{
+}
+								
+
+
+
+});
+
+								
+
+
+
+var
+n
+=
+d.getElementsByTagName("script")[0],
+								
+
+
+
+
+
+
+
+s
+=
+d.createElement("script"),
+								
+
+
+
+
+
+
+
+f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+								
+
+
+
+s.type
+=
+"text/javascript";
+								
+
+
+
+s.async
+=
+true;
+								
+
+
+
+s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+								
+
+
+
+if
+(w.opera
+==
+"[object
+Opera]")
+{
+								
+
+
+
+
+
+
+
+d.addEventListener("DOMContentLoaded",
+f,
+false);
+								
+
+
+
+}
+else
+{
+f();
+}
+								})(document,
+window,
+"yandex_metrika_callbacks");
+(window.Image
+?
+(new
+Image())
+:
+document.createElement("img")).src
+=
+location.protocol
+									+
+"//vk.com/rtrg?r=y5YLGMdFGMussDQo9RKwt0ZXBhlVHz9Wk1keHFw1GGi6umhFgCHTD4vYUnpy9t2guau7nCXi4p4lZy6g4RVVeaj0ksWvpbGL8xl53mDcbKBtPgigBg/8OUM2g6lhNPstAMipZiDFYJpEV0LDXYgKucnNBBRu3QHNQbNNZnE/Zmg-";

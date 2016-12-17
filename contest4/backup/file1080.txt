@@ -1,0 +1,2984 @@
+Знакомства
+LovePlanet.ru
+–
+сайт
+бесплатного
+онлайн
+общения
+с
+реальными
+людьми
+со
+всего
+мира!!
+if(/*@cc_on!@*/false){document.documentElement.className+='
+ie10';}
+var
+googletag
+=
+googletag
+||
+{};
+	googletag.cmd
+=
+googletag.cmd
+||
+[];
+	(function()
+{
+		var
+gads
+=
+document.createElement('script');
+		gads.async
+=
+true;
+		gads.type
+=
+'text/javascript';
+		var
+useSSL
+=
+'https:'
+==
+document.location.protocol;
+		gads.src
+=
+(useSSL
+?
+'https:'
+:
+'http:')
++
+			'//www.googletagservices.com/tag/js/gpt.js';
+		var
+node
+=
+document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads,
+node);
+	})();
+window.__googdfp
+=
+{};
+
+	googletag.cmd.push(function()
+{
+		var
+addslot
+=
+function(p1,
+p2,
+p3)
+{
+			__googdfp[p3]
+=
+googletag.defineSlot(p1,
+p2,
+p3).addService(googletag.pubads());
+		}
+
+		/*
+new
+adunits*/
+		addslot('/135689348/lp_leader_auth',
+[[240,
+400],
+[160,
+600]],
+'div-gpt-ad-1464789836693-0');
+		addslot('/135689348/lp_leader_no_auth',
+[[240,
+400],
+[160,
+600]],
+'div-gpt-ad-1464790063184-0');
+		addslot('/135689348/lp_messanger',
+[[240,
+400],
+[240,
+200]],
+'div-gpt-ad-1464790213312-0');
+		addslot('/135689348/partners_leader_auth',
+[[240,
+400],
+[160,
+600]],
+'div-gpt-ad-1464790337044-0');
+		addslot('/135689348/partners_leader_no_auth',
+[[240,
+400],
+[160,
+600]],
+'div-gpt-ad-1464790430884-0');
+		addslot('/135689348/partners_messanger',
+[[240,
+200],
+[240,
+400]],
+'div-gpt-ad-1464790605426-0');
+
+		/*old
+adunits*/
+		addslot('/135689348/1160х250',
+[[1160,
+250],
+[970,
+90],
+[728,
+90]],
+'div-gpt-ad-1476886741094-0');
+		addslot('/135689348/970x90messenger',
+[970,
+90],
+'div-gpt-ad-1435159542233-6');
+		addslot('/135689348/728x90messenger',
+[728,
+90],
+'div-gpt-ad-1435159542233-7');
+		addslot('/135689348/970x90',
+[970,
+90],
+'div-gpt-ad-1435159542233-8');
+		addslot('/135689348/970x90users',
+[970,
+90],
+'div-gpt-ad-1435159542233-9');
+		addslot('/135689348/160x600users',
+[160,
+600],
+'div-gpt-ad-1435159542233-10');
+		addslot('/135689348/240x400messenger',
+[240,
+400],
+'div-gpt-ad-1435159542233-11');
+
+		googletag.pubads().setTargeting('Оплата',
+[3]);
+		googletag.pubads().setTargeting('gender',
+[3]);
+		googletag.pubads().setTargeting('age',
+[0]);
+
+		googletag.pubads().enableSingleRequest();
+
+		googletag.pubads().disableInitialLoad();
+		googletag.pubads().collapseEmptyDivs(true);
+		googletag.enableServices();
+	});
+try
+{
+	var
+_lng
+=
+{
+	"Все":				"Все",
+	"Новые
+сообщения":	"Новые
+сообщения",
+	"Онлайн":			"Онлайн",
+	"Последние":		"Последние",
+	"Ошибка
+загрузки
+сообщений":	"Ошибка
+загрузки
+сообщений",
+	"Подождите
+идет
+загрузка...":	"Подождите
+идет
+загрузка...",
+	"января":	"января",
+	"февраля":	"февраля",
+	"марта":	"марта",
+	"апреля":	"апреля",
+	"мая":		"мая",
+	"июня":		"июня",
+	"июля":		"июля",
+	"августа":	"августа",
+	"сентября":	"сентября",
+	"октября":	"октября",
+	"ноября":	"ноября",
+	"декабря":	"декабря",
+	"сегодня":	"сегодня",
+	"вчера":	"вчера",
+	"&nbsp;в":	"&nbsp;в",
+	"Уведомления
+включены.":	"Уведомления
+включены.",
+	"Укажите
+Ваш
+e-mail
+адрес":	"Укажите
+Ваш
+e-mail
+адрес",
+	"Неверный
+формат
+e-mail
+адреса.":	"Неверный
+формат
+e-mail
+адреса.",
+	"Данный
+e-mail
+адрес
+уже
+используется":	"Данный
+e-mail
+адрес
+уже
+используется",
+	"Пароль
+не
+должен
+совпадать
+с
+логином":	"Пароль
+не
+должен
+совпадать
+с
+логином",
+	"Пароль
+слишком
+простой,
+придумайте
+сложнее":	"Пароль
+слишком
+простой,
+придумайте
+сложнее",
+	"Пароль
+должен
+быть
+не
+меньше
+8
+символов":	"Пароль
+должен
+быть
+не
+меньше
+8
+символов",
+	"Укажите
+Ваше
+реальное
+имя
+или
+ник":	"Укажите
+Ваше
+реальное
+имя
+или
+ник",
+	"От
+3
+до
+14
+символов":	"От
+3
+до
+14
+символов",
+	"Это
+имя
+нельзя
+использовать.":	"Это
+имя
+нельзя
+использовать.",
+	"Выберите
+день":	"Выберите
+день",
+	"Выберите
+месяц":	"Выберите
+месяц",
+	"Выберите
+год":		"Выберите
+год",
+	"Не
+выбран
+город":	"Не
+выбран
+город",
+	"Вы
+не
+ввели
+код":	"Вы
+не
+ввели
+код",
+	"Код
+должен
+состоять
+из
+4
+цифр":	"Код
+должен
+состоять
+из
+4
+цифр",
+	"Вы
+не
+приняли
+Соглашение":	"Вы
+не
+приняли
+Соглашение",
+	"Выберите
+цель
+знакомства":	"Выберите
+цель
+знакомства",
+	"Укажите
+одну
+из
+категорий":
+"Укажите
+одну
+из
+категорий",
+	"Добавить
+@":
+"Добавить
+@",
+	"Вернуться
+к
+списку
+областей":
+"Вернуться
+к
+списку
+областей",
+	"Вернуться
+к
+списку
+стран":
+"Вернуться
+к
+списку
+стран",
+	"Ничего
+не
+найдено":
+"Ничего
+не
+найдено",
+	"Введите
+название
+вашего
+города
+или
+выберите
+из
+списка":
+"Введите
+название
+вашего
+города
+или
+выберите
+из
+списка",
+	"Я
+нравлюсь":
+"Я
+нравлюсь",
+	"Нравятся":
+"Нравятся",
+	"Взаимные":
+"Взаимные",
+	"Новые":
+"Новые",
+	"Избранные":
+"Избранные",
+	"Сообщения":
+"Сообщения",
+	"Просмотры":
+"Просмотры",
+	"Симпатии":
+"Симпатии",
+	"В
+избранное":
+"В
+избранное",
+	"В
+общую":
+"В
+общую",
+	"Удалить
+пользователя":
+"Удалить
+пользователя",
+	"Поместить
+в
+черный
+список":
+"Поместить
+в
+черный
+список",
+	"Сообщить
+о
+спамере!":
+"Сообщить
+о
+спамере!",
+	"Пожаловаться
+на
+спам?":
+"Пожаловаться
+на
+спам?",
+	"Только
+Я":
+"Только
+Я",
+	"Профиль":
+"Профиль",
+	"Фото":
+"Фото",
+	"Удалить
+фото":
+"Удалить
+фото",
+	"Сделать
+основной":
+"Сделать
+основной",
+	"Показать":
+"Показать",
+	"Скрыть":
+"Скрыть",
+	"Настройки":
+"Настройки",
+	"Выход":
+"Выход"
+}
+;
+}
+catch(e){
+log(e);
+}
+window.WRP={
+	parameters:
+{
+		'wrp_cookiename':'wdata',
+		'wrp_domain':
+'.loveplanet.ru'
+	}
+};
+(function()
+{
+	var
+wrps
+=
+document.createElement('script');
+	wrps.type
+=
+'text/javascript';
+	wrps.async
+=
+true;
+	wrps.src
+=
+('https:'==document.location.protocol?'https://':'http://')+'static.weborama.io/55f2d480c45e069671dc5849.js';
+	var
+s
+=
+document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(wrps,
+s);
+})();
+var
+img
+=
+new
+Image();
+		img.src
+=
+'//www.tns-counter.ru/V13a***R>'
++
+document.referrer.replace(/\*/g,'%2a')
++
+'*rbc_ru/ru/UTF-8/tmsec=loveplanet_total/'
++
+Math.round(Math.random()
+*
+1000000000);
+(function
+(d,
+w,
+c)
+{
+		(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+			try
+{
+				w.yaCounter49105
+=
+new
+Ya.Metrika({id:49105,
+						webvisor:true,
+						clickmap:true,
+						accurateTrackBounce:true,type:1});
+			}
+catch(e)
+{
+}
+		});
+
+		var
+n
+=
+d.getElementsByTagName("script")[0],
+			s
+=
+d.createElement("script"),
+			f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+		s.type
+=
+"text/javascript";
+		s.async
+=
+true;
+		s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+		if
+(w.opera
+==
+"[object
+Opera]")
+{
+			d.addEventListener("DOMContentLoaded",
+f,
+false);
+		}
+else
+{
+f();
+}
+	})(document,
+window,
+"yandex_metrika_callbacks");
+(function
+(d,
+w,
+t,
+s)
+{
+		w["yandexContextAsyncCallbacks"]
+=
+[];
+		t
+=
+d.getElementsByTagName("script")[0];
+		s
+=
+d.createElement("script");
+		s.type
+=
+"text/javascript";
+		s.src
+=
+"//an.yandex.ru/system/context.js";
+		s.async
+=
+true;
+		t.parentNode.insertBefore(s,
+t);
+	})(document,
+window);
+.rec_box
+{position:fixed;
+zoom:1;
+z-index:5;
+right:0;
+margin-top:0px;}
+	@media
+screen
+and
+(max-width:
+1480px)
+{
+		.rec_box
+{display:none
+!important;}
+	}
+Ваш
+браузер
+сильно
+устарел
+и
+не
+может
+правильно
+работать
+с
+сайтом!
+Скачайте
+актуальные
+версии
+бесплатных
+браузеров.
+Скачать
+Google
+Chrome
+Скачать
+Mozilla
+Firefox
+Скачать
+Opera
+Скачать
+Internet
+Explorer
+if
+(isua.ie
+&&
+isua.v
+<
+9)
+{
+go("#old_browser").display("block");
+}
+(function(win,
+doc,
+go,
+undefined){
+	var
+PasswordOpener
+=
+function()
+{
+		this.init.apply(this,
+arguments);
+	};
+
+	PasswordOpener.prototype.init
+=
+function
+(el,
+popup,
+right)
+{
+		this.element
+=
+el;
+		this.template
+=
+"<span
+class='showpassword
+p_abs'><span>"
++
+popup
++
+"</span></span>";
+		this.state
+=
+false;
+		this.wrapper
+=
+doc.createElement('div');
+		this.wrapper.innerHTML
+=
+this.template;
+		this.wrapper.className
+=
+'p_rel';
+		
+		var
+insAfter
+=
+function
+(after,
+ins)
+{
+		if
+(after.nextSibling)
+{
+			after.parentNode.insertBefore(ins,
+after.nextSibling);
+		}
+else
+{
+			after.parentNode.appendChild(ins);
+		}
+		};
+		
+
+		insAfter(this.element,
+this.wrapper);
+		this.showButton
+=
+this.wrapper.firstChild;
+		//
+if
+(right
+||
+right
+===
+0)
+{
+		//	
+this.showButton.style.right
+=
+right
++
+"20px";
+		//
+}
+		this.wrapper.insertBefore(this.element,
+this.showButton);
+		listevent(this.showButton,
+'click',
+this,
+function(e)
+{
+		this.show();
+		});
+
+	};
+
+	PasswordOpener.prototype.show
+=
+function
+()
+{
+		var
+cls
+=
+"active";
+		if
+(this.state
+===
+false)
+{
+		this.state
+=
+true;
+		this.showButton.className
++=
+"
+"
++
+cls;
+		try
+{
+			this.element.type
+=
+'text';
+		}
+catch
+(e)
+{}
+		}
+else
+{
+		this.state
+=
+false;
+		this.showButton.className
+=
+this.showButton.className.replace(new
+RegExp('(\\s|^)'+cls+'(\\s|$)'),'
+').replace(/^\s+|\s+$/g,
+'')
+		try
+{
+			this.element.type
+=
+'password';
+		}
+catch
+(e)
+{}
+		}
+
+	}
+
+	go.alias({
+		pwdOpener:
+function(cfg)
+{
+		var
+cfg
+=
+cfg
+||
+{};
+		var
+popup
+=
+cfg.msg
+||
+"<img
+src='http://pics.loveplanet.ru/css/3/imgstc/spacer.png'
+alt='Показывать
+символы'
+title='Показывать
+символы'>";
+		return
+new
+PasswordOpener(this,
+popup,
+cfg.right);
+		}
+	});
+
+	})(window,
+window.document,
+go());
+Знакомства
+Дневники
+Войти
+Регистрация
+var
+restricted
+=
+{
+		rest:
+['acceptadvert','account','achdisable','achgift','achsh','activate_belong_jl','activeprob','activeself','adamas','addblack','addfol','addfoto','addfoto_s','adduser','addusertags','advert','albumdel','alcmmdel','alcmmedit','alcmmnew','alerana','aleranacolor','aleranadislike','aleranalike','aleranalikecolor','appinstall','application','bauschgift','belong_active_jl','belong_actual_jl','belong_all_jl','belong_archive_jl','belong_jl','belong_my_jl','bemoredel','bemorelike','bemorereg','benresult','bentest','bonuselite','briz','brizstage','cdpaid','check_email_list','clearfol','community_all_jl','community_jl','community_my_jl','complaint_jl_user','complivitlike','complivitstatus','complivitvote','contact','contact_all_jl','contest','coolerauth','coolerreg','coolerremind','coub','coubadd','coubdel','cutway_add_jl','cutway_all_jl','cutway_del_jl','dailies','dailies_like','deactivate_belong_jl','delfol','delfoto','delfoto_s','delfotoshow','delusertags','disable_invile_email','disconnect_lf_jl','dom2addstory','dom2ny_choice','dom2ny_pvote','dom2ny_reg','dom2ny_vote','dom2storylike','edit','editalbums','editfol','editfoto','editfoto_s','editpass','editself','elite','elite_act','elite_cancel','elite_oper','elitegifts','event_all_jl','events','expsearchpay','fcmmdel','fcmmedit','fcmmnew','folders','fotoistoria','friendfeed','gchat','getusersbytag','giftcat','good_luck','greenconcert','hidefoto','ideal','idealadd','idealdel','idealinv','idealrep','idealtext','invile_email_list','invisible','invitation_all_jl','invite_sf_jl','jlmessfilter','journal','koronainvite','koronapromo','kupikupon10','kupikupon30','kupivip','kupivipreg','kupongid','kupongidact','lead','leadedit','likes_all_jl','likes_friend_all_jl','likes_friend_jl','likes_jl','live_sms','livestatus','ljcitat','ljscrlist','load_social_friends_jl','look','look_oper','mailgift','mainfoto','map','mapi','match_post','meeting_add_jl','meeting_all_jl','meeting_delete_jl','meeting_filter_jl','meeting_jl','message','messfilter','myalbum','myaldelfoto','myalmove','mycontact','mycontedit','myfoto','myljcmm','myljpost','myljrub','myljrubdel','myljrubedit','myljrubnew','myljscr','myljscrlist','myprofile','myself','myslideshow','near_all_jl','newalbums','news_all_jl','newusertags','ochkarikvote','organizer_all_jl','organizer_jl','page_oper','papertowns','payment_oper','paysts','places_info_jl','plcard','popular_tag_list_jl','premviewset','prof_self_del_jl','pseudosms','purse','pursesms','pursesms2','qiwi','register_sf_all_jl','review','rxpaid','save_address_book_jl','sbcmess','searchlik','services_show_elite','session','show_likes_jl','show_own_likes_jl','show_single_likes_jl','slide','smschat','social_fiends_all_jl','social_likes_all_jl','speakup','speakuplive','statistics','sticker','survey_json','swgallery','testmail','testmobbanner','tracker','trackerappraisal','trackerlist','trackerphoto','unregister_sf_all_jl','upnotify','uppayment','user_all_jl','user_new_jl','user_online_jl','user_text_search_jl','viewgift','wolverine','wolverinelike','yamoneycode','yamoneypay'],
+		referer:
+'donvechnost',
+		extend:
+'cGF0aD1hLWxqY21tL3Bvc3QtMTU3NDkxMjAv',
+
+		link_scan:
+function(){
+			var
+rst
+=
+"|"+this.rest.join("|")+"|",
+			r
+=
+new
+RegExp("^"+location.protocol+"//"+location.hostname+".*/a-(\\w+)/.*$");
+			go("a").each(function(ref,
+ext){
+				if
+(ref)
+ref
+=
+"/referer-"+ref;
+				var
+mt
+=
+this.href.match(r);
+				if
+(mt
+&&
+rst.indexOf("|"+mt[1]+"|")
+!=
+-1){
+					this.setAttribute('data-recur',
+'true');
+					this.setAttribute('data-target',
+'modal');
+					this.setAttribute('data-type',
+'window');
+					this.setAttribute('data-href',
+'/a-logon/popup'+ref+'/extend-'+ext);
+				}
+			},
+this.referer,
+this.extend);
+		}
+	}
+.gallery_but,
+.gallery_but
+img
+{background-image:url('http://pics.loveplanet.ru/css/3/imgstc/lp14/sprite.png');}
+Олег
+,
+40
+лет
+Москва
+UFO
+✔
+,
+36
+лет
+Одеса
+кто
+у
+вас
+тут
+происходит
+?
+)))
+Крепыш
+,
+32
+года
+Москва
+Roman
+,
+30
+лет
+Москва
+Руслан
+,
+29
+лет
+Москва
+Пойдём
+завтра
+в
+кино?
+Сергей
+,
+37
+лет
+Тихвин
+Александр
+,
+23
+года
+Москва
+vlad
+,
+34
+года
+Санкт-Петербург
+Юджиния
+,
+35
+лет
+Волгоград
+любовь
+,
+42
+года
+Сергиев
+Посад
+Fling
+,
+41
+год
+Москва
+Alina
+,
+27
+лет
+Москва
+Какие
+планы
+на
+выходные?)
+Анастасия
+,
+31
+год
+Санкт-Петербург
+Инна
+,
+35
+лет
+Київ
+<div
+id="notify_target"
+style="right:20px;
+bottom:15px;
+position:fixed;
+z-index:999;"
+data-max="3"></div>
+<div
+id="{{id}}"
+class="flash_notify_block
+p_rel">
+		<div
+class="flash_notify_close
+rds3"
+data-onclose="true">×</div>
+		<a
+href="{{#url}}{{url}}{{/url}}{{^url}}#{{/url}}"
+{{#onclick}}onclick="{{onclick}}"{{/onclick}}>
+			<div
+class="flash_notify_box
+rds5">
+				<div><b>Новое
+сообщение</b></div>
+				<div
+class="p_rel
+fl
+mt11">
+					<img
+class="rds3"
+src="{{f_img
+image,
+'http://pics.loveplanet.ru/css/3/imgstc/photo_plug/no_photo_all/60x60_all_default.png'}}"
+alt=""
+width="50"
+height="50">
+				</div>
+				<div
+class="flash_notify_cont
+word_wrap">
+					<b
+class="flash_notify_user">{{name}}</b>&nbsp;&nbsp;{{f_msg
+'<img
+src="http://pics.loveplanet.ru/css/3/imgstc/emoji/@.png"
+alt="">',
+mess}}
+				</div>
+			</div>
+		</a>
+	</div>
+<div
+id="{{id}}"
+class="flash_notify_block
+p_rel">
+		<div
+class="flash_notify_close
+rds3"
+data-onclose="true">×</div>
+		<a
+href="{{#url}}{{url}}{{/url}}{{^url}}#{{/url}}"
+{{#onclick}}onclick="{{onclick}}"{{/onclick}}>
+			<div
+class="flash_notify_box
+rds5">
+				<div><b>Новое
+сообщение</b></div>
+				<div
+class="p_rel
+fl
+mt11">
+					<img
+class="rds3"
+src="{{f_img
+image,
+'http://pics.loveplanet.ru/css/3/imgstc/photo_plug/no_photo_all/60x60_all_default.png'}}"
+alt=""
+width="50"
+height="50">
+				</div>
+				<div
+class="flash_notify_cont
+word_wrap">
+					<b
+class="flash_notify_user">{{name}}</b>&nbsp;&nbsp;{{f_msg
+'<img
+src="http://pics.loveplanet.ru/css/3/imgstc/emoji/@.png"
+alt="">',
+mess}}
+				</div>
+			</div>
+		</a>
+	</div>
+Войти
+на
+	
+		LovePlanet
+Войти
+Забыли
+пароль?
+Регистрация
+go().byid("bl_password").pwdOpener({right:
+0});
+
+		go("#login")[0].focus();
+Мобильные
+приложения
+В
+Вашем
+браузере
+отключено
+выполнение
+сценариев.
+Сайт
+может
+работать
+неправильно
+.
+function
+setCookie(
+name,
+value,
+path
+)
+{
+
+document.cookie
+=
+name
++
+"="
++
+escape(
+value
+)
++
+(
+(
+path
+)
+?
+";
+path="
++
+path
+:
+""
+);
+
+}
+
+
+function
+getCookie(
+name
+)
+{
+
+
+
+
+var
+dc
+=
+document.cookie;
+
+
+
+
+var
+prefix
+=
+name
++
+"=";
+
+
+
+
+var
+begin
+=
+dc.indexOf(
+";
+"
++
+prefix
+);
+
+
+
+
+if
+(
+begin
+==
+-1
+)
+{
+
+
+
+
+
+
+
+
+begin
+=
+dc.indexOf(prefix);
+
+
+
+
+
+
+
+
+if
+(
+begin
+!=
+0
+)
+return
+null;
+
+
+
+
+}
+else
+
+
+
+
+begin
++=
+2;
+
+
+
+
+var
+end
+=
+document.cookie.indexOf(
+";",
+begin
+);
+
+
+
+
+if
+(
+end
+==
+-1
+)
+
+
+
+
+
+
+
+
+end
+=
+dc.length;
+
+
+
+
+return
+unescape(
+dc.substring(
+begin
++
+prefix.length,
+end
+)
+);
+}
+
+function
+open_block(x){document.getElementById(x).style.display='block';}
+У
+Вас
+отключены
+Cookies.
+Наш
+сайт
+работает
+с
+ошибками.
+var
+par
+=
+'love_cookies';
+setCookie('LP_CH_C',par,'/');
+var
+c
+=
+getCookie('LP_CH_C');
+if(c!=par)
+open_block('no_cookie');
+Профиль
+Фото
+Дневник
+«
+Вернуться
+в
+дневник
+Запись
+от
+24
+ноября
+2015
+13:58
+пиздарики
+Отредактировано:24.11.15
+16:18
+Всем
+привет.
+Турки
+сбили
+наш
+самолёт.
+Вот
+мне
+интересно,
+как
+кремль
+будет
+реагировать?
+Чё
+нить
+серьёзно
+ответят
+или
+так
+же
+как
+с
+АПЛ
+"Курск",
+замнут
+тему.
+Почему
+жена
+у
+своей
+подружки
+может
+заночевать,
+а
+муж
+у
+своей
+-
+нет?
+go(".shareblock").bind('click',
+function(){
+		socialshare(this,
+			{
+				'data-shtitle':
+'Дон
+Вечность,
+35
+лет,
+Екатеринбург',
+				'data-shimage':
+''
+||
+'http://pics.loveplanet.ru/2/foto/13/42/13427691/evBslIu0=_.jpg?p=a9Udya@VDcm+n_',
+				'data-shdesc':
+'Всем
+привет.\r\nТурки
+сбили
+наш
+самолёт.\r\nВот
+мне
+интересно,
+как
+кремль
+будет
+реагировать?
+Чё
+нить
+серьёзно
+ответят
+или
+так
+же
+как
+с
+АПЛ
+&quot;Курск&quot;,
+замнут
+тему.\r\n\r\nПочему
+жена
+у
+своей
+подружки
+может
+заночевать,
+а
+муж
+у
+своей
+-
+нет?'
+			}
+		);
+	})
+Добавить
+комментарий
+Комментарии:
+12
+Отменить
+Написать
+Идет
+отправка
+комментария…
+<!--
+
+var
+postform
+=
+document.outmess;
+var
+postmess
+=
+document.outmess.message;
+
+var
+B_open
+=
+0;
+var
+I_open
+=
+0;
+var
+U_open
+=
+0;
+
+var
+help_bold
+
+
+
+
+
+
+
+=
+"Жирный
+текст
+(alt
++
+b)";
+var
+help_italic
+
+
+
+
+
+=
+"Наклонный
+текст
+(alt
++
+i)";
+var
+help_under
+
+
+
+
+
+
+=
+"Подчеркнутый
+текст
+(alt
++
+u)";
+var
+help_font
+
+
+
+
+
+
+
+=
+"Выбор
+типа
+шрифта";
+var
+help_color
+
+
+
+
+
+
+=
+"Выбор
+цвета
+шрифта";
+var
+help_close
+
+
+
+
+
+
+=
+"Закрытие
+всех
+открытых
+тегов";
+var
+help_click_close
+=
+"Нажмите
+на
+кнопку
+для
+закрытия";
+
+var
+bbtags
+=
+new
+Array();
+
+var
+myAgent
+
+
+=
+navigator.userAgent.toLowerCase();
+var
+myVersion
+=
+parseInt(navigator.appVersion);
+
+var
+is_ie
+
+=
+((myAgent.indexOf("msie")
+!=
+-1)
+
+&&
+(myAgent.indexOf("opera")
+==
+-1));
+var
+is_nav
+=
+((myAgent.indexOf('mozilla')!=-1)
+&&
+(myAgent.indexOf('spoofer')==-1)
+					&&
+(myAgent.indexOf('compatible')
+==
+-1)
+&&
+(myAgent.indexOf('opera')==-1)
+					&&
+(myAgent.indexOf('webtv')
+==-1)
+
+
+
+
+
+
+&&
+(myAgent.indexOf('hotjava')==-1));
+
+var
+is_win
+=
+((myAgent.indexOf("win")!=-1)
+||
+(myAgent.indexOf("16bit")!=-1));
+var
+is_mac
+=
+(myAgent.indexOf("mac")!=-1);
+
+function
+emoticon(theSmilie){
+	doInsert("
+"
++
+theSmilie
++
+"
+",
+"",
+false);
+}
+
+//
+Insert
+simple
+tags:
+B,
+I,
+U,
+CODE,
+QUOTE
+function
+simpletag(thetag,
+noactsrc,
+actsrc){
+	var
+tagOpen
+=
+eval(thetag
++
+"_open");
+
+	if
+(tagOpen
+==
+0){
+		if
+(doInsert("["
++
+thetag
++
+"]",
+"[/"
++
+thetag
++
+"]",
+true)){
+			eval(thetag
++
+"_open
+=
+1");
+			//
+Change
+the
+button
+status
+
+			eval("postform."
++
+thetag
++
+".value
++=
+'*'");
+			eval("postform."+thetag+".src='"+actsrc+"'");
+
+			pushstack(bbtags,
+thetag);
+			cstat();
+		}
+	}else{
+		//
+Find
+the
+last
+occurance
+of
+the
+opened
+tag
+		lastindex
+=
+0;
+
+		for
+(i
+=
+0
+;
+i
+<
+bbtags.length;
+i++
+){
+			if
+(
+bbtags[i]
+==
+thetag
+){
+				lastindex
+=
+i;
+			}
+		}
+
+		//
+Close
+all
+tags
+opened
+up
+to
+that
+tag
+was
+opened
+		while
+(bbtags[lastindex]){
+			tagRemove
+=
+popstack(bbtags);
+			doInsert("[/"
++
+tagRemove
++
+"]",
+"",
+false);
+
+			//
+Change
+the
+button
+status
+
+			eval("postform."
++
+tagRemove
++
+".value
+=
+'
+"
++
+tagRemove
++
+"
+'");
+			eval("postform."+thetag+".src='"+noactsrc+"'");
+
+			eval(tagRemove
++
+"_open
+=
+0");
+		}
+
+		cstat();
+	}
+}
+
+//
+Insert
+font
+tag
+function
+alterfont(theval,
+thetag){
+	if
+(theval
+==
+0)
+		return;
+
+	if
+(doInsert("["
++
+thetag
++
+"="
++
+theval
++
+"]",
+"[/"
++
+thetag
++
+"]",
+true))
+		pushstack(bbtags,
+thetag);
+
+	postform.ffont.selectedIndex
+
+=
+0;
+	postform.fcolor.selectedIndex
+=
+0;
+	postform.fsize.selectedIndex
+=
+0;
+}
+
+//
+Main
+insert
+tag
+//
+ibTag:
+opening
+tag
+//
+ibClsTag:
+closing
+tag,
+used
+if
+we
+have
+selected
+text
+//
+isSingle:
+true
+if
+we
+do
+not
+close
+the
+tag
+right
+now
+//
+return
+value:
+true
+if
+the
+tag
+needs
+to
+be
+closed
+later
+function
+doInsert(ibTag,
+ibClsTag,
+isSingle){
+	var
+isClose
+=
+false;
+	var
+obj_ta
+=
+postmess;
+
+	if(
+(myVersion
+>=
+4)
+&&
+is_ie
+&&
+is_win){
+		//
+this
+doesn't
+work
+for
+NS,
+but
+it
+works
+for
+IE
+4+
+and
+compatible
+browsers
+		if
+(obj_ta.isTextEdit){
+			if(!obj_ta.disabled)
+obj_ta.focus();
+			var
+sel
+=
+document.selection;
+			var
+rng
+=
+sel.createRange();
+			rng.colapse;
+			if
+((sel.type
+==
+"Text"
+||
+sel.type
+==
+"None")
+&&
+rng
+!=
+null)
+			{
+				if
+(ibClsTag
+!=
+""
+&&
+rng.text.length
+>
+0)
+					ibTag
++=
+rng.text
++
+ibClsTag;
+				else
+if(isSingle)
+					isClose
+=
+true;
+
+				rng.text
+=
+ibTag;
+			}
+		}else{
+			if(isSingle)
+isClose
+=
+true;
+			obj_ta.value
++=
+ibTag;
+		}
+	}else{
+		var
+sl
+=
+obj_ta.textLength;
+	
+
+
+
+var
+ss
+=
+obj_ta.selectionStart;
+	
+
+
+
+var
+se
+=
+obj_ta.selectionEnd;
+
+
+
+
+	//if(!se)
+se
+=
+sl;
+
+	
+
+
+
+var
+s1
+=
+(obj_ta.value).substring(0,ss);
+	
+
+
+
+var
+s2
+=
+(obj_ta.value).substring(ss,
+se);
+	
+
+
+
+var
+s3
+=
+(obj_ta.value).substring(se,
+sl);
+
+
+
+
+
+	//obj_ta.selectionEnd
+=
+0;
+
+
+
+
+	if(ibClsTag
+!=
+""
+&&
+s2.length
+>
+0){
+
+
+
+
+		obj_ta.value
+=
+s1
++
+ibTag
++
+s2
++
+ibClsTag
++
+s3;
+		
+
+
+
+//obj_ta.selectionStart
+=
+selEnd
++
+ibTag.length
++
+ibClsTag.length;
+
+
+
+
+	}else{
+
+
+
+
+		if(isSingle)
+isClose
+=
+true;
+			obj_ta.value
+=
+s1
++
+ibTag
++
+s2
++
+s3;
+			//obj_ta.selectionStart
+=
+selEnd
++
+ibTag.length;
+		}
+	}
+
+	if(!obj_ta.disabled)
+obj_ta.focus();
+
+	return
+isClose;
+}
+
+//
+Close
+all
+tags
+function
+closeall(){
+	postmess.value
+=
+postmess.value.replace(/\<\/textarea\>/g,
+'')
+	if
+(bbtags[0]){
+		while
+(bbtags[0]){
+			tagRemove
+=
+popstack(bbtags);
+			postmess.value
++=
+"[/"
++
+tagRemove
++
+"]";
+
+			if
+(
+(tagRemove
+!=
+'FONT')
+&&
+(tagRemove
+!=
+'SIZE')
+&&
+(tagRemove
+!=
+'COLOR')
+){
+				eval("postform."
++
+tagRemove
++
+".value
+=
+'
+"
++
+tagRemove
++
+"
+'");
+				eval(tagRemove
++
+"_open
+=
+0");
+			}
+		}
+	}
+
+	postform.B.src="http://pics.loveplanet.ru/css/3/imgstc//chat/button-bold.gif";
+	postform.I.src="http://pics.loveplanet.ru/css/3/imgstc//chat/button-italic.gif";
+	postform.U.src="http://pics.loveplanet.ru/css/3/imgstc//chat/button-underline.gif";
+
+	postform.tagcount.value
+=
+0;
+	bbtags
+=
+new
+Array();
+	if(!postmess.disabled)
+postmess.focus();
+}
+
+//
+Stack
+functions
+function
+pushstack(thearray,
+newval){
+	arraysize
+=
+stacksize(thearray);
+	thearray[arraysize]
+=
+newval;
+}
+
+function
+popstack(thearray){
+	arraysize
+=
+stacksize(thearray);
+	theval
+=
+thearray[arraysize
+-
+1];
+	delete
+thearray[arraysize
+-
+1];
+	return
+theval;
+}
+
+function
+stacksize(thearray){
+	for
+(i
+=
+0
+;
+i
+<
+thearray.length;
+i++
+){
+		if
+(
+(thearray[i]
+==
+"")
+||
+(thearray[i]
+==
+null)
+||
+(thearray
+==
+'undefined'))
+{return
+i}
+	}
+
+	return
+thearray.length;
+}
+
+//
+Show
+statistic
+function
+cstat(){
+	var
+c
+=
+stacksize(bbtags);
+	if
+(
+(c
+<
+1)
+||
+(c
+==
+null)
+){c
+=
+0;}
+	if
+(
+!
+bbtags[0]
+){c
+=
+0;}
+	postform.tagcount.value
+=
+c;
+}
+
+function
+fn_comm(){return
+confirm
+("Удалить
+комментарий?")}
+//-->
+Ответить
+Серёга
+,
+36
+лет
+26
+ноября
+2015
+02:25
+Смотрели?
+Какая
+всё-таки
+гнида
+этот
+путин!
+(АПЛ
+"Курск&quot
+https://ww
+w.youtube.com/watch?v=iBo_cke
+NlRw
+Мнение
+отличное
+от
+того,
+что
+нам
+втирает
+путин
+относительно
+сбитого
+СУ
+24
+https://www.youtube.com/w
+atch?v=VqtxqzFqTIw
+Смотрели?
+Какая
+всё-таки
+гнида
+этот
+путин!
+(АПЛ
+"Курск")
+https://www.youtube.com/watch?v=iBo_ckeNlRw
+
+Мнение
+отличное
+от
+того,
+что
+нам
+втирает
+путин
+относительно
+сбитого
+СУ
+24
+https://www.youtube.com/watch?v=VqtxqzFqTIw
+Показать
+ответы
+(2)
+Скрыть
+ответы
+Ответить
+Владимир
+,
+37
+лет
+24
+ноября
+2015
+22:51
+А
+муж
+у
+друга....
+своей
+подружки!
+Наш
+главком
+завтра
+будет
+у
+нас,
+вот
+и
+спроси...
+А
+муж
+у
+друга....
+своей
+подружки!
+:)
+
+Наш
+главком
+завтра
+будет
+у
+нас,
+вот
+и
+спроси...
+Показать
+ответы
+(1)
+Скрыть
+ответы
+Ответить
+Marianna
+,
+73
+года
+24
+ноября
+2015
+16:36
+Наверно,
+потому-что
+муж
+у
+друга
+может
+заночевать,
+а
+жена
+у
+своего
+-
+нет
+П-н
+что-то
+уже
+заявил
+http://chelyabinsk.ru
+/text/newsline/10403163693465
+6.html
+А
+сбили
+нашего
+челябинца,
+жалко
+мужика
+http://chelyabinsk.ru
+/text/newsline/10401338751795
+2.html#comments/c104013387517
+952/last
+Наверно,
+потому-что
+муж
+у
+друга
+может
+заночевать,
+а
+жена
+у
+своего
+-
+нет
+;)
+
+П-н
+что-то
+уже
+заявил
+http://chelyabinsk.ru/text/newsline/104031636934656.html
+А
+сбили
+нашего
+челябинца,
+жалко
+мужика
+http://chelyabinsk.ru/text/newsline/104013387517952.html#comments/c104013387517952/last
+Показать
+ответы
+(6)
+Скрыть
+ответы
+go(".navp
+a").each(function(){this.setAttribute("data-href",
+this.href+'popup')});
+	content.init(go(".navp"),
+"msgajax",
+"page");
+;(function(win,
+doc,
+lpjl)
+{
+		var
+InputFile
+=
+lpjl.use('InputFile');
+		var
+dom
+=
+lpjl.use('dom');
+
+		var
+input
+=
+dom.getById('addfile-input');
+		if
+(input)
+{
+			new
+InputFile(input,
+{
+				className:
+'file_add_img',
+				buttonText:
+'
+'
+			});
+		}
+	})(window,
+window.document,
+window.LPJL);
+	go("#addfile-input").bind('change',
+function(){
+go(".file_add_img-label").display(this.value?
+"block"
+:
+"none")
+})
+
+	function
+CDE(elemId)
+{
+		if(document.getElementById(elemId).style.display
+==
+"block")
+			document.getElementById(elemId).style.display
+=
+"none"
+		else
+			document.getElementById(elemId).style.display
+=
+"block"
+	}
+(function(w,
+n)
+{
+
+
+
+
+
+
+
+
+w[n]
+=
+w[n]
+||
+[];
+
+
+
+
+
+
+
+
+w[n].push(function()
+{
+
+
+
+
+
+
+
+
+
+
+
+
+Ya.Context.AdvManager.render({
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blockId:
+"R-49105-12",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+renderTo:
+"yandex_ad_R-49105-12",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+async:
+false
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+document.write('<sc'+'ript
+type="text/javascript"
+src="//an.yandex.ru/system/context.js"></sc'+'ript>');
+
+
+
+
+})(this,
+"yandexContextSyncCallbacks");
+if(typeof
+restricted
+!=
+'undefined')
+restricted.link_scan();
+	if(typeof
+content
+!=
+'undefined')
+content.init(document);
+
+	set_showid_handlers();
+	set_closeid_handlers();
+
+	title_override(document);
+
+
+	var
+xinput
+=
+{
+		xselect:
+LPJL.use('XSimpleSelect'),
+		xcheckbox:
+LPJL.use('XCheckbox'),
+		xradio:
+LPJL.use('XRadio'),
+
+		init:
+function(content)
+{
+			go('.lpjl-simple-select',
+content).each(function(th){
+				if
+(this.style.display
+!=
+'none')
+{
+					new
+th.xselect({element:
+this});
+				}
+			},
+this);
+			go('input',
+content).each(function(th){
+				if
+(this.style.display
+!=
+'none')
+{
+					if
+(this.type
+===
+'checkbox')
+{
+						new
+th.xcheckbox(this);
+					}
+					if
+(this.type
+===
+'radio')
+{
+						new
+th.xradio(this);
+					}
+				}
+			},
+this);
+		}
+	}
+	xinput.init();
+
+
+(function(d,e,a){d=a.use("events");e=e.getElementsByTagName("input");a=0;for(var
+f=e.length;a<f;a+=1){var
+b=e[a],c=b.getAttribute("data-place-holder");c&&c.length&&("undefined"===typeof
+b.placeholder?(d.addListener("focus",b,d.proxy(function(b,a){this.value===a&&(this.value="")},b,c)),d.addListener("blur",b,d.proxy(function(b,a){""===this.value&&(this.value=a)},b,c)),b.value=c):b.placeholder=c)}})(window,window.document,window.LPJL);
+©
+2005-2016
+«Loveplanet».
+Всего
+пользователей:
+19,835,943
+,
+новых:
+14,390
+,
+онлайн:
+62,812
+Служба
+поддержки
+Партнерская
+программа
+Контакты
+и
+реклама
+на
+сайте
+Язык:
+Русский
+Русский
+English
+Italiano
+Türkçe
+var
+curr
+=
+go(".lang-selection
+[data-lng]").attr("data-lng")[0];
+		go("#language").append(go('#language
+[data-lng="'+curr+'"]')[0].parentNode);
+		go("#language
+[data-lng]").bind("click",
+function(){
+			if
+(exchange.storage)
+exchange.storage.clear();
+			setcookie("lang",
+this.getAttribute("data-lng"),
+10);
+			location.reload();
+		});
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+;(function(){
+	function
+Brandallowed(){
+
+		var
+elite
+=
+0;
+
+		return
+elite?
+'2'
+:
+(go("[data-rekbrand]").length?
+'3'
+:
+'1');
+	}
+	function
+Searchform(){
+
+		var
+elite
+=
+0,
+form
+=
+go("form[action*='search']").length;
+
+		return
+(elite
+||
+!form)?
+'2'
+:
+(go("[data-reksearch]").length?
+'3'
+:
+'1');
+	}
+	function
+Rekid(){
+		var
+brnd
+=
+go("[data-rekbrand]"),
+srch
+=
+go("[data-reksearch]"),
+promo
+=
+go("[data-rekpromo]"),
+		id
+=
+0,
+num
+=
+0;
+		if
+(promo.length)
+{
+			id
+=
+promo[0].getAttribute("data-rekpromo").split("
+");
+			num
+=
+id[1]?
+id[1]
+:
+"1";
+id
+=
+id[0];
+		}
+else
+if
+(srch.length)
+{
+			id
+=
+srch[0].getAttribute("data-reksearch");
+		}
+else
+if
+(brnd.length)
+{
+			id
+=
+brnd[0].getAttribute("data-rekbrand");
+		}
+
+		if
+(id)
+{
+			dimensionValue
+=
+'Rekid';
+			ga('set',
+'dimension10',
+id);
+		}
+		if
+(num)
+{
+			dimensionValue
+=
+'Achievement';
+			ga('set',
+'dimension11',
+num);
+		}
+	}
+
+	ga('create',
+'UA-1351323-5',
+'auto');
+	ga('require',
+'displayfeatures');
+	ga('send',
+'pageview');
+
+	var
+dimensionValue
+=
+'Split';
+	ga('set',
+'dimension2',
+'1,17,0;2,15,0;3,12,0;4,13,0;5,8,0;6,6,0;7,11,0;8,11,0');
+
+
+
+	dimensionValue
+=
+'Usertype';
+	ga('set',
+'dimension6',
+'1');
+
+	dimensionValue
+=
+'Wwwmain';
+	ga('set',
+'dimension7',
+'1');
+
+	dimensionValue
+=
+'Brandallowed';
+	ga('set',
+'dimension8',
+Brandallowed());
+
+	dimensionValue
+=
+'Searchform';
+	ga('set',
+'dimension9',
+Searchform());
+
+	Rekid();
+}());
+Чаще
+всего
+ищут
+знакомства:
+Для
+чего:
+для
+брака
+и
+создания
+семьи
+для
+любви
+и
+с/о
+для
+дружбы
+и
+общения
+В
+возрасте:
+за
+30
+лет
+за
+40
+лет
+за
+45
+лет
+за
+50
+лет
+за
+60
+лет
+для
+пожилых
+С
+кем:
+с
+девушками
+с
+мужчинами
+по
+России
+Знакомства
+В
+городе:
+Москва
+Санкт-Петербург
+Екатеринбург
+В
+стране:
+Украина
+Белоруссия

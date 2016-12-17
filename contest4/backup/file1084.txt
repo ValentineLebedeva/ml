@@ -1,0 +1,4867 @@
+Несправедливость:
+почему
+жена
+у
+своей
+подружки
+может
+заночевать
+-
+Страница
+№1
+var
+jQuery_1_11
+=
+$.noConflict(true);
+var
+jQuery_1_10
+=
+$.noConflict(true);
+var
+jQuery_1_9
+=
+$.noConflict(true);
+var
+jQuery_1_8
+=
+$.noConflict(true);
+var
+jQuery_1_7
+=
+$.noConflict(true);
+var
+$
+=
+jQuery
+=
+jQuery_1_7;
+<!--
+					$.ajaxSetup({
+						headers:
+{
+							"X-Requested-With":
+"XMLHttpRequest"
+						}
+					});
+				//-->
+window.DOMAIN_SUFFIX
+=
+"";
+			window.LOGINKA_URL
+=
+"https:\/\/loginka.ru";
+			window.APISHKA_URL
+=
+"https:\/\/apishka.ru";
+			window.APISHKA_TOKEN_NAME
+=
+"token_74_ru";
+			window.NGS_TOKEN_NAME
+=
+"hsd_ttq_74_ru";
+			window.REQUEST_IS_CORPORATE
+=
+false;
+			if
+(
+$.browser.msie
+&&
+$.browser.version
+<
+10
+)
+			{
+				$.support.cors
+=
+true;
+			}
+
+			$.ajaxPrefilter(
+function
+(
+options
+)
+			{
+				if
+(
+options.url.indexOf(
+APISHKA_URL
+)
+===
+0
+)
+				{
+					if
+(
+options.dataType
+==
+'jsonp'
+)
+					{
+						options.url
++=
+(
+options.url.indexOf(
+"?"
+)
+>
+0
+?
+"&"
+:
+"?"
+)
++
+"token="
++
+encodeURIComponent(
+$.cookie(
+APISHKA_TOKEN_NAME
+)
+);
+						return;
+					}
+
+					options.crossDomain
+=
+true;
+					options.xhrFields
+=
+{
+						withCredentials:
+true
+					};
+
+					if
+(
+$.browser.msie
+&&
+$.browser.version
+<
+10
+)
+					{
+						options.url
+=
+options.url.replace(
+"https://apishka.ru",
+"http://apishka.ru"
+);
+						options.url
++=
+(
+options.url.indexOf(
+"?"
+)
+>
+0
+?
+"&"
+:
+"?"
+)
++
+"token="
++
+encodeURIComponent(
+$.cookie(
+APISHKA_TOKEN_NAME
+)
+);
+
+						if
+(
+options.type
+==
+'POST'
+)
+						{
+							return
+'text';
+						}
+					}
+				}
+			}
+);
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+var
+useSSL
+=
+'https:'
+==
+document.location.protocol;
+			var
+src
+=
+(useSSL
+?
+'https:'
+:
+'http:')
++
+'//www.googletagservices.com/tag/js/gpt.js';
+			document.write('<scr'
++
+'ipt
+src="'
++
+src
++
+'"></scr'
++
+'ipt>');
+googletag.cmd.push(function()
+{
+				var
+collapse
+=
+googletag.pubads().collapseEmptyDivs();
+				googletag.pubads().disableInitialLoad();
+				googletag.pubads()
+							.setTargeting(
+'ru_rugion_cat',
+document.location.pathname.split("/")[1]
+||
+"null")
+							.setTargeting(
+'ru_rugion_subcat',
+document.location.pathname.split("/")[2]
+||
+"null")
+							.setTargeting(
+'ru_rugion_domain',
+document.location.hostname);
+				googletag.enableServices();
+							});
+ga(
+'create',
+"UA-6052143-1",
+'auto',
+"oldBySiteName"
+);
+		ga(
+"oldBySiteName.send",
+'pageview'
+);
+ga(
+'create',
+"UA-43562659-1",
+'auto',
+"bySiteName"
+);
+		ga(
+"bySiteName.send",
+'pageview'
+);
+(function
+()
+	{
+		var
+dom,
+doc,
+where,
+iframe
+=
+document.createElement(
+'iframe'
+);
+		iframe.src
+=
+"javascript:false";
+		(iframe.frameElement
+||
+iframe).style.cssText
+=
+"width:
+0;
+height:
+0;
+border:
+0";
+		var
+where
+=
+document.getElementsByTagName(
+'script'
+)[0];
+		where.parentNode.insertBefore(
+iframe,
+where
+);
+
+		try
+		{
+			doc
+=
+iframe.contentWindow.document;
+		}
+		catch
+(
+e
+)
+		{
+			dom
+=
+document.domain;
+			iframe.src
+=
+"javascript:var
+d=document.open();d.domain='"
++
+dom
++
+"';void(0);";
+			doc
+=
+iframe.contentWindow.document;
+		}
+
+		doc.open()._l
+=
+function
+()
+		{
+			var
+js
+=
+this.createElement(
+"script"
+);
+			if
+(
+dom
+)
+this.domain
+=
+dom;
+			js.id
+=
+"boomr-if-as";
+			js.src
+=
+'http://i.sdska.ru/_scripts/system/default/themes/boomerang/boomerang-0.9.1401865982.js';
+			this.body.appendChild(
+js
+);
+		};
+
+		doc.write(
+'<body
+onload="document._l();">'
+);
+		doc.close();
+	})();
+.popup_block_local	{	background:
+#fff;	display:
+none;
+/*--по
+умолчанию
+скрыты--*/	padding:
+15px
+60px
+10px
+60px;	float:
+left;	font-size:
+1.2em;	position:
+fixed;	top:
+40%;	left:
+50%;	z-index:
+99999;	/*--CSS3
+Тени
+для
+Блока--*/	-webkit-box-shadow:
+0
+0
+20px
+#000;	-moz-box-shadow:
+0
+0
+20px
+#000;	box-shadow:
+0
+0
+20px
+#000;	/*--CSS3
+Закругленные
+углы--*/	-webkit-border-radius:
+20px;	-moz-border-radius:
+20px;	border-radius:
+20px;	}	*
+html
+.popup_block_local	{	position:
+absolute;	}
+var
+getParams
+=
+parseQueryString(
+window.location.href
+),
+clean_url
+=
+window.location.href.split(
+'?'
+)[0];
+
+	if
+(
+getParams.token
+)
+	{
+		getParams['dummy_put_token_to_user']
+=
+'yes';
+		$.ajax(
+{
+			type
+
+
+
+:
+'GET',
+			url
+
+
+
+
+:
+'/put_token_to_user/',
+			dataType:
+'html',
+			timeout
+:
+Mod_Passport_Api.ajaxTimeout,
+			data
+
+
+
+:
+getParams,
+			async
+
+
+:
+false,
+			complete:
+function
+(
+jqXHR,
+textStatus
+)
+			{
+				window.location.href
+=
+clean_url;
+			}
+		}
+);
+	}
+
+	Mod_Passport_Api.userIsAuth
+=
+false;
+	Mod_Passport_Api.userId
+=
+0;
+	Mod_Passport_Api.sessionCode
+=
+'6378f60f14ef4177a20dda379759a780';
+
+	var
+popup
+=
+Mod_Passport_Api.Forms.Popup;
+	
+	$(
+document
+).on(
+"click",
+"a.passport-login,
+input.passport-login",
+function
+(
+e
+)
+	{
+		var
+container
+=
+$(
+"#passport-form-new-container"
+);
+
+		if
+(
+container.size()
+==
+0
+)
+		{
+			container
+=
+$(
+"<div></div>"
+).attr(
+"id",
+"passport-form-new-container"
+).addClass(
+"popup_block_local"
+).appendTo(
+document.body
+);
+		}
+
+		container.empty();
+
+		var
+href
+=
+this.href
+?
+this.href
+:
+$(
+this
+).data(
+'href'
+);
+
+		var
+query
+=
+href,
+			url
+=
+query.url
+?
+query.url
+:
+'';
+
+		popup.Login(
+typeof
+popup.lastActualCallback
+!=
+'undefined'
+?
+popup.lastActualCallback
+:
+popup.defaultLoginCallback(
+url
+)
+);
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+"a.passport-register",
+function
+(
+e
+)
+	{
+		var
+container
+=
+$(
+"#passport-form-new-container"
+);
+
+		if
+(
+container.size()
+==
+0
+)
+		{
+			container
+=
+$(
+"<div></div>"
+).attr(
+"id",
+"passport-form-new-container"
+).addClass(
+"popup_block_local"
+).appendTo(
+document.body
+);
+		}
+
+		container.empty();
+
+		var
+query
+=
+parseQueryString(
+this.href
+),
+			url
+=
+query.url
+?
+query.url
+:
+'';
+
+		popup.Register(
+typeof
+popup.lastActualCallback
+!=
+'undefined'
+?
+popup.lastActualCallback
+:
+popup.defaultLoginCallback(
+url
+)
+);
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+"a.passport-forgot-password",
+function
+(
+e
+)
+	{
+		var
+container
+=
+$(
+"#passport-form-new-container"
+);
+
+		if
+(
+container.size()
+==
+0
+)
+		{
+			container
+=
+$(
+"<div></div>"
+).attr(
+"id",
+"passport-form-new-container"
+).addClass(
+"popup_block_local"
+).appendTo(
+document.body
+);
+		}
+
+		container.empty();
+
+		var
+query
+=
+parseQueryString(
+this.href
+),
+			url
+=
+query.url
+?
+query.url
+:
+'';
+
+		var
+email
+=
+$(
+'#passport-popup-login-email'
+).val()
+||
+"";
+		var
+callback
+=
+typeof
+popup.lastActualCallback
+!=
+'undefined'
+?
+popup.lastActualCallback
+:
+popup.defaultLoginCallback(
+url
+);
+		if
+(
+$(
+this
+).hasClass(
+'tooltip_forgot_password'
+)
+&&
+email
+)
+		{
+			popup.SkipForgotEmailForm(
+callback,
+email
+)
+		}
+		else
+		{
+			popup.Forgot(
+callback
+);
+		}
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+"a.passport-forgot-type-email",
+function
+(
+e
+)
+	{
+		var
+container
+=
+$(
+"#passport-form-new-container"
+);
+
+		if
+(
+container.size()
+==
+0
+)
+		{
+			container
+=
+$(
+"<div></div>"
+).attr(
+"id",
+"passport-form-new-container"
+).addClass(
+"popup_block_local"
+).appendTo(
+document.body
+);
+		}
+
+		container.empty();
+
+		var
+query
+=
+parseQueryString(
+this.href
+),
+			url
+=
+query.url
+?
+query.url
+:
+'';
+
+		var
+requestId
+=
+$(
+'#ajax_forgot'
+).find(
+"input[name='requestId']"
+).first().val();
+
+		popup.Forgot(
+typeof
+popup.lastActualCallback
+!=
+'undefined'
+?
+popup.lastActualCallback
+:
+popup.defaultLoginCallback(
+url
+),
+'email',
+requestId
+);
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+"a.passport-forgot-type-phone",
+function
+(
+e
+)
+	{
+		var
+container
+=
+$(
+"#passport-form-new-container"
+);
+
+		if
+(
+container.size()
+==
+0
+)
+		{
+			container
+=
+$(
+"<div></div>"
+).attr(
+"id",
+"passport-form-new-container"
+).addClass(
+"popup_block_local"
+).appendTo(
+document.body
+);
+		}
+
+		container.empty();
+
+		var
+query
+=
+parseQueryString(
+this.href
+),
+			url
+=
+query.url
+?
+query.url
+:
+'';
+
+		var
+requestId
+=
+$(
+'#ajax_forgot'
+).find(
+"input[name='requestId']"
+).first().val();
+		popup.Forgot(
+typeof
+popup.lastActualCallback
+!=
+'undefined'
+?
+popup.lastActualCallback
+:
+popup.defaultLoginCallback(
+url
+),
+'phone',
+requestId
+);
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+"a.passport-activation-type-phone",
+function
+(
+e
+)
+	{
+		popup.Activation(
+function
+()
+		{
+			window.location.href
+=
+'/passport/msg.activation_ok.html';
+		},
+{type:
+'phone',
+userId:
+$(
+e.target
+).data(
+'uid'
+)}
+);
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+"a#ajax_register_code_update",
+function
+(
+e
+)
+	{
+		$(
+"label[for='ajax_register_code']
+>
+img"
+)
+			.attr(
+"src",
+"/service/api/captcha/image/?"
++
+new
+Date().getTime()
+);
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+".passport-login_buttons
+a",
+function
+(
+e
+)
+	{
+
+		popup.Social(
+typeof
+popup.lastActualCallback
+!=
+'undefined'
+?
+popup.lastActualCallback
+:
+popup.defaultLoginCallback(),
+$(
+this
+).attr(
+'class'
+)
+);
+
+		return
+false;
+	}
+);
+
+	$(
+document
+).on(
+"click",
+".social_line_login
+div",
+function
+(
+e
+)
+	{
+		popup.Social(
+typeof
+popup.lastActualCallback
+!=
+'undefined'
+?
+popup.lastActualCallback
+:
+popup.defaultLoginCallback(),
+$(
+this
+).data(
+'id'
+)
+);
+
+		return
+false;
+	}
+);
+Челябинск,
+17.12.2016
+Главное:
+Праздник
+к
+нам
+доехал:
+по
+Челябинску...
+Пробки:
+0
+баллов
+Погода
+-19
+<!--
+	$(
+document
+).ready(
+function
+()
+	{
+		var
+sb_timer
+=
+0;
+		var
+hide
+=
+function
+()
+		{
+			clearTimeout(
+sb_timer
+);
+			$(
+'#sitebar_menu'
+).slideUp(
+200
+);
+		};
+
+		$(
+'#sitebar_hmenu'
+).bind(
+'click',
+function
+()
+		{
+			clearTimeout(
+sb_timer
+);
+			$(
+'#sitebar_menu'
+).slideToggle(
+200
+);
+
+			$(
+document
+).bind(
+'click.sitebar',
+function
+()
+			{
+				hide();
+				$(
+document
+).unbind(
+'click.sitebar'
+);
+			}
+);
+
+			return
+false;
+		}
+)
+			.bind(
+'mouseover',
+function
+()
+			{
+				clearTimeout(
+sb_timer
+);
+			}
+)
+			.bind(
+'mouseout',
+function
+()
+			{
+				sb_timer
+=
+setTimeout(
+hide,
+2000
+);
+			}
+);
+
+		$(
+'#sitebar_menu'
+).bind(
+'mouseover',
+function
+()
+		{
+			clearTimeout(
+sb_timer
+);
+		}
+)
+			.bind(
+'mouseout',
+function
+()
+			{
+				sb_timer
+=
+setTimeout(
+hide,
+2000
+);
+			}
+);
+
+		var
+word
+=
+'где
+взять
+кредит';
+		if
+(
+$(
+"#query_sitebar"
+).size()
+)
+		{
+			var
+form
+=
+$(
+$(
+"#query_sitebar"
+).attr(
+'form'
+)
+);
+			var
+el
+=
+$(
+"#query_sitebar"
+);
+
+			if
+(
+!word
+)
+				el.focus();
+			else
+			{
+				el.css(
+'color',
+'#CCCCCC'
+).val(
+word
+);
+				var
+change
+=
+function
+()
+				{
+					if
+(
+word
+&&
+el.attr(
+'_clear'
+)
+!==
+true
+)
+						el.val(
+''
+);
+
+					el.attr(
+'_clear',
+true
+);
+					el.css(
+'color',
+''
+);
+				};
+
+				el.one(
+($.browser.opera
+?
+"keypress"
+:
+"keydown")
++
+'
+click',
+change
+);
+				//el.one('click',
+change);
+				form.one(
+'submit',
+function
+()
+				{
+					if
+(
+word
+&&
+el.attr(
+'_clear'
+)
+!==
+true
+)
+						this.wordid.value
+=
+18;
+				}
+);
+			}
+		}
+	}
+);
+	//-->
+Все проекты
+Видео
+Новости
+Работа
+Бизнес
+Автомобили
+Финансы
+Недвижимость
+Hi-tech
+Объявления
+Афиша
+Здоровье
+Образование
+Магнитогорск
+Курсы
+валют
+Форумы
+Почта
+Карта
+Гороскопы
+Знакомства
+Rugion_Popup.Init({"path":"forum","regId":74,"full":0,"controller":"Forum\/Router","domain":"74.ru"});
+var
+yaParams
+=
+{/*Здесь
+параметры
+визита*/};
+(function
+(d,
+w,
+c)
+{
+		(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+			try
+{
+				w.yaCounter1172222
+=
+new
+Ya.Metrika({id:1172222,
+					webvisor:true,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					trackHash:true,params:window.yaParams||{
+}});
+			}
+catch(e)
+{
+}
+		});
+
+		var
+n
+=
+d.getElementsByTagName("script")[0],
+			s
+=
+d.createElement("script"),
+			f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+		s.type
+=
+"text/javascript";
+		s.async
+=
+true;
+		s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+		if
+(w.opera
+==
+"[object
+Opera]")
+{
+			d.addEventListener("DOMContentLoaded",
+f,
+false);
+		}
+else
+{
+f();
+}
+	})(document,
+window,
+"yandex_metrika_callbacks");
+var
+yaParams
+=
+{/*Здесь
+параметры
+визита*/};
+(function
+(d,
+w,
+c)
+{
+		(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+			try
+{
+				w.yaCounter6596923
+=
+new
+Ya.Metrika({id:6596923,
+					webvisor:true,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					trackHash:true,params:window.yaParams||{
+}});
+			}
+catch(e)
+{
+}
+		});
+
+		var
+n
+=
+d.getElementsByTagName("script")[0],
+			s
+=
+d.createElement("script"),
+			f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+		s.type
+=
+"text/javascript";
+		s.async
+=
+true;
+		s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+		if
+(w.opera
+==
+"[object
+Opera]")
+{
+			d.addEventListener("DOMContentLoaded",
+f,
+false);
+		}
+else
+{
+f();
+}
+	})(document,
+window,
+"yandex_metrika_callbacks");
+(function(win,
+doc,
+cb){
+		(win[cb]
+=
+win[cb]
+||
+[]).push(function()
+{
+			try
+{
+				tnsCounterHfs_ru
+=
+new
+TNS.TnsCounter({
+					'account':'hfs_ru',
+					'tmsec':
+'74_forum'
+				});
+			}
+catch(e){}
+		});
+
+		var
+tnsscript
+=
+doc.createElement('script');
+		tnsscript.type
+=
+'text/javascript';
+		tnsscript.async
+=
+true;
+		tnsscript.src
+=
+('https:'
+==
+doc.location.protocol
+?
+'https:'
+:
+'http:')
++
+			'//www.tns-counter.ru/tcounter.js';
+		var
+s
+=
+doc.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(tnsscript,
+s);
+	})(window,
+this.document,'tnscounter_callback');
+<!--
+	new
+Image().src
+=
+"http://counter.yadro.ru/hit;74?r"+
+	escape(document.referrer)+((typeof(screen)=="undefined")?"":
+	";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+	";"+Math.random();//-->
+<!--
+	new
+Image().src
+=
+"//counter.yadro.ru/hit;rugion?r"+
+	escape(document.referrer)+((typeof(screen)=="undefined")?"":
+	";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+	screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+	";"+Math.random();//-->
+<!--
+	new
+Image().src
+=
+"//counter.yadro.ru/hit;hsdigital/rn/forum/74?r"+
+	escape(document.referrer)+((typeof(screen)=="undefined")?"":
+	";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+		screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+	";"+Math.random();//-->
+googletag.cmd.push(
+function
+()
+	{
+		var
+slot
+=
+googletag.defineSlot(
+"\/81006599\/hmiru-74",
+[1000,90],
+"sb_2007_74"
+)
+			.setTargeting(
+"HMIRU|Rugionmain",
+["sb_2007"]
+)			.addService(
+googletag.pubads()
+);
+		googletag.display(
+"sb_2007_74"
+);
+		googletag.pubads().refresh(
+[slot]
+);
+	}
+);
+Форум
+$(
+document
+).ready(
+function()
+{
+
+
+
+
+
+
+
+
+var
+match
+=
+window.location.href.match(/(?:\?|&)token=([^&]+)/);
+
+
+
+
+
+
+
+
+var
+token
+=
+(match
+!==
+null
+&&
+match[1]
+?
+'&token='+
+match[1]
+:
+'');
+
+
+
+
+
+
+
+
+
+var
+attemptsMade
+=
+0;
+
+
+
+
+
+
+
+
+var
+attemptsMax
+=
+10;
+
+
+
+
+
+
+
+
+var
+reqFunc
+=
+function
+()
+{
+			$.ajax({
+					url:
+'/service/widget/Passport/Widget_Login?userid=0&url=http%3A%2F%2F74.ru%2Fforum%2Ftheme.php%3Fid%3D680616&useAuth=1&method=async&tic=cU4DkOie8xHGFBNjJkp2dvUT9SYpOB4riX6Bixve6%2B7ubY6wTpv5rv77Sw5fXl7d%2B90RPVBMHiuJfouLG97i7u5FdbjUz9C2w1U%3D&'+token,
+					type:
+'GET',
+					dataType:
+'JSON',
+					success:
+function(
+data
+)
+{
+						if
+(
+data.type
+==
+'html'
+)
+{
+							$('#container_1').html(
+data.content
+);
+						}
+					},
+					error:
+function(
+d,
+err
+)
+{
+						++attemptsMade;
+						if
+(attemptsMade
+<
+attemptsMax)
+{
+							reqFunc();
+						}
+else
+{
+						}
+					}
+				});
+		};
+		reqFunc();
+	});
+Работа
+Все
+вакансии
+Все
+резюме
+Добавить
+вакансию
+Добавить
+резюме
+Поиск
+Новости
+Бизнес
+Статьи
+Новость
+бизнеса
+Новости
+компаний
+Новости
+финансов
+Горячая
+тема
+Сделано
+в
+Челябинске
+Авторская
+колонка
+Сервисы
+Курсы
+валют
+Калькуляторы
+Каталог
+компаний
+Консультации
+Авто
+Объявления
+Добавить
+объявление
+Иномарки
+Отечественные
+Автозапчасти
+Шины
+Диски
+Статьи
+Лента
+новостей
+Тема
+дня
+Автообзор
+Нарушение
+месяца
+Авторская
+колонка
+Штрафы
+ГИБДД
+Сервисы
+Автокатастрофы
+Автоотзывы
+Форум
+Опрос
+Каталог
+Недвижимость
+Объявления
+Добавить
+объявление
+Новостройки
+Вторичное
+жилье
+Аренда
+квартир
+Земельные
+участки
+Дачи,
+сады
+Статьи
+Лента
+новостей
+Метры
+«за
+бугром»
+Сервисы
+Каталог
+фирм
+Форумы
+Здоровье
+Объявления
+Афиша
+Статьи
+Фильм
+недели
+Еда
+Свободное
+время
+Свадьба
+Стиль
+Путешествия
+Сервисы
+Афиша
+Знакомства
+Гороскоп
+Спецпредложения
+100
+развлечений
+Форумы
+Торговые
+сети,
+магазины
+Бюро
+находок
+"За
+жизнь"
+Между
+нами
+девочками
+Домашние
+животные
+Работа
+и
+образование
+Ищу
+попутчика
+Угоны
+и
+ДТП
+Сервис
+Новостройки
+Челябинска
+ЖКХ
+Интернет
+Образование
+Видео
+Карта
+Знакомства
+Туры
+Гороскопы
+var
+treemenu_timeout;
+	$(
+'#treemenu_menu'
+).dropDownMenu(
+{timer:
+500,
+parentMO:
+'parent-hover',
+childMO:
+'child-hover1'}
+);
+	$(
+'#treemenu_menu'
+).bind(
+"mouseleave",function
+()
+	{
+		treemenu_timeout
+=
+setTimeout(
+function
+()
+		{
+			$(
+'#config_list_container'
+).remove();
+		},
+500
+);
+	}
+).bind(
+"mouseenter",
+function
+()
+	{
+		clearTimeout(
+treemenu_timeout
+);
+	}
+);
+Форумы
+/
+Между
+нами
+девочками
+Несправедливость:
+почему
+жена
+у
+своей
+подружки
+может
+заночевать
+Главная
+|
+Активные
+дискуссии
+|
+Помощь
+|
+Поиск
+$(
+function
+()
+		{
+			$(
+'#forum-search-link'
+).click(
+function
+()
+			{
+				$(
+'#forum-search-box'
+).slideToggle();
+				return
+false;
+			}
+);
+
+		}
+);
+Искать
+только:
+в
+названии
+темы
+в
+тексте
+сообщений
+автор
+Раздел:
+Любой
+Торговые
+сети,
+магазины,
+компании
+Волонтеры
+74.ru
+Внимание!
+Розыск!
+Нуждаюсь
+в
+помощи
+Приму
+в
+дар
+Организационная
+помощь
+Помощь
+пожилым
+людям
+Консультативная,
+психологическая
+помощь
+Транспортная
+помощь
+Помощь
+больным
+детям
+Помощь
+детям-сиротам
+Готов
+помочь
+Помощь
+в
+быту
+Транспортная
+помощь
+Отдам
+безвозмездно
+Организационная
+помощь
+Консультативная,
+психологическая
+помощь
+Помощь
+в
+уходе
+Техника
+и
+связь
+Разное
+Программное
+обеспечение
+Бытовая
+техника
+Мобильная
+связь
+ПК,
+ноутбуки
+Ноутбуки
+КПК
+Сотовые
+телефоны,
+iPhone,
+iPad
+Фото-,
+видеокамеры
+Автоматизация
+бизнеса
+Оргтехника
+и
+расходные
+материалы
+Теле-,
+аудиотехника
+Интернет
+и
+сетевые
+технологии
+Технологии
+безопасности
+Телефонная
+связь
+Экология
+Выбросы
+в
+Челябинске
+Армия
+и
+жизнь
+Политика
+Встречи
+и
+мероприятия
+форумистов
+Религия
+и
+философия
+Бюро
+находок
+Документы
+Электроника
+Жалобная
+книга
+Здоровье
+«За
+жизнь»
+Знакомства
+Требуется
+помощь!
+Ау,
+земляки!
+Работа
+и
+Образование
+Я
+и
+моя
+кроха
+Креатив
+Между
+нами
+девочками
+Такси
+и
+маршрутки
+Спорт
+Танцы
+Экстрим.
+Адреналин.
+Лига
+скорости.
+Боевые
+искусства
+Домашние
+животные
+и
+растения
+Ветеринария
+Все
+о
+растениях
+Требуется
+помощь
+Ищу
+хозяина
+Потерянные
+Найденные
+Все
+о
+кошках
+Все
+о
+собаках
+Остальная
+живность
+Птицы
+Грызуны
+Беспозвоночные
+Экзотические
+животные
+Все
+о
+хорьках
+Аквариумистика
+Приятного
+аппетита!
+Кулинарные
+рецепты.
+Испытано
+на
+людях!
+О
+продуктах
+и
+напитках
+Гастрономическое
+путешествие
+Для
+сладкоежек
+Будь
+в
+форме!
+Хобби
+Игровой
+клуб
+Фотография
+Рукоделие
+Нумизматика
+и
+бонистика
+Охота
+и
+Рыбалка
+Книголюбы
+Финансовый
+кризис
+Мобильная
+связь
+Личные
+форумы
+это
+мой
+раздел!
+Обо
+всём
+и
+не
+для
+всех.
+Ужасы
+нашего
+городка
+©
+Познавательное
+природоведение
+от
+Мурза
+Мужчина
+и
+Женщина
+сплетни
+про
+мужчин
+Горные
+лыжи
+Русский
+народ
+ShaFlay
+no
+name
+Жму
+на
+разы.
+Big
+Data
+&
+Искусственный
+Интеллект
+(ИИ)
+СВОЙ
+ДОМ
+Dron
+Раздел
+андроида
+налогообложение
+для
+чайников
+АйТи
+новости
+науки,
+техники
+и
+конечно
+музыка
+Лук
+и
+стрелы
+Там
+на
+неведомых
+дорожках
+Удивительное
+рядом!
+УЛЫБНИСЬ!)))
+Машинки,клюшки,бутсы
+и
+прочие
+достижения
+российского
+спорта
+Моё
+дело
+рассказать"правду",не
+ваше,что
+бы
+верить
+в
+неё.
+Вокруг
+секса
+с
+Куклой
+Современная
+и
+классическая
+музыка
+"Обо
+всём"
+Право
+Вопросы
+для
+администрации
+и
+модераторов
+форума
+Период:
+За
+весь
+период
+За	неделю
+За	месяц
+За
+год
+#1
+21
+мая
+0
+Ответить
+Цитировать
+Сообщений:
+2999
+был
+вчера
+в
+23:23
+Личное
+сообщение
+Профиль
+Нарушения
+:
+2
+...а
+муж
+у
+своей
+нет?
+(function(w,
+d,
+n,
+s,
+t)
+{
+			w[n]
+=
+w[n]
+||
+[];
+			w[n].push(function()
+{
+				Ya.Context.AdvManager.render({
+					blockId:
+"R-45973-1",
+					renderTo:
+"yandex_ad_R-45973-1",
+					async:
+true
+				});
+			});
+			t
+=
+d.getElementsByTagName("script")[0];
+			s
+=
+d.createElement("script");
+			s.type
+=
+"text/javascript";
+			s.src
+=
+"//an.yandex.ru/system/context.js";
+			s.async
+=
+true;
+			t.parentNode.insertBefore(s,
+t);
+		})(this,
+this.document,
+"yandexContextAsyncCallbacks");
+СолнцеСолнечное
+#2
+21
+мая
+0
+Ответить
+Цитировать
+инасолнцебываютпятна
+Сообщений:
+12446
+была
+вчера
+в
+17:08
+Личное
+сообщение
+Профиль
+Меня
+с
+ночевой
+не
+отпускають....
+Для
+кого
+то
+солнце
+а
+для
+кого
+то
+уличный
+фонарь
+Мышэль
+МНДэо
+#3
+21
+мая
+0
+Ответить
+Цитировать
+Бяда
+конгломерат
+мягкости,
+нравственности,
+кротости
+нрава
+и
+неупотребления
+психоактивных
+веществ..
+(с)
+NORMA
+#4
+21
+мая
+0
+Ответить
+Цитировать
+Сообщений:
+16463
+была
+вчера
+в
+16:16
+Личное
+сообщение
+Профиль
+у
+меня
+аналогичный
+вопрос:
+почему
+муж
+может
+у
+своего
+друга
+на
+даче 
+заночевать,
+а
+жена
+у
+своего
+нет?
+Э-х-х-эх!
+Надену
+сарафан…
+в
+белую
+горошину!
+Отвали-ка
+всё
+плохое,
+привали
+—
+хорошее!
+Миша
+Ня
+#5
+21
+мая
+0
+Ответить
+Цитировать
+Сообщений:
+1547
+был
+сегодня
+в
+03:26
+Личное
+сообщение
+Профиль
+Лучше
+всем
+вместе
+ночевать
+Мир
+народам,
+фабрики
+рабочим,
+земля
+крестьянам,
+вся
+власть
+Советам!
+Пролетарии
+всех
+стран,
+соединяйтесь!
+Banderas
+#6
+21
+мая
+0
+Ответить
+Цитировать
+Сообщений:
+5340
+был
+26
+ноября
+Личное
+сообщение
+Профиль
+Счасте
+-
+это
+когда
+Все
+дома©
+ворона
+Я,
+как
+любой
+актер,
+не
+хочу
+взрослеть!
+Мoнрo
+Модератор
+#7
+21
+мая
+0
+Ответить
+Цитировать
+Модераторша
+Сообщений:
+69104
+была
+06
+декабря
+Личное
+сообщение
+Профиль
+А
+почему
+это
+она
+может?Нефиг
+ночевать
+по
+подружкам.
+Поезд
+ушел,
+целуйте
+рельсы
+(с)
+Стряпчий
+#8
+21
+мая
+0
+Ответить
+Цитировать
+Circulus
+vitiosus
+Сообщений:
+34889
+был
+13
+декабря
+Личное
+сообщение
+Профиль
+я
+ночевал
+у
+друзей
+и
+подруг.
+Кто
+ясно
+мыслит
+-
+ясно
+излагает
+ниварона...
+#9
+21
+мая
+0
+Ответить
+Цитировать
+черная
+жемчужина
+Сообщений:
+35696
+была
+вчера
+в
+19:40
+Личное
+сообщение
+Профиль
+я
+то
+же
+ночевала...раньше...а
+теперь
+прям
+Мышэль
+МНДэо
+пишет:
+Бяда
+он
+никогда
+из
+мыслей
+моих
+не
+уйдет...
+Йа
+SaNiKA
+#10
+21
+мая
+0
+Ответить
+Цитировать
+***Hot
+Ice***
+Сообщений:
+48229
+была
+вчера
+в
+13:45
+Личное
+сообщение
+Профиль
+Когда
+муж
+не
+может
+это
+не
+проблема
+жены
+поэтому
+она
+ночует
+у
+подружки
+Если
+вы
+понравитесь
+кошке,
+она
+позволит
+вам
+стать
+ее
+другом,
+но
+хозяином-никогда.
+$(
+document
+).ready(
+function
+()
+	{
+				$(
+document
+).ready(
+function
+()
+		{
+			$(
+'div[data-opacity]'
+).each(
+function
+()
+			{
+				var
+box
+=
+$(
+this
+);
+				if
+(
+!box.data().opacity
+)
+					return;
+
+				box.hover(
+function
+()
+					{
+						$(
+this
+).animate(
+{'opacity':
+1},
+100
+);
+					},
+					function
+()
+					{
+						$(
+this
+).animate(
+{'opacity':
+box.data().opacity},
+100
+);
+					}
+);
+			}
+)
+		}
+);
+		
+				$(
+'a[data-message-rating]'
+).each(
+function
+()
+		{
+			$(
+this
+).bind(
+'click',
+function
+()
+			{
+				var
+$this
+=
+$(
+this
+);
+				var
+rating
+=
+$this.parents(
+'.rating'
+).find(
+'.negative,.positive'
+);
+				var
+ratingValue
+=
+parseInt(
+rating.text()
+);
+
+				ratingValue
++=
+$this.hasClass(
+'up'
+)
+?
+1
+:
+-1;
+
+				rating.text(
+ratingValue
+);
+				if
+(
+ratingValue
+<
+0
+)
+				{
+					rating.removeClass(
+'positive'
+);
+					rating.addClass(
+'negative'
+);
+				}
+				else
+				{
+					rating.removeClass(
+'negative'
+);
+					rating.addClass(
+'positive'
+);
+				}
+
+				$this.parents(
+'.rating'
+).find(
+'a'
+).remove();
+
+				$.ajax(
+{
+					url
+
+
+
+
+:
+'/forum/ajax/message/vote/',
+					dataType:
+'json',
+					cache
+
+
+:
+false,
+					timeout
+:
+5000,
+					data
+
+
+
+:
+{
+						messageId:
+$this.data(
+'message-rating'
+),
+						delta
+
+
+
+:
+$this.hasClass(
+'up'
+)
+?
+1
+:
+-1
+					},
+					success
+:
+function
+()
+					{
+					},
+					error
+
+
+:
+function
+()
+					{
+					},
+					type
+
+
+
+:
+'POST'
+				}
+);
+
+				return
+false;
+			}
+)
+		}
+);
+
+		
+		$(
+".forum-image-thumbnail"
+).find('a').fancybox(
+{
+			overlayShow
+
+
+
+
+
+
+:
+true,
+			hideOnContentClick:
+true,
+			zoomSpeedOut
+
+
+
+
+
+:
+550,
+			zoomSpeedIn
+
+
+
+
+
+
+:
+550
+		}
+);
+
+		var
+wrap
+=
+$(
+'.forum-message-wrapper'
+);
+
+		$(
+'.text
+>
+div',
+wrap
+).each(
+function
+()
+		{
+			var
+$this
+=
+$(
+this
+);
+			if
+(
+$this.height()
+<=
+500
+)
+				return;
+
+			$this.addClass(
+'collapsed'
+);
+
+			$(
+'<div></div>'
+)
+				.append(
+					$(
+'<a></a>'
+)
+						.click(
+function
+()
+						{
+							$(
+this
+).remove();
+							$this.removeClass(
+'collapsed'
+);
+						}
+)
+						.attr(
+{
+							'href':
+'javascript:void(0)'
+						}
+)
+						.html(
+'Показать
+полностью'
+)
+				)
+				.addClass(
+'expand'
+)
+				.insertAfter(
+$this
+);
+		}
+);
+
+		$(
+'img:not([src*="http://i.sdska.ru/_img/system/default/themes/smiles/"])',
+wrap
+).each(
+function
+()
+		{
+			var
+a
+=
+$(
+'<a></a>'
+).attr(
+{
+				'target':
+'_blank',
+				'href'
+
+:
+this.src
+			}
+);
+
+			a.insertAfter(
+this
+);
+			$(
+a
+).append(
+this
+);
+
+			a.fancybox(
+{
+				type
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+'image',
+				overlayShow
+
+
+
+
+
+
+:
+true,
+				hideOnContentClick:
+true,
+				zoomSpeedOut
+
+
+
+
+
+:
+550,
+				zoomSpeedIn
+
+
+
+
+
+
+:
+550
+			}
+);
+		}
+);
+	}
+);
+-
+Перейти
+в
+раздел
+-
+Торговые
+сети,
+магазины,
+компании
+Волонтеры
+74.ru
+Внимание!
+Розыск!
+Нуждаюсь
+в
+помощи
+Приму
+в
+дар
+Организационная
+помощь
+Помощь
+пожилым
+людям
+Консультативная,
+психологическая
+помощь
+Транспортная
+помощь
+Помощь
+больным
+детям
+Помощь
+детям-сиротам
+Готов
+помочь
+Помощь
+в
+быту
+Транспортная
+помощь
+Отдам
+безвозмездно
+Организационная
+помощь
+Консультативная,
+психологическая
+помощь
+Помощь
+в
+уходе
+Техника
+и
+связь
+Разное
+Программное
+обеспечение
+Бытовая
+техника
+Мобильная
+связь
+ПК,
+ноутбуки
+Ноутбуки
+КПК
+Сотовые
+телефоны,
+iPhone,
+iPad
+Фото-,
+видеокамеры
+Автоматизация
+бизнеса
+Оргтехника
+и
+расходные
+материалы
+Теле-,
+аудиотехника
+Интернет
+и
+сетевые
+технологии
+Технологии
+безопасности
+Телефонная
+связь
+Экология
+Выбросы
+в
+Челябинске
+Армия
+и
+жизнь
+Политика
+Встречи
+и
+мероприятия
+форумистов
+Религия
+и
+философия
+Бюро
+находок
+Документы
+Электроника
+Жалобная
+книга
+Здоровье
+«За
+жизнь»
+Знакомства
+Требуется
+помощь!
+Ау,
+земляки!
+Работа
+и
+Образование
+Я
+и
+моя
+кроха
+Креатив
+Между
+нами
+девочками
+Такси
+и
+маршрутки
+Спорт
+Танцы
+Экстрим.
+Адреналин.
+Лига
+скорости.
+Боевые
+искусства
+Домашние
+животные
+и
+растения
+Ветеринария
+Все
+о
+растениях
+Требуется
+помощь
+Ищу
+хозяина
+Потерянные
+Найденные
+Все
+о
+кошках
+Все
+о
+собаках
+Остальная
+живность
+Птицы
+Грызуны
+Беспозвоночные
+Экзотические
+животные
+Все
+о
+хорьках
+Аквариумистика
+Приятного
+аппетита!
+Кулинарные
+рецепты.
+Испытано
+на
+людях!
+О
+продуктах
+и
+напитках
+Гастрономическое
+путешествие
+Для
+сладкоежек
+Будь
+в
+форме!
+Хобби
+Игровой
+клуб
+Фотография
+Рукоделие
+Нумизматика
+и
+бонистика
+Охота
+и
+Рыбалка
+Книголюбы
+Финансовый
+кризис
+Мобильная
+связь
+Личные
+форумы
+это
+мой
+раздел!
+Обо
+всём
+и
+не
+для
+всех.
+Ужасы
+нашего
+городка
+©
+Познавательное
+природоведение
+от
+Мурза
+Мужчина
+и
+Женщина
+сплетни
+про
+мужчин
+Горные
+лыжи
+Русский
+народ
+ShaFlay
+no
+name
+Жму
+на
+разы.
+Big
+Data
+&
+Искусственный
+Интеллект
+(ИИ)
+СВОЙ
+ДОМ
+Dron
+Раздел
+андроида
+налогообложение
+для
+чайников
+АйТи
+новости
+науки,
+техники
+и
+конечно
+музыка
+Лук
+и
+стрелы
+Там
+на
+неведомых
+дорожках
+Удивительное
+рядом!
+УЛЫБНИСЬ!)))
+Машинки,клюшки,бутсы
+и
+прочие
+достижения
+российского
+спорта
+Моё
+дело
+рассказать"правду",не
+ваше,что
+бы
+верить
+в
+неё.
+Вокруг
+секса
+с
+Куклой
+Современная
+и
+классическая
+музыка
+"Обо
+всём"
+Право
+Вопросы
+для
+администрации
+и
+модераторов
+форума
+Сообщение:
+все	смайлы
+var
+insertsmile
+=
+function
+(
+html
+)
+			{
+				var
+$redactor
+=
+$(
+'.redactorjs'
+).data(
+'redactor'
+);
+
+				if
+(
+$redactor.$editor
+)
+					$redactor.insertHtml(
+html
+);
+				else
+				{
+					$redactor.$el.focus();
+					$redactor.$el.val(
+$redactor.$el.val()
++
+html
+);
+				}
+			};
+
+			$(
+function
+()
+			{
+				$(
+'.forum-action-respond'
+).click(
+function
+()
+				{
+					var
+$redactor
+=
+$(
+'.redactorjs'
+).data(
+'redactor'
+);
+
+					if
+(
+$redactor.$editor
+)
+					{
+						$redactor.insertHtml(
+'<b>'
++
+$(
+this
+).data(
+'authorName'
+)
++
+'</b>
+<br/>'
+);
+
+						if
+(
+$.browser.webkit
+)
+							$redactor.insertHtml(
+'<br/>'
+);
+					}
+					else
+					{
+						$redactor.$el.focus();
+						$redactor.$el.val(
+$redactor.$el.val()
++
+'<b>'
++
+$(
+this
+).data(
+'authorName'
+)
++
+'</b>
+<br/>'
+);
+					}
+				}
+);
+
+				$(
+'.forum-action-quote'
+).click(
+function
+()
+				{
+					var
+txt
+=
+'';
+					var
+$redactor
+=
+$(
+'.redactorjs'
+).data(
+'redactor'
+);
+
+					if
+(
+window.getSelection
+)
+					{
+						var
+selection
+=
+window.getSelection();
+
+						if
+(
+selection.rangeCount
+>
+0
+)
+						{
+							var
+clonedSelection
+=
+selection.getRangeAt(
+0
+).cloneContents();
+							var
+div
+=
+document.createElement(
+'div'
+);
+							div.appendChild(
+clonedSelection
+);
+							txt
+=
+div.innerHTML;
+						}
+						else
+							txt
+=
+'';
+					}
+					else
+if
+(
+document.selection
+&&
+document.selection.createRange
+)
+						txt
+=
+document.selection.createRange().htmlText;
+
+					txt
+=
+txt.toString();
+					if
+(
+jQuery.trim(
+txt
+)
+==
+''
+)
+					{
+						txt
+=
+$(
+'~
+tr.forum-message-wrapper
+td.text
+div',
+$(
+this
+).parents(
+'tr.forum-message-header'
+)
+).filter(
+":first"
+).html();
+					}
+
+					var
+content
+=
+$(
+'<div></div>'
+).html(
+txt
+);
+
+					txt
+=
+content.html().replace(
+/\s+/g,
+'
+'
+).replace(
+/(<br\/?>\s?){1,}/g,
+'<br/>'
+);
+
+						if
+(
+$(
+this
+).data(
+'authorName'
+)
+)
+							txt
+=
+'<div
+class="bbquotetitle"><span
+class="a">'
++
+$(
+this
+).data(
+'authorName'
+)
++
+'</span>
+пишет:</div><div
+class="bbquote">'
++
+jQuery.trim(
+txt
+)
++
+'</div><br/>';
+						else
+							txt
+=
+'<div
+class="bbquotetitle"><strong>Цитата</strong>:</div><div
+class="bbquote">'
++
+jQuery.trim(
+txt
+)
++
+'</div><br/>';
+
+					if
+(
+$redactor.$editor
+)
+					{
+						$redactor.appendHtml(
+txt
+);
+					}
+					else
+					{
+						$redactor.$el.focus();
+						$redactor.$el.val(
+$redactor.$el.val()
++
+"\n"
++
+txt
++
+"\n"
+);
+					}
+				}
+);
+
+				$(
+'img',
+'.smiles'
+).click(
+function
+()
+				{
+					insertsmile(
+this.parentNode.innerHTML
+);
+				}
+);
+			}
+);
+$(
+document
+).ready(
+				function
+()
+				{
+					$(
+'.redactorjs'
+).redactor(
+{
+						lang
+
+
+
+
+
+
+
+
+:
+'ru',
+						autoresize
+
+
+:
+false,
+						focus
+
+
+
+
+
+
+
+:
+false,
+						iframe
+
+
+
+
+
+
+:
+true,
+						cleanup
+
+
+
+
+
+:
+true,
+						css
+
+
+
+
+
+
+
+
+
+:
+'//i.sdska.ru/_styles/system/default/themes/editors/redactor/iframe.css',
+						uuid
+
+
+
+
+
+
+
+
+:
+'61144970-c3e3-11e6-9f4b-90b11c12d81f',
+						smiles
+
+
+
+
+
+
+:
+{"smiles":{":)":"smile.gif",":(":"sad.gif",":bad:":"bad.gif",":tongue:":"tongue.gif",":wink:":"wink.gif",":air_kiss:":"air_kiss.gif",":cray:":"cray.gif",":crazy:":"crazy.gif",":good:":"good.gif",":lol:":"lol.gif",":shok:":"shok.gif",":blush2:":"blush2.gif",":agree:":"agree.gif",":alcoholic:":"alcoholic.gif",":facepalm:":"facepalm.gif",":boom:":"BooM.gif",":bravo:":"bravo.gif",":dance:":"dance4.gif",":first_move:":"first_move.gif",":flirt:":"flirt.gif",":fool:":"fool.gif",":girl_cray:":"girl_cray2.gif",":girl_devil:":"girl_devil.gif",":girl_haha:":"girl_haha.gif",":girl_sigh:":"girl_sigh.gif",":give_rose:":"give_rose.gif",":help:":"help.gif",":hysterics:":"hysterics.gif",":king:":"king.gif",":kiss:":"kiss.gif",":lazy:":"lazy.gif",":mosking:":"mosking.gif",":music:":"music.gif",":new_russian:":"new_russian.gif",":not_i:":"not_i.gif",":pardon:":"pardon.gif",":pilot:":"pilot.gif",":pleasantry:":"pleasantry.gif",":queen:":"queen.gif",":secret:":"secret.gif",":stop:":"stop.gif",":suicide:":"suicide.gif",":superstition:":"superstition.gif",":yess:":"yess.gif",":thank_you:":"thank_you.gif",":tomato:":"tomato.gif",":yes:":"yes.gif",":umnik:":"umnik.gif",":victory:":"victory.gif",":xaxa:":"XaXa.gif",":censored:":"censored.png",":accident:":"accident.gif",":angry:":"angry.gif",":baby_carriage:":"baby_carriage.gif",":bat:":"bat.gif",":baby:":"baby.gif",":beer:":"beer.gif",":crazy_shock:":"crazy_shock.gif",":dance2:":"dance2.gif",":dancing:":"dancing.gif",":death:":"death.gif",":devil:":"devil.gif",":drink:":"drink.gif",":drink2:":"drink2.gif",":einstein:":"einstein.gif",":evil:":"evil.gif",":flying:":"flying.gif",":ghost:":"ghost.gif",":girl_doctor:":"girl_doctor.gif",":girl_flower:":"girl_flower.gif",":girl_jump:":"girl_jump.gif",":girl_kid:":"girl_kid.gif",":girl_mirror:":"girl_mirror.gif",":girl_tears:":"girl_tears.gif",":girl_tender:":"girl_tender.gif",":girl_werewolf:":"girl_werewolf.gif",":girl_wink:":"girl_wink.gif",":girl_witch:":"girl_witch.gif",":girl_with_leaves:":"girl_with_leaves.gif",":grandma:":"grandma.gif",":hahaha:":"hahaha.gif",":hang:":"hang.gif",":hangman:":"hangman.gif",":hehe:":"hehe.gif",":hi:":"hi.gif",":hi_wink:":"hi_wink.gif",":holiday:":"holiday.gif",":ignore:":"ignore.gif",":kiss2:":"kiss2.gif",":kuku:":"kuku.gif",":love_you:":"love_you.gif",":mirror:":"mirror.gif",":nono:":"nono.gif",":no_rise:":"no_rise.gif",":off_topic:":"off_topic.gif",":padre:":"padre.gif",":pioners:":"pioners.gif",":popcorn:":"popcorn.gif",":protest:":"protest.gif",":punk:":"punk.gif",":russian:":"russian.gif",":sad2:":"sad2.gif",":scratch:":"scratch.gif",":sila:":"sila.gif",":skalka:":"skalka.gif",":smile2:":"smile2.gif",":smoke:":"smoke.gif",":sorry1:":"sorry1.gif",":sorry2:":"sorry2.gif",":tongue2:":"tongue2.gif",":ugly:":"ugly.gif",":v_bobruisk:":"v_bobruisk.gif",":whizz:":"whizz.gif"},"path":"http:\/\/i.sdska.ru\/_img\/system\/default\/themes\/smiles\/"},
+						convertLinks
+:
+true,
+						mobile
+
+
+
+
+
+
+:
+false,
+						convertDivs
+
+:
+false,
+						observeImages:
+true,
+						mediaPattern
+:
+[{"pattern":"\/\/coub.com\/view\/([\\d\\w]+)","params":{"id":1},"data":"<iframe
+src=\"http:\/\/coub.com\/embed\/{id}?muted=false&autostart=false&originalSize=false&hideTopBar=true&startWithHD=false\"
+allowfullscreen=\"true\"
+frameborder=\"0\"
+width=\"640\"
+height=\"360\"><\/iframe>"},{"pattern":"\/\/coub.com\/embed\/([\\d\\w]+)","params":{"id":1},"data":"<iframe
+src=\"http:\/\/coub.com\/embed\/{id}?muted=false&autostart=false&originalSize=false&hideTopBar=true&startWithHD=false\"
+allowfullscreen=\"true\"
+frameborder=\"0\"
+width=\"640\"
+height=\"360\"><\/iframe>"},{"pattern":"http:\/\/smotri.com\/video\/view\/\\?id=([\\d\\w]+)","params":{"id":1},"data":"<object
+width=\"640\"
+height=\"360\"><param
+name=\"movie\"
+value=\"http:\/\/pics.smotri.com\/player.swf?file={id}&bufferTime=3&autoStart=false&str_lang=rus&xmlsource=http%3A%2F%2Fpics.smotri.com%2Fcskins%2Fblue%2Fskin_color.xml&xmldatasource=http%3A%2F%2Fpics.smotri.com%2Fskin_ng.xml\"
+\/><param
+name=\"allowScriptAccess\"
+value=\"always\"
+\/><param
+name=\"allowFullScreen\"
+value=\"true\"
+\/><param
+name=\"bgcolor\"
+value=\"#ffffff\"
+\/><embed
+src=\"http:\/\/pics.smotri.com\/player.swf?file={id}&bufferTime=3&autoStart=false&str_lang=rus&xmlsource=http%3A%2F%2Fpics.smotri.com%2Fcskins%2Fblue%2Fskin_color.xml&xmldatasource=http%3A%2F%2Fpics.smotri.com%2Fskin_ng.xml\"
+quality=\"high\"
+allowscriptaccess=\"always\"
+allowfullscreen=\"true\"
+wmode=\"opaque\"
+
+width=\"640\"
+height=\"360\"
+type=\"application\/x-shockwave-flash\"><\/embed><\/object>"},{"pattern":"http:\/\/pics.smotri.com\/player.swf\\?file=([\\d\\w]+)","params":{"id":1},"data":"<object
+width=\"640\"
+height=\"360\"><param
+name=\"movie\"
+value=\"http:\/\/pics.smotri.com\/player.swf?file={id}&bufferTime=3&autoStart=false&str_lang=rus&xmlsource=http%3A%2F%2Fpics.smotri.com%2Fcskins%2Fblue%2Fskin_color.xml&xmldatasource=http%3A%2F%2Fpics.smotri.com%2Fskin_ng.xml\"
+\/><param
+name=\"allowScriptAccess\"
+value=\"always\"
+\/><param
+name=\"allowFullScreen\"
+value=\"true\"
+\/><param
+name=\"bgcolor\"
+value=\"#ffffff\"
+\/><embed
+src=\"http:\/\/pics.smotri.com\/player.swf?file={id}&bufferTime=3&autoStart=false&str_lang=rus&xmlsource=http%3A%2F%2Fpics.smotri.com%2Fcskins%2Fblue%2Fskin_color.xml&xmldatasource=http%3A%2F%2Fpics.smotri.com%2Fskin_ng.xml\"
+quality=\"high\"
+allowscriptaccess=\"always\"
+allowfullscreen=\"true\"
+wmode=\"opaque\"
+
+width=\"640\"
+height=\"360\"
+type=\"application\/x-shockwave-flash\"><\/embed><\/object>"},{"pattern":"https?:\/\/www.youtube.com\/watch\\?v=([\\d\\w\\-_]+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"http:\/\/www.youtube.com\/embed\/{id}?rel=0\"
+frameborder=\"0\"
+allowfullscreen=\"true\"><\/iframe>"},{"pattern":"http:\/\/youtu\\.be\/([\\d\\w\\-_]+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"http:\/\/www.youtube.com\/embed\/{id}?rel=0\"
+frameborder=\"0\"
+allowfullscreen=\"true\"><\/iframe>"},{"pattern":"\/\/(?:www\\.)?youtube\\.com\/embed\/([\\d\\w\\-_]+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"http:\/\/www.youtube.com\/embed\/{id}?rel=0\"
+frameborder=\"0\"
+allowfullscreen=\"true\"><\/iframe>"},{"pattern":"\/\/www.youtube.com\/v\/([\\d\\w\\-_]+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"http:\/\/www.youtube.com\/embed\/{id}?rel=0\"
+frameborder=\"0\"
+allowfullscreen=\"true\"><\/iframe>"},{"pattern":"\/\/rutube\\.ru\/video\/([\\d\\w]+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"\/\/rutube.ru\/video\/embed\/{id}\"
+frameborder=\"0\"
+webkitAllowFullScreen=\"true\"
+mozallowfullscreen=\"true\"
+allowfullscreen=\"true\"
+scrolling=\"no\"><\/iframe>"},{"pattern":"\/\/rutube\\.ru\/play\/embed\/([\\d]+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"\/\/rutube.ru\/play\/embed\/{id}\"
+frameborder=\"0\"
+webkitAllowFullScreen=\"true\"
+mozallowfullscreen=\"true\"
+allowfullscreen=\"true\"
+scrolling=\"no\"><\/iframe>"},{"pattern":"\/\/rutube\\.ru\/video\/embed\/([\\d]+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"\/\/rutube.ru\/video\/embed\/{id}\"
+frameborder=\"0\"
+webkitAllowFullScreen=\"true\"
+mozallowfullscreen=\"true\"
+allowfullscreen=\"true\"
+scrolling=\"no\"><\/iframe>"},{"pattern":"\/\/rutube\\.ru\/tracks\/([\\d]+)\\.html?.*v=([\\w\\-_]+)","params":{"hash":1,"id":2},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"\/\/rutube.ru\/video\/embed\/{hash}\"
+frameborder=\"0\"
+webkitAllowFullScreen=\"true\"
+mozallowfullscreen=\"true\"
+allowfullscreen=\"true\"
+scrolling=\"no\"><\/iframe>"},{"pattern":"http:\/\/video\\.mail\\.ru\/(.+).html","params":{"id":1},"data":"<object
+width=\"640\"
+height=\"360\"
+type=\"application\/x-shockwave-flash\"
+data=\"http:\/\/img.mail.ru\/r\/video2\/player_v2.swf?2\"><param
+name=\"movie\"
+value=\"http:\/\/img.mail.ru\/r\/video2\/player_v2.swf?2\"
+\/><param
+name=\"flashvars\"
+value=\"movieSrc={id}\"
+\/><param
+name=\"devicefont\"
+value=\"false\"\/><param
+name=\"menu\"
+value=\"false\"\/><param
+name=\"allowFullScreen\"
+value=\"true\"
+\/><param
+name=\"allowScriptAccess\"
+value=\"always\"
+\/><\/object>"},{"pattern":"http:\/\/(?:www\\.)?1tv\\.ru\/.+?\/(\\d+)","params":{"id":1},"data":"<object
+width=\"640\"
+height=\"360\"><embed
+width=\"640\"
+height=\"360\"
+align=\"middle\"
+flashvars=\"stats=http:\/\/www.1tv.ru\/addclick\/\"
+allowscriptaccess=\"always\"
+wmode=\"opaque\"
+allowfullscreen=\"true\"
+quality=\"high\"
+src=\"http:\/\/www.1tv.ru\/newsvideo\/{id}\"
+type=\"application\/x-shockwave-flash\"\/><\/object>"},{"pattern":"http:\/\/player\\.rutv\\.ru\/(.+?\\?acc_video_id=\\d+)","params":{"id":1},"data":"<iframe
+src=\"http:\/\/player.rutv.ru\/{id}\"
+frameborder=\"0\"
+style=\"width:
+640px;
+height:
+360px;
+border:
+none;\"><\/iframe>"},{"pattern":"http:\/\/(?:www\\.)russia\\.ru\/player\/main\\.swf\\?(\\d+)","params":{"id":1},"data":"<object
+width=\"640\"
+height=\"360\"><embed
+src=\"http:\/\/www.russia.ru\/player\/main.swf?{id}\"
+flashvars=\"from=blog&blog=true\"
+width=\"640\"
+height=\"360\"
+allowScriptAccess=\"always\"
+allowFullScreen=\"true\"\/><\/object>"},{"pattern":"https?:\/\/vk\\.com\/video_ext\\.php\\?oid=(\\d+)&id=(\\d+)&hash=([\\d\\w\\-_]+)","params":{"oid":1,"id":2,"hash":3},"data":"<iframe
+src=\"https:\/\/vk.com\/video_ext.php?oid={oid}&id={id}&hash={hash}&hd=1\"
+width=\"640\"
+height=\"360\"
+frameborder=\"0\"><\/iframe>"},{"pattern":"http:\/\/mreporter\\.ru\/videos\/(\\d+)","params":{"id":1},"data":"<iframe
+width=\"640\"
+height=\"360\"
+src=\"http:\/\/mreporter.ru\/videos\/{id}\"
+frameborder=\"0\"
+allowfullscreen=\"true\"><\/iframe>"},{"pattern":"http:\/\/(?:www\\.)?vimeo\\.com\/(\\d+)","params":{"id":1},"data":"<iframe
+src=\"http:\/\/player.vimeo.com\/video\/{id}\"
+width=\"640\"
+height=\"360\"
+frameborder=\"0\"
+allowFullScreen=\"true\"><\/iframe>"},{"pattern":"\/\/player\\.vimeo\\.com\/video\/(\\d+)","params":{"id":1},"data":"<iframe
+src=\"http:\/\/player.vimeo.com\/video\/{id}\"
+width=\"640\"
+height=\"360\"
+frameborder=\"0\"
+allowFullScreen=\"true\"><\/iframe>"}],
+						imageGetJson
+:
+'/service/api/filestore/files/61144970-c3e3-11e6-9f4b-90b11c12d81f/',
+						imageUpload
+
+:
+'/upload/post/service/api/forum/files/61144970-c3e3-11e6-9f4b-90b11c12d81f/upload/',
+						allowedTags
+
+:
+["span",
+"div",
+"label",
+"a",
+"br",
+"p",
+"b",
+"i",
+"del",
+"strike",
+							"img",
+"object",
+"embed",
+"param",
+"blockquote",
+							"iframe",
+"small",
+"ul",
+"ol",
+"li",
+"strong",
+"em",
+"h1",
+"h2",
+"h3",
+"h4",
+"h5",
+"h6"],
+						buttons
+
+
+
+
+
+:
+['bold',
+'italic',
+'underline',
+'|',
+							'font',
+'fontcolor',
+'alignment',
+'|',
+'undo',
+'redo',
+'|',
+							'link',
+'mailto',
+'image',
+'video',
+'|',
+							'unorderedlist',
+'orderedlist'],
+
+						buttonsCustom
+
+
+
+
+
+:
+{
+							undo:
+{
+								title
+
+
+:
+'Отменить',
+								callback:
+function
+(
+obj,
+event,
+key
+)
+								{
+									var
+rdocument
+=
+obj.$editor[0].ownerDocument;
+
+									obj.$el.setFocus();
+									if
+(
+rdocument.queryCommandEnabled(
+"Undo"
+)
+==
+false
+)
+										return;
+
+									obj.$el.execCommand(
+'Undo',
+false
+);
+								}
+							},
+							redo:
+{
+								title
+
+
+:
+'Вернуть',
+								callback:
+function
+(
+obj,
+event,
+key
+)
+								{
+									var
+rdocument
+=
+obj.$editor[0].ownerDocument;
+
+									obj.$el.setFocus();
+									if
+(
+rdocument.queryCommandEnabled(
+"Redo"
+)
+==
+false
+)
+										return;
+
+									obj.$el.execCommand(
+'Redo',
+false
+);
+								}
+							}
+						},
+						keydownCallback
+
+
+
+:
+function
+(
+obj,
+event
+)
+						{
+							if
+(
+event.keyCode
+!=
+13
+)
+								return;
+
+							obj.saveSelection();
+							obj.restoreSelection();
+						},
+						keyupCallback
+
+
+
+
+
+:
+function
+(
+obj,
+event
+)
+						{
+							var
+rdocument
+=
+obj.$editor[0].ownerDocument;
+
+							obj.setBtnActive(
+'undo'
+);
+							if
+(
+rdocument.queryCommandEnabled(
+"Undo"
+)
+==
+false
+)
+								obj.setBtnInactive(
+'Undo'
+);
+
+							obj.setBtnActive(
+'redo'
+);
+							if
+(
+rdocument.queryCommandEnabled(
+"Redo"
+)
+==
+false
+)
+								obj.setBtnInactive(
+'redo'
+);
+						},
+						execCommandCallback:
+function
+(
+obj,
+event
+)
+						{
+							obj.setBtnActive(
+'undo'
+);
+							if
+(
+rdocument.queryCommandEnabled(
+"Undo"
+)
+==
+false
+)
+								obj.setBtnInactive(
+'undo'
+);
+
+							obj.setBtnActive(
+'redo'
+);
+							if
+(
+rdocument.queryCommandEnabled(
+"Redo"
+)
+==
+false
+)
+								obj.setBtnInactive(
+'redo'
+);
+						}
+					}
+);
+				}
+			);
+<!--
+			$(
+function
+()
+			{
+				if
+(
+$(
+'.redactorjs'
+).data(
+'redactor'
+).$editor
+)
+					$(
+'.js-files'
+).remove();
+				else
+					$(
+'.js-files'
+).show();
+
+				$("body").append(
+'<div
+class="message-files-modal"></div>'
+);
+
+				$(
+document
+).on(
+'click
+touch',
+function
+(
+event
+)
+				{
+					if
+(
+$(
+event.target
+).hasClass(
+'js-file-delete'
+)
+)
+						$(
+event.target
+).parent().remove();
+				}
+);
+
+				$(
+'.js-upload-file'
+).bind(
+'change',
+function
+(
+event
+)
+				{
+					var
+_new
+=
+$(
+this
+).clone(
+true
+);
+					var
+files
+=
+event.target.files;
+
+					_new.val(
+''
+);
+					_new.insertBefore(
+this
+);
+
+					$(
+this
+).remove();
+
+					event.stopPropagation();
+					event.preventDefault();
+
+					var
+uuid
+=
+'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(
+/[xy]/g,
+function
+(
+c
+)
+					{
+						var
+r
+=
+Math.random()
+*
+16
+|
+0,
+v
+=
+c
+==
+'x'
+?
+r
+:
+(r
+&
+0x3
+|
+0x8);
+						return
+v.toString(
+16
+);
+					}
+);
+
+					var
+upload
+=
+function
+(
+data,
+uuid
+)
+					{
+						var
+fileRow
+=
+$(
+'.js-files-list'
+).find(
+'li#'
++
+uuid
+);
+						var
+link
+=
+fileRow.find(
+'a.js-file-link'
+);
+						var
+del
+=
+fileRow.find(
+'a.js-file-delete'
+);
+						var
+retry
+=
+fileRow.find(
+'a.js-file-retry'
+);
+						var
+input
+=
+fileRow.find(
+'input[name="file[]"]'
+);
+
+						$("body").addClass(
+"message-files-loading"
+);
+
+						$.ajax(
+{
+							url
+
+
+
+
+
+
+
+:
+'/upload/post/service/api/forum/files/61144970-c3e3-11e6-9f4b-90b11c12d81f/upload/',
+							type
+
+
+
+
+
+
+:
+'POST',
+							data
+
+
+
+
+
+
+:
+data,
+							cache
+
+
+
+
+
+:
+false,
+							dataType
+
+
+:
+'json',
+							processData:
+false,
+							contentType:
+false,
+							success
+
+
+
+:
+function
+(
+data
+)
+							{
+								if
+(
+data.filelink
+)
+								{
+									input.val(
+data.cdn
+);
+									link.attr(
+'href',
+data.filelink
+);
+									del.css(
+'display',
+''
+);
+									retry.remove();
+								}
+							},
+							error
+
+
+
+
+
+:
+function
+()
+							{
+								retry.css(
+'display',
+''
+);
+							},
+							complete
+
+
+:
+function
+()
+							{
+								$(
+"body"
+).removeClass(
+"message-files-loading"
+);
+							}
+						}
+);
+					};
+
+					var
+data
+=
+new
+FormData();
+					$.each(
+files,
+function
+(
+key,
+value
+)
+					{
+						data.append(
+'file',
+value
+);
+
+						var
+list
+=
+$(
+'.js-files-list'
+);
+						var
+ul
+=
+list.find(
+'ul'
+);
+						var
+del
+=
+$(
+'<a>Удалить</a>'
+).attr(
+'href',
+'javascript:void(0)'
+).addClass(
+'js-file-delete'
+).hide();
+						var
+retry
+=
+$(
+'<a>Не
+удалось
+загрузть,
+повторить?</a>'
+).attr(
+'href',
+'javascript:void(0)'
+).addClass(
+'js-file-retry'
+);
+						var
+li
+=
+$(
+'<li></li>'
+).attr('id',
+uuid);
+						var
+input
+=
+$(
+'<input
+type="hidden"
+name="file[]"
+value=""/>'
+);
+
+						retry.bind('click
+touch',
+function
+()
+{
+							upload(data,
+uuid);
+						});
+
+						li.append(
+input
+);
+
+						if
+(
+ul.size()
+==
+0
+)
+						{
+							ul
+=
+$(
+'<ul></ul>'
+);
+							list.append(
+ul
+);
+						}
+
+						li.append(
+'<a
+href="javascript:void(0)"
+target="_blank"
+class="js-file-link">'
++
+value.name
++
+'</a>
+'
+);
+						li.append(
+retry
+);
+						li.append(
+del
+);
+
+						ul.append(
+li
+)
+					}
+);
+
+					upload(data,
+uuid);
+				}
+);
+			}
+);
+			//-->
+Добавить
+изображение:
+Показывать
+только
+зарегистрированным	пользователям
+Размещая
+данное
+сообщение,
+Вы
+подтверждаете,
+что
+«
+Правила
+форума
+»	были
+Вами
+прочитаны,
+и
+Вы
+согласны
+их
+выполнять.
+на
+Ваш
+e-mail
+будут
+приходить
+уведомления
+о
+новых
+сообщениях
+в
+теме
+<!--
+			$(
+document
+).ready(
+function
+()
+			{
+				Mod_Passport_Api.Forms.Identity(
+					'#PassportIdentity',
+					function
+()
+					{
+						Mod_Forum_Api.Forms.ShowMessageForm(
+680616
+);
+					},
+					'<b>Чтобы
+написать
+сообщение,
+необходимо
+авторизоваться
+или
+зарегистрироваться.</b>'
+				);
+			}
+);
+			//-->
+Статистика
+форума
+За
+последние
+15
+минут
+сообщения
+оставили:
+ФИЛИН
+Оставлено
+сообщений
+сегодня:
+75
+Оставлено
+сообщений
+вчера:
+691
+5
+самых
+активных
+пользователей
+Вчера:
+Не
+знаю
+(
+83
+),
+Тимиравик
+(
+48
+),
+Dimon
+(
+40
+),
+Натик
+(
+38
+),
+Мыша
+(
+28
+)
+За
+прошлую
+неделю:
+Dimon
+(
+188
+),
+Натик
+(
+145
+),
+Мыша
+(
+130
+),
+УДАЛЕН
+(
+120
+),
+nothing
+(
+116
+)
+За
+месяц
+на
+форуме
+3
+648
+пользователей	создали
+484
+темы
+и
+оставили
+17
+459
+сообщений
+if(
+window.ngs_adplace
+)
+ngs_adplace(
+"34123&region=74",
+{"sn":{}}
+);
+Объявления
+Автообъявления
+Недвижимость
+Барахолка
+Общение
+Новости
+Форумы
+Знакомства
+Сервисы
+Видео
+Погода
+Курсы
+валют
+Афиша
+Почта
+Гороскопы
+Справочники
+Карта
+Реклама
+Реклама
+на
+сайте
+Команда
+проекта
+Наши
+вакансии
+Карта
+сайта
+Обратная
+связь
+Помощь
+Мобильная
+версия
+74.ru
+в
+соцсетях
+Мобильные
+приложения
+Copyright
+©
+2001-2016.
+ООО
+«ХШ
+Диджитал
+РУГИОН»
+в
+г.
+Челябинск
+.
+Увидели
+ошибку?
+Выделите
+текст
+и
+нажмите
+Ctrl
++
+Enter.
+Порядок
+использования
+информации
+.
+Техподдержка
+.
+$(document).keypress(function(event){
+		if((event.ctrlKey)
+&&
+((event.keyCode==10)||(event.keyCode==13)))
+		{
+			if
+(document.getSelection)
+			{
+				txt
+=
+document.getSelection();
+			}
+			else
+				if
+(document.selection)
+				{
+					txt
+=
+document.selection.createRange().text;
+				}
+
+			var
+len
+=
+txt.toString().length;
+
+			if
+(len
+==
+0)
+				return
+true;
+
+			if
+(len
+<
+10
+||
+len
+>
+500)
+			{
+				alert("Чтобы
+мы
+быстрее
+исправили
+ошибку,
+выделенный
+вами
+текст
+должен
+быть
+не
+менее
+10
+и
+не
+более
+500
+знаков.");
+				return
+false;
+			}
+
+			var
+errorWnd
+=
+windowOpen("http://74.ru/feedback/error.html?text="+escape(txt)+"&referer="+document.location.href,
+"",
+"menubar=no,location=yes,resizable=no,scrollbars=no,status=yes,width=480,height=450");
+			return
+false;
+		}
+		return
+true;
+	});
+$(
+function
+()
+	{
+		//
+#32109
+-
+AddBlock's
+some
+list
+has
+pattern
+"jquery.smartbanner",
+		//
+which
+block
+jquery
+plugin
+and
+it
+is
+not
+initialized
+here.
+		//
+So,
+check
+plugin
+initialization
+here.
+		if
+(
+$.smartbanner
+)
+		{
+			$.smartbanner(
+{title:
+'74.ru',
+icon:
+'/_img/system/default/themes/frameworks/jquery/smartbanner/title/apple-touch-icon.74.png'
+}
+)
+		}
+	}
+)

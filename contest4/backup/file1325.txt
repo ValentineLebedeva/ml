@@ -1,0 +1,1762 @@
+Скажите
+я
+уволилась
+с
+работы
+не
+досидев
+до
+конца
+декрета
+3
+месяца
+перед
+декретным
+-
+9111.ru
+#main_content_inner
+{
+			width:966px;
+			padding-top:4px;
+			border-left:none;
+		}
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+ga('create',
+'UA-1176375-1',
+'auto');
+
+
+ga('send',
+'pageview');
+site_vars.base_href
+=
+'https://www.9111.ru';
+	site_vars.current_user
+=
+{
+		'id'
+:
+0,
+		'photo_url'
+:
+'',
+		'name'
+:
+'',
+		'anketa_url':
+'',
+		'is_urist':
+0,
+		'city_num':
+'',
+		'region_num':
+'',
+		'country_num':
+'',
+		'guest_id':
+0,
+		'show_chat':
+-1
+	};
+	site_vars.preferences
+=
+{
+		'hide_notifications':
+0,
+		'is_mobile':
+false
+	};
+	site_vars.notifications
+=
+{
+		'show':
+0,
+		'cntMessages':
+0
+	};
+(function
+(d,
+w,
+c)
+{
+(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+try
+{
+w.yaCounter65724
+=
+new
+Ya.Metrika({id:65724,
+webvisor:true,
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true,
+ut:"noindex"});
+}
+catch(e)
+{
+}
+});
+var
+n
+=
+d.getElementsByTagName("script")[0],
+s
+=
+d.createElement("script"),
+f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+s.type
+=
+"text/javascript";
+s.async
+=
+true;
+s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+if
+(w.opera
+==
+"[object
+Opera]")
+{
+d.addEventListener("DOMContentLoaded",
+f,
+false);
+}
+else
+{
+f();
+}
+})(document,
+window,
+"yandex_metrika_callbacks");
+<!--
+		new
+Image().src
+=
+"//counter.yadro.ru/hit;9111?r"+
+		escape(document.referrer)+((typeof(screen)=="undefined")?"":
+		";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+		screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+		";h"+escape(document.title.substring(0,80))+
+		";"+Math.random();//-->
+Юридическая
+Cоциальная
+Cеть
+9111.ru
+Нас
+уже
+5 672 826
+8
+800
+505-92-64
+Вход
+и
+регистрация
+Форум
+онлайн
+Отзывов
+за
+сутки
+:
+На
+сайте
+17 988
+юристов
+Регистрация
+юрист
+60
+юрист
+60
+юрист
+30
+юрист
+30
+юрист
+26
+юрист
+26
+юрист
+20
+адвокат
+18
+юрист
+17
+Рейтинг
+юристов
+Форум
+юристов
+Работа
+для
+юристов
+Советы
+юристов
+Спросить
+юриста
+Отзывы
+Еще
+Новые
+вопросы
+Журналисты
+9111.RU
+В
+СМИ
+Задать
+вопрос
+психологу
+Вход
+и
+регистрация
+Готовые
+ответы
+Форум
+онлайн
+Вопрос
+юристу...
+Если
+Вам
+трудно
+сформулировать
+вопрос
+—
+позвоните
+							по
+бесплатному
+многоканальному
+телефону.
+Юрист
+Вам
+поможет!
+8 (800) 505-92-65
+showHiddenMenu('dropodown','ghm-inner__sublist');
+		function
+getContent(){
+			document.getElementById("hidden-textarea").value
+=
+document.getElementById("form-textarea").innerText;
+		}
+		document.getElementById("form-textarea").addEventListener("DOMSubtreeModified",
+function()
+{
+		if(document.getElementById("form-textarea").textContent==='')
+		{
+			document.getElementById("placeholder").style.display='block';
+		}
+		else
+		{
+			document.getElementById("placeholder").style.display='none';
+		}
+
+		},
+false);
+$('#container_regions_head').show();
+$('#container_cities_head').show();
+window.onload=function()
+{
+
+
+
+
+if(parseInt(localStorage.getItem('search_type'))===1000)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+var
+target=document.querySelector("#srch-form__select-type")[2];
+
+
+
+
+
+
+
+
+target.selected=true;
+
+
+
+
+
+
+
+
+searchType(target);
+
+
+
+
+}
+};
+
+function
+showCallPopap(target,id)
+{
+
+
+
+
+var
+popap_wrap=$("#popap_wrap");
+
+
+
+
+var
+popap=$('#'+id);
+
+
+
+
+target.onclick=function()
+
+
+
+
+{
+
+
+
+
+
+
+
+
+popap_wrap.addClass("popap_activ");
+
+
+
+
+
+
+
+
+stat_ya('PHONEICON');
+
+
+
+
+};
+
+
+
+
+popap_wrap[0].onclick=function()
+
+
+
+
+{
+
+
+
+
+
+
+
+
+popap_wrap.removeClass("popap_activ");
+
+
+
+
+};
+
+
+
+
+popap[0].onclick=function(e)
+
+
+
+
+{
+
+
+
+
+
+
+
+
+e.stopPropagation();
+
+
+
+
+};
+}
+function
+set_city_num(id){
+	if
+(id
+==
+'country'){
+		var
+text
+=
+$('#country_num_head
+option:selected').text();
+	}
+else
+if
+(id
+==
+'region'){
+		var
+text
+=
+$('#region_num_head
+option:selected').text();
+	}
+else
+{
+		var
+text
+=
+$('#city_num_head
+option:selected').text();
+		$('#city_num').val($('#city_num_head').val());
+	}
+	pos
+=
+text.indexOf('(');
+	text
+=
+text.substring(0,(pos-1));
+	$('#srch-city_urist').val(text);
+	//$('.select_city').hide();
+}
+function
+searchType(target)
+{
+
+
+
+
+var
+form
+=
+document.querySelector("#srch-form");
+
+
+
+
+var
+searchUrist
+=
+document.querySelector("#form__search_urist");
+
+
+
+
+var
+searchAnsw
+=
+document.querySelector("#form__search_answ");
+
+
+
+
+localStorage.setItem(
+'search_type'
+,
+target.value);
+
+
+
+
+if
+(parseInt(target.value)===1000){
+
+
+
+
+
+
+
+
+form.action="https://www.9111.ru/search/results.php";
+
+
+
+
+
+
+
+
+searchUrist.style.cssText="display:none;";
+
+
+
+
+
+
+
+
+searchAnsw.style.cssText="display:block;";
+
+
+
+
+}
+
+
+
+
+else
+
+
+
+
+{
+
+
+
+
+
+
+
+
+
+
+
+
+form.action="https://www.9111.ru/urists/";
+
+
+
+
+
+
+
+
+searchUrist.style.cssText="display:block;";
+
+
+
+
+
+
+
+
+searchAnsw.style.cssText="display:none;";
+
+
+
+
+
+
+
+
+localStorage.removeItem('search_type');
+
+
+
+
+}
+}
+$(document).ready(function(){
+	(function(){
+		var
+block
+=
+$("#fixed-search")[0],
+div
+=
+null;
+		if
+(block
+===
+undefined)
+{
+			return
+false;
+		}
+		window.addEventListener('scroll',
+ascroll,
+false);
+		document.body.addEventListener('scroll',
+ascroll,
+false);
+		function
+ascroll()
+{
+			if
+(div
+===
+null)
+			{
+				div
+=
+document.createElement('div');
+				block.insertBefore(div,
+block.firstChild);
+				var
+l
+=
+block.childNodes.length;
+				for
+(var
+i
+=
+1;
+i
+<
+l;
+i++)
+				{
+					div.appendChild(block.childNodes[1]);
+				}
+			}
+			if
+(block.getBoundingClientRect().top
+<=
+0)
+			{
+				var
+top
+=
+Math.abs(block.getBoundingClientRect().top)
++
+286;
+				div.className
+=
+'phone-sticky';
+				$('.ui-autocomplete').css
+(
+					{
+						top:top+'px',
+						display:'block',
+						'z-index':'600',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+left:'296px'
+					}
+				);
+			}
+			else
+			{
+				div.className
+=
+'';
+				$('.ui-autocomplete').css
+(
+					{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+top:'309px',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+display:'none'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+				);
+			}
+		}
+
+	})();
+});
+
+function
+auto_city(){
+	$("#city_num").val('');
+	$(
+"#srch-city_urist").autocomplete({
+		source:
+'/ajax_server/get_json.php?mode=city_urist',
+		minLength:
+2,
+		focus:
+function(
+event,
+ui
+)
+{
+			$('#srch-city_urist').val(ui.item.city
++
+'
+('+ui.item.country_name+')');
+			$('#srch-city_urist').val(ui.item.city);
+			return
+false;
+		},
+		select:
+function(
+event,
+ui
+)
+{
+			$('#srch-city_urist').val(ui.item.city
++
+'
+('+ui.item.country_name+')');
+			$('#srch-city_urist').val(ui.item.city);
+			$('#city_num').val(ui.item.id);
+			$('.select_city').hide();
+			return
+false;
+		},
+		messages:
+{
+			noResults:
+'!!!!',
+			results:
+function()
+{
+			}
+		}
+	}).data('ui-autocomplete')._renderItem
+=
+function(
+ul,
+item
+)
+{
+		$('.select_city').hide();
+		return
+$('<li>')
+		.append('<a>'
++
+item.city
++
+'
+('+item.country_name+')</a>')
+		.appendTo(ul);
+	};
+}
+Задать
+вопрос
+юристу
+8 800 505 92 61
+Звонок
+бесплатный
+Спросить
+юриста
+browser($("#main_div"));
+Юридическая
+консультация
+9111.ru
+Трудовое
+право
+$(".catalog_title").css({marginTop:
+'10px'});
+Анна
+09.06.2015
+15:06
+Россия,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+г.
+Киселевск |
+Вопросов:
+1
+Скажите
+я
+уволилась
+с
+работы
+не
+досидев
+до
+конца
+декрета
+3
+месяца
+перед
+декретным
+отпуском
+была
+в
+отпуске
+2013
+в
+декабре,
+уволилась
+26
+мая
+2015
+мне
+полагается
+компенсация
+за
+отпуск?
+номер вопроса
+№7071449
+прочитан
+7
+раз
+Ответы
+юристов
+9111.ru
+1
+ответ
+Юрист
+Белоусов
+Сергей
+Николаевич
+Личная
+консультация
+Россия,
+																г.
+Таганрог |
+отзывов:
+20299
+|
+ответов:
+68501
+из
+команды
+«
+Линия
+главной
+защиты
+»
+09.06.2015
+15:25
+Безусловно,
+да.
+Анна
+09.06.2015
+15:27
+Россия,
+																									г.
+Киселевск
+Ваш
+ответ
+мне
+очень
+помог,
+спасибо!
+Ваш
+бесплатный
+вопрос
+юристам
+онлайн
+Тема
+вопроса.
+до
+100
+знаков
+Если
+Вам
+трудно
+сформулировать
+вопрос
+—
+позвоните
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+по
+бесплатному
+многоканальному
+телефону
+8
+(800)
+505-92-65
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+юрист
+Вам
+поможет
+Юристы
+9111.ru
+30
+онлайн
+Зарегистрироваться
+•на
+сайте
+Кандакова
+А.В.
+★
+★
+★
+★
+★
+отзывов:
+5715
+ответов:
+38107
+Консультация
+•на
+сайте
+Купченко
+С.
+В.
+★
+★
+★
+★
+★
+отзывов:
+182
+ответов:
+552
+Консультация
+•на
+сайте
+Бердников
+А.В.
+★
+★
+★
+★
+★
+отзывов:
+158
+ответов:
+305
+Консультация
+•на
+сайте
+Чернецкий
+И.В.
+★
+★
+★
+★
+★
+отзывов:
+7449
+ответов:
+36426
+Консультация
+юристы
+из
+города
+Киселевск
+юристы
+по
+теме
+"Трудовое
+право"
+юристы
+из
+города
+Киселевск
+по
+теме
+"Трудовое
+право"
+Похожие
+вопросы:
+Задать
+вопрос
+Я
+уволилась
+с
+работы.
+Как
+мне
+должны
+начислить
+рассчет?
+08.06.2011
+ответов
+:
+1
+Можно
+ли
+уволиться
+с
+работы,
+не
+отрабатывая
+2
+недели
+после
+написания
+заявления
+на
+увольнение,
+если
+я
+напишу
+это
+заявлен
+18.01.2012
+ответов
+:
+1
+Я
+уволился
+с
+работы
+в
+конце
+декабря
+2011
+года,
+по
+собственному
+желанию.
+Льготный
+отпуск
+не
+использовал
+и
+соответственно.
+06.11.2012
+ответов
+:
+1
+В
+октябре
+этого
+года
+я
+уволилась
+с
+работы
+по
+причине
+очень
+больших
+задержек
+зарплаты.
+На
+сегодняшний
+день
+работодатель.
+13.12.2012
+ответов
+:
+1
+Я
+уволился
+с
+работы,
+а
+денег
+не
+дали!
+Сказали,
+что
+я
+ещё
+должен.
+Я
+был
+в
+отпуске
+28
+дней.!
+А
+мне
+сказали,
+что
+я
+перегулял
+9
+дней
+29.07.2013
+ответов
+:
+2
+Я
+ушла
+в
+декретный
+2
+октября
+родила
+15
+декобря
+за
+это
+время
+я
+получила
+декретные
+15.03.2014
+ответов
+:
+1
+Могу
+ли
+я
+уволиться
+с
+работы
+после
+декретного
+отпуска
+и
+получать
+пособие
+16.03.2014
+ответов
+:
+1
+Я
+пенсионерка,
+с
+1981
+по
+1984
+гг.
+работала
+на
+камчатке,
+была
+в
+декретном
+отпуске.
+23.04.2014
+ответов
+:
+1
+Я
+военный
+пенсионер,
+нигде
+не
+работаю,
+нахожусь
+со
+вторым
+ребенком
+в
+декретном
+отпуске!
+03.05.2014
+ответов
+:
+1
+Я
+уволилась
+с
+работы
+где
+находилась
+в
+декрете,
+ребенку
+сейчас
+1.
+12.05.2014
+ответов
+:
+2
+(function(w,
+d,
+n,
+s,
+t)
+{
+					w[n]
+=
+w[n]
+||
+[];
+					w[n].push(function()
+{
+						Ya.Context.AdvManager.render({
+							blockId:
+"R-A-49517-5",
+							renderTo:
+"yandex_rtb_R-A-49517-5",
+							async:
+true
+						});
+					});
+					t
+=
+d.getElementsByTagName("script")[0];
+					s
+=
+d.createElement("script");
+					s.type
+=
+"text/javascript";
+					s.src
+=
+"//an.yandex.ru/system/context.js";
+					s.async
+=
+true;
+					t.parentNode.insertBefore(s,
+t);
+				})(this,
+this.document,
+"yandexContextAsyncCallbacks");
+get_html({'mode':'sitenews_actual','theme':["\u0422\u0440\u0443\u0434\u043e\u0432\u043e\u0435
+\u043f\u0440\u0430\u0432\u043e"]
+},
+'right_sitenews_actual');
+function
+switch_check
+(val){
+		On_Off_chat
+=
+val;
+		params
+=
+{'On_Off':On_Off_chat
+};
+		$.ajax({
+			type:
+'post',
+			url:
+'/ajax_server/chat_check_online.php',
+			data:
+params,
+			success:
+function(complete){
+				obj
+=
+jQuery.parseJSON(complete);
+				if
+(complete){
+					window.location.reload();
+				}
+			}
+		});
+	}
+	if
+(1==2){
+		loginedForm('in',
+'',
+'reg_social',
+'');
+	}
+Новое
+на
+сайте
+Создать
+тему
+Советы
+юристов
+Общий
+форум
+function
+right_get_news(name_type){
+	$('.right_sitenews_container').fadeOut(250);
+	$('#'+name_type).fadeIn(250);
+}
+$('#right_forum__list_button
+li').click(function(){
+	$('#right_forum__list_button
+li').removeClass('active_right_button');
+	$(this).addClass('active_right_button');
+});
+Спросить
+юриста
+быстрее
+Ответ
+за
+5
+минут
+спросить
+бесплатно
+Задайте
+бесплатный
+вопрос
+юристам.
+Бердников
+А.В.
+Юрист
+на
+сайте
+Отзывов:
+158
+Ответов:
+305
+Здравствуйте,
+уважаемый
+гость!
+Напишите,
+пожалуйста,
+текст
+Вашего
+вопроса
+в
+форме
+ниже.
+Вам
+печатают
+сообщение
+Если
+Вам
+трудно
+сформулировать
+вопрос
+—
+позвоните
+по
+бесплатному
+многоканальному
+телефону
+8
+(800)
+505
+9265
+,
+юрист
+Вам
+поможет
+30
+юристов
+сейчас
+на
+сайте
+function
+small_addq_form(){
+		$('#addquestion_footer').fadeIn("slow");
+		$('#addquestion_footer').css({marginBottom:'-291px'});
+		$('#addq_fotter').show();
+		$('#addq_head').hide();
+	}
+							$(
+window
+).scroll(
+function
+form_bottom_show()
+{
+				if
+(window.pageYOffset
+>=
+900)
+{
+					big_addq_form();
+					$(
+window
+).unbind('scroll',
+form_bottom_show);
+				}
+			}
+);
+Юридическая
+консультация
+по
+телефону
+бесплатно
+8
+(495)
+989-22-41
+(для
+Москвы
+и
+МО)
+Юридическая
+консультация
+9111.ru
+Москва:
++7
+(800)
+505-92-65
+,
++7
+(495)
+229-30-14
+Комсомольский
+пр.,
+д.
+7
+Санкт-Петербург:
++7
+(812)
+336-92-64
+наб.
+р.
+Фонтанки,
+д.
+59
+Екатеринбург:
++7
+(343)
+351-78-12
+Нижний
+Новгород:
++7
+(831)
+280-85-51
+Ростов:
++7
+(863)
+303-28-47
+Казань:
++7
+(843)
+203-92-09
+Челябинск:
++7
+(351)
+799-54-27
+©
+2000-2016
+www.9111.ru
+«Народное
+Информационное
+Агентство
+Новостей
+9111.ру»
+Условия
+копирования
+материалов
+сайта
+Ответ
+на
+вопрос
+за
+5
+минут
+гарантируется
+авторам
+VIP-вопросов.
+Каталог
+юристов
+и
+адвокатов
+Юридический
+форум
+Новые
+вопросы
+Контакты
+О
+проекте
+9111.ru
+/*
+<![CDATA[
+*/
+		var
+google_conversion_id
+=
+972914404;
+		var
+google_custom_params
+=
+window.google_tag_params;
+		var
+google_remarketing_only
+=
+true;
+		/*
+]]>
+*/
+$(
+window
+).load(function()
+{
+		browser($('#blue_left_telephone_form'));
+	});
+//
+анимирование
+формы
+function
+blue_left_telephone_form_animate(){
+	var
+left
+=
+Math.round($("#blue_left_telephone_form").position().left);
+	if(left
+===
+0){
+		$("#blue_left_telephone_form").stop().animate({left:
+-296},
+1000).css({width:
+350});
+		$(".rm_close").hide();
+		$("#full_city_phone_list").hide();
+	}else{
+		$("#blue_left_telephone_form").stop().animate({left:
+0},
+1000);
+		$("#blue_left_telephone_form").css({width:
+296});
+		$(".rm_close").show();
+	}
+}
+	setTimeout(function(){
+		//$("#blue_left_telephone_form").animate({left:
+0},
+1000);
+		blue_left_telephone_form_animate();
+		$("#blue_left_telephone_form__content__pen").hide();
+	},
+10000);
+Юристов
+на
+линии
+30
+Телефонная
+Юридическая
+Служба
+Наши
+юристы
+и
+адвокаты
+готовы
+бесплатно
+ответить
+			на
+ваш
+вопрос
+прямо
+сейчас
+по
+многоканальному
+номеру
+8
+800
+505
+92
+65
+В
+городах:
+Симферополь,
+																Ставрополь,
+																Ульяновск.
+Нет
+города
+в
+списке?
+Жмите
+сюда
+Для
+юристов
+$('#main8800_old').click(function(){
+			$("#main8800_old").animate({marginLeft:
+0},
+1000);
+		});
+					setTimeout(function(){
+				$("#main8800_old").animate({marginLeft:
+0},
+1000);
+				$('#bl_close').css({'display':
+'block'});
+			},
+10000);
+var
+val=$("#search-result__search-text").val();
+	$("#fixed-result__search-text").val(val);
+$(document).ready(function(){
+		$.get("/css/svg/icons.svg",
+function(data)
+{
+			var
+div
+=
+document.createElement("div");
+			div.innerHTML
+=
+new
+XMLSerializer().serializeToString(data.documentElement);
+			document.body.insertBefore(div,
+document.body.childNodes[0]);
+			div.style.cssText='position:fixed;
+z-index:-55555;width:
+1px;height:
+1px;';
+		});
+	});

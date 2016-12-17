@@ -1,0 +1,1089 @@
+Суп
+из
+русалки
+»
+SmileShow.ru
+window._wpemojiSettings
+=
+{"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/smileshow.ru\/wp-includes\/js\/wp-emoji-release.min.js?ver=bc0c57fed01cbe032115db9861d2c900"}};
+			!function(a,b,c){function
+d(a){var
+c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600
+32px
+Arial",a){case"flag":return
+i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return
+i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return
+i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return
+i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return
+i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function
+e(a){var
+c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var
+f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+img.wp-smiley,
+img.emoji
+{
+	display:
+inline
+!important;
+	border:
+none
+!important;
+	box-shadow:
+none
+!important;
+	height:
+1em
+!important;
+	width:
+1em
+!important;
+	margin:
+0
+.07em
+!important;
+	vertical-align:
+-0.1em
+!important;
+	background:
+none
+!important;
+	padding:
+0
+!important;
+}
+.wp-pagenavi{margin-left:auto
+!important;
+margin-right:auto;
+!important}
+/*
+<![CDATA[
+*/
+var
+related_posts_js_options
+=
+{"post_heading":"h4"};
+/*
+]]>
+*/
+/*
+<![CDATA[
+*/
+var
+thumbs_rating_ajax
+=
+{"ajax_url":"http:\/\/smileshow.ru\/wp-admin\/admin-ajax.php","nonce":"e592ff1644"};
+/*
+]]>
+*/
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63
+Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){
+return;
+}
+	var
+addEvent
+=
+function(evt,
+handler)
+{
+		if
+(window.addEventListener)
+{
+			document.addEventListener(evt,
+handler,
+false);
+		}
+else
+if
+(window.attachEvent)
+{
+			document.attachEvent('on'
++
+evt,
+handler);
+		}
+	};
+	var
+removeEvent
+=
+function(evt,
+handler)
+{
+		if
+(window.removeEventListener)
+{
+			document.removeEventListener(evt,
+handler,
+false);
+		}
+else
+if
+(window.detachEvent)
+{
+			document.detachEvent('on'
++
+evt,
+handler);
+		}
+	};
+	var
+evts
+=
+'contextmenu
+dblclick
+drag
+dragend
+dragenter
+dragleave
+dragover
+dragstart
+drop
+keydown
+keypress
+keyup
+mousedown
+mousemove
+mouseout
+mouseover
+mouseup
+mousewheel
+scroll'.split('
+');
+	var
+logHuman
+=
+function()
+{
+		var
+wfscr
+=
+document.createElement('script');
+		wfscr.type
+=
+'text/javascript';
+		wfscr.async
+=
+true;
+		wfscr.src
+=
+url
++
+'&r='
++
+Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for
+(var
+i
+=
+0;
+i
+<
+evts.length;
+i++)
+{
+			removeEvent(evts[i],
+logHuman);
+		}
+	};
+	for
+(var
+i
+=
+0;
+i
+<
+evts.length;
+i++)
+{
+		addEvent(evts[i],
+logHuman);
+	}
+})('//smileshow.ru/?wordfence_logHuman=1&hid=0F2E29A5F2C420333F5DBBCCF736A034');
+.wp-pagenavi
+	{
+		font-size:12px
+!important;
+	}
+img#wpstats{display:none}
+.recentcomments
+a{display:inline
+!important;padding:0
+!important;margin:0
+!important;}
+SmileShow.ru
+Позитивный
+сайт,
+хорошего
+настроения
+на
+каждый
+день.
+Обо
+всем
+Карта
+сайта
+Изменить
+шрифт
+A-
+Сброс
+A+
+2
+Дек
+2014
+Рубрика:
+Приколы
+Суп
+из
+русалки
+Меня
+мучает
+вопрос:
+если
+сварить
+русалку,
+суп
+будет
+мясной
+или
+уха?
+0
+0
+Поделиться
+ссылкой:
+Twitter
+Facebook
+Google
+по
+электронной
+почте
+Похожее
+$('.some-class-name').jfontsize({
+										btnMinusClasseId:
+'#jfontsize-m2',
+										btnDefaultClasseId:
+'#jfontsize-d2',
+										btnPlusClasseId:
+'#jfontsize-p2',
+										btnMinusMaxHits:0,
+										btnPlusMaxHits:4,
+										sizeChange:3
+									});
+Метки:
+вопрос
+,
+еда
+,
+прикол
+,
+текст
+,
+юмор
+Что
+Вы
+думаете?
+Нажмите,
+чтобы
+отменить
+ответ.
+Имя
+(обязательно)
+E-mail
+(не
+публикуется)
+(обязательно)
+Сайт
+Комментарий
+Уведомить
+меня
+о
+новых
+комментариях
+по
+email.
+Уведомлять
+меня
+о
+новых
+записях
+почтой.
+Рубрики
+Анекдоты
+(1
+844)
+Жизнь
+(255)
+Иллюстрации
+(357)
+Меня
+бесит
+(11)
+Ми
+ми
+ми
+(9)
+Мое
+личное
+(21)
+Приколы
+(1
+259)
+Ретро
+(4)
+Страшилки
+(252)
+Факты
+(27)
+Статистика
+Посетителей:
+15
+Гостей:
+14
+
+•
+1
+робот
+Друзья
+сайта
+Ruexe.ru
+-
+Бесплатные
+программы
+и
+статьи
+на
+русском
+языке
+WrapMania.ru
+-
+вкладыши
+и
+обертки
+от
+жвачек
+Партнёры
+-
+полезные
+ссылки
+Свежие
+коментарии
+realnyeotzyvTyday
+к
+записи
+Любая
+фраза
+Lia
+к
+записи
+Ваша
+программа
+опять
+не
+работает!
+admin
+к
+записи
+В
+Китае
+изобрели
+«самый
+легкий
+в
+мире»
+материал
+Мечислав
+к
+записи
+В
+Китае
+изобрели
+«самый
+легкий
+в
+мире»
+материал
+Дмитрий
+к
+записи
+Мужчина
+с
+глубокими
+морщинами
+Популярное
+на
+сайте
+Не
+могу
+cходить
+в
+туалет,
+когда
+он
+дома...
+Я
+буду
+тебя
+ласкать.
+Как
+ругается
+водитель
+детского
+автобуса,
+когда
+его
+подрезают?
+Знаки
+зодиака
+Модель
+Мари
+Сеговия
+и
+доктор
+Барвария
+SmileShow.ru
+-
+сайт
+позитивного
+настроения
+на
+каждый
+день!
+Друзья,
+на
+сайте
+SmileShow.ru
+Вы
+найдете
+самый
+сочный
+материал
+выжатый
+из
+интернета,
+а
+если
+более
+конкретно,
+то
+большое
+количество
+анекдотов,
+приколов,
+историй
+из
+жизни,
+а
+так
+же
+разнообразные
+иллюстрации
+(демотиваторы),
+факты
+и
+много
+чего
+еще
+интересного.
+А
+для
+публики
+желающих
+пощекотать
+себе
+нервы,
+создан
+раздел
+"
+Страшилки
+",
+истории
+про
+паранормальные
+и
+необъяснимые
+явления,
+о
+необычных
+существах
+и
+просто
+детские
+байки..
+Это
+интересно:
+Вовочка
+Иллюстрации
+анекдот
+бабка
+водка
+девочка
+девушка
+дети
+диалог
+доктор
+дом
+еда
+жена
+женщина
+животные
+жизнь
+интернет
+истории
+история
+квартира
+котэ
+люди
+магазин
+мама
+машина
+мент
+муж
+мужик
+мужики
+ночь
+папа
+парень
+переписка
+прикол
+работа
+ребенок
+секс
+собака
+страх
+страшилка
+сын
+текст
+фото
+школа
+юмор
+Разработка
+\
+поддержка
+сайта
+:
+2012
+\
+2016
+г.
+Обратная
+связь:
+RSScherbakov@mail.ru
+<!--
+			document.write("<a
+href='http://www.liveinternet.ru/click'
+"+
+			"target=_blank><img
+src='//counter.yadro.ru/hit?t15.6;r"+
+			escape(document.referrer)+((typeof(screen)=="undefined")?"":
+			";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+			screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+			";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+			"'
+alt=''
+title='LiveInternet:
+показано
+число
+просмотров
+за
+24"+
+			"
+часа,
+посетителей
+за
+24
+часа
+и
+за
+сегодня'
+"+
+			"border='0'
+width='88'
+height='31'><\/a>")
+			//-->
+//<![CDATA[
+			(function(w,n,d,r,s){d.write('<p><a
+href="http://top.mail.ru/jump?from=2294248">'+
+			'<img
+src="http://d1.c0.b3.a2.top.mail.ru/counter?id=2294248;t=59;js=13'+
+			((r=d.referrer)?';r='+escape(r):'')+((s=w.screen)?';s='+s.width+'*'+s.height:'')+';_='+Math.random()+
+			'"
+style="border:0;"
+height="31"
+width="88"
+alt="Рейтинг@Mail.ru"
+/><\/a><\/p>');})(window,navigator,document);//]]>
+(function
+(d,
+w,
+c)
+{
+				(w[c]
+=
+w[c]
+||
+[]).push(function()
+{
+					try
+{
+						w.yaCounter20000671
+=
+new
+Ya.Metrika({id:20000671,
+								webvisor:true,
+								clickmap:true,
+								trackLinks:true,
+								accurateTrackBounce:true});
+					}
+catch(e)
+{
+}
+				});
+
+				var
+n
+=
+d.getElementsByTagName("script")[0],
+					s
+=
+d.createElement("script"),
+					f
+=
+function
+()
+{
+n.parentNode.insertBefore(s,
+n);
+};
+				s.type
+=
+"text/javascript";
+				s.async
+=
+true;
+				s.src
+=
+(d.location.protocol
+==
+"https:"
+?
+"https:"
+:
+"http:")
++
+"//mc.yandex.ru/metrika/watch.js";
+
+				if
+(w.opera
+==
+"[object
+Opera]")
+{
+					d.addEventListener("DOMContentLoaded",
+f,
+false);
+				}
+else
+{
+f();
+}
+			})(document,
+window,
+"yandex_metrika_callbacks");
+Cufon.now();
+jQuery(document).ready(function()
+{
+
+			//
+Get
+all
+thumbs
+containers
+			jQuery(
+".thumbs-rating-container"
+).each(function(
+index
+)
+{
+
+			
+	//
+Get
+data
+attribute
+			
+	
+var
+content_id
+=
+jQuery(this).data('content-id');
+
+			
+	
+var
+itemName
+=
+"thumbsrating"+content_id;
+
+			
+	
+
+
+
+
+
+//
+Check
+if
+this
+content
+has
+localstorage
+			
+	
+	if
+(localStorage.getItem(itemName)){
+
+						//
+Check
+if
+it's
+Up
+or
+Down
+vote
+						if
+(
+localStorage.getItem("thumbsrating"
++
+content_id
++
+"-1")
+){
+							jQuery(this).find('.thumbs-rating-up').addClass('thumbs-rating-voted');
+						}
+						if
+(
+localStorage.getItem("thumbsrating"
++
+content_id
++
+"-0")
+){
+							jQuery(this).find('.thumbs-rating-down').addClass('thumbs-rating-voted');
+						}
+					}
+			});
+		});
+/*
+<![CDATA[
+*/
+var
+useronlineL10n
+=
+{"ajax_url":"http:\/\/smileshow.ru\/wp-admin\/admin-ajax.php","timeout":"300000"};
+/*
+]]>
+*/
+window.WPCOM_sharing_counts
+=
+{"http:\/\/smileshow.ru\/sup-iz-rusalki":8773};
+Отправить
+на
+электронный
+адрес
+Ваше
+имя
+Ваш
+адрес
+электронной
+почты
+document.getElementById('jetpack-source_f_name').value
+=
+'';
+Отмена
+Сообщение
+не
+было
+отправлено
+—
+проверьте
+адреса
+электронной
+почты!
+Проверка
+по
+электронной
+почте
+не
+удалась,
+попробуйте
+еще
+раз
+К
+сожалению,
+ваш
+блог
+не
+может
+делиться
+ссылками
+на
+записи
+по
+электронной
+почте.
+/*
+<![CDATA[
+*/
+var
+GalleryManager
+=
+{"enable_editor":"","enable_featured_image":"1","enable_custom_fields":"","lightbox":"1","continuous":"","title_description":"1","close_button":"1","indicator_thumbnails":"1","slideshow_button":"1","slideshow_speed":"3000","preload_images":"3","animation_speed":"400","stretch_images":"","script_position":"footer","gallery_taxonomy":[],"enable_previews":"1","enable_previews_for_custom_excerpts":"","preview_thumb_size":"thumbnail","preview_columns":"3","preview_image_number":"3","enable_archive":"1","0":"","1":"","2":"","3":"","ajax_url":"http:\/\/smileshow.ru\/wp-admin\/admin-ajax.php"};
+/*
+]]>
+*/
+/*
+<![CDATA[
+*/
+var
+WPGroHo
+=
+{"my_hash":""};
+/*
+]]>
+*/
+/*
+<![CDATA[
+*/
+var
+sharing_js_options
+=
+{"lang":"en","counts":"1"};
+/*
+]]>
+*/
+var
+windowOpen;
+			jQuery(
+document.body
+).on(
+'click',
+'a.share-twitter',
+function()
+{
+				//
+If
+there's
+another
+sharing
+window
+open,
+close
+it.
+				if
+(
+'undefined'
+!==
+typeof
+windowOpen
+)
+{
+					windowOpen.close();
+				}
+				windowOpen
+=
+window.open(
+jQuery(
+this
+).attr(
+'href'
+),
+'wpcomtwitter',
+'menubar=1,resizable=1,width=600,height=350'
+);
+				return
+false;
+			});
+var
+windowOpen;
+			jQuery(
+document.body
+).on(
+'click',
+'a.share-facebook',
+function()
+{
+				//
+If
+there's
+another
+sharing
+window
+open,
+close
+it.
+				if
+(
+'undefined'
+!==
+typeof
+windowOpen
+)
+{
+					windowOpen.close();
+				}
+				windowOpen
+=
+window.open(
+jQuery(
+this
+).attr(
+'href'
+),
+'wpcomfacebook',
+'menubar=1,resizable=1,width=600,height=400'
+);
+				return
+false;
+			});
+var
+windowOpen;
+			jQuery(
+document.body
+).on(
+'click',
+'a.share-google-plus-1',
+function()
+{
+				//
+If
+there's
+another
+sharing
+window
+open,
+close
+it.
+				if
+(
+'undefined'
+!==
+typeof
+windowOpen
+)
+{
+					windowOpen.close();
+				}
+				windowOpen
+=
+window.open(
+jQuery(
+this
+).attr(
+'href'
+),
+'wpcomgoogle-plus-1',
+'menubar=1,resizable=1,width=480,height=550'
+);
+				return
+false;
+			});
+_stq
+=
+window._stq
+||
+[];
+	_stq.push([
+'view',
+{v:'ext',j:'1:4.3.2',blog:'95076753',post:'8773',tz:'3',srv:'smileshow.ru'}
+]);
+	_stq.push([
+'clickTrackerInit',
+'95076753',
+'8773'
+]);
+jQuery(function()
+{
+
+		var
+overelem
+=
+jQuery('body');
+
+
+
+
+
+
+		jQuery('#nav_top').fadeIn('slow');
+
+		jQuery('#nav_up').fadeIn('slow');
+
+		jQuery('#nav_down').fadeIn('slow');
+
+
+		jQuery('#nav_bottom').fadeIn('slow');
+
+
+
+
+
+		jQuery('#nav_top').click(
+
+			function
+(e)
+{
+
+				jQuery('html,
+body').animate({scrollTop:
+'0px'},
+150);
+			}
+
+		);
+		
+		jQuery('#nav_up').click(
+
+		function
+(e)
+{
+
+			jQuery('html,
+body').animate({scrollTop:
+overelem.height()},
+150);
+
+			}
+
+		);
+		
+		jQuery('#nav_down').click(
+
+		function
+(e)
+{
+
+			jQuery('html,
+body').animate({scrollTop:
+overelem.height()},
+150);
+
+			}
+
+		);
+		
+		jQuery('#nav_bottom').click(
+
+		function
+(e)
+{
+
+			jQuery('html,
+body').animate({scrollTop:
+overelem.height()},
+150);
+
+			}
+
+		);
+	});
